@@ -1,0 +1,42 @@
+{% block title 'What is Symfony' %}
+{% block keywords '' %}
+{% block description 'What is Symfony - Start here if you want a brief explanation' %}
+
+{% block intro %}
+    <h2 class="title_05">SYMFONY AT A GLANCE</h2>
+    <p>
+        Symfony is a PHP Web Development Framework.
+        <br />
+        That doesn’t answer your question?
+        <br />
+        Ok, let’s try that again.
+        <br />
+        Symfony is a PHP Framework, a Philosophy, and a Community - all working together in harmony.
+    </p>
+{% endblock %}
+
+{% block more 'Learn more' %}
+
+{% block fiveminutes %}
+    <h2 class="title_05">SYMFONY IN 5 MINUTES</h2>
+    <p></p>
+    <ul class="list_04">
+        <li><a href="{{ marketing_path('why_use_a_framework') }}">Why should I use a framework?</a></li>
+        <li><a href="{{ marketing_path('when_use_a_framework') }}">When should I use a framework?</a></li>
+        <li><a href="{{ marketing_path('six_good_reasons') }}">6 good reasons to use Symfony</a></li>
+        <li><a href="{{ marketing_path('six_good_technical_reasons') }}">The technological benefits of Symfony in 6 easy lessons</a></li>
+        <li><a href="{{ marketing_path('ten_criteria') }}">10 criteria for choosing the correct framework</a></li>
+    </ul>
+{% endblock %}
+
+{% block elevatorpitches %}
+    <h2 class="title_05">ELEVATOR PITCHES</h2>
+    <p>Symfony2 explained...</p>
+    <ul class="list_04">
+        <li><a href="{{ marketing_path('explained_to_my_boss') }}">... to my boss</a></li>
+        <li><a href="{{ marketing_path('explained_to_a_developer') }}">... to a developer</a></li>
+        <li><a href="{{ marketing_path('explained_to_a_system_administrator') }}">... to a system administrator</a></li>
+        <li><a href="{{ marketing_path('explained_to_a_project_manager') }}">... to a project manager</a></li>
+        <li><a href="{{ marketing_path('explained_to_a_project_owner') }}">... to a project owner</a></li>
+    </ul>
+{% endblock %}
