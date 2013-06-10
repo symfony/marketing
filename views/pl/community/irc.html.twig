@@ -1,0 +1,39 @@
+{% block title 'IRC' %}
+{% block keywords '' %}
+{% block description '' %}
+
+{% block intro %}
+    <p>
+        Główny kanał IRC dla Symfony to <a href="irc://irc.freenode.net/symfony">#symfony</a> na Freenode.
+        <ul>
+            <li>Dla Windows najpopularniejszy jest <a href="http://www.mirc.fr/">mIRC</a>;</li>
+            <li>Na Macu możesz użyć <a href="http://colloquy.info/">Colloquy</a>.</li>
+        </ul>
+    </p>
+    <p>
+        Jeśli chcesz widzieć bieżącą aktywność Symfony lub chcesz bezpośrednio 
+        wpływać na mapę drogową Symfony, czuj się swobodnie uczestnicząc w
+        <a href="{{ doc_path({
+            'version': 'current',
+            'section': 'contributing',
+            'page':    'community/irc'})
+        }}">codygodniowych spotkaniach na IRC</a>.
+    </p>
+    <p>
+        Jeśli chcesz pozostać w kontakcie z ludźmi używającymi symfony w Twoim ojczystym
+        języku połącz się z poniższymi kanałami:
+        <ul>
+            <li>Portugalski (Brazylia): <a href="irc://irc.freenode.net/symfony.br">#symfony.br</a></li>
+            <li>Francuski: <a href="irc://irc.freenode.net/symfony-fr">#symfony-fr</a></li>
+            <li>Niemiecki: <a href="irc://irc.freenode.net/symfony-de">#symfony-de</a></li>
+            <li>Rosyjski: <a href="irc://irc.freenode.net/symfony-ru">#symfony-ru</a></li>
+            <li>Hiszpański: <a href="irc://irc.freenode.net/symfony-es">#symfony-es</a></li>
+            <li>Polski: <a href="irc://irc.freenode.net/symfony-pl">#symfony-pl</a></li>
+        </ul>
+    </p>
+    <p>
+        Aby znaleść więcej informacji (listy dysksyjne, forum, itp.) odwiedź dział
+        <a href="{{ marketing_path('community') }}">społeczność</a> na stronie 
+        internetowej symfony.
+    </p>
+{% endblock %}
