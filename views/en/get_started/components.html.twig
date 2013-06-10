@@ -158,9 +158,35 @@ pear install symfony2/HttpFoundation</pre>
             </tr>
             <tr>
                 <td><strong>Locale</strong></td>
-                <td>Provides fallback code to handle cases when the intl extension is missing.</td>
+                <td>
+                    Provides fallback code to handle cases when the intl extension is missing. This component is depreacted since 2.3, use the
+                    <a href="{{ doc_path({
+                        'version': 'current',
+                        'section': 'components',
+                        'page':    'intl'})
+                    }}">Intl</a> component instead.
+                </td>
                 <td><a href="https://github.com/symfony/Locale">Code</a></td>
                 <td><a href="{{ doc_path({'section': 'components', 'page': 'locale', 'version': 'current'}) }}">Documentation</a></td>
+            </tr>
+            <tr>
+                <td><strong>Intl</strong></td>
+                <td>Provides fallback code to handle cases when the intl extension is missing.</td>
+                <td><a href="https://github.com/symfony/Intl">Code</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'intl', 'version': 'current'}) }}">Documentation</a></td>
+            </tr>
+            <tr>
+                <td><strong>Icu</strong></td>
+                <td>
+                    Contains the data of the ICU library in a specific version. Use it through the API of the
+                    <a href="{{ doc_path({
+                        'version': 'current',
+                        'section': 'components',
+                        'page':    'intl'})
+                    }}">Intl</a> component.
+                </td>
+                <td><a href="https://github.com/symfony/Icu">Code</a></td>
+                <td>&nbsp;</td>
             </tr>
             <tr>
                 <td><strong>OptionsResolver</strong></td>
