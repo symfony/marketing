@@ -1,0 +1,53 @@
+{% block title 'Dystrybucje' %}
+{% block keywords '' %}
+{% block description '' %}
+
+{% block intro %}
+    <p>
+        Pobranie i konfiguracja dystrybucji Symfony jest bez wątpienia 
+        najłatwiejszą i najszybszą drogą do rozpoczęcia pracy z Symfony.
+    </p>
+{% endblock %}
+
+{% block body %}
+    <h2 class="title_09"><a name="what">Co to jest dystrybucja?</a></h2>
+    <p>
+        Tak jak dystrybucje Linuxa, znane z łatwej instalacji i specyficznych 
+        funkcjonalności (wersja serwerowa, wersja publiczna, itp.), dystrybucja 
+        Symfony jest zbudowana z komponentów Symfony2, wybranych pakietów, 
+        specyficznej struktury katalogów, domyślnej konfiguracji oraz 
+        opcjonalnej konfiguracji systemu.
+    </p>
+    <p>
+        W praktyce jest to proste, łatwe do zainstalowania rozwiązanie pozwalające
+        na szybkie rozpoczęcie pracy z Symfony. Nawet w dziedzinie technologii
+        pierwsze wrażenie jest kluczem...
+    </p>
+    <h2 class="title_09"><a name="why">Dlaczego dystrybucje?</a></h2>
+    <p>
+        Dystrybucja wraz z jej wyborem pakietów, strukturą i domyślną konfiguracją
+        jest zaprojektowana aby spełnić konkretne potrzeby uzytkownika takie jak:
+        zapoznanie się z sytemem, System Zarządzania Treścią do stworzenia dynamicznej
+        strony internetowej czy pełną wersją do testowania frameworka.
+    </p>
+    <p>
+        Niemniej jednak, porównując do konkurencyjnych rozwiązań, siła i innowacyjność
+        Symfony leży w fakcie, że wszystko może być zmodyfikowane: dystrybucja 
+        jest pakietem, ale takim, który jest zaprojektowany by być elastycznym
+        i skalowalnymm jakby stworzonym na własne potrzeby. Możesz dodawać i usuwać
+        pakiety, zmieniać domyślną konfigurację, czy odyfikować strukturę plików 
+        zależnie od Twoich potrzeb i wymagań!
+    </p>
+    <h2 class="title_09"><a name="available">Dostępne dystrybucje</a></h2>
+    <p>
+        <a href="{{ marketing_path('download') }}">Edycja standardowa</a> jest 
+        najlepszą wersją do rozpoczęcia pracy. Zawiera ona najbardziej popularne
+        pakiety oraz posiada prostą konfigurację kompatybilną z większością 
+        projektów.
+    </p>
+    <p>
+        Bazująca na Edycji standardowej, 
+        <a href="https://github.com/symfony/symfony-hello-world">Edycja Hello World</a>
+        jest najlepszą dystrybucją do analizowania i pomiaru wydajności frameworka.
+    </p>
+{% endblock %}
