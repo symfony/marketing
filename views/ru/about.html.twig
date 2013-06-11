@@ -1,0 +1,44 @@
+{% block title 'О фреймворке' %}
+{% block keywords '' %}
+{% block description 'Откройте для себя людей, которые делают фреймворк: их ценности и цели' %}
+
+{% block intro %}
+    <p>
+        Symfony - это Open Source PHP веб-фреймворк.
+        Изначально фреймворк был задуман интерактивным агенством Sensio Labs для создания веб-сайтов для собственных клиентов.
+        Symfony был опубликован в 2005 году под MIT Open Source лицензией и сегодня - это один из ведущих фреймворков,
+        доступных для разработки на языке PHP.
+        <br/>
+        Поддерживается Sensio Labs - но также и <a href="{{ path('contributors') }}">
+        большим сообществом</a> - Symfony имеет множество ресурсов: подробная документация,
+        поддержка сообщества (списки рассылки, IRC, и т.д.), профессиональную
+        <a href="http://sensiolabs.com/en/support/sensiolabs_support.html">поддержку</a>
+        (консалтинг, <a href="http://trainings.sensiolabs.com/">треннинги</a>, и т.д.), и тому подобное.
+        <br/>
+        Доступный в версии 2.0, Symfony уже имеет, среди сотен сайтов и приложений, разработанных
+        на этой платформе, такие именитые сайты, как
+        Yahoo!, Dailymotion, Opensky.com, Exercise.com, phpBB, or Drupal.
+    </p>
+    <ul class="list_04">
+        <li><div class="link_01"><a href="{{ marketing_path('what_is_symfony') }}">Что такое Symfony?</a></div></li>
+    </ul>
+{% endblock %}
+
+{% block mission %}
+    <h2 class="title_05">НАША МИССИЯ</h2>
+    <p>Symfony полностью свободнен и публикуется под <a href="{{ path('license') }}">MIT лицензией.</a></p>
+{%  endblock %}
+
+{% block sensiolabs %}
+    <h2 class="title_05">SENSIO LABS</h2>
+    <p>
+        С 1998, Sensio Labs способствовала продвижению Open-Source программного обеспечения, 
+        обеспечивая качественную разработку веб-приложения, треннинги, консультации. Sensio Labs
+        также поддерживает несколько крупных Open-Source проектов.
+    </p>
+    <ul class="list_04">
+        <li><div class="link_01"><a href="http://sensiolabs.com/a_propos/nous_sommes_open.html">Sensio Labs цифры и факты</a></div></li>
+        <li><div class="link_01"><a href="http://sensiolabs.com/services/nos_partis_pris.html">Предложения</a></div></li>
+        <li><div class="link_01"><a href="http://www.extreme-sensio.com/showcase/">Клиенты</a></div></li>
+    </ul>
+{% endblock %}
