@@ -1,0 +1,45 @@
+{% block title 'Acerca de' %}
+{% block keywords '' %}
+{% block description 'Descubre quien está detrás del framework y cuáles son sus valores, sus metas' %}
+
+{% block intro %}
+	<p>
+		Symfony es un framework Open Source para desarrollar aplicaciones web en PHP.
+		Originalmente, fue concebido por la agencia interactiva Sensio Labs para el
+		desarrollo de sitios web para sus propios clientes. Symfony fue publicado
+		por la agencia en 2005, bajo la licencia Open Source MIT y hoy se encuentra
+		entre los frameworks lideres para el desarrollo en PHP.
+		<br/>
+		Apoyado por Sensio Labs - pero también por una <a href="{{ path('contributors') }}">
+        gran comunidad</a> - Symfony tiene varios recursos: detallada documentación,
+        soporte de la comunidad (listas de e-mail, IRC, etc), 
+        <a href="http://sensiolabs.com/en/support/sensiolabs_support.html">soporte profesional</a> (consultoría,
+        entrenamientos, etc), and so on.
+        <br/>
+        Disponible en su versión 2.0, Symfony tiene, entre los miles the sitios y 
+        aplicaciones desarrolladas con su plataforma, prestigiosas referencias, tales
+        como Yahoo!, Dailymotion, Opensky.com, Exercise.com, phpBB, o Drupal.
+    </p>
+    <ul class="list_04">
+        <li><div class="link_01"><a href="{{ marketing_path('what_is_symfony') }}">Qué es Symfony?</a></div></li>
+    </ul>
+{% endblock %}
+
+{% block mission %}
+    <h2 class="title_05">NUESTRA MISIÓN</h2>
+    <p>Symfony es en su totalidad y publicado bajo la <a href="{{ path('license') }}">licencia MIT.</a></p>
+{%  endblock %}
+
+{% block sensiolabs %}
+    <h2 class="title_05">SENSIO LABS</h2>
+    <p>
+        Desde 1998, Sensio Labs ha promovido el movimiento del software Open-Source proporcionando
+        desarrollo de aplicaciones web de calidad, entrenamiento, consultoría. Sensio Labs
+        también apoya grandes proyectos Open-Source.
+    </p>
+    <ul class="list_04">
+        <li><div class="link_01"><a href="http://sensiolabs.com/a_propos/nous_sommes_open.html">Datos y cifras de Sensio Labs</a></div></li>
+        <li><div class="link_01"><a href="http://sensiolabs.com/services/nos_partis_pris.html">Ofertas</a></div></li>
+        <li><div class="link_01"><a href="http://www.extreme-sensio.com/showcase/">Clientes</a></div></li>
+    </ul>
+{% endblock %}
