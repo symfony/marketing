@@ -1,0 +1,62 @@
+{% block title 'Por que eu deveria usar um framework?' %}
+{% block keywords '' %}
+{% block description 'O que é o Symfony - Comece aqui se você quiser uma explicação breve' %}
+
+{% block intro %}
+    <p>
+        Um framework não é absolutamente necessário: é "apenas" uma das ferramentas que está disponível
+        para ajudá-lo a desenvolver melhor e mais rápido!
+        <br />
+        Melhor, porque um framework fornece a certeza de que você está desenvolvendo uma
+        aplicação que está em total conformidade com as regras de negócio, que está estruturada, e que
+        seja tanto de fácil manutenção quanto atualizável.
+        <br />
+        Mais rápido, porque ele permite aos desenvolvedores economizar tempo reutilizando módulos genéricos,
+        a fim de se concentrar em outras áreas. Sem, no entanto, nunca ficar amarrado ao próprio framework.
+    </p>
+{% endblock %}
+
+{% block body1 %}
+    <h2 class="title_09">Investir na tarefa, não na tecnologia</h2>
+    <p>
+        Este é o princípio básico de um framework: Não ter que reinventar a roda.
+        E acabar com previsões, tarefas de baixo valor agregado (por exemplo, o desenvolvimento
+        de componentes genéricos), a fim de concentrar totalmente nas regras de negócio.
+    </p>
+    <p>
+        Como exemplo, um framework irá salvar o programador de ter que passar 2 ou 3
+        dias criando um formulário de autenticação (que não é uma tarefa específica). O tempo
+        que é economizado pode ser dedicado à componentes mais específicos, bem como, aos testes 
+        unitários correspondentes, proporcionando código de alta qualidade, sustentável e sólido.
+    </p>
+{% endblock %}
+
+{% block body2 %}
+    <h2 class="title_09">Atualização e manutenção garantida</h2>
+    <p>
+        A longo prazo, um framework garante a longevidade das suas aplicações.
+        Se uma equipe de desenvolvimento trabalhar como bem desejar, somente esta equipe, em particular, 
+        será capaz de manter e atualizar a aplicação com facilidade. Esta é a forma que
+        um editor suporta uma solução proprietária.
+    </p>
+    <p>
+        Por outro lado, a estrutura que um framework proporciona à aplicação
+        torna possível evitar essa armadilha completamente e proporciona à qualquer desenvolvedor
+        - tendo ele participado de seu desenvolvimento ou não - a habilidade de facilmente
+        "adotar" uma aplicação, para mantê-la ao longo do tempo e atualizá-la de forma rápida e limpa,
+        sempre que necessário.
+    </p>
+    <p>
+        Neste sentido, um framework não é uma caixa preta! No caso do Symfony,
+        ainda é PHP... As aplicações que são desenvolvidas não estão limitadas ao
+        universo Symfony, e elas são
+        <a href="{{ marketing_path('six_good_reasons') }}#interoperable">nativamente interoperáveis</a>
+        com qualquer outra biblioteca PHP, por exemplo.
+    </p>
+{% endblock %}
+
+{% block summary %}
+    <p>Um framework não é uma necessidade absoluta, mas mesmo assim é muito útil.</p>
+    <p>Um framework é uma promessa de qualidade, atualização e manutenção de aplicações a um custo menor.</p>
+    <p>Os aplicativos desenvolvidos usando um framework são interoperáveis ​​com os padrões de mercado.</p>
+{% endblock %}
