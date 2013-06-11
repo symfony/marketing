@@ -12,7 +12,7 @@ named after the locale (es for Spanish for instance), and re-create the same
 directory/file structure.
 
 **Before contributing, please read
-[https://github.com/symfony/symfony-marketing/blob/master/CONTRIBUTE.md](contribution information)
+[contribution information](https://github.com/symfony/symfony-marketing/blob/master/CONTRIBUTE.md)
 to make sure everything will be okay.**
 
 You don't need to translate everything in one pull request. When a user
