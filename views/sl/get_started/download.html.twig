@@ -1,0 +1,100 @@
+{% block title 'Prenosi' %}
+{% block keywords '' %}
+{% block description 'Prenosi, stopite v stik s skupnostjo, preberite članke, najdite usposabljanja' %}
+
+{% block intro %}
+    <h2>Symfony Standard Edition</h2>
+    <p>
+        Symfony Standard Edition je najboljša distribucija za uporabo pri
+        novih projektih. Vključuje najbolj uporabljane pakete (bundles)
+        in preprost konfiguracijski sistem.
+    </p>
+{% endblock %}
+
+{% block downloadnow 'Prenesite zdaj' %}
+{% block download 'Prenesite' %}
+{% block previousversion 'Prenesite prejšnje stabilne različice:' %}
+{% block specificversion 'Izberite določeno verzijo:' %}
+
+{% block console %}
+    <div style="padding-bottom: 20px">
+        <h3 class="title_05">Uporabljate konzolo?</h3>
+        <p style="padding-bottom: 0">
+            Namestite <a href="http://getcomposer.org/">Composer</a> in poženite sledeči ukaz:
+        </p>
+        <pre style="font-size: 95%">php composer.phar create-project symfony/framework-standard-edition path/ 2.3.0</pre>
+    </div>
+    <h3 class="title_05">Namestitvena navodila</h3>
+    <ol>
+        <li>
+            Prenesite enega izmed arhivov na svoj lokalni spletni
+            strežnik v vrhovni direktorij in ga razširite. Če
+            imate nameščen Git, si lahko prenesete Symfony2
+            "without vendors", ki omogoča več fleksibilnosti.
+        </li>
+        <li>
+            Sledite navodilom v datoteki README.md
+            (kar je samo tekstovna datoteka) ki je vključena
+            v prenosu.
+        </li>
+        <li>Uživajte!</li>
+    </ol>
+{% endblock %}
+
+{% block components %}
+    <h2 class="title_05">SYMFONY KOMPONENTE</h2>
+    <p>
+        Poleg celotnega ogrodja je Symfony tudi skupek nevezanih
+        in samostojnih komponent. Komponente se lahko <a href="{{
+        marketing_path('components') }}">prenese in namesti</a> neodvisno
+        od glavnega ogrodja.
+    </p>
+{% endblock %}
+
+{% block git %}
+    <h2 class="title_05">SYMFONY NA GIT-u</h2>
+    <p>
+        <strong>Uradni Symfony2 repositorij</strong> je gostovan na Github-u na
+        <a href="http://github.com/symfony/symfony">http://github.com/symfony/symfony</a>.
+        <br />
+        Ta vir uporabite le, če želite najnovejše spremembe ali če vas
+        ne moti ročno nameščanje.
+    </p>
+{% endblock %}
+
+{% block symfony1 %}
+    <h2 class="title_05" id="symfony1">SYMFONY 1.X</h2>
+    <p>
+        Verzija symfony 1.4 je zadnja izdaja z dolgoročno podporo (Long Term Support) za
+        vejo symfony 1.X in je bila vzdrževana do novembera 2012.
+        Če delate nov projekt, namesto njega uporabite raje 
+        <a href="#top">Symfony2</a>.
+    </p>
+    <p>
+        Če imate še vedno delujoč projekt na verziji symfony 1.x,
+        lahko še vedno dostopate do
+        <a href="{{ path('legacy_doc_home') }}">dokumentacije</a>
+        za vse symfony 1.x verzije,
+        <a href="#legacy">prenesete</a> katerokoli stabilno verzijo, ali dostopate
+        do drugih symfony 1.x orodij preko
+        <a href="{{ path('legacy_home') }}">legacy</a>
+        strani. Symfony1 je dostopen tudi preko
+        <a href="http://github.com/symfony/symfony1">Git</a> repositorija.
+    </p>
+    <p>
+        Če želite začeti nov
+        projekt z njim, prenesite sandbox
+        (<a href="http://www.symfony-project.org/get/sf_sandbox_1_4.tgz">.tgz</a>,
+        <a href="http://www.symfony-project.org/get/sf_sandbox_1_4.zip">.zip</a>),
+        izvorno kodo
+        (<a href="http://www.symfony-project.org/get/symfony-1.4.20.tgz">.tgz</a>,
+        <a href="http://www.symfony-project.org/get/symfony-1.4.20.zip">.zip</a>),
+        ali prenesite delovno verzijo SVN repositorija
+        (<a href="http://svn.symfony-project.com/branches/1.4">checkout</a>).
+    </p>
+{% endblock %}
+
+{% block legacy %}
+    <h2 class="title_05">Prejšnje izdaje</h2>
+    <p>Prenesite zadnje različice prejšnjih izdaj:</p>
+{% endblock %}

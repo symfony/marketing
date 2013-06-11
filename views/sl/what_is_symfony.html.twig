@@ -1,0 +1,42 @@
+{% block title 'Kaj je Symfony' %}
+{% block keywords '' %}
+{% block description 'Kaj je Symfony - Pričnite tu za kratko razlago' %}
+
+{% block intro %}
+    <h2 class="title_05">SYMFONY NA PRVI POGLED</h2>
+    <p>
+        Symfony je spletno razvijalsko PHP ogrodje.
+        <br />
+        Vam to ne odgovori na vprašanje?
+        <br />
+        Dobro, poskusimo ponovno.
+        <br />
+        Symfony je PHP ogrodje, filozofija in skupnost - kjer vse deluje skupaj v harmoniji.
+    </p>
+{% endblock %}
+
+{% block more 'Izvedite več' %}
+
+{% block fiveminutes %}
+    <h2 class="title_05">SYMFONY V 5 MINUTAH</h2>
+    <p></p>
+    <ul class="list_04">
+        <li><a href="{{ marketing_path('why_use_a_framework') }}">Zakaj bi uporabil ogrodje?</a></li>
+        <li><a href="{{ marketing_path('when_use_a_framework') }}">Kdaj bi uporabil ogrodje?</a></li>
+        <li><a href="{{ marketing_path('six_good_reasons') }}">6 dobrih razlogov za uporabo Symfony</a></li>
+        <li><a href="{{ marketing_path('six_good_technical_reasons') }}">Tehnične prednosti Symfony v 6-ih enostavnih lekcijah</a></li>
+        <li><a href="{{ marketing_path('ten_criteria') }}">10 kriterijev za izbiro ustreznega ogrodja</a></li>
+    </ul>
+{% endblock %}
+
+{% block elevatorpitches %}
+    <h2 class="title_05">KRATKE PREDSTAVITVE</h2>
+    <p>Symfony2 explained...</p>
+    <ul class="list_04">
+        <li><a href="{{ marketing_path('explained_to_my_boss') }}">... za mojega šefa</a></li>
+        <li><a href="{{ marketing_path('explained_to_a_developer') }}">... za razvijalca</a></li>
+        <li><a href="{{ marketing_path('explained_to_a_system_administrator') }}">... za skrbnika sistema</a></li>
+        <li><a href="{{ marketing_path('explained_to_a_project_manager') }}">... za vodjo projekta</a></li>
+        <li><a href="{{ marketing_path('explained_to_a_project_owner') }}">... za lastnika projekta</a></li>
+    </ul>
+{% endblock %}
