@@ -1,0 +1,42 @@
+{% block title "Qu'est ce que Symfony" %}
+{% block keywords '' %}
+{% block description "Qu'est ce que Symfony - Commencez ici si vous voulez une explication rapide" %}
+
+{% block intro %}
+    <h2 class="title_05">SYMFONY EN UN COUP D'ŒIL</h2>
+    <p>
+        Symfony est un framework de dévelopement web en PHP.
+        <br />
+        Cela ne répond pas à votre question ?
+        <br />
+        D'accord, essayons encore.
+        <br />
+        Symfony est un Framework PHP, une Philosophie, et une communauté - le tout dans un ensemble harmonique.
+    </p>
+{% endblock %}
+
+{% block more 'En apprendre plus' %}
+
+{% block fiveminutes %}
+    <h2 class="title_05">SYMFONY EN 5 MINUTES</h2>
+    <p></p>
+    <ul class="list_04">
+        <li><a href="{{ marketing_path('why_use_a_framework') }}">Pourquoi devrais-je utiliser un framework ?</a></li>
+        <li><a href="{{ marketing_path('when_use_a_framework') }}">Quand devrais-je utiliser un framework ?</a></li>
+        <li><a href="{{ marketing_path('six_good_reasons') }}">6 bonnes raisons d'utiliser Symfony</a></li>
+        <li><a href="{{ marketing_path('six_good_technical_reasons') }}">Les bénéfices technologiques de Symfony en 6 leçons simples</a></li>
+        <li><a href="{{ marketing_path('ten_criteria') }}">10 critères pour choisir le bon framework</a></li>
+    </ul>
+{% endblock %}
+
+{% block elevatorpitches %}
+    <h2 class="title_05">ELEVATOR PITCHS</h2>
+    <p>Symfony2 expliqué...</p>
+    <ul class="list_04">
+        <li><a href="{{ marketing_path('explained_to_my_boss') }}">... à mon patron</a></li>
+        <li><a href="{{ marketing_path('explained_to_a_developer') }}">... à un développeur</a></li>
+        <li><a href="{{ marketing_path('explained_to_a_system_administrator') }}">... à un administrateur système</a></li>
+        <li><a href="{{ marketing_path('explained_to_a_project_manager') }}">... à un chef de projet</a></li>
+        <li><a href="{{ marketing_path('explained_to_a_project_owner') }}">... à un project owner</a></li>
+    </ul>
+{% endblock %}

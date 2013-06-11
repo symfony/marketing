@@ -1,0 +1,49 @@
+{% block title 'À propos' %}
+{% block keywords '' %}
+{% block description 'Découvrez qui est derrière le framework et quelles sont ses valeurs, ses buts' %}
+
+{% block intro %}
+    <p>
+        Symfony est un framework Open Source permettant le développement
+        d'applications web en PHP.
+        Il a été originellement conçu par l'agence web Sensio Labs,
+        agitateur d'Open Source, pour le développement des sites de ses clients.
+        Symfony a été publié par l'agence en 2005 sous la licence Open Source
+        MIT et compte aujourd'hui parmi les frameworks PHP les plus utilisés.
+        <br/>
+        Maintenu par Sensio Labs - mais aussi par une
+        <a href="{{ path('contributors') }}">large communauté</a> - Symfony
+        possède tous les atouts : une documentation complète, un support
+        communautaire (mailing lists, IRC, etc.), ainsi qu'un
+        <a href="http://sensiolabs.com/en/support/sensiolabs_support.html">support professionnel</a>
+        (conseil, <a href="http://trainings.sensiolabs.com/">formation</a>, etc.),
+        et bien plus.
+        <br/>
+        Disponible depuis la version 2.0, Symfony possède déjà parmi la multitude
+        de sites et d'applications développés avec, de prestigieuses références,
+        parmis lesquels Yahoo!, Dailymotion, Opensky.com, Exercise.com, phpBB,
+        ou Drupal.
+    </p>
+    <ul class="list_04">
+        <li><div class="link_01"><a href="{{ marketing_path('what_is_symfony') }}">Qu'est-ce que Symfony ?</a></div></li>
+    </ul>
+{% endblock %}
+
+{% block mission %}
+    <h2 class="title_05">NOTRE MISSION</h2>
+    <p>Symfony est entièrement gratuit et publié sous la <a href="{{ path('license') }}">licence MIT.</a></p>
+{%  endblock %}
+
+{% block sensiolabs %}
+    <h2 class="title_05">SENSIO LABS</h2>
+    <p>
+        Depuis 1998, Sensio Labs a soutenu le mouvement Open Source en fournissant
+        un développement, du conseil et de la formation web de qualité. Sensio Labs
+        contribue aussi à de nombreux projets Open-Source d'importance.
+    </p>
+    <ul class="list_04">
+        <li><div class="link_01"><a href="http://sensiolabs.com/a_propos/nous_sommes_open.html">Sensio Labs faits et chiffres</a></div></li>
+        <li><div class="link_01"><a href="http://sensiolabs.com/services/nos_partis_pris.html">Offres</a></div></li>
+        <li><div class="link_01"><a href="http://www.extreme-sensio.com/showcase/">Clients</a></div></li>
+    </ul>
+{% endblock %}
