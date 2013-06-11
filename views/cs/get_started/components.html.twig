@@ -1,0 +1,259 @@
+{% block title 'Symfony komponenty' %}
+{% block keywords '' %}
+{% block description '' %}
+
+{% block intro %}
+    <p>
+        Symfony není jen uceleným frameworkem, ale také souborem oddělených
+        a na sobě nezávislých komponent.
+    </p>
+{% endblock %}
+
+{% block body %}
+    <h2 class="title_09"><a name="framework">Co je komponenta?</a></h2>
+    <p>
+        Symfony komponenty poskytují základní funkce nutné k vývoji
+        webových stránek. Symfony framework je vytvořen právě z těchto
+        jednotlivých komponent. Komponenty lze tedy použít samostatně,
+        bez frameworku, bez dalších nutných závislostí.
+    </p>
+    <h2 class="title_09"><a name="framework">Instalace</a></h2>
+    <p>
+        Každá komponenta se dá nainstalovat různými způsoby:
+        <ul>
+            <li>
+                <strong>Doporučený způsob</strong>
+                Instalace přes Composer
+                (<code>symfony/<strong>nazev-komponenty-s-pomlckami</strong></code> na serveru Packagist).
+            </li>
+            <li>
+                Použití oficiálního Git repozitáře
+                (<code>https://github.com/symfony/<strong>CamelCaseNazevKomponenty</strong></code>);
+            </li>
+            <li>
+                <strong>Zastaralý způsob</strong>
+                Instalace pomocí PEAR
+                (<code>pear.symfony.com/<strong>CamelCaseNazevKomponenty</strong></code>);
+            </li>
+        </ul>
+    </p>
+    <p>Například instalace komponenty <code>HttpFoundation</code>:</p>
+    <h3 class="title_05">Přes Composer</h3>
+    <div class="highlight-bash">
+        <div class="highlight">
+                <pre>{
+    "require": {
+        "symfony/http-foundation": "{{ current_version }}"
+    }
+}</pre>
+        </div>
+    </div>
+    <h3 class="title_05">Přes Git</h3>
+    <div class="highlight-bash">
+        <div class="highlight">
+            <pre>git clone --branch {{ current_version }} https://github.com/symfony/HttpFoundation vendor/</pre>
+        </div>
+    </div>
+    <h3 class="title_05">Přes PEAR</h3>
+    <div class="highlight-bash">
+        <div class="highlight">
+                <pre>pear channel-discover pear.symfony.com
+pear install symfony2/HttpFoundation</pre>
+        </div>
+    </div>
+    <h2 class="title_09"><a name="framework">Komponenty</a></h2>
+    <table class="component-list">
+        <thead>
+            <tr>
+                <th>Komponenta</th>
+                <th>Popis</th>
+                <th>Kód</th>
+                <th>Dokumentace</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>BrowserKit</strong></td>
+                <td>Simuluje chování webového prohlížeče.</td>
+                <td><a href="https://github.com/symfony/BrowserKit">Kód</a></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><strong>ClassLoader</strong></td>
+                <td>Automaticky načítá soubory s třídami, pokud se dodržuje některá ze standardních PHP konvencí.</td>
+                <td><a href="https://github.com/symfony/ClassLoader">Kód</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'class_loader', 'version': 'current'}) }}">Dokumentace</a></td>
+            </tr>
+            <tr>
+                <td><strong>Config</strong></td>
+                <td>Pomáhá vyhledat, načíst, spojit, automaticky vyplnit a zkontrolovat konfiguraci.</td>
+                <td><a href="https://github.com/symfony/Config">Kód</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'config/introduction', 'version': 'current'}) }}">Dokumentace</a></td>
+            </tr>
+            <tr>
+                <td><strong>Console</strong></td>
+                <td>Usnadňuje vytváření krásných a testovatelných aplikací pro příkazovou řádku.</td>
+                <td><a href="https://github.com/symfony/Console">Kód</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'console/introduction', 'version': 'current'}) }}">Dokumentace</a></td>
+            </tr>
+            <tr>
+                <td><strong>CssSelector</strong></td>
+                <td>Převádí CSS selektory na XPath výrazy.</td>
+                <td><a href="https://github.com/symfony/CssSelector">Kód</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'css_selector', 'version': 'current'}) }}">Dokumentace</a></td>
+            </tr>
+            <tr>
+                <td><strong>Debug</strong></td>
+                <td>Poskytuje nástroje pro snadnější ladění PHP kódu.</td>
+                <td><a href="https://github.com/symfony/Debug">Kód</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'debug', 'version': 'current'}) }}">Dokumentace</a></td>
+            </tr>
+            <tr>
+                <td><strong>DependencyInjection</strong></td>
+                <td>Umožňuje standardizovat a centralizovat způsob vytváření objektů v aplikaci.</td>
+                <td><a href="https://github.com/symfony/DependencyInjection">Kód</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'dependency_injection/introduction', 'version': 'current'}) }}">Dokumentace</a></td>
+            </tr>
+            <tr>
+                <td><strong>DomCrawler</strong></td>
+                <td>Usnadňuje procházení DOM struktury HTML a XML dokumentů.</td>
+                <td><a href="https://github.com/symfony/DomCrawler">Kód</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'dom_crawler', 'version': 'current'}) }}">Dokumentace</a></td>
+            </tr>
+            <tr>
+                <td><strong>EventDispatcher</strong></td>
+                <td>Implementuje návrhový vzor Observer (Pozorovatel).</td>
+                <td><a href="https://github.com/symfony/EventDispatcher">Kód</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'event_dispatcher/introduction', 'version': 'current'}) }}">Dokumentace</a></td>
+            </tr>
+            <tr>
+                <td><strong>Filesystem</strong></td>
+                <td>Poskytuje základní nástroje pro práci se soubory a adresáři.</td>
+                <td><a href="https://github.com/symfony/Filesystem">Kód</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'filesystem', 'version': 'current'}) }}">Dokumentace</a></td>
+            </tr>
+            <tr>
+                <td><strong>Finder</strong></td>
+                <td>Vyhledává soubory a adresáře pomocí intuitivního a přehledného zápisu.</td>
+                <td><a href="https://github.com/symfony/Finder">Kód</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'finder', 'version': 'current'}) }}">Dokumentace</a></td>
+            </tr>
+            <tr>
+                <td><strong>Form</strong></td>
+                <td>&nbsp;</td>
+                <td><a href="https://github.com/symfony/Form">Kód</a></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><strong>HttpFoundation</strong></td>
+                <td>Definuje objektově orientovanou vrstvu pro práci s HTTP protokolem.</td>
+                <td><a href="https://github.com/symfony/HttpFoundation">Kód</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'http_foundation/introduction', 'version': 'current'}) }}">Dokumentace</a></td>
+            </tr>
+            <tr>
+                <td><strong>HttpKernel</strong></td>
+                <td>Poskytuje základní stavební prvky pro vytvoření rychlého a flexibilního frameworku založeném na HTTP protokolu.</td>
+                <td><a href="https://github.com/symfony/HttpKernel">Kód</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'http_kernel/introduction', 'version': 'current'}) }}">Dokumentace</a></td>
+            </tr>
+            <tr>
+                <td><strong>Locale</strong></td>
+                <td>
+                    Obsahuje kód pro případ, že není v PHP dostupné intl rozšíření. Tato komponenta je zastaralá od verze 2.3 a místo ní se používá
+                    <a href="{{ doc_path({
+                        'version': 'current',
+                        'section': 'components',
+                        'page':    'intl'})
+                    }}">Intl</a> komponenta.
+                </td>
+                <td><a href="https://github.com/symfony/Locale">Kód</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'locale', 'version': '2.2'}) }}">Dokumentace</a></td>
+            </tr>
+            <tr>
+                <td><strong>Intl</strong></td>
+                <td>Obsahuje kód pro případ, že není v PHP dostupné intl rozšíření.</td>
+                <td><a href="https://github.com/symfony/Intl">Kód</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'intl', 'version': 'current'}) }}">Dokumentace</a></td>
+            </tr>
+            <tr>
+                <td><strong>Icu</strong></td>
+                <td>
+                    Obsahuje data pro různé verze ICU knihovny, která se používají přes API
+                    <a href="{{ doc_path({
+                        'version': 'current',
+                        'section': 'components',
+                        'page':    'intl'})
+                    }}">Intl</a> komponenty.
+                </td>
+                <td><a href="https://github.com/symfony/Icu">Kód</a></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><strong>OptionsResolver</strong></td>
+                <td>Pomáhá nakonfigurovat objekty pomocí definice obsažené v obyčejném poli.</td>
+                <td><a href="https://github.com/symfony/OptionsResolver">Kód</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'options_resolver', 'version': 'current'}) }}">Dokumentace</a></td>
+            </tr>
+            <tr>
+                <td><strong>Process</strong></td>
+                <td>Spouští příkazy v dalším procesu.</td>
+                <td><a href="https://github.com/symfony/Process">Kód</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'process', 'version': 'current'}) }}">Dokumentace</a></td>
+            </tr>
+            <tr>
+                <td><strong>PropertyAccess</strong></td>
+                <td>Poskytuje funkce pro čtení a zápis hodnot z objektů a polí pomocí jednoduchého textového zápisu.</td>
+                <td><a href="https://github.com/symfony/Process">Kód</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'property_access/introduction', 'version': 'current'}) }}">Dokumentace</a></td>
+            </tr>
+            <tr>
+                <td><strong>Routing</strong></td>
+                <td>Převádí HTTP požadavek na sadu konfiguračních proměnných.</td>
+                <td><a href="https://github.com/symfony/Routing">Kód</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'routing/introduction', 'version': 'current'}) }}">Dokumentace</a></td>
+            </tr>
+            <tr>
+                <td><strong>Security</strong></td>
+                <td>Poskytuje infrastrukturu pro propracované autorizační systémy.</td>
+                <td><a href="https://github.com/symfony/Security">Kód</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'security/introduction', 'version': 'current'}) }}">Dokumentace</a></td>
+            </tr>
+            <tr>
+                <td><strong>Serializer</strong></td>
+                <td>Převádí objekty do různých formátů (XML, JSON, Yaml, &hellip;) a zpětně z nich je načítá.</td>
+                <td><a href="https://github.com/symfony/Serializer">Kód</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'serializer', 'version': 'current'}) }}">Dokumentace</a></td>
+            </tr>
+            <tr>
+                <td><strong>Stopwatch</strong></td>
+                <td>Umožňuje profilovat kód.</td>
+                <td><a href="https://github.com/symfony/Stopwatch">Kód</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'stopwatch', 'version': 'current'}) }}">Dokumentace</a></td>
+            </tr>
+            <tr>
+                <td><strong>Templating</strong></td>
+                <td>Poskytuje veškeré nástroje pro začlenění jakéhokoliv šablonovacího systému.</td>
+                <td><a href="https://github.com/symfony/Templating">Kód</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'templating', 'version': 'current'}) }}">Dokumentace</a></td>
+            </tr>
+            <tr>
+                <td><strong>Translation</strong></td>
+                <td>&nbsp;</td>
+                <td><a href="https://github.com/symfony/Translation">Kód</a></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><strong>Validator</strong></td>
+                <td>&nbsp;</td>
+                <td><a href="https://github.com/symfony/Validator">Kód</a></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><strong>Yaml</strong></td>
+                <td>Načítá data z YAML souborů a ukládá je do nich.</td>
+                <td><a href="https://github.com/symfony/Yaml">Kód</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'yaml/introduction', 'version': 'current'}) }}">Dokumentace</a></td>
+            </tr>
+        </tbody>
+    </table>
+{% endblock %}
