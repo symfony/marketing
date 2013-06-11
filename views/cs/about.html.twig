@@ -1,0 +1,45 @@
+{% block title 'O nás' %}
+{% block keywords '' %}
+{% block description 'Poznejte tvůrce frameworku, jejich hodnoty a cíle' %}
+
+{% block intro %}
+    <p>
+        Symfony je framework s otevřeným kódem určený k vývoji webových aplikací.
+        Původně byl navržen pro tvorbu webových stránek pro klienty agentury Sensio Labs,
+        která jej zveřejnila v roce 2005 pod MIT licencí. Dnes patří mezi
+        přední frameworky pro vývoj v PHP.
+        <br/>
+        Podporu zajišťuje Sensio Labs a opravdu <a href="{{ path('contributors') }}">
+        velká komunita</a>. Symfony se může pyšnit kvalitní dokumentací,
+        podporou komunity (mailové konference, IRC, apod.), profesionální
+        <a href="http://sensiolabs.com/en/support/sensiolabs_support.html">podporou</a>
+        (konzultace, <a href="http://trainings.sensiolabs.com/">školení</a> atd.)
+        a mnoha dalšími věcmi.
+        <br/>
+        Dostupná verze Symfony 2.0 byla již použita na stovkách webů a na této platformě
+        jsou vyvíjeny mnohé prestižní aplikace jako například Yahoo!, Dailymotion,
+        Opensky.com, Exercise.com, phpBB nebo Drupal.
+    </p>
+    <ul class="list_04">
+        <li><div class="link_01"><a href="{{ marketing_path('what_is_symfony') }}">Co je Symfony?</a></div></li>
+    </ul>
+{% endblock %}
+
+{% block mission %}
+    <h2 class="title_05">POSLÁNÍ</h2>
+    <p>Symfony je zcela zdarma a je uvolněn pod <a href="{{ path('license') }}">MIT licencí.</a></p>
+{%  endblock %}
+
+{% block sensiolabs %}
+    <h2 class="title_05">SENSIO LABS</h2>
+    <p>
+        Od roku 1998 Sensio Labs podporuje open-source hnutí tím, že poskytuje
+        kvalitní vývoj webových aplikací, školení a konzultace. Sensio Labs rovněž
+        podporuje několik velkých projektů s otevřeným kódem.
+    </p>
+    <ul class="list_04">
+        <li><div class="link_01"><a href="http://sensiolabs.com/a_propos/nous_sommes_open.html">Údaje o Sensio Labs</a></div></li>
+        <li><div class="link_01"><a href="http://sensiolabs.com/services/nos_partis_pris.html">Nabízené služby</a></div></li>
+        <li><div class="link_01"><a href="http://www.extreme-sensio.com/showcase/">Reference</a></div></li>
+    </ul>
+{% endblock %}

@@ -1,0 +1,42 @@
+{% block title 'Co je Symfony' %}
+{% block keywords '' %}
+{% block description 'Co je Symfony - stručné vysvětlení' %}
+
+{% block intro %}
+    <h2 class="title_05">SYMFONY STRUČNĚ</h2>
+    <p>
+        Symfony je PHP framework pro vývoj webových aplikací.
+        <br />
+        Nedostatečná odpověď?
+        <br />
+        Dobrá, zkusme to tedy ještě jednou.
+        <br />
+        Symfony je harmonické spojení PHP frameworku, způsobu myšlení a komunity.
+    </p>
+{% endblock %}
+
+{% block more 'Více informací' %}
+
+{% block fiveminutes %}
+    <h2 class="title_05">SYMFONY V 5 MINUTÁCH</h2>
+    <p></p>
+    <ul class="list_04">
+        <li><a href="{{ marketing_path('why_use_a_framework') }}">Proč použít framework?</a></li>
+        <li><a href="{{ marketing_path('when_use_a_framework') }}">Kdy je vhodné použít framework?</a></li>
+        <li><a href="{{ marketing_path('six_good_reasons') }}">6 dobrých důvodů, proč se rozhodnout pro Symfony</a></li>
+        <li><a href="{{ marketing_path('six_good_technical_reasons') }}">Technologické výhody Symfony v 6 bodech</a></li>
+        <li><a href="{{ marketing_path('ten_criteria') }}">10 zásad pro výběr správného frameworku</a></li>
+    </ul>
+{% endblock %}
+
+{% block elevatorpitches %}
+    <h2 class="title_05">SYMFONY VE ZKRATCE</h2>
+    <p>Co by mohlo zajímat o Symfony2 ...</p>
+    <ul class="list_04">
+        <li><a href="{{ marketing_path('explained_to_my_boss') }}">... šéfa</a></li>
+        <li><a href="{{ marketing_path('explained_to_a_developer') }}">... vývojáře</a></li>
+        <li><a href="{{ marketing_path('explained_to_a_system_administrator') }}">... systémového administrátora</a></li>
+        <li><a href="{{ marketing_path('explained_to_a_project_manager') }}">... projektového manažerova</a></li>
+        <li><a href="{{ marketing_path('explained_to_a_project_owner') }}">... vlastníka projektu</a></li>
+    </ul>
+{% endblock %}
