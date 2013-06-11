@@ -1,0 +1,56 @@
+{% block title 'Distributioner' %}
+{% block keywords '' %}
+{% block description '' %}
+
+{% block intro %}
+    <p>
+        Att ladda ned och konfigurera en Symfony-distribution är tveklöst det
+        enklaste och snabbaste att komma igång med Symfony.
+    </p>
+{% endblock %}
+
+{% block body %}
+    <h2 class="title_09"><a name="what">Vad är en Distribution?</a></h2>
+    <p>
+        Precis som Linux-distributioner,som är kända för dess enkla
+        installationer och specifika funktioner (med olika versioner
+        för servrar, bärbara datorer, etc.) så består en Symfony-distribution
+        av Symfony2-komponenter, ett urval bundles, en katalogstruktur,
+        en standardkonfiguration och ett frivilligt webbaserat
+        konfigurationssystem.
+    </p>
+    <p>
+        Praktiskt sett så är det en enkel, lätt att installera och
+        paketerad lösning för att komma igång med Symfony. Även i
+        IT-branchen så har man bara en chans att göra ett gott första
+        intryck.
+    </p>
+    <h2 class="title_09"><a name="why">Varför distributioner?</a></h2>
+    <p>
+        En distribution, med sitt urval av bundles, struktur och
+        standardkonfiguration, är gjord för att möta ett specifikt
+        användarbehov: exempelvis att enkelt bekanta sig, content
+        management-system för attskapa en dynamisk webbplats, eller
+        en full version för att testa ramverket.
+    </p>
+    <p>
+        Oavsett detta så ligger Symfonys styrka och innovation jämfört med
+        dess konkurrenter, i det faktum att allt kan ändras. Distributionen
+        är ett färdigt paket, men det är designat för att vara skalbart,
+        som om du själv hade satt ihop det. Du kan lägga till eller ta bort
+        bundles, ändra standardkonfigurationen, filstrukturen, etc., baserat
+        på dina behov och önskemål!
+    </p>
+    <h2 class="title_09"><a name="available">Tillgängliga Distributioner</a></h2>
+    <p>
+        <a href="{{ marketing_path('download') }}">Standardutgåvan</a> är den
+        överlägset bästa versionen att börja med. Den innehåller de mest använda
+        bundlarna och har en enkel konfiguration som är kompatibel med de flesta
+        projekt.
+    </p>
+    <p>
+        <a href="https://github.com/symfony/symfony-hello-world">Hello World-utgåvan</a>,
+        som är baserad på standardutgåvan, är den bästa distributionen för
+        att testa ramverkets råa prestanda.
+    </p>
+{% endblock %}
