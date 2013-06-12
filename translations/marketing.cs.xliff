@@ -106,7 +106,7 @@
             </trans-unit>
             <trans-unit id="43">
                 <source>menu.community.mailing_lists</source>
-                <target>Mailing Lists</target>
+                <target>E-mailové konference</target>
             </trans-unit>
             <trans-unit id="44">
                 <source>menu.community.forum</source>
