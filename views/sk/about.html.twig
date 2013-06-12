@@ -1,0 +1,46 @@
+{% block title 'O Symfony' %}
+{% block keywords '' %}
+{% block description 'Spoznajte tvorcov frameworku, jeho hodnoty a ciele. ' %}
+
+{% block intro %}
+    <p>
+        Symfony je PHP framework určený pre vývoj webových aplikácií. Symfony
+        bol pôvodne navrhnutý pre tvorbu web stránok klientou agentúry Sensio
+        Labs. Symfony bolo vydané v roku 2005 pod open source licenciou MIT
+        a dnes patrí Symfony medzi najlepšie PHP frameworky.
+        <br/>
+        <br/>
+        Podporu zaisťuje Sensio Labs, ale tiež <a href="{{ path('contributors') }}">
+        veľká komunita</a>. Symfony sa pýši rozsiahlou dokumentáciou, podporou zo strany
+        komunity (mailing listy, IRC, atď.), profesionálnou
+        <a href="http://sensiolabs.com/en/support/sensiolabs_support.html">podporou</a>
+        (konzultácie, <a href="http://trainings.sensiolabs.com/">školenia</a>, atď.), a
+        množstvom ďalších vecí.
+        <br/>
+        Verzia 2.0 bola už nasadená na stovkách web stránok a aplikácií postavených, na tejto platforme
+        sú vyvíjané prestížne projekty ako Yahoo!, Dailymotion, Opensky.com, Exercise.com,
+        phpBB, or Drupal.
+    </p>
+    <ul class="list_04">
+        <li><div class="link_01"><a href="{{ marketing_path('what_is_symfony') }}">Čo je Symfony?</a></div></li>
+    </ul>
+{% endblock %}
+
+{% block mission %}
+    <h2 class="title_05">Poslanie</h2>
+    <p>Symfony je úplne zadarmo, dostupné pod <a href="{{ path('license') }}">licenciou MIT.</a></p>
+{%  endblock %}
+
+{% block sensiolabs %}
+    <h2 class="title_05">SENSIO LABS</h2>
+    <p>
+        Od 1998 roku Sensio Labs presadzuje hnutie Open-Source, ponúka vysoko kvalitné
+        internetové aplikácie, školenia a konzultácie. Sensio Labs taktiež podporuje
+        niekoľko Open Source projektov.
+    </p>
+    <ul class="list_04">
+        <li><div class="link_01"><a href="http://sensiolabs.com/a_propos/nous_sommes_open.html">Sensio Labs fakty a čísla</a></div></li>
+        <li><div class="link_01"><a href="http://sensiolabs.com/services/nos_partis_pris.html">Ponuka</a></div></li>
+        <li><div class="link_01"><a href="http://www.extreme-sensio.com/showcase/">Klienti</a></div></li>
+    </ul>
+{% endblock %}
