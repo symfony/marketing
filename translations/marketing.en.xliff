@@ -34,8 +34,8 @@
                 <target>Case Studies</target>
             </trans-unit>
             <trans-unit id="15">
-                <source>menu.what_is_symfony.versioning_policies</source>
-                <target>Versioning Policies</target>
+                <source>menu.what_is_symfony.versioning_policy</source>
+                <target>Versioning Policy</target>
             </trans-unit>
             <trans-unit id="16">
                 <source>menu.what_is_symfony.long_term_support</source>
