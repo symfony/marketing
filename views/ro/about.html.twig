@@ -1,0 +1,38 @@
+{% block title 'Despre' %}
+{% block keywords '' %}
+{% block description 'Descoperă cine a construit frameworkul, care sunt valorile și scopul lor' %}
+
+{% block intro %}
+    <p>
+        Symfony este un framework Open Source pentru dezvoltarea aplicațiilor Web în PHP. Inițial a fost conceput de către agenția interactivă Sensio Labs în scopul de a fi folosit la dezvoltarea siturilor web pentru clienții acesteia.  Frameworkul Symfony a fost făcut public de către agenție în 2005, sub licența Open Source MIT, iar astăzi este printre urile de top folosite la dezvoltarea în PHP.
+        <br/>
+        Susținut de către Sensio Labs - dar și de o <a href="{{ path('contributors') }}">
+        largă comunitate</a> - Symfony are numeroase resurse: documentație bogată,
+        suportul comunității (liste de email, IRC, etc.),
+        <a href="http://sensiolabs.com/en/support/sensiolabs_support.html">suport</a>
+        profesional (consultanti, <a href="http://trainings.sensiolabs.com/">instruire</a>, etc.) și altele.
+        <br/>
+        Disponibil în versiunea 2.0, Symfony are deja, printre sutele de situri și aplicații dezvoltate pe aceasta platformă, referințe prestigioase, precum
+        Yahoo!, Dailymotion, Opensky.com, Exercise.com, phpBB sau Drupal.
+    </p>
+    <ul class="list_04">
+        <li><div class="link_01"><a href="{{ marketing_path('what_is_symfony') }}">Ce este Symfony?</a></div></li>
+    </ul>
+{% endblock %}
+
+{% block mission %}
+    <h2 class="title_05">MISIUNEA</h2>
+    <p>Symfony este gratuit în totalitate și publicat sub <a href="{{ path('license') }}">licența MIT.</a></p>
+{%  endblock %}
+
+{% block sensiolabs %}
+    <h2 class="title_05">SENSIO LABS</h2>
+    <p>
+        Începând cu 1998, Sensio Labs a promovat mișcarea pentru software Open-Source, oferind aplicații web dezvoltate profesional, instruire și consultanță. Sensio Labs susține de asemenea alte câteva mari proiecte Open-Source.
+    </p>
+    <ul class="list_04">
+        <li><div class="link_01"><a href="http://sensiolabs.com/a_propos/nous_sommes_open.html">Sensio Labs fapte și cifre</a></div></li>
+        <li><div class="link_01"><a href="http://sensiolabs.com/services/nos_partis_pris.html">Oferte</a></div></li>
+        <li><div class="link_01"><a href="http://www.extreme-sensio.com/showcase/">Clienți</a></div></li>
+    </ul>
+{% endblock %}
