@@ -3,7 +3,7 @@
     <file source-language="en" datatype="plaintext" original="file.ext">
         <body>
             <!--
-                Please be careful of the size of the terget messages.
+                Please be careful of the size of the target messages.
                 Remember that these are menu & submenu labels and they will break the page if too big.
                 Based on existing pages, we can deduct that maximùum length should be
                     - approximately 15-20 characters for menu labels (id="x")
