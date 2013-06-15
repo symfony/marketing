@@ -8,7 +8,7 @@ Adding a new language
 - Pull request title should follow this convention: `[wip] [<language code>] <language name> translation`.
   For instance for the french translation: `[wip] [fr] french translation`.
 - Before sending a new pull request, make sure there is not WIP for the language you want to add.
-- Start a PR early and then add commits to be sure that noone will start a PR with the same language (first commit may be empty).
+- Start a PR early and then add commits to be sure that no one will start a PR with the same language (first commit may be empty).
 
 Contribute to a WIP
 -------------------
