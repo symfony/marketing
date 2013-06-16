@@ -1,0 +1,232 @@
+{% block title 'Komponenty Symfony' %}
+{% block keywords '' %}
+{% block description '' %}
+
+{% block intro %}
+    <p>
+        Oprócz tego, że Symfony jest kompleksowym frameworkiem, 
+        jest również zbiorem samodzielnych i niezależnych komponentów.       
+    </p>
+{% endblock %}
+
+{% block body %}
+    <h2 class="title_09"><a name="framework">Co to jest komponent?</a></h2>
+    <p>
+        Komponenty Symfony implementują wspólne funkcjonalności niezbędne 
+        do budowania serwisów internetowych. Są one podstawą frameworka 
+        Symfony, ale zarazem mogą być używane samodzielnie, nawet wówczas
+        gdy nie używasz frameworka ponieważ nie posiadają one żadnych
+        obowiązkowych zależności.        
+    </p>
+    <h2 class="title_09"><a name="framework">Instalacja</a></h2>
+    <p>
+        Możesz zainstalować każdy z komponentów na wiele sposobów:
+        <ul>
+            <li>
+                <strong>Zalecana</strong> jest instalacja poprzez Composer
+                (<code>symfony/<strong>dashed-component-name</strong></code> na Packagist).
+            </li>
+            <li>
+                Użycie oficjalnego repozytorium Git
+                (<code>https://github.com/symfony/<strong>CamelCaseComponentName</strong></code>);
+            </li>
+            <li>
+                <strong>Przestarzały</strong> sposób instalacji przy użyciu PEAR
+                (<code>pear.symfony.com/<strong>CamelCaseComponentName</strong></code>);
+            </li>
+        </ul>
+    </p>
+    <p>Na przykład aby zainstalować komponent <code>HttpFoundation</code>:</p>
+    <h3 class="title_05">Używając Git</h3>
+    <div class="highlight-bash">
+        <div class="highlight">
+            <pre>git clone https://github.com/symfony/HttpFoundation vendor/</pre>
+        </div>
+    </div>
+    <h3 class="title_05">Używając PEAR</h3>
+    <div class="highlight-bash">
+        <div class="highlight">
+                <pre>pear channel-discover pear.symfony.com
+pear install symfony2/HttpFoundation</pre>
+        </div>
+    </div>
+    <h3 class="title_05">Używając Composer</h3>
+    <div class="highlight-bash">
+        <div class="highlight">
+                <pre>{
+    "require": {
+        "symfony/http-foundation": "v2.0.11"
+    }
+}</pre>
+        </div>
+    </div>
+    <h2 class="title_09"><a name="framework">Komponenty</a></h2>
+    <table class="component-list">
+        <thead>
+            <tr>
+                <th>Komponent</th>
+                <th>Opis</th>
+                <th>Kod</th>
+                <th>Dokumentacja</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>BrowserKit</strong></td>
+                <td>Symuluje zachowanie przeglądarki internetowej.</td>
+                <td><a href="https://github.com/symfony/BrowserKit">Kod</a></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><strong>ClassLoader</strong></td>
+                <td>Ładuje automatycznie klasy projektu jeśli stosują one standardowe konwencje PHP.</td>
+                <td><a href="https://github.com/symfony/ClassLoader">Kod</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'class_loader', 'version': 'current'}) }}">Dokumentacja</a></td>
+            </tr>
+            <tr>
+                <td><strong>Config</strong></td>
+                <td>Pomaga zlokalizować, wczytać, połączyć, wypełnić i walidować wartośći konfiguracyjne.</td>
+                <td><a href="https://github.com/symfony/Config">Kod</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'config/introduction', 'version': 'current'}) }}">Dokumentacja</a></td>
+            </tr>
+            <tr>
+                <td><strong>Console</strong></td>
+                <td>Ułatwia tworzenie pięknych i testowalnych interfejsów linii poleceń.</td>
+                <td><a href="https://github.com/symfony/Console">Kod</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'console/introduction', 'version': 'current'}) }}">Dokumentacja</a></td>
+            </tr>
+            <tr>
+                <td><strong>CssSelector</strong></td>
+                <td>Konwertuje selektory CSS na wyrażenia XPath.</td>
+                <td><a href="https://github.com/symfony/CssSelector">Kod</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'css_selector', 'version': 'current'}) }}">Dokumentacja</a></td>
+            </tr>
+            <tr>
+                <td><strong>Debug</strong></td>
+                <td>Dostarcza narzędzia do debugowania kodu PHP.</td>
+                <td><a href="https://github.com/symfony/Debug">Kod</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'debug', 'version': 'current'}) }}">Dokumentacja</a></td>
+            </tr>
+            <tr>
+                <td><strong>DependencyInjection</strong></td>
+                <td>Umożliwia standaryzację i centralizację sposobu konstruowania obiektów w Twojej aplikacji.</td>
+                <td><a href="https://github.com/symfony/DependencyInjection">Kod</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'dependency_injection/introduction', 'version': 'current'}) }}">Dokumentacja</a></td>
+            </tr>
+            <tr>
+                <td><strong>DomCrawler</strong></td>
+                <td>Ułatwia nawigację DOM dla dokumentów HTML i XML.</td>
+                <td><a href="https://github.com/symfony/DomCrawler">Kod</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'dom_crawler', 'version': 'current'}) }}">Dokumentacja</a></td>
+            </tr>
+            <tr>
+                <td><strong>EventDispatcher</strong></td>
+                <td>Implementuje uproszczoną wersję wzorca projektowego Obserwator.</td>
+                <td><a href="https://github.com/symfony/EventDispatcher">Kod</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'event_dispatcher/introduction', 'version': 'current'}) }}">Dokumentacja</a></td>
+            </tr>
+            <tr>
+                <td><strong>Filesystem</strong></td>
+                <td>Dostarcza podstawowe narzędzia dla systemu plików.</td>
+                <td><a href="https://github.com/symfony/Filesystem">Kod</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'filesystem', 'version': 'current'}) }}">Dokumentacja</a></td>
+            </tr>
+            <tr>
+                <td><strong>Finder</strong></td>
+                <td>Znajduje pliki i katalogi poprzez intuicyiny interfejs.</td>
+                <td><a href="https://github.com/symfony/Finder">Kod</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'finder', 'version': 'current'}) }}">Dokumentacja</a></td>
+            </tr>
+            <tr>
+                <td><strong>Form</strong></td>
+                <td>&nbsp;</td>
+                <td><a href="https://github.com/symfony/Form">Kod</a></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><strong>HttpFoundation</strong></td>
+                <td>Definiuje obiektowo zorientowaną warstwę dla specyfikacji HTTP.</td>
+                <td><a href="https://github.com/symfony/HttpFoundation">Kod</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'http_foundation/introduction', 'version': 'current'}) }}">Dokumentacja</a></td>
+            </tr>
+            <tr>
+                <td><strong>HttpKernel</strong></td>
+                <td>Dostarcza elementy konstrukcyjne do tworzenia elastycznych i szybkich frameworków opartych o HTTP.</td>
+                <td><a href="https://github.com/symfony/HttpKernel">Kod</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'http_kernel/introduction', 'version': 'current'}) }}">Dokumentacja</a></td>
+            </tr>
+            <tr>
+                <td><strong>Locale</strong></td>
+                <td>Dostarcza kod dla przypadków kiedy rozszerzenie intl nie jest dostępne.</td>
+                <td><a href="https://github.com/symfony/Locale">Kod</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'locale', 'version': 'current'}) }}">Dokumentacja</a></td>
+            </tr>
+            <tr>
+                <td><strong>OptionsResolver</strong></td>
+                <td>Pomaga w konfiguracji obiektów przy użyciu tablic opcji.</td>
+                <td><a href="https://github.com/symfony/OptionsResolver">Kod</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'options_resolver', 'version': 'current'}) }}">Dokumentacja</a></td>
+            </tr>
+            <tr>
+                <td><strong>Process</strong></td>
+                <td>Wykonuje polecenia w podprocesach.</td>
+                <td><a href="https://github.com/symfony/Process">Kod</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'process', 'version': 'current'}) }}">Dokumentacja</a></td>
+            </tr>
+            <tr>
+                <td><strong>PropertyAccess</strong></td>
+                <td>Dostarcza funkcjonalność odczytu oraz zapisu z/do obiektu lub tablicy przy użyciu prostej notacji znakowej.</td>
+                <td><a href="https://github.com/symfony/Process">Kod</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'property_access/introduction', 'version': 'current'}) }}">Dokumentacja</a></td>
+            </tr>
+            <tr>
+                <td><strong>Routing</strong></td>
+                <td>Mapuje żądanie HTTP na zestaw zmiennych konfiguracyjnych.</td>
+                <td><a href="https://github.com/symfony/Routing">Kod</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'routing/introduction', 'version': 'current'}) }}">Dokumentacja</a></td>
+            </tr>
+            <tr>
+                <td><strong>Security</strong></td>
+                <td>Dostarcza infrastrukturę dla złożonych systemów uwierzytelniania</td>
+                <td><a href="https://github.com/symfony/Security">Kod</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'security/introduction', 'version': 'current'}) }}">Dokumentacja</a></td>
+            </tr>
+            <tr>
+                <td><strong>Serializer</strong></td>
+                <td>Przekształca obiekty do wybranego formatu (XML, JSON, Yaml, ...) i odwrotnie.</td>
+                <td><a href="https://github.com/symfony/Serializer">Kod</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'serializer', 'version': 'current'}) }}">Dokumentacja</a></td>
+            </tr>
+            <tr>
+                <td><strong>Stopwatch</strong></td>
+                <td>Komponent Stopwatch dostarcza mechanizmy profilowania kodu.</td>
+                <td><a href="https://github.com/symfony/Stopwatch">Kod</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'stopwatch', 'version': 'current'}) }}">Dokumentacja</a></td>
+            </tr>
+            <tr>
+                <td><strong>Templating</strong></td>
+                <td>Dostarcza wszystkie narzędzia niezbędne do budowy dowolnego rodzaju systemu szablonów.</td>
+                <td><a href="https://github.com/symfony/Templating">Kod</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'templating', 'version': 'current'}) }}">Dokumentacja</a></td>
+            </tr>
+            <tr>
+                <td><strong>Translation</strong></td>
+                <td>&nbsp;</td>
+                <td><a href="https://github.com/symfony/Translation">Kod</a></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><strong>Validator</strong></td>
+                <td>&nbsp;</td>
+                <td><a href="https://github.com/symfony/Validator">Kod</a></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><strong>Yaml</strong></td>
+                <td>Wczytuje i eksportuje do plików YAML.</td>
+                <td><a href="https://github.com/symfony/Yaml">Kod</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'yaml/introduction', 'version': 'current'}) }}">Dokumentacja</a></td>
+            </tr>
+        </tbody>
+    </table>
+{% endblock %}
