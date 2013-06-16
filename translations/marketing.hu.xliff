@@ -1,6 +1,5 @@
-<?xml version="1.0"?>
-<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-    <file source-language="en" datatype="plaintext" original="file.ext">
+<?xml version="1.0" encoding="utf-8"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file datatype="plaintext" original="file.ext" source-language="en" target-language="HU-HU">
         <body>
             <!--
                 Please be careful of the size of the terget messages.
@@ -27,7 +26,7 @@
             </trans-unit>
             <trans-unit id="13">
                 <source>menu.what_is_symfony.elevator_pitches</source>
-                <target>„Elevator Pitches"</target>
+                <target state="translated">„Elevator Pitches”</target>
             </trans-unit>
             <trans-unit id="14">
                 <source>menu.what_is_symfony.case_studies</source>
