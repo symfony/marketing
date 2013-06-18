@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+            <!--
+                Please be careful of the size of the target messages.
+                Remember that these are menu & submenu labels and they will break the page if too big.
+                Based on existing pages, we can deduct that maximùum length should be
+                    - approximately 15-20 characters for menu labels (id="x")
+                    - approximately 25-30 characters for sub-menu labels (id="xx")
+            -->
+
+            <!-- What is Symfony -->
+
+            <trans-unit id="1">
+                <source>menu.what_is_symfony</source>
+                <target>C'est quoi Symfony?</target>
+            </trans-unit>
+
+            <trans-unit id="11">
+                <source>menu.what_is_symfony.at_a_glance</source>
+                <target>Un coup d'œil sur Symfony</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>menu.what_is_symfony.in_5_minutes</source>
+                <target>Symfony dans 5 Minutes</target>
+            </trans-unit>
+      </body>
+    </file>
+</xliff>
