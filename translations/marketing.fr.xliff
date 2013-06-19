@@ -23,7 +23,7 @@
             </trans-unit>
             <trans-unit id="12">
                 <source>menu.what_is_symfony.in_5_minutes</source>
-                <target>Symfony dans 5 Minutes</target>
+                <target>Symfony en 5 Minutes</target>
             </trans-unit>
       </body>
     </file>
