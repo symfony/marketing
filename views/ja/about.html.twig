@@ -1,0 +1,41 @@
+{% block title 'About' %}
+{% block keywords '' %}
+{% block description '誰がフレームワークを作っているか、そして彼らの価値観と目標を知る' %}
+
+{% block intro %}
+    <p>
+        Symfony はオープンソースの PHP ウェブアプリケーションフレームワークです。
+        元は広告会社である Sensio Labs が顧客のウェブサイトの開発の為に開発されたものですが、2005年より
+        MIT ライセンスとしてオープンソース化されました。そして、今日では主要な PHP フレームワークの１つです。
+        <br/>
+        Supported by Sensio Labs - そして <a href="{{ path('contributors') }}">
+        巨大なコミュニティ</a> - Symfony は多くのリソースを持っています: 豊富なドキュメント、
+        コミュニティサポート (メーリングリスト、IRC、その他), プロフェッショナル<a href="http://sensiolabs.com/en/support/sensiolabs_support.html">サポート</a>
+        (コンサルティング, <a href="http://trainings.sensiolabs.com/">トレーニング</a>、その他)など。
+        <br/>
+        Available in version 2.0, Symfony already has, among the hundreds of sites and
+        applications developed on its platform, prestigious references, such as
+        Yahoo!, Dailymotion, Opensky.com, Exercise.com, phpBB, or Drupal.
+    </p>
+    <ul class="list_04">
+        <li><div class="link_01"><a href="{{ marketing_path('what_is_symfony') }}">Symfony とは？</a></div></li>
+    </ul>
+{% endblock %}
+
+{% block mission %}
+    <h2 class="title_05">運営方針</h2>
+    <p>Symfony は <a href="{{ path('license') }}">MIT ライセンス</a> に基いて完全に無料で公開されています。</p>
+{%  endblock %}
+
+{% block sensiolabs %}
+    <h2 class="title_05">SENSIO LABS</h2>
+    <p>
+        1998年以降、Sensio Labs は良質なウェブアプリケーションの開発、トレーニング、コンサルティングの提供を通じて、
+        オープンソースソフトウェアの普及を促進させました。Sensio Labs もまた、いくつかの大きいオープンソースプロジェクトを所有しています。
+    </p>
+    <ul class="list_04">
+        <li><div class="link_01"><a href="http://sensiolabs.com/a_propos/nous_sommes_open.html">Sensio Labs の詳細はこちら</a></div></li>
+        <li><div class="link_01"><a href="http://sensiolabs.com/services/nos_partis_pris.html">ご提案</a></div></li>
+        <li><div class="link_01"><a href="http://www.extreme-sensio.com/showcase/">実績</a></div></li>
+    </ul>
+{% endblock %}
