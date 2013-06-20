@@ -38,10 +38,20 @@
         </ul>
     </p>
     <p>For instance, to install the <code>HttpFoundation</code> component:</p>
+    <h3 class="title_05">With Composer</h3>
+    <div class="highlight-bash">
+        <div class="highlight">
+                <pre>{
+    "require": {
+        "symfony/http-foundation": "{{ current_version }}.*"
+    }
+}</pre>
+        </div>
+    </div>
     <h3 class="title_05">With Git</h3>
     <div class="highlight-bash">
         <div class="highlight">
-            <pre>git clone https://github.com/symfony/HttpFoundation vendor/</pre>
+            <pre>git clone --branch {{ current_version }} https://github.com/symfony/HttpFoundation vendor/</pre>
         </div>
     </div>
     <h3 class="title_05">With PEAR</h3>
@@ -49,16 +59,6 @@
         <div class="highlight">
                 <pre>pear channel-discover pear.symfony.com
 pear install symfony2/HttpFoundation</pre>
-        </div>
-    </div>
-    <h3 class="title_05">With Composer</h3>
-    <div class="highlight-bash">
-        <div class="highlight">
-                <pre>{
-    "require": {
-        "symfony/http-foundation": "v2.0.11"
-    }
-}</pre>
         </div>
     </div>
     <h2 class="title_09"><a name="framework">The Components</a></h2>
@@ -86,7 +86,7 @@ pear install symfony2/HttpFoundation</pre>
             </tr>
             <tr>
                 <td><strong>Config</strong></td>
-                <td>Help you find, load, combine, autofill and validate configuration values.</td>
+                <td>Helps you find, load, combine, autofill and validate configuration values.</td>
                 <td><a href="https://github.com/symfony/Config">Code</a></td>
                 <td><a href="{{ doc_path({'section': 'components', 'page': 'config/introduction', 'version': 'current'}) }}">Documentation</a></td>
             </tr>
@@ -158,9 +158,35 @@ pear install symfony2/HttpFoundation</pre>
             </tr>
             <tr>
                 <td><strong>Locale</strong></td>
-                <td>Provides fallback code to handle cases when the intl extension is missing.</td>
+                <td>
+                    Provides fallback code to handle cases when the intl extension is missing. This component is deprecated since 2.3, use the
+                    <a href="{{ doc_path({
+                        'version': 'current',
+                        'section': 'components',
+                        'page':    'intl'})
+                    }}">Intl</a> component instead.
+                </td>
                 <td><a href="https://github.com/symfony/Locale">Code</a></td>
-                <td><a href="{{ doc_path({'section': 'components', 'page': 'locale', 'version': 'current'}) }}">Documentation</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'locale', 'version': '2.2'}) }}">Documentation</a></td>
+            </tr>
+            <tr>
+                <td><strong>Intl</strong></td>
+                <td>Provides fallback code to handle cases when the intl extension is missing.</td>
+                <td><a href="https://github.com/symfony/Intl">Code</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'intl', 'version': 'current'}) }}">Documentation</a></td>
+            </tr>
+            <tr>
+                <td><strong>Icu</strong></td>
+                <td>
+                    Contains the data of the ICU library in a specific version. Use it through the API of the
+                    <a href="{{ doc_path({
+                        'version': 'current',
+                        'section': 'components',
+                        'page':    'intl'})
+                    }}">Intl</a> component.
+                </td>
+                <td><a href="https://github.com/symfony/Icu">Code</a></td>
+                <td>&nbsp;</td>
             </tr>
             <tr>
                 <td><strong>OptionsResolver</strong></td>
@@ -188,7 +214,7 @@ pear install symfony2/HttpFoundation</pre>
             </tr>
             <tr>
                 <td><strong>Security</strong></td>
-                <td>Provides an infrastructure for sophisticated authorization systems</td>
+                <td>Provides an infrastructure for sophisticated authorization systems.</td>
                 <td><a href="https://github.com/symfony/Security">Code</a></td>
                 <td><a href="{{ doc_path({'section': 'components', 'page': 'security/introduction', 'version': 'current'}) }}">Documentation</a></td>
             </tr>
@@ -200,7 +226,7 @@ pear install symfony2/HttpFoundation</pre>
             </tr>
             <tr>
                 <td><strong>Stopwatch</strong></td>
-                <td>Stopwatch component provides a way to profile code.</td>
+                <td>Provides a way to profile code.</td>
                 <td><a href="https://github.com/symfony/Stopwatch">Code</a></td>
                 <td><a href="{{ doc_path({'section': 'components', 'page': 'stopwatch', 'version': 'current'}) }}">Documentation</a></td>
             </tr>

@@ -41,7 +41,7 @@
     <h3 class="title_05">Avec Git</h3>
     <div class="highlight-bash">
         <div class="highlight">
-            <pre>git clone https://github.com/symfony/HttpFoundation vendor/</pre>
+            <pre>git clone --branch {{ current_version }} https://github.com/symfony/HttpFoundation vendor/</pre>
         </div>
     </div>
     <h3 class="title_05">Avec PEAR</h3>
@@ -56,7 +56,7 @@ pear install symfony2/HttpFoundation</pre>
         <div class="highlight">
                 <pre>{
     "require": {
-        "symfony/http-foundation": "v2.0.11"
+        "symfony/http-foundation": "{{ current_version }}.*"
     }
 }</pre>
         </div>
