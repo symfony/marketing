@@ -1,48 +1,44 @@
-{% block title 'Download' %}
+{% block title '下载' %}
 {% block keywords '' %}
-{% block description 'Downloads, get in touch with the community, read articles, find training sessions' %}
+{% block description '下载,与社区进行交流，阅读文章，寻找进行课程' %}
 
 {% block intro %}
-    <h2>Symfony Standard Edition</h2>
+    <h2>Symfony标准版本</h2>
     <p>
-        The Symfony Standard Edition is the best distribution to use when
-        starting a new project. It contains the most common bundles, and comes
-        with a simple configuration system.
+        使用Symfony的标准版开始项目，其包含常用通用Bundles（包），并且
+        配备一个简易的配置系统。
     </p>
 {% endblock %}
 
-{% block downloadnow 'Download now' %}
-{% block download 'Download' %}
-{% block previousversion 'Download previous stable releases:' %}
-{% block specificversion 'Pick a specific version:' %}
+{% block downloadnow '现在就下载' %}
+{% block download '下载' %}
+{% block previousversion '下载之前的发布版:' %}
+{% block specificversion '选择一个指定版本:' %}
 
 {% block console %}
     <div style="padding-bottom: 20px">
-        <h3 class="title_05">Comfortable with the console?</h3>
+        <h3 class="title_05">控制台安装如何？</h3>
         <p style="padding-bottom: 0">
-            Install <a href="http://getcomposer.org/">Composer</a> and run the following command:
+            安装 <a href="http://getcomposer.org/">Composer</a>运行以下命令:
         </p>
         <pre style="font-size: 95%">php composer.phar create-project symfony/framework-standard-edition path/ 2.3.0</pre>
     </div>
-    <h3 class="title_05">Installation Instructions</h3>
+    <h3 class="title_05">安装步骤</h3>
     <ol>
         <li>
-            Download one of the archives somewhere under your
-            local web server's root directory and unpack it. If
-            you have Git installed, you should download Symfony2
-            "without vendors", as it adds a bit more flexibility.
+            下载到你本机的WEB服务器的Root目录中，解压。如果你安装了
+            Git，你应当下载“没有第三方库”的Symfony2包，如此你可以
+            获得一些自由性。
         </li>
         <li>
-            Follow the instructions in the README.md file
-            (which is just a text file) that's packaged with
-            the download.
+            按照下载包中README.md（文本文件）中的步骤实施。
         </li>
-        <li>Enjoy!</li>
+        <li>愉快享受！</li>
     </ol>
 {% endblock %}
 
 {% block components %}
-    <h2 class="title_05">SYMFONY COMPONENTS</h2>
+    <h2 class="title_05">SYMFONY组件</h2>
     <p>
         Beside being a full-stack framework, Symfony is also a set of
         decoupled and standalone components. They can be <a href="{{
