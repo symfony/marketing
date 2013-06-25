@@ -40,42 +40,36 @@
 {% block components %}
     <h2 class="title_05">SYMFONY组件</h2>
     <p>
-        Beside being a full-stack framework, Symfony is also a set of
-        decoupled and standalone components. They can be <a href="{{
-        marketing_path('components') }}">downloaded and installed</a> independently
-        of the main framework.
+        Symfony除了可以视为一个全功能性框架，还可以认为是一些列无依赖性
+        独立的组件的集合。他们可以独立于主框架 <a href="{{
+        marketing_path('components') }}">下载和安装</a>。
     </p>
 {% endblock %}
 
 {% block git %}
-    <h2 class="title_05">SYMFONY ON GIT</h2>
+    <h2 class="title_05">在GIT上关注SYMFONY</h2>
     <p>
-        The <strong>official Symfony2 repository</strong> is hosted on Github at
-        <a href="http://github.com/symfony/symfony">http://github.com/symfony/symfony</a>.
+        <strong>官方的Symfony2项目仓库</strong>安置在Github 
+        <a href="http://github.com/symfony/symfony">http://github.com/symfony/symfony</a>上。
         <br />
-        You should only use this repository if you want the
-        bleeding edge or if you don't mind installing things by hand.
+        如果你希望始终站在技术前沿或者不担心手工安装Symfony
+        你应当考虑使用这个项目仓库。
     </p>
 {% endblock %}
 
 {% block symfony1 %}
     <h2 class="title_05" id="symfony1">SYMFONY 1.X</h2>
     <p>
-        The symfony 1.4 version is the last Long Term Support release for
-        the symfony 1.X branch and it is maintained until November 2012.
-        If you are creating a new project, you should consider using
-        <a href="#top">Symfony2</a> instead.
+        Symfony 1.4版本是一个针对1.x分支版本，最后长期支持协议的发行版本，
+        此版本将维护到2012年11月。如果你想创建新的Symfony项目，应当考虑
+        替换使用<a href="#top">Symfony2</a>。
     </p>
     <p>
-        However, if you already have a working symfony 1.x project, you
-        can still access the framework
-        <a href="{{ path('legacy_doc_home') }}">documentation</a>
-        for all symfony 1.x versions,
-        <a href="#legacy">download</a> any stable versions, or access the
-        other symfony 1.x tools via the
-        <a href="{{ path('legacy_home') }}">legacy</a>
-        page. You can also get symfony1 via
-        <a href="http://github.com/symfony/symfony1">Git</a>.
+        不管如何，你如果已经在开发Symfony 1.x项目了，仍然可以访问
+        所有Symfony 1.x版本的框架<a href="{{ path('legacy_doc_home') }}">文档</a>，
+        <a href="#legacy">下载</a>任何稳定版本，或访问其他Symfony 1.x 工具
+        <a href="{{ path('legacy_home') }}">旧址</a>页. 你也可以在
+        <a href="http://github.com/symfony/symfony1">Git</a>上浏览。
     </p>
     <p>
         If you want to start a new
