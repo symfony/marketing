@@ -1,0 +1,163 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+            <!--
+                Please be careful of the size of the target messages.
+                Remember that these are menu & submenu labels and they will break the page if too big.
+                Based on existing pages, we can deduct that maxim湛um length should be
+                    - approximately 15-20 characters for menu labels (id="x")
+                    - approximately 25-30 characters for sub-menu labels (id="xx")
+            -->
+
+            <!-- What is Symfony -->
+
+            <trans-unit id="1">
+                <source>menu.what_is_symfony</source>
+                <target>Symfony काय आहे?</target>
+            </trans-unit>
+
+            <trans-unit id="11">
+                <source>menu.what_is_symfony.at_a_glance</source>
+                <target>Symfony एक ओळख</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>menu.what_is_symfony.in_5_minutes</source>
+                <target>Symfony फ़क्त ५ मिनिंटामध्ये</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>menu.what_is_symfony.elevator_pitches</source>
+                <target>symfony ची एक ओळख.</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>menu.what_is_symfony.case_studies</source>
+                <target>symfony अध्ययन</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>menu.what_is_symfony.versioning_policy</source>
+                <target>symfony versioning धोरण काय आहे</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>menu.what_is_symfony.long_term_support</source>
+                <target>symfony दीर्घकालीन आधार काय आहे</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>menu.what_is_symfony.security_policy</source>
+                <target>symfony सुरक्षा धोरण काय आहे</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>menu.what_is_symfony.license</source>
+                <target>symfony परवाना काय आहे</target>
+            </trans-unit>
+
+            <!-- Get Started -->
+
+            <trans-unit id="2">
+                <source>menu.get_started</source>
+                <target>प्रारंभ</target>
+            </trans-unit>
+
+            <trans-unit id="21">
+                <source>menu.get_started.download_symfony</source>
+                <target>symfony डाउनलोड</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>menu.get_started.symfony_roadmap</source>
+                <target>सुरु symfony आराखड्यामुळे मिळवा</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>menu.get_started.symfony_distributions</source>
+                <target>सुरु symfony वितरण मिळवा</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>menu.get_started.symfony_components</source>
+                <target>symfony घटक</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>menu.get_started.quick_tour</source>
+                <target>सुरु द्रुत प्रवास मिळवा</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>menu.get_started.symfony_legacy</source>
+                <target>सुरु symfony वारसा मिळवा</target>
+            </trans-unit>
+
+            <!-- Documentation -->
+
+            <trans-unit id="3">
+                <source>menu.documentation</source>
+                <target>दस्तऐवज</target>
+            </trans-unit>
+
+            <!-- Community -->
+
+            <trans-unit id="4">
+                <source>menu.community</source>
+                <target>समाज</target>
+            </trans-unit>
+
+            <trans-unit id="41">
+                <source>menu.community.sensiolabs_connect</source>
+                <target>SensioLabs Connect</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>menu.community.irc_channel</source>
+                <target>IRC</target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>menu.community.mailing_lists</source>
+                <target>समुदाय मेलिंग यादी</target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source>menu.community.forum</source>
+                <target>समूह मंच</target>
+            </trans-unit>
+            <trans-unit id="45">
+                <source>menu.community.how_to_be_involved</source>
+                <target>参加方法</target>
+            </trans-unit>
+
+            <!-- Services -->
+
+            <trans-unit id="5">
+                <source>menu.services</source>
+                <target>सेवा</target>
+            </trans-unit>
+
+            <!-- News -->
+
+            <trans-unit id="6">
+                <source>menu.news</source>
+                <target>बातमी</target>
+            </trans-unit>
+
+            <!-- Avout -->
+
+            <trans-unit id="7">
+                <source>menu.about</source>
+                <target>विषयी</target>
+            </trans-unit>
+
+            <trans-unit id="71">
+                <source>menu.about.sensiolabs</source>
+                <target>SensioLabs</target>
+            </trans-unit>
+            <trans-unit id="72">
+                <source>menu.about.contributors</source>
+                <target>योगदानकर्ते बद्दल</target>
+            </trans-unit>
+            <trans-unit id="73">
+                <source>menu.about.tradmeark_logo_policy</source>
+                <target>tradmeark लोगो धोरण बद्दल</target>
+            </trans-unit>
+            <trans-unit id="74">
+                <source>menu.about.logo</source>
+                <target>लोगो बद्दल</target>
+            </trans-unit>
+            <trans-unit id="75">
+                <source>menu.about.jobs</source>
+                <target>नोकरी बद्दल</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
