@@ -1,0 +1,311 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+
+            <trans-unit id="1">
+                <source>browserkit.summary</source>
+                <target>
+                    BrowserKit simulates the behavior of a web browser.
+                </target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>browserkit.description</source>
+                <target>
+                    The component only provide an abstract client and does not provide any "default" backend for the
+                    HTTP layer.
+                </target>
+            </trans-unit>
+
+            <trans-unit id="3">
+               <source>console.summary</source>
+               <target>
+                    The Console component eases the creation of beautiful and testable command line interfaces.
+               </target>
+            </trans-unit>
+            <trans-unit id="4">
+               <source>console.description</source>
+               <target>
+                    The Console component allows you to create command-line commands. Your console commands can be
+                    used for any recurring task, such as cronjobs, imports, or other batch jobs.
+               </target>
+            </trans-unit>
+            <trans-unit id="5">
+               <source>classloader.summary</source>
+               <target>
+                    Loads your project classes automatically if they follow some standard PHP conventions.
+               </target>
+            </trans-unit>
+            <trans-unit id="6">
+               <source>classloader.description</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="7">
+               <source>config.summary</source>
+               <target>
+                   Helps you find, load, combine, autofill and validate configuration values.
+               </target>
+            </trans-unit>
+            <trans-unit id="8">
+               <source>config.description</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="9">
+               <source>cssselector.summary</source>
+               <target>
+                   Converts CSS selectors to XPath expressions.
+               </target>
+            </trans-unit>
+            <trans-unit id="10">
+               <source>cssselector.description</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="11">
+               <source>debug.summary</source>
+               <target>
+                    Provides tools to ease debugging PHP code.
+               </target>
+            </trans-unit>
+            <trans-unit id="12">
+               <source>debug.description</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="13">
+               <source>dependencyinjection.summary</source>
+               <target>
+                   Allows you to standardize and centralize the way objects are constructed in your application.
+               </target>
+            </trans-unit>
+            <trans-unit id="14">
+               <source>dependencyinjection.description</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="15">
+               <source>domcrawler.summary</source>
+               <target>
+                   Eases DOM navigation for HTML and XML documents.
+               </target>
+            </trans-unit>
+            <trans-unit id="16">
+               <source>domcrawler.description</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="17">
+               <source>eventdispatcher.summary</source>
+               <target>
+                   Implements a lightweight version of the Observer design pattern.
+               </target>
+            </trans-unit>
+            <trans-unit id="18">
+               <source>eventdispatcher.description</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="19">
+               <source>filesystem.summary</source>
+               <target>
+                   Finds files and directories via an intuitive fluent interface.
+               </target>
+            </trans-unit>
+            <trans-unit id="20">
+               <source>filesystem.description</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="21">
+               <source>form.summary</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="22">
+               <source>form.description</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="23">
+               <source>httpfoundation.summary</source>
+               <target>
+                   Defines an object-oriented layer for the HTTP specification.
+               </target>
+            </trans-unit>
+            <trans-unit id="24">
+               <source>httpfoundation.description</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="25">
+               <source>httpkernel.summary</source>
+               <target>
+                   Provides the building blocks to create flexible and fast HTTP-based frameworks.
+               </target>
+            </trans-unit>
+            <trans-unit id="26">
+               <source>httpkernel.description</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="27">
+               <source>locale.summary</source>
+               <target>
+                 Provides fallback code to handle cases when the intl extension is missing. This component is deprecated since 2.3, use the Intl component instead.
+               </target>
+            </trans-unit>
+            <trans-unit id="28">
+               <source>locale.description</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="29">
+               <source>icu.summary</source>
+               <target>
+                 Contains the data of the ICU library in a specific version. Use it through the API of the Intl component.
+               </target>
+            </trans-unit>
+            <trans-unit id="30">
+               <source>icu.description</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="31">
+               <source>optionsresolver.summary</source>
+               <target>
+                    Helps you configuring objects with option arrays.
+               </target>
+            </trans-unit>
+            <trans-unit id="32">
+               <source>optionsresolver.description</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="33">
+               <source>process.summary</source>
+               <target>
+                    Executes commands in sub-processes
+               </target>
+            </trans-unit>
+            <trans-unit id="34">
+               <source>process.description</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="35">
+               <source>propertyaccess.summary</source>
+               <target>
+                    Provides function to read and write from/to an object or array using a simple string notation.
+               </target>
+            </trans-unit>
+            <trans-unit id="36">
+               <source>propertyaccess.description</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="37">
+               <source>routing.summary</source>
+               <target>
+                   Maps an HTTP request to a set of configuration variables.
+               </target>
+            </trans-unit>
+            <trans-unit id="38">
+               <source>routing.description</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="39">
+               <source>security.summary</source>
+               <target>
+                   Provides an infrastructure for sophisticated authorization systems.
+               </target>
+            </trans-unit>
+            <trans-unit id="40">
+               <source>security.description</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="41">
+               <source>stopwatch.summary</source>
+               <target>
+                   Provides a way to profile code.
+               </target>
+            </trans-unit>
+            <trans-unit id="42">
+               <source>stopwatch.description</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="43">
+               <source>templating.summary</source>
+               <target>
+                   Provides all the tools needed to build any kind of template system.
+               </target>
+            </trans-unit>
+            <trans-unit id="44">
+               <source>templating.description</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="45">
+               <source>translation.summary</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="46">
+               <source>translation.description</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="47">
+               <source>validator.summary</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="48">
+               <source>validator.description</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="49">
+               <source>yaml.summary</source>
+               <target>
+                    Loads and dumps YAML files.
+               </target>
+            </trans-unit>
+            <trans-unit id="50">
+               <source>yaml.description</source>
+               <target>
+
+               </target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
