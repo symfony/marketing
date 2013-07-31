@@ -1,0 +1,259 @@
+{% block title 'Symfony komponente' %}
+{% block keywords '' %}
+{% block description '' %}
+
+{% block intro %}
+    <p>
+        Poleg polnega ogrodja je Symfony tudi skupek
+        nevezanih in samostojnih komponent.
+    </p>
+{% endblock %}
+
+{% block body %}
+    <h2 class="title_09"><a name="framework">Kaj je komponenta?</a></h2>
+    <p>
+        Symfony komponente izvajajo skupne lastnosti potrebne za razvoj
+        spletnih strani. So temelj Symfony polnega ogrodja, vendar jih
+        je možno uporabiti tudi kot samostojne, čeprav ne uporabite ogrodja,
+        ker so neodvisne.
+    </p>
+    <h2 class="title_09"><a name="framework">Namestitev</a></h2>
+    <p>
+        Vsako komponento lahko namestite na več načinov:
+        <ul>
+            <li>
+                <strong>Priporočeno</strong>
+                Namestitev s pomočjo Composer-ja:
+                (<code>symfony/<strong>dashed-component-name</strong></code> na Packagist).
+            </li>
+            <li>
+                Uporabite uradni Git repositorij
+                (<code>https://github.com/symfony/<strong>CamelCaseComponentName</strong></code>);
+            </li>
+            <li>
+                <strong>Zastarelo</strong>
+                Namestitev preko PEAR
+                (<code>pear.symfony.com/<strong>CamelCaseComponentName</strong></code>);
+            </li>
+        </ul>
+    </p>
+    <p>Na primer za namestitev komponente <code>HttpFoundation</code>:</p>
+    <h3 class="title_05">Composer namestitev</h3>
+    <div class="highlight-bash">
+        <div class="highlight">
+                <pre>{
+    "require": {
+        "symfony/http-foundation": "{{ current_version }}.*"
+    }
+}</pre>
+        </div>
+    </div>
+    <h3 class="title_05">Git namestitev</h3>
+    <div class="highlight-bash">
+        <div class="highlight">
+            <pre>git clone --branch {{ current_version }} https://github.com/symfony/HttpFoundation vendor/</pre>
+        </div>
+    </div>
+    <h3 class="title_05">PEAR namestitev</h3>
+    <div class="highlight-bash">
+        <div class="highlight">
+                <pre>pear channel-discover pear.symfony.com
+pear install symfony2/HttpFoundation</pre>
+        </div>
+    </div>
+    <h2 class="title_09"><a name="framework">Komponente</a></h2>
+    <table class="component-list">
+        <thead>
+            <tr>
+                <th>Komponenta</th>
+                <th>Opis</th>
+                <th>Koda</th>
+                <th>Dokumentacija</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>BrowserKit</strong></td>
+                <td>Simulira delovanje spletnega brskalnika.</td>
+                <td><a href="https://github.com/symfony/BrowserKit">Koda</a></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><strong>ClassLoader</strong></td>
+                <td>Avtomatsko naloži projektne razrede, če sledijo standardnim PHP konvencijam.</td>
+                <td><a href="https://github.com/symfony/ClassLoader">Koda</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'class_loader', 'version': 'current'}) }}">Dokumentacija</a></td>
+            </tr>
+            <tr>
+                <td><strong>Config</strong></td>
+                <td>Pomaga najti, naložiti, združiti, samodejno izpolniti in potrditi nastavitvene vrednosti.</td>
+                <td><a href="https://github.com/symfony/Config">Koda</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'config/introduction', 'version': 'current'}) }}">Dokumentacija</a></td>
+            </tr>
+            <tr>
+                <td><strong>Console</strong></td>
+                <td>Poenostavi ustvarjanje lepih in testnih vmesnikov ukazne vrstice.</td>
+                <td><a href="https://github.com/symfony/Console">Koda</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'console/introduction', 'version': 'current'}) }}">Dokumentacija</a></td>
+            </tr>
+            <tr>
+                <td><strong>CssSelector</strong></td>
+                <td>Pretvori izbirnike CSS v izraze XPath.</td>
+                <td><a href="https://github.com/symfony/CssSelector">Koda</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'css_selector', 'version': 'current'}) }}">Dokumentacija</a></td>
+            </tr>
+            <tr>
+                <td><strong>Debug</strong></td>
+                <td>Ponuja orodja za enostavnejše razhroščevanje PHP kode.</td>
+                <td><a href="https://github.com/symfony/Debug">Koda</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'debug', 'version': 'current'}) }}">Dokumentacija</a></td>
+            </tr>
+            <tr>
+                <td><strong>DependencyInjection</strong></td>
+                <td>Omogoča standardizacijo in centralizacijo načina konstrukcije objektov v vaši aplikaciji.</td>
+                <td><a href="https://github.com/symfony/DependencyInjection">Koda</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'dependency_injection/introduction', 'version': 'current'}) }}">Dokumentacija</a></td>
+            </tr>
+            <tr>
+                <td><strong>DomCrawler</strong></td>
+                <td>Poenostavi navigacijo DOM za HTML in XML dokumente.</td>
+                <td><a href="https://github.com/symfony/DomCrawler">Koda</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'dom_crawler', 'version': 'current'}) }}">Dokumentacija</a></td>
+            </tr>
+            <tr>
+                <td><strong>EventDispatcher</strong></td>
+                <td>Izvede lahko različico Observer vzorca.</td>
+                <td><a href="https://github.com/symfony/EventDispatcher">Koda</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'event_dispatcher/introduction', 'version': 'current'}) }}">Dokumentacija</a></td>
+            </tr>
+            <tr>
+                <td><strong>Filesystem</strong></td>
+                <td>Ponuja osnovno podporo za datotečni sistem.</td>
+                <td><a href="https://github.com/symfony/Filesystem">Koda</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'filesystem', 'version': 'current'}) }}">Dokumentacija</a></td>
+            </tr>
+            <tr>
+                <td><strong>Finder</strong></td>
+                <td>Najde datoteke in direktorije preko intuitivno tekočega vmesnika.</td>
+                <td><a href="https://github.com/symfony/Finder">Koda</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'finder', 'version': 'current'}) }}">Dokumentacija</a></td>
+            </tr>
+            <tr>
+                <td><strong>Form</strong></td>
+                <td>&nbsp;</td>
+                <td><a href="https://github.com/symfony/Form">Koda</a></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><strong>HttpFoundation</strong></td>
+                <td>Opredeljuje objektno orientirano plast za specifikacijo HTTP.</td>
+                <td><a href="https://github.com/symfony/HttpFoundation">Koda</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'http_foundation/introduction', 'version': 'current'}) }}">Dokumentacija</a></td>
+            </tr>
+            <tr>
+                <td><strong>HttpKernel</strong></td>
+                <td>Zagotavlja gradnike za izdelavo fleksibilnega in hitrih ogrodij na osnovi HTTP.</td>
+                <td><a href="https://github.com/symfony/HttpKernel">Koda</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'http_kernel/introduction', 'version': 'current'}) }}">Dokumentacija</a></td>
+            </tr>
+            <tr>
+                <td><strong>Locale</strong></td>
+                <td>
+                    Zagotavlja nadomestno kodo za upravljanje primerov, kjer manjka razširitev intl. Ta komponenta je opuščena od 2.3 in namesto nje je v uporabi
+                    <a href="{{ doc_path({
+                        'version': 'current',
+                        'section': 'components',
+                        'page':    'intl'})
+                    }}">Intl</a> komponenta.
+                </td>
+                <td><a href="https://github.com/symfony/Locale">Koda</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'locale', 'version': '2.2'}) }}">Dokumentacija</a></td>
+            </tr>
+            <tr>
+                <td><strong>Intl</strong></td>
+                <td>Ponuja nadomestno kodo za upravljanje primerov, kjer manjka razširitev intl.</td>
+                <td><a href="https://github.com/symfony/Intl">Koda</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'intl', 'version': 'current'}) }}">Dokumentacija</a></td>
+            </tr>
+            <tr>
+                <td><strong>Icu</strong></td>
+                <td>
+                    Vsebuje podatke knjižnice ICU v določeni različici. Uporabite jo preko API-ja
+                    <a href="{{ doc_path({
+                        'version': 'current',
+                        'section': 'components',
+                        'page':    'intl'})
+                    }}">Intl</a> komponente.
+                </td>
+                <td><a href="https://github.com/symfony/Icu">Koda</a></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><strong>OptionsResolver</strong></td>
+                <td>Pomaga nastaviti objekte s pomočjo opcije polj (arrays).</td>
+                <td><a href="https://github.com/symfony/OptionsResolver">Koda</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'options_resolver', 'version': 'current'}) }}">Dokumentacija</a></td>
+            </tr>
+            <tr>
+                <td><strong>Process</strong></td>
+                <td>Izvede ukaze v podprocesih.</td>
+                <td><a href="https://github.com/symfony/Process">Koda</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'process', 'version': 'current'}) }}">Dokumentacija</a></td>
+            </tr>
+            <tr>
+                <td><strong>PropertyAccess</strong></td>
+                <td>Ponuja funkcijo za branje in pisanje iz/v objekt ali polje s pomočjo enostavnega znakovnega zapisa.</td>
+                <td><a href="https://github.com/symfony/Process">Koda</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'property_access/introduction', 'version': 'current'}) }}">Dokumentacija</a></td>
+            </tr>
+            <tr>
+                <td><strong>Routing</strong></td>
+                <td>Poveže zahtevek HTTP z nizom nastavitvenih spremenljivk.</td>
+                <td><a href="https://github.com/symfony/Routing">Koda</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'routing/introduction', 'version': 'current'}) }}">Dokumentacija</a></td>
+            </tr>
+            <tr>
+                <td><strong>Security</strong></td>
+                <td>Ponuja infrastrukturo za sofisticirane sisteme pooblastil.</td>
+                <td><a href="https://github.com/symfony/Security">Koda</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'security/introduction', 'version': 'current'}) }}">Dokumentacija</a></td>
+            </tr>
+            <tr>
+                <td><strong>Serializer</strong></td>
+                <td>Spremeni objekt v določeno obliko (XML, JSON, Yaml, ...) in obratno.</td>
+                <td><a href="https://github.com/symfony/Serializer">Koda</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'serializer', 'version': 'current'}) }}">Dokumentacija</a></td>
+            </tr>
+            <tr>
+                <td><strong>Stopwatch</strong></td>
+                <td>Ponuja način profiliranja kode.</td>
+                <td><a href="https://github.com/symfony/Stopwatch">Koda</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'stopwatch', 'version': 'current'}) }}">Dokumentacija</a></td>
+            </tr>
+            <tr>
+                <td><strong>Templating</strong></td>
+                <td>Ponuja vsa potrebna orodja za gradnjo vseh vrst sistemov predlog.</td>
+                <td><a href="https://github.com/symfony/Templating">Koda</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'templating', 'version': 'current'}) }}">Dokumentacija</a></td>
+            </tr>
+            <tr>
+                <td><strong>Translation</strong></td>
+                <td>&nbsp;</td>
+                <td><a href="https://github.com/symfony/Translation">Koda</a></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><strong>Validator</strong></td>
+                <td>&nbsp;</td>
+                <td><a href="https://github.com/symfony/Validator">Koda</a></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><strong>Yaml</strong></td>
+                <td>Naloži in shrani datoteke YAML.</td>
+                <td><a href="https://github.com/symfony/Yaml">Koda</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'yaml/introduction', 'version': 'current'}) }}">Dokumentacija</a></td>
+            </tr>
+        </tbody>
+    </table>
+{% endblock %}
