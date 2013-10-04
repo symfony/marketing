@@ -63,7 +63,7 @@
             </trans-unit>
             <trans-unit id="22">
                 <source>menu.get_started.symfony_roadmap</source>
-                <target>Symfony Roadmap</target>
+                <target>Roadmap</target>
             </trans-unit>
             <trans-unit id="23">
                 <source>menu.get_started.symfony_distributions</source>
