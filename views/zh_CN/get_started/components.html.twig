@@ -1,0 +1,257 @@
+{% block title 'Symfony 组件' %}
+{% block keywords '' %}
+{% block description '' %}
+
+{% block intro %}
+    <p>
+        Symfony 不但是一个全功能的框架，它也也是一系列分隔的、独立的组件。
+    </p>
+{% endblock %}
+
+{% block body %}
+    <h2 class="title_09"><a name="framework">什么是组件？</a></h2>
+    <p>
+        Symfony 组件提供开发网站时的常用到的功能。这些是 Symofny 全能框架的基石。
+        然而，这些组件可以单独使用，不需与框架一起使用，就如同它们无需依赖库一样。
+    </p>
+    <h2 class="title_09"><a name="framework">安装</a></h2>
+    <p>
+        您可以通过多种方式来安装每一个组件：
+        <ul>
+            <li>
+                <strong>推荐方式</strong>
+                通过 Composer 安装
+                (<code>symfony/<strong>dashed-component-name</strong></code>，Packagist).
+            </li>
+            <li>
+                通过官方的 Git 代码库
+                (<code>https://github.com/symfony/<strong>CamelCaseComponentName (骆驼拼写法的组件名称)</strong></code>)；
+            </li>
+            <li>
+                <strong>已过时</strong>
+                通过 PEAR 安装
+                (<code>pear.symfony.com/<strong>CamelCaseComponentName (骆驼拼写法的组件名称)</strong></code>);
+            </li>
+        </ul>
+    </p>
+    <p>例如：若要安装 <code>HttpFoundation</code>组件：</p>
+    <h3 class="title_05">通过 Composer</h3>
+    <div class="highlight-bash">
+        <div class="highlight">
+                <pre>{
+    "require": {
+        "symfony/http-foundation": "v2.0.11"
+    }
+}</pre>
+        </div>
+    </div>
+    <h3 class="title_05">通过 Git</h3>
+    <div class="highlight-bash">
+        <div class="highlight">
+            <pre>git clone https://github.com/symfony/HttpFoundation vendor/</pre>
+        </div>
+    </div>
+    <h3 class="title_05">通过 PEAR</h3>
+    <div class="highlight-bash">
+        <div class="highlight">
+                <pre>pear channel-discover pear.symfony.com
+pear install symfony2/HttpFoundation</pre>
+        </div>
+    </div>
+    <h2 class="title_09"><a name="framework">组件列表</a></h2>
+    <table class="component-list">
+        <thead>
+            <tr>
+                <th>组件</th>
+                <th>概括</th>
+                <th>代码</th>
+                <th>文献</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>BrowserKit</strong></td>
+                <td>模拟浏览器的功能。</td>
+                <td><a href="https://github.com/symfony/BrowserKit">代码</a></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><strong>ClassLoader</strong></td>
+                <td>如果类（Class）采用了某些标准的PHP规则，便会自动加载到项目内。</td>
+                <td><a href="https://github.com/symfony/ClassLoader">代码</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'class_loader', 'version': 'current'}) }}">文献</a></td>
+            </tr>
+            <tr>
+                <td><strong>Config</strong></td>
+                <td>帮助您找到、加载、混合、自动填充、验证设置数值。</td>
+                <td><a href="https://github.com/symfony/Config">代码</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'config/introduction', 'version': 'current'}) }}">文献</a></td>
+            </tr>
+            <tr>
+                <td><strong>命令行界面</strong></td>
+                <td>简化创建美观和可测试的命令行界面。</td>
+                <td><a href="https://github.com/symfony/Console">代码</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'console/introduction', 'version': 'current'}) }}">文献</a></td>
+            </tr>
+            <tr>
+                <td><strong>CssSelector</strong></td>
+                <td>将 CSS 选择器转换为 XPath 语言。</td>
+                <td><a href="https://github.com/symfony/CssSelector">代码</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'css_selector', 'version': 'current'}) }}">文献</a></td>
+            </tr>
+            <tr>
+                <td><strong>Debug</strong></td>
+                <td>提供工具来简化 PHP 代码的调试。</td>
+                <td><a href="https://github.com/symfony/Debug">代码</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'debug', 'version': 'current'}) }}">文献</a></td>
+            </tr>
+            <tr>
+                <td><strong>DependencyInjection</strong></td>
+                <td>让您能够以统一的、集中的方式创建程序中的对象。</td>
+                <td><a href="https://github.com/symfony/DependencyInjection">代码</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'dependency_injection/introduction', 'version': 'current'}) }}">文献</a></td>
+            </tr>
+            <tr>
+                <td><strong>DomCrawler</strong></td>
+                <td>简化 HTML 和 XML 文件内 DOM 的查找。</td>
+                <td><a href="https://github.com/symfony/DomCrawler">代码</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'dom_crawler', 'version': 'current'}) }}">文献</a></td>
+            </tr>
+            <tr>
+                <td><strong>EventDispatcher</strong></td>
+                <td>提供一款 观察者设计模式 (Observer design pattern) 的轻量代码。</td>
+                <td><a href="https://github.com/symfony/EventDispatcher">代码</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'event_dispatcher/introduction', 'version': 'current'}) }}">文献</a></td>
+            </tr>
+            <tr>
+                <td><strong>Filesystem</strong></td>
+                <td>提供文件系统的基本操作。</td>
+                <td><a href="https://github.com/symfony/Filesystem">代码</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'filesystem', 'version': 'current'}) }}">文献</a></td>
+            </tr>
+            <tr>
+                <td><strong>Finder</strong></td>
+                <td>提供易懂的流畅界面 (fluent interface)，来查找文件和文件夹。</td>
+                <td><a href="https://github.com/symfony/Finder">代码</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'finder', 'version': 'current'}) }}">文献</a></td>
+            </tr>
+            <tr>
+                <td><strong>Form</strong></td>
+                <td>&nbsp;</td>
+                <td><a href="https://github.com/symfony/Form">代码</a></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><strong>HttpFoundation</strong></td>
+                <td>为 HTTP 规格提供一个面向对象的界面。</td>
+                <td><a href="https://github.com/symfony/HttpFoundation">代码</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'http_foundation/introduction', 'version': 'current'}) }}">文献</a></td>
+            </tr>
+            <tr>
+                <td><strong>HttpKernel</strong></td>
+                <td>为创建灵活的、高速的、基于 HTTP 的框架提供基本元件。</td>
+                <td><a href="https://github.com/symfony/HttpKernel">代码</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'http_kernel/introduction', 'version': 'current'}) }}">文献</a></td>
+            </tr>
+            <tr>
+                <td><strong>Locale</strong></td>
+                <td>
+                    如果 intl 扩展不存在，此组件可提供相关的功能。此组件于版本 2.3 过时，请使用
+                    <a href="{{ doc_path({
+                        'version': 'current',
+                        'section': 'components',
+                        'page':    'intl'})
+                    }}">Intl</a> 组件。
+                </td>
+                <td><a href="https://github.com/symfony/Locale">代码</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'locale', 'version': '2.2'}) }}">文献</a></td>
+            </tr>
+            <tr>
+                <td><strong>Intl</strong></td>
+                <td>如果 intl 扩展不存在，此组件可提供相关的功能。</td>
+                <td><a href="https://github.com/symfony/Intl">代码</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'intl', 'version': 'current'}) }}">文献</a></td>
+            </tr>
+            <tr>
+                <td><strong>Icu</strong></td>
+                <td>
+                    包含某一版本的 ICU 库的资料。由
+                    Contains the data of the ICU library in a specific version. Use it through the API of the
+                    <a href="{{ doc_path({
+                        'version': 'current',
+                        'section': 'components',
+                        'page':    'intl'})
+                    }}">Intl</a> 组件调用。
+                </td>
+                <td><a href="https://github.com/symfony/Icu">代码</a></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><strong>OptionsResolver</strong></td>
+                <td>用设置数组来帮助您配置对象。</td>
+                <td><a href="https://github.com/symfony/OptionsResolver">代码</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'options_resolver', 'version': 'current'}) }}">文献</a></td>
+            </tr>
+            <tr>
+                <td><strong>Process</strong></td>
+                <td>以子流程执行指令。</td>
+                <td><a href="https://github.com/symfony/Process">代码</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'process', 'version': 'current'}) }}">文献</a></td>
+            </tr>
+            <tr>
+                <td><strong>PropertyAccess</strong></td>
+                <td>以存取简单字符串的方式来读取/储存对象或数组的数据。</td>
+                <td><a href="https://github.com/symfony/Process">代码</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'property_access/introduction', 'version': 'current'}) }}">文献</a></td>
+            </tr>
+            <tr>
+                <td><strong>Routing</strong></td>
+                <td>将 HTTP 访问转换为一组设置变量。</td>
+                <td><a href="https://github.com/symfony/Routing">代码</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'routing/introduction', 'version': 'current'}) }}">文献</a></td>
+            </tr>
+            <tr>
+                <td><strong>Security</strong></td>
+                <td>为建立复杂的授权系统提供设施。</td>
+                <td><a href="https://github.com/symfony/Security">代码</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'security/introduction', 'version': 'current'}) }}">文献</a></td>
+            </tr>
+            <tr>
+                <td><strong>Serializer</strong></td>
+                <td>将对象转换为某种格式的数据（XML、JSON、Yaml……） 或反向转换。</td>
+                <td><a href="https://github.com/symfony/Serializer">代码</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'serializer', 'version': 'current'}) }}">文献</a></td>
+            </tr>
+            <tr>
+                <td><strong>Stopwatch</strong></td>
+                <td>提供一种分析代码的功能。</td>
+                <td><a href="https://github.com/symfony/Stopwatch">代码</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'stopwatch', 'version': 'current'}) }}">文献</a></td>
+            </tr>
+            <tr>
+                <td><strong>Templating</strong></td>
+                <td>提供工具制作任何种类的模板系统。</td>
+                <td><a href="https://github.com/symfony/Templating">代码</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'templating', 'version': 'current'}) }}">文献</a></td>
+            </tr>
+            <tr>
+                <td><strong>Translation</strong></td>
+                <td>翻译组件</td>
+                <td><a href="https://github.com/symfony/Translation">代码</a></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><strong>Validator</strong></td>
+                <td>&nbsp;</td>
+                <td><a href="https://github.com/symfony/Validator">代码</a></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><strong>Yaml</strong></td>
+                <td>加载和导出 YAML 文件。</td>
+                <td><a href="https://github.com/symfony/Yaml">代码</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'yaml/introduction', 'version': 'current'}) }}">文献</a></td>
+            </tr>
+        </tbody>
+    </table>
+{% endblock %}
