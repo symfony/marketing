@@ -1,0 +1,42 @@
+{% block title 'Mi a Symfony' %}
+{% block keywords '' %}
+{% block description 'Mi a Symfony - Kezdd itt a rövid magyarázatért' %}
+
+{% block intro %}
+    <h2 class="title_05">A SYMFONY DIÓHÉJBAN</h2>
+    <p>
+        A Symfony egy PHP webfejlesztő keretrendszer.
+        <br />
+        Ez nem válaszolja meg a kérdésedet?
+        <br />
+        Oké, próbáljuk meg újra.
+        <br />
+        A Symfony egy PHP keretrendszer, egy filozófia, egy közösség - együtt, összhangban működve.
+    </p>
+{% endblock %}
+
+{% block more 'Tudj meg többet' %}
+
+{% block fiveminutes %}
+    <h2 class="title_05">A SYMFONY 5 PERCBEN</h2>
+    <p></p>
+    <ul class="list_04">
+        <li><a href="{{ marketing_path('why_use_a_framework') }}">Miért kéne keretrendszert használnom?</a></li>
+        <li><a href="{{ marketing_path('when_use_a_framework') }}">Mikor kéne keretrendszert használnom?</a></li>
+        <li><a href="{{ marketing_path('six_good_reasons') }}">6 jó ok, hogy Symfonyt használj</a></li>
+        <li><a href="{{ marketing_path('six_good_technical_reasons') }}">A Symfony technológiai előnyei 6 pontban</a></li>
+        <li><a href="{{ marketing_path('ten_criteria') }}">A megfelelő keretrendszer kiválasztásának 10 kritériuma</a></li>
+    </ul>
+{% endblock %}
+
+{% block elevatorpitches %}
+    <h2 class="title_05">„ELEVATOR PITCHES”</h2>
+    <p>Symfony2 összefoglaló...</p>
+    <ul class="list_04">
+        <li><a href="{{ marketing_path('explained_to_my_boss') }}">... a főnöknek</a></li>
+        <li><a href="{{ marketing_path('explained_to_a_developer') }}">... egy fejlesztőnek</a></li>
+        <li><a href="{{ marketing_path('explained_to_a_system_administrator') }}">... egy rendszeradminisztrátornak</a></li>
+        <li><a href="{{ marketing_path('explained_to_a_project_manager') }}">... egy projektmenedzsernek</a></li>
+        <li><a href="{{ marketing_path('explained_to_a_project_owner') }}">... egy projekttulajdonosnak</a></li>
+    </ul>
+{% endblock %}

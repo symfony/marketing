@@ -1,0 +1,55 @@
+{% block title 'Disztribúciók' %}
+{% block keywords '' %}
+{% block description '' %}
+
+{% block intro %}
+    <p>
+        A Symfonyval való első lépések megtételéhez a legegyszerűbb
+        letölteni és beállítani egy Symfony disztribúciót.
+    </p>
+{% endblock %}
+
+{% block body %}
+    <h2 class="title_09"><a name="what">Mi az a disztribúció?</a></h2>
+    <p>
+        Csakúgy mint a Linux disztribúciók, amelyek könnyű telepíthetőségükről
+        és a különböző célokra előre összeállított verzióikról
+        (pl. szerver verzió, asztali verzió stb.) ismertek,
+        egy Symfony disztribúció is előre meghatározott Symfony2
+        komponensekből épül fel, egy csomag-válogatásból,
+        egy könyvtárszerkezetből, egy kezdei konfigurációból,
+        és egy opcionális Web konfigurációs rendszerből.
+    </p>
+    <p>
+        Egyszerűen fogalmazva tehát ez egy egyszerű, könnyen telepíthető,
+        előre összeállított csomag a Symfonyval való első lépések megtételéhez.
+        Az első benyomás a számítástechnikai körökben is kulcsfontosságú...
+    </p>
+    <h2 class="title_09"><a name="why">Miért disztribúciók?</a></h2>
+    <p>
+        Egy-egy disztribúció a kiválasztott csomagjaival, szerkezetével és
+        kezdeti konfigurációjával egy-egy adott felhasználói igénynek
+        megfelelően lett kialakítva: például a könnyű megismertetéshez,
+        tartalomkezelő rendszerhez (CMS), vagy a teljes verzió
+        a keretrendszer teszteléséhez.
+    </p>
+    <p>
+        Mindazonáltal a versenytársaival összehasonlítva a Symfony erőssége
+        és innovációja abban rejlik, hogy minden módosítható: a disztribúció
+        egy csomag, de egy olyan, ami skálázhatóra lett tervezve, mintha csak
+        te készítetted volna. Adhatsz hozzá, vagy törölhetsz belőle csomagokat,
+        módosíthatod a kezdeti konfigurációt, a fájlstruktúrát stb.,
+        az igényeidnek és elképzeléseidnek megfelelően!
+    </p>
+    <h2 class="title_09"><a name="available">Elérhető disztibúciók</a></h2>
+    <p>
+        A <a href="{{ marketing_path('download') }}">Standard Kiadás</a> messze
+        a legjobb verzió az induláshoz. Tartalmazza a legtöbbször használt csomagokat
+        és egy egyszerű konfigurációval rendelkezik, amely a legtöbb projekthez használható.
+    </p>
+    <p>
+        A Standard Kiadáson alapuló
+        <a href="https://github.com/symfony/symfony-hello-world">Helló Világ Kiadás</a>
+        a legjobb arra, hogy megmérjük a keretrendszer nyers teljesítményét.
+    </p>
+{% endblock %}
