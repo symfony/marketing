@@ -1,0 +1,42 @@
+{% block title '什么是 Symfony' %}
+{% block keywords '' %}
+{% block description '什么是 Symfony - 如想获取简单的说明，请从这里开始' %}
+
+{% block intro %}
+    <h2 class="title_05">SYMFONY 一览</h2>
+    <p>
+        Symfony 是一个PHP网站开发框架。
+        <br />
+        这没能回答您的问题？
+        <br />
+        没问题，让我们再试一次。
+        <br />
+        Symfony 是一个PHP框架、一种哲理、一个社区 —— 一起完美地运作。
+    </p>
+{% endblock %}
+
+{% block more 'Learn more' %}
+
+{% block fiveminutes %}
+    <h2 class="title_05">SYMFONY 五分钟入门</h2>
+    <p></p>
+    <ul class="list_04">
+        <li><a href="{{ marketing_path('why_use_a_framework') }}">我为什么需要使用框架？</a></li>
+        <li><a href="{{ marketing_path('when_use_a_framework') }}">我在应在什么场合使用框架？</a></li>
+        <li><a href="{{ marketing_path('six_good_reasons') }}">六个使用 Symfony 的原因</a></li>
+        <li><a href="{{ marketing_path('six_good_technical_reasons') }}">以六个小教程了解 Symfony 技术相关的优势</a></li>
+        <li><a href="{{ marketing_path('ten_criteria') }}">选择正确框架的十个条件</a></li>
+    </ul>
+{% endblock %}
+
+{% block elevatorpitches %}
+    <h2 class="title_05">ELEVATOR PITCHES</h2>
+    <p>向……介绍 Symfony2</p>
+    <ul class="list_04">
+        <li><a href="{{ marketing_path('explained_to_my_boss') }}">我的上司</a></li>
+        <li><a href="{{ marketing_path('explained_to_a_developer') }}">开发者</a></li>
+        <li><a href="{{ marketing_path('explained_to_a_system_administrator') }}">系统管理员</a></li>
+        <li><a href="{{ marketing_path('explained_to_a_project_manager') }}">项目经理</a></li>
+        <li><a href="{{ marketing_path('explained_to_a_project_owner') }}">项目业主</a></li>
+    </ul>
+{% endblock %}

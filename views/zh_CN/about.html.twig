@@ -1,0 +1,40 @@
+{% block title '关于' %}
+{% block keywords '' %}
+{% block description '查阅框架的开发者以及他们的理念和目标' %}
+
+{% block intro %}
+    <p>
+        Symfony 是一个开源的PHP网站开发框架。它起初由互动广告公司 Sensio Labs 开发，
+        专用于为该公司的客户制作网站。于2005年，该公司以MIT软件授权，将 Symfony 发布于公众。
+        如今，Symfony 已成为了顶尖的PHP开发框架之一。
+        <br/>
+        不但有 Sensio Labs —— 另外还有一个 <a href="{{ path('contributors') }}">
+        巨大的网上社区</a>，为Symfony 提供了许多援助渠道：大量的文献、社区支持 (邮件列表、IRC，等等)、
+        专业人员的<a href="http://sensiolabs.com/en/support/sensiolabs_support.html">支持</a> (顾问、
+        <a href="http://trainings.sensiolabs.com/">培训</a>，等等)。
+        <br/>
+        自从2.0版发布以来，已有数百网站使用 Symfony 作为开发平台，其中一些知名的网站有：Yahoo!、Dailymotion、Opensky.com、Exercise.com、phpBB、以及 Drupal。
+    </p>
+    <ul class="list_04">
+        <li><div class="link_01"><a href="{{ marketing_path('what_is_symfony') }}">什么是 Symfony?</a></div></li>
+    </ul>
+{% endblock %}
+
+{% block mission %}
+    <h2 class="title_05">声明</h2>
+    <p>Symfony 是完全免费的，软件以 <a href="{{ path('license') }}">MIT</a> 授权。</p>
+{%  endblock %}
+
+{% block sensiolabs %}
+    <h2 class="title_05">SENSIO LABS</h2>
+    <p>
+        自从1988年，Sensio Labs 就开始了提倡开源软件的运动 —— 
+        通过提供高品质的网络程序的开发、培训和顾问。
+        Sensio Labs 同时也为多个大型的开源项目提供支持。
+    </p>
+    <ul class="list_04">
+        <li><div class="link_01"><a href="http://sensiolabs.com/a_propos/nous_sommes_open.html">Sensio Labs 的资料和数据</a></div></li>
+        <li><div class="link_01"><a href="http://sensiolabs.com/services/nos_partis_pris.html">就业</a></div></li>
+        <li><div class="link_01"><a href="http://www.extreme-sensio.com/showcase/">客户</a></div></li>
+    </ul>
+{% endblock %}
