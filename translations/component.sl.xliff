@@ -1,0 +1,311 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+
+            <trans-unit id="1">
+                <source>browserkit.summary</source>
+                <target>
+                    BrowserKit simulira obnašanje spletnega brskalnika.
+                </target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>browserkit.description</source>
+                <target>
+                    Komponenta samo zagotavlja abstraktnega klienta in ne zagotavlja nobenega "privzetega" ozadja za
+                    HTTP plast.
+                </target>
+            </trans-unit>
+
+            <trans-unit id="3">
+               <source>console.summary</source>
+               <target>
+                    Console komponenta poenostavlja izdelavo lepih in testirnih vmesnikov za ukazno vrstico.
+               </target>
+            </trans-unit>
+            <trans-unit id="4">
+               <source>console.description</source>
+               <target>
+                    Console komponenta vam omogoča izdelavo ukazov ukazne vrstice. Vaši konzolni ukazi so lahko
+                    uporabljeni za kakršnakoli ponavljajoča se opravila, kot so cronjob-i, uvažanja, ali druge serijske naloge.
+               </target>
+            </trans-unit>
+            <trans-unit id="5">
+               <source>classloader.summary</source>
+               <target>
+                    Naloži vaše projektne razrede avtomatsko, če sledijo nekaterim standardnim PHP konvencijam.
+               </target>
+            </trans-unit>
+            <trans-unit id="6">
+               <source>classloader.description</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="7">
+               <source>config.summary</source>
+               <target>
+                   Pomaga vam najti, naložiti, kombinirati, avtomatsko izpolniti in preveriti vrednosti nastavitev.
+               </target>
+            </trans-unit>
+            <trans-unit id="8">
+               <source>config.description</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="9">
+               <source>cssselector.summary</source>
+               <target>
+                   Pretvori CSS izbirnike v XPath izraze.
+               </target>
+            </trans-unit>
+            <trans-unit id="10">
+               <source>cssselector.description</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="11">
+               <source>debug.summary</source>
+               <target>
+                    Ponuja orodja za enostavnejše razhroščevanje PHP kode.
+               </target>
+            </trans-unit>
+            <trans-unit id="12">
+               <source>debug.description</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="13">
+               <source>dependencyinjection.summary</source>
+               <target>
+                   Omogoča vam standardizacijo in centralizacijo načina, kako so objekti zgrajeni v vaši aplikaciji.
+               </target>
+            </trans-unit>
+            <trans-unit id="14">
+               <source>dependencyinjection.description</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="15">
+               <source>domcrawler.summary</source>
+               <target>
+                   Poenostavi DOM navigacijo za HTML in XML dokumente.
+               </target>
+            </trans-unit>
+            <trans-unit id="16">
+               <source>domcrawler.description</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="17">
+               <source>eventdispatcher.summary</source>
+               <target>
+                   Izvaja lahko verzijo Observer načrtovalskega vzorca.
+               </target>
+            </trans-unit>
+            <trans-unit id="18">
+               <source>eventdispatcher.description</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="19">
+               <source>filesystem.summary</source>
+               <target>
+                   Najde datoteke in direktorije preko intuitivnega tekočega vmesnika.
+               </target>
+            </trans-unit>
+            <trans-unit id="20">
+               <source>filesystem.description</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="21">
+               <source>form.summary</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="22">
+               <source>form.description</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="23">
+               <source>httpfoundation.summary</source>
+               <target>
+                   Definira objektno orientirano plast za HTTP specifikacijo.
+               </target>
+            </trans-unit>
+            <trans-unit id="24">
+               <source>httpfoundation.description</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="25">
+               <source>httpkernel.summary</source>
+               <target>
+                   Ponuja gradnjo blokov za izdelavo fleksibilnih in hitrih ogrodij osnovanih na HTTP.
+               </target>
+            </trans-unit>
+            <trans-unit id="26">
+               <source>httpkernel.description</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="27">
+               <source>locale.summary</source>
+               <target>
+                   Ponuja nadomestno kodo za ravnanje s primeri, ko intl razširitev ni na voljo. Ta komponenta je opuščena od 2.3, namesto nje uporabite Intl komponento.
+               </target>
+            </trans-unit>
+            <trans-unit id="28">
+               <source>locale.description</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="29">
+               <source>icu.summary</source>
+               <target>
+                   Vključuje podatke ICU knjižnice v specifični verziji. Uporabite jo preko API-ja Intl komponente.
+               </target>
+            </trans-unit>
+            <trans-unit id="30">
+               <source>icu.description</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="31">
+               <source>optionsresolver.summary</source>
+               <target>
+                    Pomaga vam nastaviti objekte z opcijo polj.
+               </target>
+            </trans-unit>
+            <trans-unit id="32">
+               <source>optionsresolver.description</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="33">
+               <source>process.summary</source>
+               <target>
+                   Izvede ukaze v podprocesih
+               </target>
+            </trans-unit>
+            <trans-unit id="34">
+               <source>process.description</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="35">
+               <source>propertyaccess.summary</source>
+               <target>
+                   Ponuja funkcijo za branje in pisanje iz/v objekt ali polje z uporabo enostavnega zapisa niza.
+               </target>
+            </trans-unit>
+            <trans-unit id="36">
+               <source>propertyaccess.description</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="37">
+               <source>routing.summary</source>
+               <target>
+                   Preslika HTTP zahtevek v skupek spremenljivk nastavitev.
+               </target>
+            </trans-unit>
+            <trans-unit id="38">
+               <source>routing.description</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="39">
+               <source>security.summary</source>
+               <target>
+                   Ponuja intrastrukturo za sofisticirane sisteme avtorizacije.
+               </target>
+            </trans-unit>
+            <trans-unit id="40">
+               <source>security.description</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="41">
+               <source>stopwatch.summary</source>
+               <target>
+                   Ponuja način profiliranja kode.
+               </target>
+            </trans-unit>
+            <trans-unit id="42">
+               <source>stopwatch.description</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="43">
+               <source>templating.summary</source>
+               <target>
+                   Ponuja vsa orodja, ki so potrebna za gradnjo kakršnega koli sistema predlog.
+               </target>
+            </trans-unit>
+            <trans-unit id="44">
+               <source>templating.description</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="45">
+               <source>translation.summary</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="46">
+               <source>translation.description</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="47">
+               <source>validator.summary</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="48">
+               <source>validator.description</source>
+               <target>
+
+               </target>
+            </trans-unit>
+            <trans-unit id="49">
+               <source>yaml.summary</source>
+               <target>
+                    Naloži in odloži YAML datoteke.
+               </target>
+            </trans-unit>
+            <trans-unit id="50">
+               <source>yaml.description</source>
+               <target>
+
+               </target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
