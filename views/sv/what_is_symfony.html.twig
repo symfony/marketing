@@ -1,0 +1,42 @@
+{% block title 'Vad är Symfony' %}
+{% block keywords '' %}
+{% block description 'Vad är Symfony - Börja här om du vill ha en kort förklaring' %}
+
+{% block intro %}
+    <h2 class="title_05">KORT OM SYMFONY</h2>
+    <p>
+        Symfony är ett PHP-ramverk för webbutveckling.
+        <br />
+        Svarar inte det på din fråga?
+        <br />
+        Okej, då provar vi igen.
+        <br />
+        Symfony är ett PHP-ramverk, en filosofi och en gemenskap - som samarbetar i harmoni.
+    </p>
+{% endblock %}
+
+{% block more 'Lär dig mer' %}
+
+{% block fiveminutes %}
+    <h2 class="title_05">SYMFONY PÅ 5 MINUTER</h2>
+    <p></p>
+    <ul class="list_04">
+        <li><a href="{{ marketing_path('why_use_a_framework') }}">Varför ska jag använda ett ramverk?</a></li>
+        <li><a href="{{ marketing_path('when_use_a_framework') }}">När ska jag använda ett ramverk?</a></li>
+        <li><a href="{{ marketing_path('six_good_reasons') }}">6 bra skäl att använda Symfony</a></li>
+        <li><a href="{{ marketing_path('six_good_technical_reasons') }}">Symfonys tekniska fördelar i 6 enkla lektioner</a></li>
+        <li><a href="{{ marketing_path('ten_criteria') }}">10 kriterier för att välja rätt ramverk</a></li>
+    </ul>
+{% endblock %}
+
+{% block elevatorpitches %}
+    <h2 class="title_05">HISSTAL</h2>
+    <p>Symfony2 förklarat...</p>
+    <ul class="list_04">
+        <li><a href="{{ marketing_path('explained_to_my_boss') }}">... för min chef</a></li>
+        <li><a href="{{ marketing_path('explained_to_a_developer') }}">... för en utvecklare</a></li>
+        <li><a href="{{ marketing_path('explained_to_a_system_administrator') }}">... för en systemadministratör</a></li>
+        <li><a href="{{ marketing_path('explained_to_a_project_manager') }}">... för en projektledare</a></li>
+        <li><a href="{{ marketing_path('explained_to_a_project_owner') }}">... för en projektägare</a></li>
+    </ul>
+{% endblock %}
