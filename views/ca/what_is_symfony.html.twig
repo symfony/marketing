@@ -1,0 +1,42 @@
+{% block title 'Què és Symfony' %}
+{% block keywords '' %}
+{% block description 'Què és Symfony - Comença aquí si vols una breu explicació' %}
+
+{% block intro %}
+    <h2 class="title_05">SYMFONY D'UN COP D'ULL</h2>
+    <p>
+        Symfony és un Framework per desenvolupar aplicacions web en PHP.
+        <br />
+        Això no respon la teva pregunta?
+        <br />
+        Ok, intentem novament.
+        <br />
+        Symfony és un Framework PHP, una filosofia, i una comunitat - tots treballant conjuntament en harmonia.
+    </p>
+{% endblock %}
+
+{% block more 'Aprende más' %}
+
+{% block fiveminutes %}
+    <h2 class="title_05">SYMFONY EN 5 MINUTS</h2>
+    <p></p>
+    <ul class="list_04">
+        <li><a href="{{ marketing_path('why_use_a_framework') }}">Per què hauria d'usar un framework?</a></li>
+        <li><a href="{{ marketing_path('when_use_a_framework') }}">Quan hauria d'usar un framework?</a></li>
+        <li><a href="{{ marketing_path('six_good_reasons') }}">6 bones raons per usar Symfony</a></li>
+        <li><a href="{{ marketing_path('six_good_technical_reasons') }}">Els beneficis tecnològics d'usar Symfony en 6 lliçons fàcils</a></li>
+        <li><a href="{{ marketing_path('ten_criteria') }}">10 criteris per escollir el framework correcte.</a></li>
+    </ul>
+{% endblock %}
+
+{% block elevatorpitches %}
+    <h2 class="title_05">ELEVATOR PITCHES</h2>
+    <p>Explicant Symfony2...</p>
+    <ul class="list_04">
+        <li><a href="{{ marketing_path('explained_to_my_boss') }}">... al meu cap</a></li>
+        <li><a href="{{ marketing_path('explained_to_a_developer') }}">... a un desenvolupador</a></li>
+        <li><a href="{{ marketing_path('explained_to_a_system_administrator') }}">... a un administrador de sistemes</a></li>
+        <li><a href="{{ marketing_path('explained_to_a_project_manager') }}">... al gerent d'un projecte</a></li>
+        <li><a href="{{ marketing_path('explained_to_a_project_owner') }}">... a l'amo d'un projecte</a></li>
+    </ul>
+{% endblock %}
