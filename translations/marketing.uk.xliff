@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="uk" datatype="plaintext" original="file.ext">
+        <body>
+            <!--
+            Будьте уважні під час перекладу!
+            Увесь текст з цього файлу є пунктами та підпунктами меню,
+            тож занадто великий текст може "зруйнувати" розмітку на сайті.
+            Приблизні обмеження довжини рядків:
+              - близько 15-20 символів для пунктів меню (id = "x")
+              - близько 25-30 символів для підпунктів меню (id = "xx")
+            -->
+
+            <!-- What is Symfony -->
+
+            <trans-unit id="1">
+                <source>menu.what_is_symfony</source>
+                <target>Що Таке Symfony?</target>
+            </trans-unit>
+
+            <trans-unit id="11">
+                <source>menu.what_is_symfony.at_a_glance</source>
+                <target>Symfony в цифрах</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>menu.what_is_symfony.in_5_minutes</source>
+                <target>Symfony за 5 Хвилин</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>menu.what_is_symfony.elevator_pitches</source>
+                <target>Доповідь Для Ліфта</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>menu.what_is_symfony.case_studies</source>
+                <target>Приклади Використання</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>menu.what_is_symfony.versioning_policy</source>
+                <target>Політика Релізів</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>menu.what_is_symfony.long_term_support</source>
+                <target>Довготиривала Підтримка</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>menu.what_is_symfony.security_policy</source>
+                <target>Політика Безпеки</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>menu.what_is_symfony.license</source>
+                <target>Ліцензія</target>
+            </trans-unit>
+
+            <!-- Get Started -->
+
+            <trans-unit id="2">
+                <source>menu.get_started</source>
+                <target>Початок роботи</target>
+            </trans-unit>
+
+            <trans-unit id="21">
+                <source>menu.get_started.download_symfony</source>
+                <target>Завантажити Symfony</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>menu.get_started.symfony_roadmap</source>
+                <target>План Розробки</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>menu.get_started.symfony_distributions</source>
+                <target>Дистрибутиви Symfony</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>menu.get_started.symfony_components</source>
+                <target>Компоненти Symfony</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>menu.get_started.quick_tour</source>
+                <target>Швидкий Тур</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>menu.get_started.symfony_legacy</source>
+                <target>symfony1 Legacy</target>
+            </trans-unit>
+
+            <!-- Documentation -->
+
+            <trans-unit id="3">
+                <source>menu.documentation</source>
+                <target>Документація</target>
+            </trans-unit>
+
+            <!-- Community -->
+
+            <trans-unit id="4">
+                <source>menu.community</source>
+                <target>Спільнота</target>
+            </trans-unit>
+
+            <trans-unit id="41">
+                <source>menu.community.sensiolabs_connect</source>
+                <target>SensioLabs Connect</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>menu.community.irc_channel</source>
+                <target>IRC Канал</target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>menu.community.mailing_lists</source>
+                <target>Списки Розсилки</target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source>menu.community.forum</source>
+                <target>Форум</target>
+            </trans-unit>
+            <trans-unit id="45">
+                <source>menu.community.how_to_be_involved</source>
+                <target>Як взяти участь</target>
+            </trans-unit>
+
+            <!-- Services -->
+
+            <trans-unit id="5">
+                <source>menu.services</source>
+                <target>Послуги</target>
+            </trans-unit>
+
+            <!-- News -->
+
+            <trans-unit id="6">
+                <source>menu.news</source>
+                <target>Новини</target>
+            </trans-unit>
+
+            <!-- Avout -->
+
+            <trans-unit id="7">
+                <source>menu.about</source>
+                <target>Про Нас</target>
+            </trans-unit>
+
+            <trans-unit id="71">
+                <source>menu.about.sensiolabs</source>
+                <target>SensioLabs</target>
+            </trans-unit>
+            <trans-unit id="72">
+                <source>menu.about.contributors</source>
+                <target>Автори</target>
+            </trans-unit>
+            <trans-unit id="73">
+                <source>menu.about.tradmeark_logo_policy</source>
+                <target>Торгівельна Марка і Логотип</target>
+            </trans-unit>
+            <trans-unit id="74">
+                <source>menu.about.logo</source>
+                <target>Логотип</target>
+            </trans-unit>
+            <trans-unit id="75">
+                <source>menu.about.jobs</source>
+                <target>Робота</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
