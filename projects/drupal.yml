@@ -1,0 +1,14 @@
+name: Drupal
+type: highlighted
+url: http://drupal.org
+dependencies: []
+components:
+    - ClassLoader
+    - DependencyInjection
+    - EventDispatcher
+    - HttpFoundation
+    - HttpKernel
+    - Routing
+    - Serializer
+    - Validator
+    - Yaml
