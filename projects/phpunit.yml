@@ -1,0 +1,5 @@
+name: PHPUnit
+url: http://phpunit.de/manual/‎
+dependencies: []
+components:
+    - Yaml

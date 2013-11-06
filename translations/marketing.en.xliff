@@ -81,6 +81,10 @@
                 <source>menu.get_started.symfony_legacy</source>
                 <target>symfony1 Legacy</target>
             </trans-unit>
+            <trans-unit id="27">
+                <source>menu.get_started.symfony_projects</source>
+                <target>Projects using Symfony</target>
+            </trans-unit>
 
             <!-- Documentation -->
 

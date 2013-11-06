@@ -1,0 +1,5 @@
+name: Sylius
+url: http://sylius.org
+dependencies:
+    - symfonyfs
+components: []

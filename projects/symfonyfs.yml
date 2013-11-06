@@ -1,0 +1,32 @@
+name: Symfony Full Stack
+url: http://symfony.com
+dependencies: []
+components:
+    - BrowserKit
+    - ClassLoader
+    - Config
+    - Console
+    - CssSelector
+    - Debug
+    - DependencyInjection
+    - DomCrawler
+    - EventDispatcher
+    - Filesystem
+    - Finder
+    - Form
+    - HttpFoundation
+    - HttpKernel
+    - Locale
+    - Intl
+    - Icu
+    - OptionsResolver
+    - Process
+    - PropertyAccess
+    - Routing
+    - Security
+    - Serializer
+    - Stopwatch
+    - Templating
+    - Translation
+    - Validator
+    - Yaml

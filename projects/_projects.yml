@@ -1,0 +1,31 @@
+highlighted:
+    - drupal
+    - phpbb
+    - laravel
+    - ezpublish
+    - symfonyfs
+major:
+    - phpunit
+    - orocrm
+    - doctrine
+    #- midgard
+    - behat
+    - sylius
+    - sonataadmin
+    - zikula
+    - symfonycmf
+    #- jackalope
+    - akeneo
+    - shopware
+    - propel
+minor:
+    - thelia
+    - flow3
+    - phpdocumentor
+    - guzzle
+    - vespolina
+    - easybook
+    - phpmyfaq
+    - ppi
+    - proem
+    - sulucmf

@@ -1,0 +1,5 @@
+name: OroCRM
+url: http://orocrm.com
+dependencies:
+    - symfonyfs
+components: []

@@ -1,0 +1,5 @@
+name: eZ Publish
+url: http://ez.no
+dependencies:
+    - symfonyfs
+components: []

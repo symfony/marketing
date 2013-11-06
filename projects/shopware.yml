@@ -1,0 +1,7 @@
+name: Shopware
+url: http://shopware.de
+dependencies: []
+components:
+    - Config
+    - Routing
+    - Yaml

@@ -1,0 +1,5 @@
+name: Zikula
+url: http://zikula.org
+dependencies:
+    - symfonyfs
+components: []

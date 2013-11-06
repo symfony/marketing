@@ -1,0 +1,12 @@
+name: Behat
+url: http://behat.org
+dependencies: []
+components:
+    - ClassLoader
+    - Config
+    - Console
+    - DependencyInjection
+    - EventDispatcher
+    - Finder
+    - Translation
+    - Yaml

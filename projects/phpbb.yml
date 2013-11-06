@@ -1,0 +1,10 @@
+name: phpBB
+url: http://phpbb.com
+dependencies: []
+components:
+    - Config
+    - DependencyInjection
+    - EventDispatcher
+    - HttpKernel
+    - Routing
+    - Yaml
