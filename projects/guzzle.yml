@@ -1,0 +1,6 @@
+name: Guzzle
+url: http://guzzlephp.org
+dependencies: []
+components:
+    - ClassLoader
+    - EventDispatcher
