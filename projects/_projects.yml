@@ -1,4 +1,5 @@
 highlighted:
+    - symfony
     - drupal
     - phpbb
     - laravel
@@ -19,7 +20,6 @@ major:
     - sulucmf
     - easybook
     - symfonycmf
-    - symfonyfullstack
     - jackalope
     - phpdocumentor
     - akeneo
