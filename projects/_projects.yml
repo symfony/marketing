@@ -5,5 +5,27 @@ highlighted:
     - ez
 major:
     - phpunit
+    - orocrm
+    - propel
+    - doctrine
+    #- midgard
+    - behat
+    - guzzle
+    - sylius
+    - vespolina
+    - sonataadmin
+    - zikula
+    - thelia
+    - sulucmf
+    - easybook
+    - symfonycmf
+    - symfonyfullstack
+    - jackalope
+    - phpdocumentor
+    - akeneo
+    - shopware
+    - flow3
 minor:
     - phpmyfaq
+    - ppi
+    - proemframework
