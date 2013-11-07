@@ -2,6 +2,7 @@ highlighted:
     - drupal
     - phpbb
     - laravel
+    - ez
 major:
     - phpunit
 minor:
