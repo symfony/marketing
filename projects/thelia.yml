@@ -1,0 +1,19 @@
+name: Thelia
+url: http://thelia.net
+dependencies: []
+components:
+    - ClassLoader
+    - Config
+    - Console
+    - DependencyInjection
+    - EventDispatcher
+    - Filesystem
+    - Finder
+    - Form
+    - HttpKernel
+    - Icu
+    - Routing
+    - Serializer
+    - Translation
+    - Validator
+    - Yaml
