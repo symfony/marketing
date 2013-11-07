@@ -1,0 +1,16 @@
+name: Easybook
+url: http://easybook-project.org
+dependencies: []
+components:
+    - BrowserKit
+    - ClassLoader
+    - Config
+    - Console
+    - CssSelector
+    - Finder
+    - Form
+    - Process
+    - Security
+    - Translation
+    - Validator
+    - Yaml

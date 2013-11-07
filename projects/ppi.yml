@@ -1,0 +1,11 @@
+name: PPI Framework
+url: http://ppi.io
+dependencies: []
+components:
+    - ClassLoader
+    - Config
+    - Console
+    - HttpFoundation
+    - Routing
+    - Templating
+    - Yaml
