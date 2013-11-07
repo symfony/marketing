@@ -1,0 +1,8 @@
+highlighted:
+    - drupal
+    - phpbb
+    - laravel
+major:
+    - phpunit
+minor:
+    - phpmyfaq

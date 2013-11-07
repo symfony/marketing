@@ -1,0 +1,14 @@
+name: laravel
+url: http://laravel.com
+dependencies: []
+components:
+    - BrowserKit
+    - Console
+    - CssSelector
+    - Debug
+    - DomCrawler
+    - Finder
+    - HttpFoundation
+    - HttpKernel
+    - PropertyAccess
+    - Translation
