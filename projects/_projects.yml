@@ -20,7 +20,7 @@ major:
     - sulucmf
     - easybook
     - symfonycmf
-    - jackalope
+    #- jackalope
     - phpdocumentor
     - akeneo
     - shopware
@@ -28,4 +28,4 @@ major:
 minor:
     - phpmyfaq
     - ppi
-    - proemframework
+    - proem

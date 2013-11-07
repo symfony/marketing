@@ -1,0 +1,7 @@
+name: phpDocumentor
+url: http://phpdoc.org
+dependencies: []
+components:
+    - Config
+    - EventDispatcher
+    - Stopwatch

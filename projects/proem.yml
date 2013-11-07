@@ -1,0 +1,6 @@
+name: Proem Framework
+url: http://proemframework.org
+dependencies: []
+components:
+    - HttpFoundation
+    - HttpKernel
