@@ -1,0 +1,12 @@
+name: Sonata Admin
+url: http://sonata-project.org
+dependencies: []
+components:
+    - ClassLoader
+    - Config
+    - Console
+    - Form
+    - HttpFoundation
+    - Routing
+    - Validator
+    - Yaml
