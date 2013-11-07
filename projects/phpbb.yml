@@ -1,13 +1,10 @@
-name: Drupal
-url: http://drupal.org
+name: phpbb
+url: http://phpbb.com
 dependencies: []
 components:
-    - ClassLoader
+    - Config
     - DependencyInjection
     - EventDispatcher
-    - HttpFoundation
     - HttpKernel
     - Routing
-    - Serializer
-    - Validator
     - Yaml

@@ -1,0 +1,6 @@
+name: phpbb
+url: http://phpmyfaq.de
+dependencies: []
+components:
+    - ClassLoader
+    - HttpFoundation
