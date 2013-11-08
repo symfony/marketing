@@ -1,9 +1,9 @@
 highlighted:
-    - symfony
+    - symfonyfs
     - drupal
     - phpbb
     - laravel
-    - ez
+    - ezpublish
 major:
     - phpunit
     - orocrm
