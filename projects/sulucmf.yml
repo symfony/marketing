@@ -1,5 +1,5 @@
 name: Sulu CMF
 url: http://sulu.io
 dependencies:
-    - symfony
+    - symfonyfs
 components: []
