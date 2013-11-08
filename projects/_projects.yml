@@ -5,6 +5,11 @@ highlighted:
     - ezpublish
     - symfonyfs
 major:
+    - silex
+    - assetic
+    - goutte
+    - sami
+    - sismo
     - phpunit
     - orocrm
     - doctrine
