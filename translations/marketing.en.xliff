@@ -83,7 +83,7 @@
             </trans-unit>
             <trans-unit id="27">
                 <source>menu.get_started.symfony_projects</source>
-                <target>Symfony Projects</target>
+                <target>Projects using Symfony</target>
             </trans-unit>
 
             <!-- Documentation -->
