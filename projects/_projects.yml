@@ -28,9 +28,12 @@ minor:
     - flow3
     - phpdocumentor
     - guzzle
+    - bolt
     - vespolina
     - easybook
     - phpmyfaq
     - ppi
     - proem
     - sulucmf
+    - pagekit
+    - initcms

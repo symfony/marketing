@@ -1,0 +1,12 @@
+name: Bolt
+url: http://bolt.cm
+dependencies: []
+components:
+    - Config
+    - Console
+    - Filesystem
+    - Finder
+    - Form
+    - Translation
+    - Validator
+    - Yaml

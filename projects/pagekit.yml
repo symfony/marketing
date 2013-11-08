@@ -1,0 +1,7 @@
+name: Pagekit
+url: http://pagekit.com
+dependencies: []
+components:
+    - HttpFoundation
+    - HttpKernel
+    - Routing
