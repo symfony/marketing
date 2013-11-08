@@ -1,0 +1,5 @@
+name: Sonata Project
+url: http://sonata-project.org
+dependencies:
+    - symfonyfs
+components: []
