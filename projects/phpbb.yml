@@ -8,3 +8,10 @@ components:
     - HttpKernel
     - Routing
     - Yaml
+    - Debug
+    - Filesystem
+    - Browser Kit
+    - CSS Selector
+    - DOM Crawler
+    - Finder
+    - Process
