@@ -1,5 +1,5 @@
 name: Symfony CMF
 url: http://cmf.symfony.com
 dependencies:
-    - symfony
+    - symfonyfs
 components: []

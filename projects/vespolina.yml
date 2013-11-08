@@ -1,5 +1,5 @@
 name: Vespolina
 url: http://vespolina.org
 dependencies:
-    - symfony
+    - symfonyfs
 components: []

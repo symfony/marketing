@@ -1,5 +1,5 @@
 name: Akeneo PIM
 url: http://akeneo.com
 dependencies:
-    - symfony
+    - symfonyfs
 components: []
