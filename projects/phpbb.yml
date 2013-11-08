@@ -10,8 +10,8 @@ components:
     - Yaml
     - Debug
     - Filesystem
-    - Browser Kit
-    - CSS Selector
-    - DOM Crawler
+    - BrowserKit
+    - CssSelector
+    - DomCrawler
     - Finder
     - Process
