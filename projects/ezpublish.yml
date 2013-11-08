@@ -1,5 +1,5 @@
 name: eZ Publish
-url: http://ez.co
+url: http://ez.no
 dependencies:
     - symfony
 components: []
