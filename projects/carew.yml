@@ -1,0 +1,12 @@
+name: Carew
+url: http://carew.github.io
+dependencies: []
+components:
+    - Console
+    - CssSelector
+    - Debug
+    - DomCrawler
+    - EventDispatcher
+    - Filesystem
+    - Finder
+    - Yaml
