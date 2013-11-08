@@ -1,0 +1,21 @@
+name: Silex
+url: http://silex.sensiolabs.org
+dependencies: []
+components:
+    - BrowserKit
+    - Config
+    - CssSelector
+    - Debug
+    - DomCrawler
+    - EventDispatcher
+    - Finder
+    - Form
+    - HttpFoundation
+    - HttpKernel
+    - Locale
+    - OptionsResolver
+    - Process
+    - Routing
+    - Security
+    - Serializer
+    - Validator
