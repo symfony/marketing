@@ -16,7 +16,7 @@ major:
     #- midgard
     - behat
     - sylius
-    - sonataadmin
+    - sonataproject
     - zikula
     - symfonycmf
     #- jackalope
