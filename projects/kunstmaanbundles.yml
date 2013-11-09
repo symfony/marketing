@@ -1,0 +1,5 @@
+name: Kunstmaan Bundles
+url: http://bundles.kunstmaan.be
+dependencies:
+    - symfonyfs
+components: []
