@@ -5,7 +5,7 @@
             <!--
                 Please be careful of the size of the target messages.
                 Remember that these are menu & submenu labels and they will break the page if too big.
-                Based on existing pages, we can deduct that maximùum length should be
+                Based on existing pages, we can deduct that maximum length should be
                     - approximately 15-20 characters for menu labels (id="x")
                     - approximately 25-30 characters for sub-menu labels (id="xx")
             -->
@@ -131,7 +131,7 @@
                 <target>Neuigkeiten</target>
             </trans-unit>
 
-            <!-- Avout -->
+            <!-- About -->
 
             <trans-unit id="7">
                 <source>menu.about</source>
