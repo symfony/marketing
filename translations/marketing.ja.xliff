@@ -131,7 +131,7 @@
                 <target>ニュース</target>
             </trans-unit>
 
-            <!-- Avout -->
+            <!-- About -->
 
             <trans-unit id="7">
                 <source>menu.about</source>
