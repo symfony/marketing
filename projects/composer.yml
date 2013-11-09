@@ -2,6 +2,6 @@ name: Composer
 url: http://getcomposer.org
 dependencies: []
 components:
-    - console
-    - finder
-    - process
+    - Console
+    - Finder
+    - Process
