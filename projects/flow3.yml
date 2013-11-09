@@ -1,5 +1,0 @@
-name: Typo3 Flow
-url: http://flow.typo3.org
-dependencies: []
-components:
-    - Yaml
