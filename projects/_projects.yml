@@ -3,6 +3,7 @@ highlighted:
     - phpbb
     - laravel
     - ezpublish
+    - composer
     - symfonyfs
 major:
     - silex
