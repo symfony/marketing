@@ -1,0 +1,5 @@
+name: PuPHPet
+url: https://puphpet.com
+dependencies:
+    - symfonyfs
+components: []
