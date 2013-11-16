@@ -1,0 +1,8 @@
+name: phpspec
+url: http://www.phpspec.net/
+dependencies: []
+components:
+    - Console
+    - EventDispatcher
+    - Finder
+    - Yaml

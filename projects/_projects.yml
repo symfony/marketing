@@ -28,6 +28,7 @@ minor:
     - thelia
     - sculpin
     - flow
+    - phpspec
     - phpdocumentor
     - guzzle
     - bolt
