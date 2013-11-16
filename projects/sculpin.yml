@@ -1,0 +1,14 @@
+name: Sculpin
+url: https://sculpin.io
+dependencies: []
+components:
+    - ClassLoader
+    - Config
+    - Console
+    - DependencyInjection
+    - EventDispatcher
+    - Filesystem
+    - Finder
+    - HttpKernel
+    - Process
+    - Yaml

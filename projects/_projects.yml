@@ -26,6 +26,7 @@ major:
     - propel
 minor:
     - thelia
+    - sculpin
     - flow
     - phpdocumentor
     - guzzle
