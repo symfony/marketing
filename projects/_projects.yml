@@ -4,6 +4,7 @@ highlighted:
     - laravel
     - ezpublish
     - composer
+    - magento
     - symfonyfs
 major:
     - silex
