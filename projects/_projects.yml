@@ -27,6 +27,7 @@ major:
     - propel
 minor:
     - thelia
+    - kunstmaanbundles
     - sculpin
     - flow
     - phpspec
