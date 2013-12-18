@@ -1,0 +1,5 @@
+name: Piwik
+url: http://piwik.org/
+dependencies: []
+components:
+    - Console
