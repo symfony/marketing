@@ -7,8 +7,12 @@ components:
     - CssSelector
     - Debug
     - DomCrawler
+    - EventDispatcher
+    - Filesystem
     - Finder
     - HttpFoundation
     - HttpKernel
+    - Process
     - PropertyAccess
+    - Routing
     - Translation
