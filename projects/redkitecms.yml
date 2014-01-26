@@ -1,0 +1,5 @@
+name: RedKite CMS
+url: http://redkite-labs.com
+dependencies:
+    - symfonyfs
+components: []
