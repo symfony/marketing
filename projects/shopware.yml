@@ -3,5 +3,12 @@ url: http://shopware.de
 dependencies: []
 components:
     - Config
+    - Console
+    - DependencyInjection
+    - Finder
+    - Filesystem
+    - HttpFoundation
+    - HttpKernel
     - Routing
+    - Validator
     - Yaml
