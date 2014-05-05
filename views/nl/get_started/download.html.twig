@@ -1,0 +1,98 @@
+{% block title 'Download' %}
+{% block keywords '' %}
+{% block description 'Downloads, kom in contact met de community, lees artikelen en vind trainingen' %}
+
+{% block intro %}
+    <h2>Symfony Standard Edition</h2>
+    <p>
+        De Symfony Standard Editie is de beste distributie om te gebruiken
+        bij het starten van een nieuw project. Het bevat de meest
+        gangbare bundles en heeft een simpel configuratiesysteem.
+    </p>
+{% endblock %}
+
+{% block downloadnow 'Download nu' %}
+{% block download 'Download' %}
+{% block previousversion 'Download vorige stabiele versies:' %}
+{% block specificversion 'Kies een specifieke versie:' %}
+
+{% block console %}
+    <div style="padding-bottom: 20px">
+        <h3 class="title_05">Comfortabel met de console?</h3>
+        <p style="padding-bottom: 0">
+            Installeer <a href="http://getcomposer.org/">Composer</a> en voer het volgende commando uit:
+        </p>
+        <pre style="font-size: 95%">
+            php composer.phar create-project symfony/framework-standard-edition path/ 2.2.1
+        </pre>
+    </div>
+    <h3 class="title_05">Installatie Instructies</h3>
+    <ol>
+        <li>
+            Download een van de archieven ergens in je lokale
+            web server's root map en pak het uit. Als je Git
+            hebt geïnstalleerd zou je Symfony2 "without vendors"
+            moeten downloaden, aangezien het wat flexibiliteit geeft.
+        </li>
+        <li>
+            Volg de instructies in het README.md bestand (wat gewoon
+            een tekst bestand is) dat is mee gekomen met de download.
+        </li>
+        <li>Geniet!</li>
+    </ol>
+{% endblock %}
+
+{% block components %}
+    <h2 class="title_05">SYMFONY COMPONENTEN</h2>
+    <p>
+        Behalve dat het een full-stack framework is, is Symfony ook een
+        set losstaande componenten. Deze kunnen los van het framwork
+        <a href="{{ marketing_path('components') }}">gedownload en geïnstalleerd</a>
+        worden.
+    </p>
+{% endblock %}
+
+{% block git %}
+    <h2 class="title_05">SYMFONY OP GIT</h2>
+    <p>
+        De <strong>officiële Symfony2 repository</strong> is gehost op Github
+        in <a href="http://github.com/symfony/symfony">http://github.com/symfony/symfony</a>.
+        <br />
+        Je kan deze repository gebruiken als je bleeding-edge features wilt
+        gebruiken of als je het niet erg vindt om dingen zelf te installeren.
+    </p>
+{% endblock %}
+
+{% block symfony1 %}
+    <h2 class="title_05" id="symfony1">SYMFONY 1.X</h2>
+    <p>
+        De symfony 1.4 versie is de laatste Long Term Support versie voor
+        de symfony 1.X branch en het is bijgehouden tot november 2012.
+        Als je een nieuw project maakt moet je overwegen
+        <a href="#top">Symfony2</a> te gebruiken.
+    </p>
+    <p>
+        Maar mocht je toch al een symfony 1.x project hebben, heb je nog
+        steeds beschikking tot de
+        <a href="{{ path('legacy_doc_home') }}">documentatie</a> voor alle
+        symfony 1.x versies, 
+        <a href="#legacy">downloads</a> van elke stabiele versie en toegang
+        tot de andere symfony 1.x tools via de 
+        <a href="{{ path('legacy_home') }}">legacy</a> pagina. Je kan symfony1
+        ook verkrijgen via <a href="http://github.com/symfony/symfony1">Git</a>.
+    </p>
+    <p>
+        Als je een nieuw project met symfony1 wilt beginnen, moet je de sandbox
+        downloaden (<a href="http://www.symfony-project.org/get/sf_sandbox_1_4.tgz">.tgz</a>,
+        <a href="http://www.symfony-project.org/get/sf_sandbox_1_4.zip">.zip</a>),
+        de broncode (<a href="http://www.symfony-project.org/get/symfony-1.4.20.tgz">.tgz</a>,
+        <a href="http://www.symfony-project.org/get/symfony-1.4.20.zip">.zip</a>),
+        of <a href="http://svn.symfony-project.com/branches/1.4">checkout</a>
+        de SVN repository.
+    </p>
+{% endblock %}
+
+{% block legacy %}
+    <h2 class="title_05">Legacy versies</h2>
+    <p>Download de nieuwste versie van de vorige stable releases:</p>
+{% endblock %}

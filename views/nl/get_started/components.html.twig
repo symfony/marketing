@@ -1,0 +1,253 @@
+{% block title 'Symfony Components' %}
+{% block keywords '' %}
+{% block description '' %}
+
+{% block intro %}
+    <p>
+        Behalve dat het een full-stack framework is, is Symfony ook
+        een set losstaande componenten.
+    </p>
+{% endblock %}
+
+{% block body %}
+    <h2 class="title_09"><a name="framework">Wat is een Component?</a></h2>
+    <p>
+        Symfony Componenten implementeren veel voorkomende features die
+        nodig zijn om een website te ontwikkelen. Ze zijn de basis van
+        het Symfony full-stack framework, maar ze kunnen ook losstaand
+        gebruikt worden, zelfs als je het framework niet gebruikt.
+    </p>
+    <h2 class="title_09"><a name="framework">Installatie</a></h2>
+    <p>
+        Je kan elk component op vele verschillende manieren downloaden:
+        <ul>
+            <li>
+                <strong>Aanbevolen</strong>
+                Installeer het via Composer
+                (<code>symfony/<strong>dashed-component-name</strong></code> op Packagist).
+            </li>
+            <li>
+                Gebruik de officiële Git repository
+                (<code>https://github.com/symfony/<strong>CamelCaseComponentName</strong></code>);
+            </li>
+            <li>
+                <strong>Verouderd</strong>
+                Installeer het via PEAR
+                (<code>pear.symfony.com/<strong>CamelCaseComponentName</strong></code>);
+            </li>
+        </ul>
+    </p>
+    <p>Om bijvoorbeeld de <code>HttpFoundation</code> component te installeren, gebruik je:</p>
+    <h3 class="title_05">Met Composer</h3>
+    <div class="highlight-bash">
+        <div class="highlight">
+                <pre>{
+    "require": {
+        "symfony/http-foundation": "v2.0.11"
+    }
+}</pre>
+        </div>
+    </div>
+    <h3 class="title_05">Met Git</h3>
+    <div class="highlight-bash">
+        <div class="highlight">
+            <pre>git clone https://github.com/symfony/HttpFoundation vendor/</pre>
+        </div>
+    </div>
+    <h3 class="title_05">Met PEAR</h3>
+    <div class="highlight-bash">
+        <div class="highlight">
+                <pre>pear channel-discover pear.symfony.com
+pear install symfony2/HttpFoundation</pre>
+        </div>
+    </div>
+
+    <h2 class="title_09"><a name="framework">De Componenten</a></h2>
+    <table class="component-list">
+        <thead>
+            <tr>
+                <th>Component</th>
+                <th>Omschrijving</th>
+                <th>Code</th>
+                <th>Documentatie</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>BrowserKit</strong></td>
+                <td>Simuleerd het gedrag van een web browser.</td>
+                <td><a href="https://github.com/symfony/BrowserKit">Code</a></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><strong>ClassLoader</strong></td>
+                <td>Laad je project classes automatisch wanneer ze een standaard PHP conventie volgen.</td>
+                <td><a href="https://github.com/symfony/ClassLoader">Code</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'class_loader', 'version': 'current'}) }}">Documentatie</a></td>
+            </tr>
+            <tr>
+                <td><strong>Config</strong></td>
+                <td>Helpt je bij het laden, combineren, valideren en automatisch invullen van de configuratie.</td>
+                <td><a href="https://github.com/symfony/Config">Code</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'config/index', 'version': 'current'}) }}">Documentatie</a></td>
+            </tr>
+            <tr>
+                <td><strong>Console</strong></td>
+                <td>Versimpelt het maken van mooie testbare command line interfaces.</td>
+                <td><a href="https://github.com/symfony/Console">Code</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'console', 'version': 'current'}) }}">Documentatie</a></td>
+            </tr>
+            <tr>
+                <td><strong>CssSelector</strong></td>
+                <td>Zet CSS selectors om naar XPath expressies.</td>
+                <td><a href="https://github.com/symfony/CssSelector">Code</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'css_selector', 'version': 'current'}) }}">Documentatie</a></td>
+            </tr>
+            <tr>
+                <td><strong>Debug</strong></td>
+                <td>Biedt tools om het debuggen van PHP makkelijker te maken.</td>
+                <td><a href="https://github.com/symfony/Debug">Code</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'debug', 'version': 'current'}) }}">Documentatie</a></td>
+            </tr>
+            <tr>
+                <td><strong>DependencyInjection</strong></td>
+                <td>Geeft je de mogelijkheid om het aanmaken van objecten op een gestandaardiseerde en gecentraliseerde wijze in je applicatie uit te voeren.</td>
+                <td><a href="https://github.com/symfony/DependencyInjection">Code</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'dependency_injection/index', 'version': 'current'}) }}">Documentatie</a></td>
+            </tr>
+            <tr>
+                <td><strong>DomCrawler</strong></td>
+                <td>Versimpelt navigatie door de DOM voor HTML en XML documenten.</td>
+                <td><a href="https://github.com/symfony/DomCrawler">Code</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'dom_crawler', 'version': 'current'}) }}">Documentatie</a></td>
+            </tr>
+            <tr>
+                <td><strong>EventDispatcher</strong></td>
+                <td>Implementeert een lichte versie van het Observer design pattern.</td>
+                <td><a href="https://github.com/symfony/EventDispatcher">Code</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'event_dispatcher/index', 'version': 'current'}) }}">Documentatie</a></td>
+            </tr>
+            <tr>
+                <td><strong>Filesystem</strong></td>
+                <td>Biedt basis functies voor het bestandssysteem.</td>
+                <td><a href="https://github.com/symfony/Filesystem">Code</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'filesystem', 'version': 'current'}) }}">Documentatie</a></td>
+            </tr>
+            <tr>
+                <td><strong>Finder</strong></td>
+                <td>Vindt bestanden en mappen via een intuïtieve vloeiende interface.</td>
+                <td><a href="https://github.com/symfony/Finder">Code</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'finder', 'version': 'current'}) }}">Documentatie</a></td>
+            </tr>
+            <tr>
+                <td><strong>Form</strong></td>
+                <td>&nbsp;</td>
+                <td><a href="https://github.com/symfony/Form">Code</a></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><strong>HttpFoundation</strong></td>
+                <td>Definieerd een objectgeoriënteerde laag voor de HTTP specificaties.</td>
+                <td><a href="https://github.com/symfony/HttpFoundation">Code</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'http_foundation/index', 'version': 'current'}) }}">Documentatie</a></td>
+            </tr>
+            <tr>
+                <td><strong>HttpKernel</strong></td>
+                <td>Levert de basis voor flexibele en snelle op HTTP gebaseerde frameworks.</td>
+                <td><a href="https://github.com/symfony/HttpKernel">Code</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'http_kernel/index', 'version': 'current'}) }}">Documentatie</a></td>
+            </tr>
+            <tr>
+                <td><strong>Locale</strong></td>
+                <td>Levert fallback code indien de intl extensie mist. Dit component is deprecated vanaf 2.3, vervang dit door de <a href="{{ doc_path({'version': 'current', 'section': 'components', 'page': 'intl'}) }}">Intl</a> component.</td>
+                <td><a href="https://github.com/symfony/Locale">Code</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'locale', 'version': '2.2'}) }}">Documentatie</a></td>
+            </tr>
+            <tr>
+                <td><strong>Intl</strong></td>
+                <td>Levert fallback code indien de intl extensie mist.</td>
+                <td><a href="https://github.com/symfony/Intl">Code</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'intl', 'version': 'current'}) }}">Documentatie</a></td>
+            </tr>
+            <tr>
+                <td><strong>Icu</strong></td>
+                <td>
+                    Bevat de data van de ICU library voor een specifieke versie. Gebruik dit doormiddel van de API van de
+                    <a href="{{ doc_path({
+                        'version': 'current',
+                        'section': 'components',
+                        'page':    'intl'})
+                    }}">Intl</a> component.
+                </td>
+                <td><a href="https://github.com/symfony/Icu">Code</a></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><strong>OptionsResolver</strong></td>
+                <td>Helpt je objecten te configureren met option arrays.</td>
+                <td><a href="https://github.com/symfony/OptionsResolver">Code</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'options_resolver', 'version': 'current'}) }}">Documentatie</a></td>
+            </tr>
+            <tr>
+                <td><strong>Process</strong></td>
+                <td>Voert commando's uit in sub-processen.</td>
+                <td><a href="https://github.com/symfony/Process">Code</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'process', 'version': 'current'}) }}">Documentatie</a></td>
+            </tr>
+            <tr>
+                <td><strong>PropertyAccess</strong></td>
+                <td>Levert functies om objecten en arrays te lezen of te maken doormiddel van een simpele string notatie.</td>
+                <td><a href="https://github.com/symfony/Process">Code</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'property_access/introduction', 'version': 'current'}) }}">Documentatie</a></td>
+            </tr>
+            <tr>
+                <td><strong>Routing</strong></td>
+                <td>Linkt een HTTP request aan een set configuratie variabelen.</td>
+                <td><a href="https://github.com/symfony/Routing">Code</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'routing/introduction', 'version': 'current'}) }}">Documentatie</a></td>
+            </tr>
+            <tr>
+                <td><strong>Security</strong></td>
+                <td>Levert een infrastructuur voor verfijnde autorisatie systemen.</td>
+                <td><a href="https://github.com/symfony/Security">Code</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'security/introduction', 'version': 'current'}) }}">Documentatie</a></td>
+            </tr>
+            <tr>
+                <td><strong>Serializer</strong></td>
+                <td>Veranderd objecten in een specifiek formaat (XML, JSON, Yaml, ...) en andersom.</td>
+                <td><a href="https://github.com/symfony/Serializer">Code</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'serializer', 'version': 'current'}) }}">Documentatie</a></td>
+            </tr>
+            <tr>
+                <td><strong>Stopwatch</strong></td>
+                <td>Levert een manier om code te timen.</td>
+                <td><a href="https://github.com/symfony/Stopwatch">Code</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'stopwatch', 'version': 'current'}) }}">Documentatie</a></td>
+            </tr>
+            <tr>
+                <td><strong>Templating</strong></td>
+                <td>Levert alle nodige tools om elk type template systeem te maken.</td>
+                <td><a href="https://github.com/symfony/Templating">Code</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'templating', 'version': 'current'}) }}">Documentatie</a></td>
+            </tr>
+            <tr>
+                <td><strong>Translation</strong></td>
+                <td>&nbsp;</td>
+                <td><a href="https://github.com/symfony/Translation">Code</a></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><strong>Validator</strong></td>
+                <td>&nbsp;</td>
+                <td><a href="https://github.com/symfony/Validator">Code</a></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><strong>Yaml</strong></td>
+                <td>Laad en dumpt YAML bestanden.</td>
+                <td><a href="https://github.com/symfony/Yaml">Code</a></td>
+                <td><a href="{{ doc_path({'section': 'components', 'page': 'yaml/introduction', 'version': 'current'}) }}">Documentatie</a></td>
+            </tr>
+        </tbody>
+    </table>
+{% endblock %}
