@@ -1,0 +1,163 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+            <!--
+                Please be careful of the size of the target messages.
+                Remember that these are menu & submenu labels and they will break the page if too big.
+                Based on existing pages, we can deduct that maximum length should be
+                    - approximately 15-20 characters for menu labels (id="x")
+                    - approximately 25-30 characters for sub-menu labels (id="xx")
+            -->
+
+            <!-- What is Symfony -->
+
+            <trans-unit id="1">
+                <source>menu.what_is_symfony</source>
+                <target>¿Qué es Symfony?</target>
+            </trans-unit>
+
+            <trans-unit id="11">
+                <source>menu.what_is_symfony.at_a_glance</source>
+                <target>Symfony de un vistazo</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>menu.what_is_symfony.in_5_minutes</source>
+                <target>Symfony en 5 minutos</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>menu.what_is_symfony.elevator_pitches</source>
+                <target>Argumentos rápidos</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>menu.what_is_symfony.case_studies</source>
+                <target>Casos de estudio</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>menu.what_is_symfony.versioning_policy</source>
+                <target>Política de Versiones</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>menu.what_is_symfony.long_term_support</source>
+                <target>Soporte a Largo Plazo (LTS)</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>menu.what_is_symfony.security_policy</source>
+                <target>Política de Seguridad</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>menu.what_is_symfony.license</source>
+                <target>Licencia</target>
+            </trans-unit>
+
+            <!-- Get Started -->
+
+            <trans-unit id="2">
+                <source>menu.get_started</source>
+                <target>Empiece a usar</target>
+            </trans-unit>
+
+            <trans-unit id="21">
+                <source>menu.get_started.download_symfony</source>
+                <target>Descargue Symfony</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>menu.get_started.symfony_roadmap</source>
+                <target>Hoja de Ruta</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>menu.get_started.symfony_distributions</source>
+                <target>Distribuiciones de Symfony</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>menu.get_started.symfony_components</source>
+                <target>Componentes de Symfony</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>menu.get_started.quick_tour</source>
+                <target>Guia Rápida</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>menu.get_started.symfony_legacy</source>
+                <target>Legado de symfony1</target>
+            </trans-unit>
+
+            <!-- Documentation -->
+
+            <trans-unit id="3">
+                <source>menu.documentation</source>
+                <target>Documentación</target>
+            </trans-unit>
+
+            <!-- Community -->
+
+            <trans-unit id="4">
+                <source>menu.community</source>
+                <target>Comunidad</target>
+            </trans-unit>
+
+            <trans-unit id="41">
+                <source>menu.community.sensiolabs_connect</source>
+                <target>SensioLabs Connect</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>menu.community.irc_channel</source>
+                <target>Canal de IRC</target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>menu.community.mailing_lists</source>
+                <target>Listas de Discusión</target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source>menu.community.forum</source>
+                <target>Foro</target>
+            </trans-unit>
+            <trans-unit id="45">
+                <source>menu.community.how_to_be_involved</source>
+                <target>Cómo Involucrarse</target>
+            </trans-unit>
+
+            <!-- Services -->
+
+            <trans-unit id="5">
+                <source>menu.services</source>
+                <target>Servicios</target>
+            </trans-unit>
+
+            <!-- News -->
+
+            <trans-unit id="6">
+                <source>menu.news</source>
+                <target>Noticias</target>
+            </trans-unit>
+
+            <!-- About -->
+
+            <trans-unit id="7">
+                <source>menu.about</source>
+                <target>Sobre</target>
+            </trans-unit>
+
+            <trans-unit id="71">
+                <source>menu.about.sensiolabs</source>
+                <target>SensioLabs</target>
+            </trans-unit>
+            <trans-unit id="72">
+                <source>menu.about.contributors</source>
+                <target>Contribuidores</target>
+            </trans-unit>
+            <trans-unit id="73">
+                <source>menu.about.tradmeark_logo_policy</source>
+                <target>Marca Registada &amp; Política de Logotipo</target>
+            </trans-unit>
+            <trans-unit id="74">
+                <source>menu.about.logo</source>
+                <target>Logotipo</target>
+            </trans-unit>
+            <trans-unit id="75">
+                <source>menu.about.jobs</source>
+                <target>SensioLabs Jobs</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
