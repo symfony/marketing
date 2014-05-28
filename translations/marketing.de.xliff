@@ -67,11 +67,11 @@
             </trans-unit>
             <trans-unit id="23">
                 <source>menu.get_started.symfony_distributions</source>
-                <target>Symfony-Distributionen</target>
+                <target>Symfony Distributionen</target>
             </trans-unit>
             <trans-unit id="24">
                 <source>menu.get_started.symfony_components</source>
-                <target>Symfony-Komponenten</target>
+                <target>Symfony Komponenten</target>
             </trans-unit>
             <trans-unit id="25">
                 <source>menu.get_started.quick_tour</source>
