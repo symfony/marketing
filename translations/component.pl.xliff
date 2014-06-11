@@ -4,53 +4,53 @@
         <body>
             <trans-unit id="label.what.is.component">
                 <source>what.is.component</source>
-                <target>What is a Component?</target>
+                <target>Co to jest komponent?</target>
             </trans-unit>
             <trans-unit id="label.the.components">
                 <source>the.components</source>
-                <target>The Components</target>
+                <target>Komponenty</target>
             </trans-unit>
             <trans-unit id="label.installation">
                 <source>installation</source>
-                <target>Installation</target>
+                <target>Instalacja</target>
             </trans-unit>
             <trans-unit id="label.installation.sample">
                 <source>installation.sample</source>
-                <target>For instance, to install the %component_name% component:</target>
+                <target>Na przykład aby zainstalować komponent %component_name%:</target>
             </trans-unit>
             <trans-unit id="label.composer">
                 <source>with.composer</source>
-                <target>With Composer</target>
+                <target>Używając Composer</target>
             </trans-unit>
             <trans-unit id="label.git">
                 <source>with.git</source>
-                <target>With Git</target>
+                <target>Używając Git</target>
             </trans-unit>
             <trans-unit id="label.pear">
                 <source>with.pear</source>
-                <target>With PEAR</target>
+                <target>Używając PEAR</target>
             </trans-unit>
             <!-- these are the labels displayed in the table header -->
             <trans-unit id="label.component">
                 <source>component</source>
-                <target>Component</target>
+                <target>Komponent</target>
             </trans-unit>
             <trans-unit id="label.description">
                 <source>description</source>
-                <target>Description</target>
+                <target>Opis</target>
             </trans-unit>
             <trans-unit id="label.code">
                 <source>code</source>
-                <target>Code</target>
+                <target>Kod</target>
             </trans-unit>
             <trans-unit id="label.documentation">
                 <source>documentation</source>
-                <target>Documentation</target>
+                <target>Dokumentacja</target>
             </trans-unit>
 
             <trans-unit id="browserkit.summary">
                 <source>browserkit.summary</source>
-                <target>Simulates the behavior of a web browser.</target>
+                <target>Symuluje zachowanie przeglądarki internetowej.</target>
             </trans-unit>
             <trans-unit id="browserkit.description">
                 <source>browserkit.description</source>
@@ -59,7 +59,7 @@
 
             <trans-unit id="classloader.summary">
                 <source>classloader.summary</source>
-                <target>Loads your project classes automatically if they follow some standard PHP conventions.</target>
+                <target>Ładuje automatycznie klasy projektu jeśli stosują one standardowe konwencje PHP.</target>
             </trans-unit>
             <trans-unit id="6">
                 <source>classloader.description</source>
@@ -68,7 +68,7 @@
 
             <trans-unit id="config.summary">
                 <source>config.summary</source>
-                <target>Helps you find, load, combine, autofill and validate configuration values.</target>
+                <target>Pomaga zlokalizować, wczytać, połączyć, wypełnić i walidować wartośći konfiguracyjne.</target>
             </trans-unit>
             <trans-unit id="config.description">
                 <source>config.description</source>
@@ -77,7 +77,7 @@
 
             <trans-unit id="console.summary">
                 <source>console.summary</source>
-                <target>Eases the creation of beautiful and testable command line interfaces.</target>
+                <target>Ułatwia tworzenie pięknych i testowalnych interfejsów linii poleceń.</target>
             </trans-unit>
             <trans-unit id="console.description">
                 <source>console.description</source>
@@ -86,7 +86,7 @@
 
             <trans-unit id="cssselector.summary">
                 <source>cssselector.summary</source>
-                <target>Converts CSS selectors to XPath expressions.</target>
+                <target>Konwertuje selektory CSS na wyrażenia XPath.</target>
             </trans-unit>
             <trans-unit id="cssselector.description">
                 <source>cssselector.description</source>
@@ -95,7 +95,7 @@
 
             <trans-unit id="debug.summary">
                 <source>debug.summary</source>
-                <target>Provides tools to ease debugging PHP code.</target>
+                <target>Dostarcza narzędzia do debugowania kodu PHP.</target>
             </trans-unit>
             <trans-unit id="debug.description">
                 <source>debug.description</source>
@@ -104,7 +104,7 @@
 
             <trans-unit id="dependencyinjection.summary">
                 <source>dependencyinjection.summary</source>
-                <target>Allows you to standardize and centralize the way objects are constructed in your application.</target>
+                <target>Umożliwia standaryzację i centralizację sposobu konstruowania obiektów w Twojej aplikacji.</target>
             </trans-unit>
             <trans-unit id="dependencyinjection.description">
                 <source>dependencyinjection.description</source>
@@ -113,7 +113,7 @@
 
             <trans-unit id="domcrawler.summary">
                 <source>domcrawler.summary</source>
-                <target>Eases DOM navigation for HTML and XML documents.</target>
+                <target>Ułatwia nawigację DOM dla dokumentów HTML i XML.</target>
             </trans-unit>
             <trans-unit id="domcrawler.description">
                 <source>domcrawler.description</source>
@@ -122,7 +122,7 @@
 
             <trans-unit id="eventdispatcher.summary">
                 <source>eventdispatcher.summary</source>
-                <target>Implements the Mediator pattern in a simple and effective way to make projects truly extensible.</target>
+                <target>Implementuje uproszczoną wersję wzorca projektowego Obserwator.</target>
             </trans-unit>
             <trans-unit id="eventdispatcher.description">
                 <source>eventdispatcher.description</source>
@@ -131,7 +131,7 @@
 
             <trans-unit id="expressionlanguage.summary">
                 <source>expressionlanguage.summary</source>
-                <target>Provides an engine that can compile and evaluate expressions.</target>
+                <target></target>
             </trans-unit>
             <trans-unit id="expressionlanguage.description">
                 <source>expressionlanguage.description</source>
@@ -140,7 +140,7 @@
 
             <trans-unit id="filesystem.summary">
                 <source>filesystem.summary</source>
-                <target>Provides basic utilities for the filesystem.</target>
+                <target>Dostarcza podstawowe narzędzia dla systemu plików.</target>
             </trans-unit>
             <trans-unit id="filesystem.description">
                 <source>filesystem.description</source>
@@ -149,7 +149,7 @@
 
             <trans-unit id="finder.summary">
                 <source>finder.summary</source>
-                <target>Finds files and directories via an intuitive fluent interface.</target>
+                <target>Znajduje pliki i katalogi poprzez intuicyiny interfejs.</target>
             </trans-unit>
             <trans-unit id="finder.description">
                 <source>finder.description</source>
@@ -158,7 +158,7 @@
 
             <trans-unit id="form.summary">
                 <source>form.summary</source>
-                <target>Provides tools to easy creating, processing and reusing HTML forms.</target>
+                <target></target>
             </trans-unit>
             <trans-unit id="form.description">
                 <source>form.description</source>
@@ -167,7 +167,7 @@
 
             <trans-unit id="httpfoundation.summary">
                 <source>httpfoundation.summary</source>
-                <target>Defines an object-oriented layer for the HTTP specification.</target>
+                <target>Definiuje obiektowo zorientowaną warstwę dla specyfikacji HTTP.</target>
             </trans-unit>
             <trans-unit id="httpfoundation.description">
                 <source>httpfoundation.description</source>
@@ -176,7 +176,7 @@
 
             <trans-unit id="httpkernel.summary">
                 <source>httpkernel.summary</source>
-                <target>Provides the building blocks to create flexible and fast HTTP-based frameworks.</target>
+                <target>Dostarcza elementy konstrukcyjne do tworzenia elastycznych i szybkich frameworków opartych o HTTP.</target>
             </trans-unit>
             <trans-unit id="httpkernel.description">
                 <source>httpkernel.description</source>
@@ -185,7 +185,7 @@
 
             <trans-unit id="locale.summary">
                 <source>locale.summary</source>
-                <target>Provides fallback code to handle cases when the intl extension is missing. This component is deprecated since 2.3, use the Intl component instead.</target>
+                <target>Dostarcza kod dla przypadków kiedy rozszerzenie intl nie jest dostępne.</target>
             </trans-unit>
             <trans-unit id="locale.description">
                 <source>locale.description</source>
@@ -194,7 +194,7 @@
 
             <trans-unit id="intl.summary">
                 <source>intl.summary</source>
-                <target>Provides fallback code to handle cases when the intl extension is missing.</target>
+                <target></target>
             </trans-unit>
             <trans-unit id="intl.description">
                 <source>intl.description</source>
@@ -203,7 +203,7 @@
 
             <trans-unit id="icu.summary">
                 <source>icu.summary</source>
-                <target>Contains the data of the ICU library in a specific version. Use it through the API of the Intl component.</target>
+                <target></target>
             </trans-unit>
             <trans-unit id="icu.description">
                 <source>icu.description</source>
@@ -212,7 +212,7 @@
 
             <trans-unit id="optionsresolver.summary">
                 <source>optionsresolver.summary</source>
-                <target>Helps you configuring objects with option arrays.</target>
+                <target>Pomaga w konfiguracji obiektów przy użyciu tablic opcji.</target>
             </trans-unit>
             <trans-unit id="optionsresolver.description">
                 <source>optionsresolver.description</source>
@@ -221,7 +221,7 @@
 
             <trans-unit id="process.summary">
                 <source>process.summary</source>
-                <target>Executes commands in sub-processes</target>
+                <target>Wykonuje polecenia w podprocesach.</target>
             </trans-unit>
             <trans-unit id="process.description">
                 <source>process.description</source>
@@ -230,7 +230,7 @@
 
             <trans-unit id="propertyaccess.summary">
                 <source>propertyaccess.summary</source>
-                <target>Provides function to read and write from/to an object or array using a simple string notation.</target>
+                <target>Dostarcza funkcjonalność odczytu oraz zapisu z/do obiektu lub tablicy przy użyciu prostej notacji znakowej.</target>
             </trans-unit>
             <trans-unit id="propertyaccess.description">
                 <source>propertyaccess.description</source>
@@ -239,7 +239,7 @@
 
             <trans-unit id="routing.summary">
                 <source>routing.summary</source>
-                <target>Maps an HTTP request to a set of configuration variables.</target>
+                <target>Mapuje żądanie HTTP na zestaw zmiennych konfiguracyjnych.</target>
             </trans-unit>
             <trans-unit id="routing.description">
                 <source>routing.description</source>
@@ -248,7 +248,7 @@
 
             <trans-unit id="security.summary">
                 <source>security.summary</source>
-                <target>Provides an infrastructure for sophisticated authorization systems.</target>
+                <target>Dostarcza infrastrukturę dla złożonych systemów uwierzytelniania</target>
             </trans-unit>
             <trans-unit id="security.description">
                 <source>security.description</source>
@@ -257,7 +257,7 @@
 
             <trans-unit id="serializer.summary">
                 <source>serializer.summary</source>
-                <target>Turns objects into a specific format (XML, JSON, Yaml, ...) and the other way around.</target>
+                <target>Przekształca obiekty do wybranego formatu (XML, JSON, Yaml, ...) i odwrotnie.</target>
             </trans-unit>
             <trans-unit id="serializer.description">
                 <source>serializer.description</source>
@@ -266,7 +266,7 @@
 
             <trans-unit id="stopwatch.summary">
                 <source>stopwatch.summary</source>
-                <target>Provides a way to profile code.</target>
+                <target>Komponent Stopwatch dostarcza mechanizmy profilowania kodu.</target>
             </trans-unit>
             <trans-unit id="stopwatch.description">
                 <source>stopwatch.description</source>
@@ -275,7 +275,7 @@
 
             <trans-unit id="templating.summary">
                 <source>templating.summary</source>
-                <target>Provides all the tools needed to build any kind of template system.</target>
+                <target>Dostarcza wszystkie narzędzia niezbędne do budowy dowolnego rodzaju systemu szablonów.</target>
             </trans-unit>
             <trans-unit id="templating.description">
                 <source>templating.description</source>
@@ -284,7 +284,7 @@
 
             <trans-unit id="translation.summary">
                 <source>translation.summary</source>
-                <target>Provides tools to internationalize your application.</target>
+                <target></target>
             </trans-unit>
             <trans-unit id="translation.description">
                 <source>translation.description</source>
@@ -293,7 +293,7 @@
 
             <trans-unit id="validator.summary">
                 <source>validator.summary</source>
-                <target>Provides tools to validate classes.</target>
+                <target></target>
             </trans-unit>
             <trans-unit id="validator.description">
                 <source>validator.description</source>
@@ -302,7 +302,7 @@
 
             <trans-unit id="yaml.summary">
                 <source>yaml.summary</source>
-                <target>Loads and dumps YAML files.</target>
+                <target>Wczytuje i eksportuje do plików YAML.</target>
             </trans-unit>
             <trans-unit id="yaml.description">
                 <source>yaml.description</source>

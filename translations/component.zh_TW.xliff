@@ -4,53 +4,53 @@
         <body>
             <trans-unit id="label.what.is.component">
                 <source>what.is.component</source>
-                <target>What is a Component?</target>
+                <target>什么是组件？</target>
             </trans-unit>
             <trans-unit id="label.the.components">
                 <source>the.components</source>
-                <target>The Components</target>
+                <target>组件列表</target>
             </trans-unit>
             <trans-unit id="label.installation">
                 <source>installation</source>
-                <target>Installation</target>
+                <target>安装</target>
             </trans-unit>
             <trans-unit id="label.installation.sample">
                 <source>installation.sample</source>
-                <target>For instance, to install the %component_name% component:</target>
+                <target>例如：若要安装 %component_name%组件：</target>
             </trans-unit>
             <trans-unit id="label.composer">
                 <source>with.composer</source>
-                <target>With Composer</target>
+                <target>通过 Composer</target>
             </trans-unit>
             <trans-unit id="label.git">
                 <source>with.git</source>
-                <target>With Git</target>
+                <target>通过 Git</target>
             </trans-unit>
             <trans-unit id="label.pear">
                 <source>with.pear</source>
-                <target>With PEAR</target>
+                <target>通过 PEAR</target>
             </trans-unit>
             <!-- these are the labels displayed in the table header -->
             <trans-unit id="label.component">
                 <source>component</source>
-                <target>Component</target>
+                <target>组件</target>
             </trans-unit>
             <trans-unit id="label.description">
                 <source>description</source>
-                <target>Description</target>
+                <target>概括</target>
             </trans-unit>
             <trans-unit id="label.code">
                 <source>code</source>
-                <target>Code</target>
+                <target>代码</target>
             </trans-unit>
             <trans-unit id="label.documentation">
                 <source>documentation</source>
-                <target>Documentation</target>
+                <target>文献</target>
             </trans-unit>
 
             <trans-unit id="browserkit.summary">
                 <source>browserkit.summary</source>
-                <target>Simulates the behavior of a web browser.</target>
+                <target>模拟浏览器的功能。</target>
             </trans-unit>
             <trans-unit id="browserkit.description">
                 <source>browserkit.description</source>
@@ -59,7 +59,7 @@
 
             <trans-unit id="classloader.summary">
                 <source>classloader.summary</source>
-                <target>Loads your project classes automatically if they follow some standard PHP conventions.</target>
+                <target>如果类（Class）采用了某些标准的PHP规则，便会自动加载到项目内。</target>
             </trans-unit>
             <trans-unit id="6">
                 <source>classloader.description</source>
@@ -68,7 +68,7 @@
 
             <trans-unit id="config.summary">
                 <source>config.summary</source>
-                <target>Helps you find, load, combine, autofill and validate configuration values.</target>
+                <target>帮助您找到、加载、混合、自动填充、验证设置数值。</target>
             </trans-unit>
             <trans-unit id="config.description">
                 <source>config.description</source>
@@ -77,7 +77,7 @@
 
             <trans-unit id="console.summary">
                 <source>console.summary</source>
-                <target>Eases the creation of beautiful and testable command line interfaces.</target>
+                <target>简化创建美观和可测试的命令行界面。</target>
             </trans-unit>
             <trans-unit id="console.description">
                 <source>console.description</source>
@@ -86,7 +86,7 @@
 
             <trans-unit id="cssselector.summary">
                 <source>cssselector.summary</source>
-                <target>Converts CSS selectors to XPath expressions.</target>
+                <target>将 CSS 选择器转换为 XPath 语言。</target>
             </trans-unit>
             <trans-unit id="cssselector.description">
                 <source>cssselector.description</source>
@@ -95,7 +95,7 @@
 
             <trans-unit id="debug.summary">
                 <source>debug.summary</source>
-                <target>Provides tools to ease debugging PHP code.</target>
+                <target>提供工具来简化 PHP 代码的调试。</target>
             </trans-unit>
             <trans-unit id="debug.description">
                 <source>debug.description</source>
@@ -104,7 +104,7 @@
 
             <trans-unit id="dependencyinjection.summary">
                 <source>dependencyinjection.summary</source>
-                <target>Allows you to standardize and centralize the way objects are constructed in your application.</target>
+                <target>让您能够以统一的、集中的方式创建程序中的对象。</target>
             </trans-unit>
             <trans-unit id="dependencyinjection.description">
                 <source>dependencyinjection.description</source>
@@ -113,7 +113,7 @@
 
             <trans-unit id="domcrawler.summary">
                 <source>domcrawler.summary</source>
-                <target>Eases DOM navigation for HTML and XML documents.</target>
+                <target>简化 HTML 和 XML 文件内 DOM 的查找。</target>
             </trans-unit>
             <trans-unit id="domcrawler.description">
                 <source>domcrawler.description</source>
@@ -122,7 +122,7 @@
 
             <trans-unit id="eventdispatcher.summary">
                 <source>eventdispatcher.summary</source>
-                <target>Implements the Mediator pattern in a simple and effective way to make projects truly extensible.</target>
+                <target>提供一款 观察者设计模式 (Observer design pattern) 的轻量代码。</target>
             </trans-unit>
             <trans-unit id="eventdispatcher.description">
                 <source>eventdispatcher.description</source>
@@ -131,7 +131,7 @@
 
             <trans-unit id="expressionlanguage.summary">
                 <source>expressionlanguage.summary</source>
-                <target>Provides an engine that can compile and evaluate expressions.</target>
+                <target></target>
             </trans-unit>
             <trans-unit id="expressionlanguage.description">
                 <source>expressionlanguage.description</source>
@@ -140,7 +140,7 @@
 
             <trans-unit id="filesystem.summary">
                 <source>filesystem.summary</source>
-                <target>Provides basic utilities for the filesystem.</target>
+                <target>提供文件系统的基本操作。</target>
             </trans-unit>
             <trans-unit id="filesystem.description">
                 <source>filesystem.description</source>
@@ -149,7 +149,7 @@
 
             <trans-unit id="finder.summary">
                 <source>finder.summary</source>
-                <target>Finds files and directories via an intuitive fluent interface.</target>
+                <target>提供易懂的流畅界面 (fluent interface)，来查找文件和文件夹。</target>
             </trans-unit>
             <trans-unit id="finder.description">
                 <source>finder.description</source>
@@ -158,7 +158,7 @@
 
             <trans-unit id="form.summary">
                 <source>form.summary</source>
-                <target>Provides tools to easy creating, processing and reusing HTML forms.</target>
+                <target></target>
             </trans-unit>
             <trans-unit id="form.description">
                 <source>form.description</source>
@@ -167,7 +167,7 @@
 
             <trans-unit id="httpfoundation.summary">
                 <source>httpfoundation.summary</source>
-                <target>Defines an object-oriented layer for the HTTP specification.</target>
+                <target>为 HTTP 规格提供一个面向对象的界面。</target>
             </trans-unit>
             <trans-unit id="httpfoundation.description">
                 <source>httpfoundation.description</source>
@@ -176,7 +176,7 @@
 
             <trans-unit id="httpkernel.summary">
                 <source>httpkernel.summary</source>
-                <target>Provides the building blocks to create flexible and fast HTTP-based frameworks.</target>
+                <target>为创建灵活的、高速的、基于 HTTP 的框架提供基本元件。</target>
             </trans-unit>
             <trans-unit id="httpkernel.description">
                 <source>httpkernel.description</source>
@@ -185,7 +185,7 @@
 
             <trans-unit id="locale.summary">
                 <source>locale.summary</source>
-                <target>Provides fallback code to handle cases when the intl extension is missing. This component is deprecated since 2.3, use the Intl component instead.</target>
+                <target>如果 intl 扩展不存在，此组件可提供相关的功能。此组件于版本 2.3 过时，请使用 Intl 组件。</target>
             </trans-unit>
             <trans-unit id="locale.description">
                 <source>locale.description</source>
@@ -194,7 +194,7 @@
 
             <trans-unit id="intl.summary">
                 <source>intl.summary</source>
-                <target>Provides fallback code to handle cases when the intl extension is missing.</target>
+                <target>如果 intl 扩展不存在，此组件可提供相关的功能。</target>
             </trans-unit>
             <trans-unit id="intl.description">
                 <source>intl.description</source>
@@ -203,7 +203,8 @@
 
             <trans-unit id="icu.summary">
                 <source>icu.summary</source>
-                <target>Contains the data of the ICU library in a specific version. Use it through the API of the Intl component.</target>
+                <target>包含某一版本的 ICU 库的资料。由
+                    Contains the data of the ICU library in a specific version. Use it through the API of the Intl 组件调用。</target>
             </trans-unit>
             <trans-unit id="icu.description">
                 <source>icu.description</source>
@@ -212,7 +213,7 @@
 
             <trans-unit id="optionsresolver.summary">
                 <source>optionsresolver.summary</source>
-                <target>Helps you configuring objects with option arrays.</target>
+                <target>用设置数组来帮助您配置对象。</target>
             </trans-unit>
             <trans-unit id="optionsresolver.description">
                 <source>optionsresolver.description</source>
@@ -221,7 +222,7 @@
 
             <trans-unit id="process.summary">
                 <source>process.summary</source>
-                <target>Executes commands in sub-processes</target>
+                <target>以子流程执行指令。</target>
             </trans-unit>
             <trans-unit id="process.description">
                 <source>process.description</source>
@@ -230,7 +231,7 @@
 
             <trans-unit id="propertyaccess.summary">
                 <source>propertyaccess.summary</source>
-                <target>Provides function to read and write from/to an object or array using a simple string notation.</target>
+                <target>以存取简单字符串的方式来读取/储存对象或数组的数据。</target>
             </trans-unit>
             <trans-unit id="propertyaccess.description">
                 <source>propertyaccess.description</source>
@@ -239,7 +240,7 @@
 
             <trans-unit id="routing.summary">
                 <source>routing.summary</source>
-                <target>Maps an HTTP request to a set of configuration variables.</target>
+                <target>将 HTTP 访问转换为一组设置变量。</target>
             </trans-unit>
             <trans-unit id="routing.description">
                 <source>routing.description</source>
@@ -248,7 +249,7 @@
 
             <trans-unit id="security.summary">
                 <source>security.summary</source>
-                <target>Provides an infrastructure for sophisticated authorization systems.</target>
+                <target>为建立复杂的授权系统提供设施。</target>
             </trans-unit>
             <trans-unit id="security.description">
                 <source>security.description</source>
@@ -257,7 +258,7 @@
 
             <trans-unit id="serializer.summary">
                 <source>serializer.summary</source>
-                <target>Turns objects into a specific format (XML, JSON, Yaml, ...) and the other way around.</target>
+                <target>将对象转换为某种格式的数据（XML、JSON、Yaml……） 或反向转换。</target>
             </trans-unit>
             <trans-unit id="serializer.description">
                 <source>serializer.description</source>
@@ -266,7 +267,7 @@
 
             <trans-unit id="stopwatch.summary">
                 <source>stopwatch.summary</source>
-                <target>Provides a way to profile code.</target>
+                <target>提供一种分析代码的功能。</target>
             </trans-unit>
             <trans-unit id="stopwatch.description">
                 <source>stopwatch.description</source>
@@ -275,7 +276,7 @@
 
             <trans-unit id="templating.summary">
                 <source>templating.summary</source>
-                <target>Provides all the tools needed to build any kind of template system.</target>
+                <target>提供工具制作任何种类的模板系统。</target>
             </trans-unit>
             <trans-unit id="templating.description">
                 <source>templating.description</source>
@@ -284,7 +285,7 @@
 
             <trans-unit id="translation.summary">
                 <source>translation.summary</source>
-                <target>Provides tools to internationalize your application.</target>
+                <target>翻译组件</target>
             </trans-unit>
             <trans-unit id="translation.description">
                 <source>translation.description</source>
@@ -293,7 +294,7 @@
 
             <trans-unit id="validator.summary">
                 <source>validator.summary</source>
-                <target>Provides tools to validate classes.</target>
+                <target></target>
             </trans-unit>
             <trans-unit id="validator.description">
                 <source>validator.description</source>
@@ -302,7 +303,7 @@
 
             <trans-unit id="yaml.summary">
                 <source>yaml.summary</source>
-                <target>Loads and dumps YAML files.</target>
+                <target>加载和导出 YAML 文件。</target>
             </trans-unit>
             <trans-unit id="yaml.description">
                 <source>yaml.description</source>
