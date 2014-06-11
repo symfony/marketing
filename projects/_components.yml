@@ -13,8 +13,9 @@ Finder:              { docUrl: finder.html                            }
 Form:                { docUrl: form/introduction.html                 }
 HttpFoundation:      { docUrl: http_foundation/introduction.html      }
 HttpKernel:          { docUrl: http_kernel/introduction.html          }
-Locale:              { docUrl: locale.html                            }
 Icu:                 { docUrl: ~                                      }
+Intl:                { docUrl: intl.html                              }
+Locale:              { docUrl: locale.html                            } # deprecated by Intl since 2.3
 OptionsResolver:     { docUrl: options_resolver.html                  }
 Process:             { docUrl: process.html                           }
 PropertyAccess:      { docUrl: property_access/introduction.html      }
@@ -23,6 +24,6 @@ Security:            { docUrl: security/introduction.html             }
 Serializer:          { docUrl: serializer.html                        }
 Stopwatch:           { docUrl: stopwatch.html                         }
 Templating:          { docUrl: templating.html                        }
-Translation:         { docUrl: ~                                      }
+Translation:         { docUrl: translation/introduction.html          }
 Validator:           { docUrl: ~                                      }
 Yaml:                { docUrl: yaml/introduction.html                 }
