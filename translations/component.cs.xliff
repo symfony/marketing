@@ -257,7 +257,7 @@
 
             <trans-unit id="serializer.summary">
                 <source>serializer.summary</source>
-                <target>Převádí objekty do různých formátů (XML, JSON, Yaml, &hellip;) a zpětně z nich je načítá.</target>
+                <target>Převádí objekty do různých formátů (XML, JSON, Yaml, ...) a zpětně z nich je načítá.</target>
             </trans-unit>
             <trans-unit id="serializer.description">
                 <source>serializer.description</source>
