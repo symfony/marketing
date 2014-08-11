@@ -19,6 +19,7 @@ major:
     #- midgard
     - behat
     - sylius
+    - pagekit
     - sonataproject
     - zikula
     - symfonycmf
@@ -41,7 +42,6 @@ minor:
     - ppi
     - proem
     - sulucmf
-    - pagekit
     - initcms
     - carew
     - redkitecms
