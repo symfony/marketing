@@ -19,7 +19,6 @@ major:
     #- midgard
     - behat
     - sylius
-    - pagekit
     - sonataproject
     - zikula
     - symfonycmf
@@ -27,6 +26,7 @@ major:
     - akeneo
     - shopware
     - propel
+    - pagekit
 minor:
     - thelia
     - kunstmaanbundles
