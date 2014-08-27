@@ -19,6 +19,7 @@ major:
     #- midgard
     - behat
     - sylius
+    - pagekit
     - sonataproject
     - zikula
     - symfonycmf
