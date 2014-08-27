@@ -26,7 +26,6 @@ major:
     - akeneo
     - shopware
     - propel
-    - pagekit
 minor:
     - thelia
     - kunstmaanbundles
@@ -36,8 +35,10 @@ minor:
     - phpdocumentor
     - guzzle
     - bolt
+    - pagekit
     - vespolina
     - easybook
+    - forkcms
     - phpmyfaq
     - ppi
     - proem
