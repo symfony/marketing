@@ -25,6 +25,144 @@
                 <source>menu.what_is_symfony.in_5_minutes</source>
                 <target>Symfony en 5 Minutes</target>
             </trans-unit>
+            
+            <trans-unit id="13">
+                <source>menu.what_is_symfony.elevator_pitches</source>
+                <target>Elevator Pitches</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>menu.what_is_symfony.case_studies</source>
+                <target>Étude de cas</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>menu.what_is_symfony.versioning_policy</source>
+                <target>Politique de versions</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>menu.what_is_symfony.long_term_support</source>
+                <target>Long Term Support</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>menu.what_is_symfony.security_policy</source>
+                <target>Security Policy</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>menu.what_is_symfony.license</source>
+                <target>Licence</target>
+            </trans-unit>
+
+            <!-- Get Started -->
+
+            <trans-unit id="2">
+                <source>menu.get_started</source>
+                <target>Débuter</target>
+            </trans-unit>
+
+            <trans-unit id="21">
+                <source>menu.get_started.download_symfony</source>
+                <target>Télécharger Symfony</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>menu.get_started.symfony_roadmap</source>
+                <target>Feuille de route</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>menu.get_started.symfony_distributions</source>
+                <target>Les distributions Symfony</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>menu.get_started.symfony_components</source>
+                <target>Les composants Symfony</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>menu.get_started.quick_tour</source>
+                <target>Tour rapide</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>menu.get_started.symfony_legacy</source>
+                <target>symfony1 : l'héritage</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>menu.get_started.symfony_projects</source>
+                <target>Les projets utilisant Symfony</target>
+            </trans-unit>
+
+            <!-- Documentation -->
+
+            <trans-unit id="3">
+                <source>menu.documentation</source>
+                <target>Documentation</target>
+            </trans-unit>
+
+            <!-- Community -->
+
+            <trans-unit id="4">
+                <source>menu.community</source>
+                <target>Communauté</target>
+            </trans-unit>
+
+            <trans-unit id="41">
+                <source>menu.community.sensiolabs_connect</source>
+                <target>SensioLabs Connect</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>menu.community.irc_channel</source>
+                <target>Canal IRC</target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>menu.community.mailing_lists</source>
+                <target>Listes de diffusion</target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source>menu.community.forum</source>
+                <target>Forum</target>
+            </trans-unit>
+            <trans-unit id="45">
+                <source>menu.community.how_to_be_involved</source>
+                <target>Comment s'impliquer</target>
+            </trans-unit>
+
+            <!-- Services -->
+
+            <trans-unit id="5">
+                <source>menu.services</source>
+                <target>Services</target>
+            </trans-unit>
+
+            <!-- News -->
+
+            <trans-unit id="6">
+                <source>menu.news</source>
+                <target>Nouveautés</target>
+            </trans-unit>
+
+            <!-- About -->
+
+            <trans-unit id="7">
+                <source>menu.about</source>
+                <target>À propos</target>
+            </trans-unit>
+
+            <trans-unit id="71">
+                <source>menu.about.sensiolabs</source>
+                <target>SensioLabs</target>
+            </trans-unit>
+            <trans-unit id="72">
+                <source>menu.about.contributors</source>
+                <target>Contributeurs</target>
+            </trans-unit>
+            <trans-unit id="73">
+                <source>menu.about.tradmeark_logo_policy</source>
+                <target>Polique de marques et logos</target>
+            </trans-unit>
+            <trans-unit id="74">
+                <source>menu.about.logo</source>
+                <target>Logo</target>
+            </trans-unit>
+            <trans-unit id="75">
+                <source>menu.about.jobs</source>
+                <target>Emplois</target>
+            </trans-unit>
       </body>
     </file>
 </xliff>
