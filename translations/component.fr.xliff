@@ -185,7 +185,7 @@
 
             <trans-unit id="locale.summary">
                 <source>locale.summary</source>
-                <target>Fournit une solution de remplacement de l'extension intl si elle est manquante sur le serveur.</target>
+                <target>Fournit une solution de remplacement de l'extension intl si elle est manquante sur le serveur. Ce composant est déprécié depuis la version 2.3, utilisez le composant Intl à la place.</target>
             </trans-unit>
             <trans-unit id="locale.description">
                 <source>locale.description</source>
@@ -194,7 +194,7 @@
 
             <trans-unit id="intl.summary">
                 <source>intl.summary</source>
-                <target></target>
+                <target>Fournit une solution de remplacement de l'extension intl si elle est manquante sur le serveur.</target>
             </trans-unit>
             <trans-unit id="intl.description">
                 <source>intl.description</source>
@@ -203,7 +203,7 @@
 
             <trans-unit id="icu.summary">
                 <source>icu.summary</source>
-                <target></target>
+                <target>Contient les données de la librairie ICU dans une version spécifique. Utilisez-le par le biais de l'API du composant Intl.</target>
             </trans-unit>
             <trans-unit id="icu.description">
                 <source>icu.description</source>
