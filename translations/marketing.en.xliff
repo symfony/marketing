@@ -97,7 +97,7 @@
 
             <trans-unit id="4">
                 <source>menu.community</source>
-                <target>Community</target>
+                <target><![CDATA[Community & Jobs]]></target>
             </trans-unit>
 
             <trans-unit id="41">
