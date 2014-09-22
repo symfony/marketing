@@ -117,6 +117,13 @@
                 <target>参加方法</target>
             </trans-unit>
 
+            <!-- Jobs -->
+
+            <trans-unit id="8">
+                <source>menu.jobs</source>
+                <target>仕事</target>
+            </trans-unit>
+
             <!-- Services -->
 
             <trans-unit id="5">

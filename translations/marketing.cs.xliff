@@ -117,6 +117,13 @@
                 <target>Jak se zapojit</target>
             </trans-unit>
 
+            <!-- Jobs -->
+
+            <trans-unit id="8">
+                <source>menu.jobs</source>
+                <target>Kariéra</target>
+            </trans-unit>
+
             <!-- Services -->
 
             <trans-unit id="5">

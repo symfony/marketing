@@ -119,6 +119,13 @@
                 <target>Как Принять Участие</target>
             </trans-unit>
 
+            <!-- Jobs -->
+
+            <trans-unit id="8">
+                <source>menu.jobs</source>
+                <target>Работа</target>
+            </trans-unit>
+
             <!-- Services -->
 
             <trans-unit id="5">
