@@ -121,6 +121,13 @@
                 <target>Kako se priključiti</target>
             </trans-unit>
 
+            <!-- Jobs -->
+
+            <trans-unit id="8">
+                <source>menu.jobs</source>
+                <target>Zaposlitve</target>
+            </trans-unit>
+
             <!-- Services -->
 
             <trans-unit id="5">

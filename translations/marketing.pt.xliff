@@ -117,6 +117,13 @@
                 <target>Como se Envolver</target>
             </trans-unit>
 
+            <!-- Jobs -->
+
+            <trans-unit id="8">
+                <source>menu.jobs</source>
+                <target>Emprego</target>
+            </trans-unit>
+
             <!-- Services -->
 
             <trans-unit id="5">

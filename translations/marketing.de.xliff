@@ -121,6 +121,13 @@
                 <target>Wie Sie mitwirken können</target>
             </trans-unit>
 
+            <!-- Jobs -->
+
+            <trans-unit id="8">
+                <source>menu.jobs</source>
+                <target>Jobs</target>
+            </trans-unit>
+
             <!-- Services -->
 
             <trans-unit id="5">

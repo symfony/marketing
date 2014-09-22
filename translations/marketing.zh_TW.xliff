@@ -117,6 +117,13 @@
                 <target>如何參與</target>
             </trans-unit>
 
+            <!-- Jobs -->
+
+            <trans-unit id="8">
+                <source>menu.jobs</source>
+                <target>工作招聘</target>
+            </trans-unit>
+
             <!-- Services -->
 
             <trans-unit id="5">
