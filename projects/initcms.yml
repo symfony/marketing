@@ -1,5 +1,5 @@
 name: init CMS
-url: http://symfony.com
+url: http://initcms.com/
 dependencies:
     - symfonyfs
 components: []
