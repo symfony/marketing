@@ -203,7 +203,7 @@
 
             <trans-unit id="icu.summary">
                 <source>icu.summary</source>
-                <target>Vsebuje podatke knjižnice ICU v določeni različici. Uporabite jo preko API-ja Intl komponente.</target>
+                <target>Vsebuje podatke knjižnice ICU v določeni različici. Ta komponenta je opuščena od oktobra 2014, namesto nje uporabite komponento Intl.</target>
             </trans-unit>
             <trans-unit id="icu.description">
                 <source>icu.description</source>
