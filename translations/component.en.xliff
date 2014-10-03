@@ -203,7 +203,7 @@
 
             <trans-unit id="icu.summary">
                 <source>icu.summary</source>
-                <target>Contains the data of the ICU library in a specific version. Use it through the API of the Intl component.</target>
+                <target>Contains the data of the ICU library in a specific version. This component is deprecated since October 2014, use the Intl component instead.</target>
             </trans-unit>
             <trans-unit id="icu.description">
                 <source>icu.description</source>
