@@ -203,7 +203,7 @@
 
             <trans-unit id="icu.summary">
                 <source>icu.summary</source>
-                <target>Contient les données de la librairie ICU dans une version spécifique. Utilisez-le par le biais de l'API du composant Intl.</target>
+                <target>Contient les données de la librairie ICU dans une version spécifique. Ce composant est déprécié depuis Octobre 2014, utilisez le composant Intl à la place.</target>
             </trans-unit>
             <trans-unit id="icu.description">
                 <source>icu.description</source>
