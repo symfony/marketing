@@ -15,6 +15,7 @@ major:
     - sismo
     - phpunit
     - orocrm
+    - oroplatform
     - doctrine
     #- midgard
     - behat
