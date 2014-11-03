@@ -1,0 +1,19 @@
+name: Elcodi
+url: http://elcodi.io
+dependencies: []
+components:
+    - BrowserKit
+    - ClassLoader
+    - Config
+    - Console
+    - EventDispatcher
+    - ExpressionLanguage
+    - Finder
+    - FrameworkBundle
+    - HttpFoundation
+    - HttpKernel
+    - Process
+    - Routing
+    - Security
+    - Validator
+    - Yaml
