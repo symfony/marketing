@@ -6,5 +6,4 @@ components:
     - EventDispatcher
     - Filesystem
     - Finder
-    - HttpFoundation
     - Yaml
