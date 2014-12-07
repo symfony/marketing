@@ -113,7 +113,7 @@
 
             <trans-unit id="domcrawler.summary">
                 <source>domcrawler.summary</source>
-                <target>Erlaubt die Navigation innerhalb des DOM von HTML- und XML-Dokumentem</target>
+                <target>Erlaubt die Navigation innerhalb des DOM von HTML- und XML-Dokumenten</target>
             </trans-unit>
             <trans-unit id="domcrawler.description">
                 <source>domcrawler.description</source>
