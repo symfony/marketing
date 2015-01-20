@@ -27,6 +27,7 @@ major:
     - akeneo
     - shopware
     - propel
+    - freepost
 minor:
     - thelia
     - kunstmaanbundles
