@@ -27,6 +27,7 @@ major:
     - akeneo
     - shopware
     - propel
+    - mautic
 minor:
     - thelia
     - kunstmaanbundles
