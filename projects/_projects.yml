@@ -28,6 +28,7 @@ major:
     - shopware
     - propel
     - mautic
+    - freepost
 minor:
     - thelia
     - kunstmaanbundles
