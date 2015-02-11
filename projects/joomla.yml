@@ -1,0 +1,5 @@
+name: Joomla!
+url: http://www.joomla.org/
+dependencies: []
+components:
+    - Yaml
