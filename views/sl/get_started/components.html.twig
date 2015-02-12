@@ -2,41 +2,21 @@
 {% block keywords '' %}
 {% block description '' %}
 
-{% block intro %}
+{% block what_is_a_component %}
     <p>
-        Poleg polnega ogrodja je Symfony tudi skupek
-        nevezanih in samostojnih komponent.
+        Symfony komponente so skupek samostojnih in ponovno uporabnih PHP knjižnic.
+        Postajajo standardni temelj na kateremu so zgrajene najboljše PHP
+        aplikacije. Lahko uporabite katerokoli izmed teh komponent na vaših
+        lastnih aplikacijah, neodvisno od ogrodja Symfony.
     </p>
 {% endblock %}
 
-{% block what_is_a_component %}
-    <p>
-        Symfony komponente izvajajo skupne lastnosti potrebne za razvoj
-        spletnih strani. So temelj Symfony polnega ogrodja, vendar jih
-        je možno uporabiti tudi kot samostojne, čeprav ne uporabite ogrodja,
-        ker so neodvisne.
-    </p>
-{% endblock %}
+{% block installation_title 'Namestitev' %}
 
 {% block installation %}
     <p>
-        Vsako komponento lahko namestite na več načinov:
-    </p>
-
-    <ul>
-        <li>
-            <strong>Priporočeno</strong>
-            Namestitev s pomočjo Composer-ja:
-            (<code>symfony/<strong>dashed-component-name</strong></code> na Packagist).
-        </li>
-        <li>
-            Uporabite uradni Git repositorij
-            (<code>https://github.com/symfony/<strong>CamelCaseComponentName</strong></code>);
-        </li>
-        <li>
-            <strong>Zastarelo</strong>
-            Namestitev preko PEAR
-            (<code>pear.symfony.com/<strong>CamelCaseComponentName</strong></code>);
-        </li>
-    </ul>
+        Uporabite <a href="{{ doc_path({version: 'master', page: 'cookbook/composer'}) }}">Composer</a>,
+        da namestite katerokoli izmed komponent Symfony v vaš PHP projekt:
 {% endblock %}
+
+{% block component_list_title 'Seznam komponent' %}
