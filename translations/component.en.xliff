@@ -48,6 +48,15 @@
                 <target>Documentation</target>
             </trans-unit>
 
+            <trans-unit id="asset.summary">
+                <source>asset.summary</source>
+                <target>Manages URL generation and versioning of web assets such as CSS stylesheets, JavaScript files and image files.</target>
+            </trans-unit>
+            <trans-unit id="asset.description">
+                <source>asset.description</source>
+                <target />
+            </trans-unit>
+
             <trans-unit id="browserkit.summary">
                 <source>browserkit.summary</source>
                 <target>Simulates the behavior of a web browser.</target>
