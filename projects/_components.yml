@@ -1,3 +1,4 @@
+Asset:               { docUrl: ~                               }
 BrowserKit:          { docUrl: ~                               }
 ClassLoader:         { docUrl: class_loader/index.html         }
 Config:              { docUrl: config/index.html               }
