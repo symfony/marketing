@@ -48,6 +48,15 @@
                 <target>Dokumentacija</target>
             </trans-unit>
 
+            <trans-unit id="asset.summary">
+                <source>asset.summary</source>
+                <target>Upravlja generiranje URL-jev in različice spletnih sredstev, kot so CSS stili,datoteke JavSscrip in datoteke slik.</target>
+            </trans-unit>
+            <trans-unit id="asset.description">
+                <source>asset.description</source>
+                <target />
+            </trans-unit>
+
             <trans-unit id="browserkit.summary">
                 <source>browserkit.summary</source>
                 <target>Simulira delovanje spletnega brskalnika.</target>
