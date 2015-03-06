@@ -128,11 +128,11 @@
                 <target>Jobs</target>
             </trans-unit>
 
-            <!-- Services -->
+            <!-- Professional Solutions -->
 
             <trans-unit id="5">
                 <source>menu.services</source>
-                <target>Services</target>
+                <target>Professional Solutions</target>
             </trans-unit>
 
             <!-- News -->
