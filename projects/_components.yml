@@ -27,4 +27,5 @@ Stopwatch:           { docUrl: stopwatch.html                  }
 Templating:          { docUrl: templating/index.html           }
 Translation:         { docUrl: translation/index.html          }
 Validator:           { docUrl: ~                               }
+VarDumper:           { docUrl: ~                               }
 Yaml:                { docUrl: yaml/index.html                 }
