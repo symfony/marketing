@@ -1,5 +1,0 @@
-name: Magento
-url: http://magento.com
-dependencies: []
-components:
-    - Yaml
