@@ -128,11 +128,11 @@
                 <target>Zaposlitve</target>
             </trans-unit>
 
-            <!-- Services -->
+            <!-- Business Solutions -->
 
             <trans-unit id="5">
                 <source>menu.services</source>
-                <target>Storitve</target>
+                <target>Poslovne rešitve</target>
             </trans-unit>
 
             <!-- News -->
