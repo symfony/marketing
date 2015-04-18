@@ -25,7 +25,6 @@
                 <source>menu.what_is_symfony.in_5_minutes</source>
                 <target>Symfony en 5 Minutes</target>
             </trans-unit>
-            
             <trans-unit id="13">
                 <source>menu.what_is_symfony.elevator_pitches</source>
                 <target>Elevator Pitches</target>
