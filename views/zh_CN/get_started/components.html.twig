@@ -2,12 +2,6 @@
 {% block keywords '' %}
 {% block description '' %}
 
-{% block intro %}
-    <p>
-        Symfony 不但是一个全功能的框架，它也也是一系列分隔的、独立的组件。
-    </p>
-{% endblock %}
-
 {% block what_is_a_component %}
     <p>
         Symfony 组件提供开发网站时的常用到的功能。这些是 Symofny 全能框架的基石。
@@ -15,25 +9,13 @@
     </p>
 {% endblock %}
 
+{% block installation_title 'Installation' %}
+
 {% block installation %}
     <p>
-        您可以通过多种方式来安装每一个组件：
+        使用 <a href="{{ doc_path({version: 'master', page: 'cookbook/composer'}) }}">Composer</a>
+        安装Symfony的任何组件到你的PHP项目：
     </p>
-
-    <ul>
-        <li>
-            <strong>推荐方式</strong>
-            通过 Composer 安装
-            (<code>symfony/<strong>dashed-component-name</strong></code>，Packagist).
-        </li>
-        <li>
-            通过官方的 Git 代码库
-            (<code>https://github.com/symfony/<strong>CamelCaseComponentName (骆驼拼写法的组件名称)</strong></code>)；
-        </li>
-        <li>
-            <strong>已过时</strong>
-            通过 PEAR 安装
-            (<code>pear.symfony.com/<strong>CamelCaseComponentName (骆驼拼写法的组件名称)</strong></code>);
-        </li>
-    </ul>
 {% endblock %}
+
+{% block component_list_title 'Component List' %}
