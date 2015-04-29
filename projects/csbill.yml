@@ -1,0 +1,5 @@
+name: CSBill
+url: http://csbill.org
+dependencies:
+    - symfonyfs
+components: []
