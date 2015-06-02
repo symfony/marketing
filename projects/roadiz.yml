@@ -1,0 +1,26 @@
+name: Roadiz
+url: http://www.roadiz.io
+dependencies:
+    - slir
+    - doctrine
+    - twig
+    - pimple
+    - guzzle
+components:
+    - Yaml
+    - Console
+    - HttpFoundation
+    - Routing
+    - Config
+    - HttpKernel
+    - Stopwatch
+    - Form
+    - Validator
+    - SecurityCsrf
+    - TwigBridge
+    - Finder
+    - Serializer
+    - FileSystem
+    - Security
+    - EventDispatcher
+    - Translation

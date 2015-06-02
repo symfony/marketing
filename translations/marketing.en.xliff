@@ -95,11 +95,11 @@
                 <target>Jobs</target>
             </trans-unit>
 
-            <!-- Services -->
+            <!-- Business Solutions -->
 
             <trans-unit id="5">
                 <source>menu.services</source>
-                <target>Services</target>
+                <target>Business Solutions</target>
             </trans-unit>
 
             <!-- News -->

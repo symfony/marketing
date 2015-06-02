@@ -1,3 +1,4 @@
+Asset:               { docUrl: ~                               }
 BrowserKit:          { docUrl: ~                               }
 ClassLoader:         { docUrl: class_loader/index.html         }
 Config:              { docUrl: config/index.html               }
@@ -26,4 +27,5 @@ Stopwatch:           { docUrl: stopwatch.html                  }
 Templating:          { docUrl: templating/index.html           }
 Translation:         { docUrl: translation/index.html          }
 Validator:           { docUrl: ~                               }
+VarDumper:           { docUrl: ~                               }
 Yaml:                { docUrl: yaml/index.html                 }

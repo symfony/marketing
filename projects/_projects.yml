@@ -3,8 +3,8 @@ highlighted:
     - phpbb
     - laravel
     - ezpublish
+    - joomla
     - composer
-    - magento
     - piwik
     - symfonyfs
 major:
@@ -27,6 +27,8 @@ major:
     - akeneo
     - shopware
     - propel
+    - mautic
+    - freepost
 minor:
     - thelia
     - kunstmaanbundles
@@ -50,3 +52,6 @@ minor:
     - ladybug
     - phinx
     - elcodi
+    - spress
+    - phpredexpert
+    - roadiz

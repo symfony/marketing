@@ -4,53 +4,53 @@
         <body>
             <trans-unit id="label.what.is.component">
                 <source>what.is.component</source>
-                <target>Kaj je komponenta?</target>
+                <target>什么是组件？</target>
             </trans-unit>
             <trans-unit id="label.the.components">
                 <source>the.components</source>
-                <target>Komponente</target>
+                <target>组件列表</target>
             </trans-unit>
             <trans-unit id="label.installation">
                 <source>installation</source>
-                <target>Namestitev</target>
+                <target>安装</target>
             </trans-unit>
             <trans-unit id="label.installation.sample">
                 <source>installation.sample</source>
-                <target>Na primer za namestitev komponente %component_name%:</target>
+                <target>例如：若要安装 %component_name%组件：</target>
             </trans-unit>
             <trans-unit id="label.composer">
                 <source>with.composer</source>
-                <target>Composer namestitev</target>
+                <target>通过 Composer</target>
             </trans-unit>
             <trans-unit id="label.git">
                 <source>with.git</source>
-                <target>Git namestitev</target>
+                <target>通过 Git</target>
             </trans-unit>
             <trans-unit id="label.pear">
                 <source>with.pear</source>
-                <target>PEAR namestitev</target>
+                <target>通过 PEAR</target>
             </trans-unit>
             <!-- these are the labels displayed in the table header -->
             <trans-unit id="label.component">
                 <source>component</source>
-                <target>Komponenta</target>
+                <target>组件</target>
             </trans-unit>
             <trans-unit id="label.description">
                 <source>description</source>
-                <target>Opis</target>
+                <target>概括</target>
             </trans-unit>
             <trans-unit id="label.code">
                 <source>code</source>
-                <target>Koda</target>
+                <target>代码</target>
             </trans-unit>
             <trans-unit id="label.documentation">
                 <source>documentation</source>
-                <target>Dokumentacija</target>
+                <target>文档</target>
             </trans-unit>
 
             <trans-unit id="asset.summary">
                 <source>asset.summary</source>
-                <target>Upravlja generiranje URL-jev in različice spletnih sredstev, kot so CSS stili,datoteke JavSscrip in datoteke slik.</target>
+                <target>管理URL生成和静态资源版本，比如CSS样式表，JavaScript文件和图片。</target>
             </trans-unit>
             <trans-unit id="asset.description">
                 <source>asset.description</source>
@@ -59,7 +59,7 @@
 
             <trans-unit id="browserkit.summary">
                 <source>browserkit.summary</source>
-                <target>Simulira delovanje spletnega brskalnika.</target>
+                <target>模拟浏览器的功能。</target>
             </trans-unit>
             <trans-unit id="browserkit.description">
                 <source>browserkit.description</source>
@@ -68,7 +68,7 @@
 
             <trans-unit id="classloader.summary">
                 <source>classloader.summary</source>
-                <target>Avtomatsko naloži projektne razrede, če sledijo standardnim PHP konvencijam.</target>
+                <target>如果类（Class）采用了某些标准的PHP规则，便会自动加载到项目内。</target>
             </trans-unit>
             <trans-unit id="6">
                 <source>classloader.description</source>
@@ -77,7 +77,7 @@
 
             <trans-unit id="config.summary">
                 <source>config.summary</source>
-                <target>Pomaga najti, naložiti, združiti, samodejno izpolniti in potrditi nastavitvene vrednosti.</target>
+                <target>帮助您找到、加载、混合、自动填充、验证设置数值。</target>
             </trans-unit>
             <trans-unit id="config.description">
                 <source>config.description</source>
@@ -86,7 +86,7 @@
 
             <trans-unit id="console.summary">
                 <source>console.summary</source>
-                <target>Poenostavi ustvarjanje lepih in testnih vmesnikov ukazne vrstice.</target>
+                <target>E简化创建美观和可测试的命令行界面。</target>
             </trans-unit>
             <trans-unit id="console.description">
                 <source>console.description</source>
@@ -95,7 +95,7 @@
 
             <trans-unit id="cssselector.summary">
                 <source>cssselector.summary</source>
-                <target>Pretvori izbirnike CSS v izraze XPath.</target>
+                <target>将 CSS 选择器转换为 XPath 语言。</target>
             </trans-unit>
             <trans-unit id="cssselector.description">
                 <source>cssselector.description</source>
@@ -104,7 +104,7 @@
 
             <trans-unit id="debug.summary">
                 <source>debug.summary</source>
-                <target>Ponuja orodja za enostavnejše razhroščevanje PHP kode.</target>
+                <target>提供工具来简化 PHP 代码的调试。</target>
             </trans-unit>
             <trans-unit id="debug.description">
                 <source>debug.description</source>
@@ -113,7 +113,7 @@
 
             <trans-unit id="dependencyinjection.summary">
                 <source>dependencyinjection.summary</source>
-                <target>Omogoča standardizacijo in centralizacijo načina konstrukcije objektov v vaši aplikaciji.</target>
+                <target>让您能够以统一的、集中的方式创建程序中的对象。</target>
             </trans-unit>
             <trans-unit id="dependencyinjection.description">
                 <source>dependencyinjection.description</source>
@@ -122,7 +122,7 @@
 
             <trans-unit id="domcrawler.summary">
                 <source>domcrawler.summary</source>
-                <target>Poenostavi navigacijo DOM za HTML in XML dokumente.</target>
+                <target>简化 HTML 和 XML 文件内 DOM 的查找。</target>
             </trans-unit>
             <trans-unit id="domcrawler.description">
                 <source>domcrawler.description</source>
@@ -131,7 +131,7 @@
 
             <trans-unit id="eventdispatcher.summary">
                 <source>eventdispatcher.summary</source>
-                <target>Implementira mediator vzorec na enostaven in efektiven način, da naredi projekte resnično razširljive.</target>
+                <target>提供一款 观察者设计模式 (Observer design pattern) 的轻量代码。</target>
             </trans-unit>
             <trans-unit id="eventdispatcher.description">
                 <source>eventdispatcher.description</source>
@@ -140,7 +140,7 @@
 
             <trans-unit id="expressionlanguage.summary">
                 <source>expressionlanguage.summary</source>
-                <target>Ponuja motor, ki lahko prevede in oceni izraze.</target>
+                <target>Provides an engine that can compile and evaluate expressions.</target>
             </trans-unit>
             <trans-unit id="expressionlanguage.description">
                 <source>expressionlanguage.description</source>
@@ -149,7 +149,7 @@
 
             <trans-unit id="filesystem.summary">
                 <source>filesystem.summary</source>
-                <target>Ponuja osnovno podporo za datotečni sistem.</target>
+                <target>提供文件系统的基本操作。</target>
             </trans-unit>
             <trans-unit id="filesystem.description">
                 <source>filesystem.description</source>
@@ -158,7 +158,7 @@
 
             <trans-unit id="finder.summary">
                 <source>finder.summary</source>
-                <target>Najde datoteke in direktorije preko intuitivno tekočega vmesnika.</target>
+                <target>提供易懂的流畅界面 (fluent interface)，来查找文件和文件夹。</target>
             </trans-unit>
             <trans-unit id="finder.description">
                 <source>finder.description</source>
@@ -167,7 +167,7 @@
 
             <trans-unit id="form.summary">
                 <source>form.summary</source>
-                <target>Ponuja orodja za enostavno izdelavo, procesiranje in ponovno uporabo HTML obrazcev.</target>
+                <target>提供工具，以方便创建，处理和重用HTML表单。</target>
             </trans-unit>
             <trans-unit id="form.description">
                 <source>form.description</source>
@@ -176,7 +176,7 @@
 
             <trans-unit id="httpfoundation.summary">
                 <source>httpfoundation.summary</source>
-                <target>Opredeljuje objektno orientirano plast za specifikacijo HTTP.</target>
+                <target>为 HTTP 规格提供一个面向对象的界面。</target>
             </trans-unit>
             <trans-unit id="httpfoundation.description">
                 <source>httpfoundation.description</source>
@@ -185,7 +185,7 @@
 
             <trans-unit id="httpkernel.summary">
                 <source>httpkernel.summary</source>
-                <target>Zagotavlja gradnike za izdelavo fleksibilnega in hitrih ogrodij na osnovi HTTP.</target>
+                <target>为创建灵活的、高速的、基于 HTTP 的框架提供基本元件。</target>
             </trans-unit>
             <trans-unit id="httpkernel.description">
                 <source>httpkernel.description</source>
@@ -194,7 +194,7 @@
 
             <trans-unit id="locale.summary">
                 <source>locale.summary</source>
-                <target>Zagotavlja nadomestno kodo za upravljanje primerov, kjer manjka razširitev intl. Ta komponenta je opuščena od 2.3 in namesto nje je v uporabi Intl komponenta.</target>
+                <target>如果 intl 扩展不存在，此组件可提供相关的功能。此组件于版本 2.3 过时，请使用 Intl 组件。</target>
             </trans-unit>
             <trans-unit id="locale.description">
                 <source>locale.description</source>
@@ -203,7 +203,7 @@
 
             <trans-unit id="intl.summary">
                 <source>intl.summary</source>
-                <target>Ponuja nadomestno kodo za upravljanje primerov, kjer manjka razširitev intl.</target>
+                <target>如果 intl 扩展不存在，此组件可提供相关的功能。</target>
             </trans-unit>
             <trans-unit id="intl.description">
                 <source>intl.description</source>
@@ -212,7 +212,7 @@
 
             <trans-unit id="icu.summary">
                 <source>icu.summary</source>
-                <target>Vsebuje podatke knjižnice ICU v določeni različici. Ta komponenta je opuščena od oktobra 2014, namesto nje uporabite komponento Intl.</target>
+                <target>包含ICU库的一个特定版本的数据。该组件在2014年10月废弃，使用国际组件代替。</target>
             </trans-unit>
             <trans-unit id="icu.description">
                 <source>icu.description</source>
@@ -221,7 +221,7 @@
 
             <trans-unit id="optionsresolver.summary">
                 <source>optionsresolver.summary</source>
-                <target>Pomaga nastaviti objekte s pomočjo opcije polj (arrays).</target>
+                <target>用设置数组来帮助您配置对象。</target>
             </trans-unit>
             <trans-unit id="optionsresolver.description">
                 <source>optionsresolver.description</source>
@@ -230,7 +230,7 @@
 
             <trans-unit id="process.summary">
                 <source>process.summary</source>
-                <target>Izvede ukaze v podprocesih.</target>
+                <target>以子流程执行指令。</target>
             </trans-unit>
             <trans-unit id="process.description">
                 <source>process.description</source>
@@ -239,7 +239,7 @@
 
             <trans-unit id="propertyaccess.summary">
                 <source>propertyaccess.summary</source>
-                <target>Ponuja funkcijo za branje in pisanje iz/v objekt ali polje s pomočjo enostavnega znakovnega zapisa.</target>
+                <target>以存取简单字符串的方式来读取/储存对象或数组的数据。</target>
             </trans-unit>
             <trans-unit id="propertyaccess.description">
                 <source>propertyaccess.description</source>
@@ -248,7 +248,7 @@
 
             <trans-unit id="routing.summary">
                 <source>routing.summary</source>
-                <target>Poveže zahtevek HTTP z nizom nastavitvenih spremenljivk.</target>
+                <target>将 HTTP 访问转换为一组设置变量。</target>
             </trans-unit>
             <trans-unit id="routing.description">
                 <source>routing.description</source>
@@ -257,7 +257,7 @@
 
             <trans-unit id="security.summary">
                 <source>security.summary</source>
-                <target>Ponuja infrastrukturo za sofisticirane sisteme pooblastil.</target>
+                <target>为建立复杂的授权系统提供设施。</target>
             </trans-unit>
             <trans-unit id="security.description">
                 <source>security.description</source>
@@ -266,7 +266,7 @@
 
             <trans-unit id="serializer.summary">
                 <source>serializer.summary</source>
-                <target>Spremeni objekt v določeno obliko (XML, JSON, Yaml, ...) in obratno.</target>
+                <target>将对象转换为某种格式的数据（XML、JSON、Yaml……） 或反向转换。</target>
             </trans-unit>
             <trans-unit id="serializer.description">
                 <source>serializer.description</source>
@@ -275,7 +275,7 @@
 
             <trans-unit id="stopwatch.summary">
                 <source>stopwatch.summary</source>
-                <target>Ponuja način profiliranja kode.</target>
+                <target>提供一种分析代码的功能。</target>
             </trans-unit>
             <trans-unit id="stopwatch.description">
                 <source>stopwatch.description</source>
@@ -284,7 +284,7 @@
 
             <trans-unit id="templating.summary">
                 <source>templating.summary</source>
-                <target>Ponuja vsa potrebna orodja za gradnjo vseh vrst sistemov predlog.</target>
+                <target>提供工具制作任何种类的模板系统。</target>
             </trans-unit>
             <trans-unit id="templating.description">
                 <source>templating.description</source>
@@ -293,7 +293,7 @@
 
             <trans-unit id="translation.summary">
                 <source>translation.summary</source>
-                <target>Ponuja orodja za internacionalizacijo vaše aplikacije.</target>
+                <target>翻译组件工具</target>
             </trans-unit>
             <trans-unit id="translation.description">
                 <source>translation.description</source>
@@ -302,7 +302,7 @@
 
             <trans-unit id="validator.summary">
                 <source>validator.summary</source>
-                <target>Ponuja orodja za potrjevanje razredov.</target>
+                <target>提供验证类的工具。</target>
             </trans-unit>
             <trans-unit id="validator.description">
                 <source>validator.description</source>
@@ -311,7 +311,7 @@
 
             <trans-unit id="yaml.summary">
                 <source>yaml.summary</source>
-                <target>Naloži in shrani datoteke YAML.</target>
+                <target>加载和导出 YAML 文件。</target>
             </trans-unit>
             <trans-unit id="yaml.description">
                 <source>yaml.description</source>

@@ -1,0 +1,23 @@
+name: Mautic
+url: https://www.mautic.org
+dependencies: []
+components:
+    - ClassLoader
+    - Config
+    - Console
+    - Debug
+    - DependencyInjection
+    - EventDispatcher
+    - Finder
+    - Form
+    - HttpFoundation
+    - HttpKernel
+    - Intl
+    - OptionsResolver
+    - Process
+    - Routing
+    - Security
+    - Templating
+    - Translation
+    - Validator
+    - Yaml

@@ -1,0 +1,5 @@
+name: phpRedExpert
+url: https://github.com/eugef/phpRedExpert
+dependencies:
+    - symfonyfs
+components: []
