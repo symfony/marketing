@@ -29,13 +29,13 @@
 
 {% block linux_mac_installation_title %}Installation on Linux and Mac OS X{% endblock %}
 {% block linux_mac_installation_commands %}
-    $ sudo curl -LsS https://symfony.com/installer -o /usr/local/bin/symfony<br/>
+    $ sudo curl -LsS http://symfony.com/installer -o /usr/local/bin/symfony<br/>
     $ sudo chmod a+x /usr/local/bin/symfony
 {% endblock %}
 
 {% block windows_installation_title %}Installation on Windows{% endblock %}
 {% block windows_installation_commands %}
-    c:\> php -r "readfile('https://symfony.com/installer');" > symfony
+    c:\> php -r "readfile('http://symfony.com/installer');" > symfony
 {% endblock %}
 {% block windows_installation_instructions %}
     <p>
