@@ -2,99 +2,93 @@
 {% block keywords '' %}
 {% block description 'Prenosi, stopite v stik s skupnostjo, preberite članke, najdite usposabljanja' %}
 
-{% block intro %}
-    <h2>Symfony Standard Edition</h2>
+{% block symfony_framework_title %}Uporaba celotnega<br/>ogrodja Symfony{% endblock %}
+
+{% block stable_version_tab_title %}
+    Uporabite <strong>Symfony %stable_version%</strong>
+    <br>
+    za najnovejše lastnosti
+{% endblock %}
+{% block lts_version_tab_title %}
+    Uporabite <strong>Symfony %lts_version%</strong>
+    <br>
+    za dolgoročno podporo
+{% endblock %}
+
+{% block end_of_support_label %}konec podpore{% endblock %}
+
+{% block symfony_installer_title %}Najprej <em>namestite namestitveni program Symfony Installer</em>. Nato izvršite ta ukaz:{% endblock %}
+
+{% block symfony_installer_description %}
     <p>
-        Symfony Standard Edition je najboljša distribucija za uporabo pri
-        novih projektih. Vključuje najbolj uporabljane pakete (bundles)
-        in preprost konfiguracijski sistem.
+        <strong>Symfony Installer</strong> je majhna PHP aplikacija, ki
+        mora biti nameščena enkrat na vaš računalnik. Izjemno poenostavi
+        ustvarjanje novih projekto osnovanih na ogrodju Symfony.
     </p>
 {% endblock %}
 
-{% block downloadnow 'Prenesite zdaj' %}
-{% block download 'Prenesite' %}
-{% block previousversion 'Prenesite prejšnje stabilne različice:' %}
-{% block specificversion 'Izberite določeno verzijo:' %}
-
-{% block console %}
-    <div style="padding-bottom: 20px">
-        <h3 class="title_05">Uporabljate konzolo?</h3>
-        <p style="padding-bottom: 0">
-            Namestite <a href="http://getcomposer.org/">Composer</a> in poženite sledeči ukaz:
-        </p>
-        <pre style="font-size: 95%">php composer.phar create-project symfony/framework-standard-edition path/ {{ latest_stable_version }}</pre>
-    </div>
-    <h3 class="title_05">Namestitvena navodila</h3>
-    <ol>
-        <li>
-            Prenesite enega izmed arhivov na svoj lokalni spletni
-            strežnik v vrhovni direktorij in ga razširite. Če
-            imate nameščen Git, si lahko prenesete Symfony2
-            "without vendors", ki omogoča več fleksibilnosti.
-        </li>
-        <li>
-            Sledite navodilom v datoteki README.md
-            (kar je samo tekstovna datoteka) ki je vključena
-            v prenosu.
-        </li>
-        <li>Uživajte!</li>
-    </ol>
+{% block linux_mac_installation_title %}Namestitev na Linux in Mac OS X{% endblock %}
+{% block linux_mac_installation_commands %}
+    $ sudo curl -LsS https://symfony.com/installer -o /usr/local/bin/symfony<br/>
+    $ sudo chmod a+x /usr/local/bin/symfony
 {% endblock %}
 
-{% block components %}
-    <h2 class="title_05">SYMFONY KOMPONENTE</h2>
+{% block windows_installation_title %}Namestiev na Windows{% endblock %}
+{% block windows_installation_commands %}
+    c:\> php -r "readfile('https://symfony.com/installer');" > symfony
+{% endblock %}
+{% block windows_installation_instructions %}
     <p>
-        Poleg celotnega ogrodja je Symfony tudi skupek nevezanih
-        in samostojnih komponent. Komponente se lahko <a href="{{
-        marketing_path('components') }}">prenese in namesti</a> neodvisno
-        od glavnega ogrodja.
+        Premaknite preneseno datoteko v vaš projektni direktorij in
+        jo izvršite kot <code>php symfony</code>.
     </p>
 {% endblock %}
 
-{% block git %}
-    <h2 class="title_05">SYMFONY NA GIT-u</h2>
+{% block label_copy %}Kopirajte{% endblock %}
+
+{% block updates_title %}Ne zamudite nobenih posodobitev!{% endblock %}
+{% block updates_description %}
+    <a href="{{ path('roadmap') }}">Prijavite</a> se
+    na našo storitev obveščanja in prejeli boste e-pošto kakor hitro bo
+    objavljena nova verzija Symfony.
+{% endblock %}
+
+{% block open_source_title %}Brezplačno in odprtokoden{% endblock %}
+{% block open_source_description %}
+    Koda Symfony je objavljena pod
+    <a href="{{ path('doc_shortcut', { version: 'current', page: 'contributing/code/license' }) }}">licenco MIT</a>,
+    ki je prijazna za razvijalce in varna za posel.
+{% endblock %}
+
+{% block symfony_components_title %}Uporaba komponent<br>Symfony{% endblock %}
+
+{% block symfony_components_description %}
     <p>
-        <strong>Uradni Symfony2 repositorij</strong> je gostovan na Github-u na
-        <a href="http://github.com/symfony/symfony">http://github.com/symfony/symfony</a>.
-        <br />
-        Ta vir uporabite le, če želite najnovejše spremembe ali če vas
-        ne moti ročno nameščanje.
+        Ogrodje Symfony je zgrajeno na vrhu skupka nevezanih in ponovno uporabljivih PHP
+        komponent imenovanih <a href="{{ path('marketing_page_shortcut', { name: 'components' }) }}">
+        <strong>komponente Symfony</a></strong>. Postajajo standardni
+        temelj na katerem so zgrajene najboljše PHP aplikacije. Lahko uporabite
+        katerokoli izmed teh komponent na vaših lastnih aplikacijah neodvisno od
+        ogrodja.
     </p>
 {% endblock %}
 
-{% block symfony1 %}
-    <h2 class="title_05" id="symfony1">SYMFONY 1.X</h2>
+{% block symfony_components_instructions %}<p>Dodajanje komponente Symfony k vaši aplikaciji:</p>{% endblock %}
+
+{% block symfony_components_help %}
     <p>
-        Verzija symfony 1.4 je zadnja izdaja z dolgoročno podporo (Long Term Support) za
-        vejo symfony 1.X in je bila vzdrževana do novembra 2012.
-        Če delate nov projekt, namesto njega uporabite raje
-        <a href="#top">Symfony2</a>.
-    </p>
-    <p>
-        Če imate še vedno delujoč projekt na verziji symfony 1.x,
-        lahko še vedno dostopate do
-        <a href="{{ path('legacy_doc_home') }}">dokumentacije</a>
-        za vse symfony 1.x verzije,
-        <a href="#legacy">prenesete</a> katerokoli stabilno verzijo, ali dostopate
-        do drugih symfony 1.x orodij preko
-        <a href="{{ path('legacy_home') }}">legacy</a>
-        strani. Symfony1 je dostopen tudi preko
-        <a href="http://github.com/symfony/symfony1">Git</a> repositorija.
-    </p>
-    <p>
-        Če želite začeti nov
-        projekt z njim, prenesite sandbox
-        (<a href="http://www.symfony-project.org/get/sf_sandbox_1_4.tgz">.tgz</a>,
-        <a href="http://www.symfony-project.org/get/sf_sandbox_1_4.zip">.zip</a>),
-        izvorno kodo
-        (<a href="http://www.symfony-project.org/get/symfony-1.4.20.tgz">.tgz</a>,
-        <a href="http://www.symfony-project.org/get/symfony-1.4.20.zip">.zip</a>),
-        ali prenesite delovno verzijo SVN repositorija
-        (<a href="http://svn.symfony-project.com/branches/1.4">checkout</a>).
+        To zahteva, da <a href="{{ doc_path({version: 'current', page: 'cookbook/composer' }) }}">namestite Composer</a> globalno na vaš sistem.
     </p>
 {% endblock %}
 
-{% block legacy %}
-    <h2 class="title_05">Prejšnje izdaje</h2>
-    <p>Prenesite zadnje različice prejšnjih izdaj:</p>
+{% block distributions_title %}Prenesite distribucije Symfony{% endblock %}
+{% block distributions_description %}
+    <a href="{{ path('marketing_page_shortcut', { name: 'distributions' }) }}">Preverite naše distribucije</a>
+    pripravljene za REST in CMS aplikacije.
+{% endblock %}
+
+{% block legacy_title %}Prenesite verzije zapuščine{% endblock %}
+{% block legacy_description %}
+    <a href="{{ path('legacy_home') }}">Prenesite Symfony 1.x</a>
+    za vaše projekte in aplikacije zapuščine.
 {% endblock %}

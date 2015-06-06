@@ -9,58 +9,44 @@
     </p>
 {% endblock %}
 
-{% block body %}
-    <h2 class="title_09"><a name="what">Kaj je distribucija?</a></h2>
+{% block what_is_a_distribution_title %}Kaj je distribucija?{% endblock %}
+{% block what_is_a_distribution_description %}
     <p>
         Podobno kot Linux distribucije, znane po svoji lahki namestitvi in
         posebnih lastnostih (strežniške različice, različice za javnost itd.),
-        Symfony distribucijo sestavljajo Symfony2 komponente, zbirka
-        kompletov (bundle), struktura direktorijev, privzete nastavitve in opcijska
-        konfiguracija spletnega sistema.
+        Symfony distribucijo sestavljajo Symfony2 komponente,
+        zbirka paketov, struktura direktorijev, privzete
+        nastavitve in opcijski sistem spletne konfiguracije.
     </p>
-    <p>
-        Praktično gledano gre za preprosto, enostavno in zapakirano
-        rešitev za začetek s Symfony. Celo na računalniškem področju,
-        je dober prvi vtis ključen ...
-    </p>
-    <h2 class="title_09"><a name="why">Zakaj distribucije?</a></h2>
-    <p>
-        Distribucija je s svojo izbiro paketov (bundles), strukturo in
-        privzeto nastavitvijo načrtovana, da zadosti posebnim uporabniškim zahtevam:
-        kot so enostavna seznanitev, sistem za upravljanje vsebin za izdelavo
-        dinamičnih spletnih strani ali pa celotna različica za testiranje ogrodja.
-    </p>
-    <p>
-        Nenazadnje je v primerjavi s svojimi tekmovalci moč in inovacija Symfony-ja
-        v tem, da je vse možno modificirati: distribucija je paket, vendar
-        tak, da je še vedno razširljiv, kot bi ga ustvarili sami. Lahko
-        dodate ali odstranite pakete (bundles), spremenite privzete
-        nastavitve, ali spremenite datotečno strukturo itd. glede na vaše
-        potrebe in želje!
-    </p>
-    <h2 class="title_09"><a name="available">Distribucije, ki so na voljo</a></h2>
-    <p>
-        <a href="{{ marketing_path('download') }}">Standardna izdaja</a> je
-        zdaleč najboljša različica za začetek. Vključuje najbolj uporabljane
-        komplete (bundles) in ima enostavne nastavitve kompatibilne z
-        večino projektov.
-    </p>
-    <p>
-        Na "Standardni izdaji" osnovana
-        <a href="https://github.com/symfony/symfony-hello-world">Hello World Edition</a>
-        distribucija je najboljša za merjenje same
-        uspešnosti ogrodja.
-    </p>
-    <p>
-        T.i.
-        <a href="https://github.com/symfony-cmf/standard-edition">Symfony CMF standardna izdaja</a>
-        je najboljša distribucija za začetek s
-        <a href="http://cmf.symfony.com">Symfony CMF</a>.
-    </p>
-    <p>
-        <a href="https://github.com/gimler/symfony-rest-edition">Symfony REST izdaja</a>
-        prikazuje, kako zgraditi aplikacijo, ki ponuja RESTful API z uporabo
-        <a href="https://github.com/FriendsOfSymfony/FOSRestBundle">FOSRestBundle</a> in večih ostalih povezanih paketov.
-    </p>
+{% endblock %}
 
+{% block why_distribution_title %}Zakaj distribucije?{% endblock %}
+{% block why_distribution_description %}
+    <p>
+        Distribucija je s svojo izbiro paketov, strukture in
+        privzeto nastavitvijo načrtovana, da zadosti specifičnim potrebam uporabnika:
+        kot je enostavno spoznavanja, sistem za upravljanje z vsebino za
+        izdelavo dinamičnih spletnih strani ali polna verzija za testiranje ogrodja.
+    </p>
+{% endblock %}
+
+{% block available_distribution_title %}Distribucije na voljo{% endblock %}
+{% block available_distribution_description %}
+    <ul>
+        <li>
+            <a href="https://github.com/symfony/symfony-hello-world">Izdaja Hello World</a>
+            je osnovana na standardni izdaji in je najboljša distribucija za
+            merjenje same uspešnosti ogrodja.
+        </li>
+        <li>
+            <a href="https://github.com/symfony-cmf/symfony-cmf-standard">Symfony CMF standardna izdaja</a>
+            je najboljša distribucija za začetek s
+            <a href="http://cmf.symfony.com">Symfony CMF</a>.
+        </li>
+        <li>
+            <a href="https://github.com/gimler/symfony-rest-edition">Symfony REST izdaja</a>
+            prikazuje, kako zgraditi aplikacijo, ki ponuja RESTful API z uporabo
+            <a href="https://github.com/FriendsOfSymfony/FOSRestBundle">FOSRestBundle</a> in večih ostalih povezanih paketov.
+        </li>
+    </ul>
 {% endblock %}

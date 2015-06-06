@@ -12,78 +12,45 @@
 
             <!-- What is Symfony -->
 
-            <trans-unit id="1">
+            <trans-unit id="1-1">
                 <source>menu.what_is_symfony</source>
                 <target>Kaj je Symfony?</target>
             </trans-unit>
-
-            <trans-unit id="11">
+            <trans-unit id="1-2">
                 <source>menu.what_is_symfony.at_a_glance</source>
                 <target>Symfony na prvi pogled</target>
             </trans-unit>
-            <trans-unit id="12">
-                <source>menu.what_is_symfony.in_5_minutes</source>
-                <target>Symfony v 5 minutah</target>
+            <trans-unit id="1-3">
+                <source>menu.what_is_symfony.symfony_components</source>
+                <target>Komponente Symfony</target>
             </trans-unit>
-            <trans-unit id="13">
-                <source>menu.what_is_symfony.elevator_pitches</source>
-                <target>Hitre predstavitve</target>
+            <trans-unit id="1-4">
+                <source>menu.what_is_symfony.symfony_projects</source>
+                <target>Projekti s Symfony</target>
             </trans-unit>
-            <trans-unit id="14">
+            <trans-unit id="1-5">
                 <source>menu.what_is_symfony.case_studies</source>
                 <target>Primeri dobre prakse</target>
             </trans-unit>
-            <trans-unit id="15">
+            <trans-unit id="1-6">
                 <source>menu.what_is_symfony.versioning_policy</source>
                 <target>Politika različic</target>
             </trans-unit>
-            <trans-unit id="16">
-                <source>menu.what_is_symfony.long_term_support</source>
-                <target>Dolgoročna podpora</target>
-            </trans-unit>
-            <trans-unit id="17">
+            <trans-unit id="1-7">
                 <source>menu.what_is_symfony.security_policy</source>
                 <target>Varnostna politika</target>
             </trans-unit>
-            <trans-unit id="18">
+            <trans-unit id="1-8">
                 <source>menu.what_is_symfony.license</source>
                 <target>Licenca</target>
             </trans-unit>
-
-            <!-- Get Started -->
-
-            <trans-unit id="2">
-                <source>menu.get_started</source>
-                <target>Pričnite</target>
-            </trans-unit>
-
-            <trans-unit id="21">
-                <source>menu.get_started.download_symfony</source>
-                <target>Prenesite Symfony</target>
-            </trans-unit>
-            <trans-unit id="22">
-                <source>menu.get_started.symfony_roadmap</source>
+            <trans-unit id="1-9">
+                <source>menu.what_is_symfony.symfony_roadmap</source>
                 <target>Načrt</target>
             </trans-unit>
-            <trans-unit id="23">
-                <source>menu.get_started.symfony_distributions</source>
-                <target>Symfony distribucije</target>
-            </trans-unit>
-            <trans-unit id="24">
-                <source>menu.get_started.symfony_components</source>
-                <target>Symfony komponente</target>
-            </trans-unit>
-            <trans-unit id="25">
-                <source>menu.get_started.quick_tour</source>
-                <target>Kratka predstavitev</target>
-            </trans-unit>
-            <trans-unit id="26">
-                <source>menu.get_started.symfony_legacy</source>
-                <target>symfony1 zapuščina</target>
-            </trans-unit>
-            <trans-unit id="27">
-                <source>menu.get_started.symfony_projects</source>
-                <target>Projekti, ki uporabljajo Symfony</target>
+            <trans-unit id="1-10">
+                <source>menu.what_is_symfony.symfony_legacy</source>
+                <target>Zapuščina symfony1</target>
             </trans-unit>
 
             <!-- Documentation -->
