@@ -6,6 +6,7 @@ highlighted:
     - joomla
     - composer
     - piwik
+    - thelia
     - symfonyfs
 major:
     - silex
@@ -30,7 +31,6 @@ major:
     - mautic
     - freepost
 minor:
-    - thelia
     - kunstmaanbundles
     - sculpin
     - flow

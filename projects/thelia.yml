@@ -2,6 +2,7 @@ name: Thelia
 url: http://thelia.net
 dependencies: []
 components:
+    - BrowserKit
     - ClassLoader
     - Config
     - Console
@@ -10,6 +11,7 @@ components:
     - Filesystem
     - Finder
     - Form
+    - HttpFoudation
     - HttpKernel
     - Icu
     - Routing
