@@ -2,30 +2,32 @@
 {% block keywords '' %}
 {% block description '' %}
 
-{% block label 'Email:' %}
-{% block submit 'Subscribirse' %}
-
-{% block symfony1 %}
-    <h3><a href="http://groups.google.com/group/symfony1">Grupo de usuarios de symfony1</a></h3>
-    <p>Si necesitas ayuda con symfony1, considera suscribirte a la lista de correo de usuarios de symfony1.</p>
+{% block discontinued_message %}
+    Las listas de correo del proyecto Symfony se cerraron en junio de 2015
+    (<a href="{{ path('blog_post', { slug: 'symfony-support-stack-overflow-as-the-main-medium' }) }}">leer el anuncio</a>).
+    El soporte ahora se realiza a través de StackOverflow.
 {% endblock %}
 
-{% block archive %}
-    <p>
-    	También puedes navegar el histórico del antiguo
-        <a href="http://groups.google.com/group/symfony-users">Grupo de Usuarios</a>.
-    </p>
+{% block read_only_message %}
+    Las siguientes listas de correo ya no están activas, pero se mantienen en
+    modo sólo-lectura para que puedas consultarlas.
 {% endblock %}
 
-{% block symfony2 %}
-    <h3><a href="http://groups.google.com/group/symfony2">Grupo de Usuarios de Symfony2</a></h3>
-    <p>Si necesitas ayuda con Symfony2, considera suscribirte a la lista de correo de usuario de Symfony2.</p>
+{% block symfony2_title %}Grupo de usuarios de Symfony2{% endblock %}
+{% block symfony2_description %}
+    Soporte para Symfony 2 y 3. Reemplazado por la
+    <a href="http://stackoverflow.com/?tags=symfony">etiqueta Symfony</a> de StackOverflow.
 {% endblock %}
 
-{% block developers %}
-    <h3><a href="http://groups.google.com/group/symfony-devs">Grupo de Desarrolladores</a></h3>
-    <p>
-    	Si deseas contribuir con el proyecto, discutir nuevas funcionalidades, 
-    	considera subscribirte a la lista de correo de desarrolladores de Symfony.
-    </p>
+{% block symfony1_title %}Grupo de usuarios de symfony1{% endblock %}
+{% block symfony1_description %}
+    Soporte para la antigua versión symfony 1. Reemplazado por la
+    <a href="http://stackoverflow.com/?tags=symfony1">etiqueta symfony1</a> de StackOverflow.
+{% endblock %}
+
+{% block symfonydev_title %}Grupo de desarrolladores de Symfony{% endblock %}
+{% block symfonydev_description %}
+    Contiene discusiones sobre el propio desarrollo del framework Symfony. Reemplazado
+    por la <a href="https://github.com/symfony/symfony/issues">sección de "issues"</a>
+    en el repositorio Symfony de GitHub.
 {% endblock %}
