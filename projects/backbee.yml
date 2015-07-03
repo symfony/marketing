@@ -1,0 +1,19 @@
+name: BackBee
+url: http://www.backbee.com/
+dependencies: [ Twig, doctrine ]
+components:
+    - Config
+    - Console
+    - Debug
+    - DependencyInjection
+    - EventDispatcher
+    - Expression Language
+    - Filesystem
+    - HttpFoundation
+    - HttpKernel
+    - Routing
+    - Security
+    - Serializer
+    - Translation
+    - Validator
+    - Yaml
