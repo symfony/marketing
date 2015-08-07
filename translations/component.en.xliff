@@ -309,6 +309,15 @@
                 <target />
             </trans-unit>
 
+            <trans-unit id="vardumper.summary">
+                <source>validator.summary</source>
+                <target>Provides mechanisms for walking through any arbitrary PHP variable. </target>
+            </trans-unit>
+            <trans-unit id="vardumper.description">
+                <source>validator.description</source>
+                <target />
+            </trans-unit>
+
             <trans-unit id="yaml.summary">
                 <source>yaml.summary</source>
                 <target>Loads and dumps YAML files.</target>
