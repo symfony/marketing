@@ -309,6 +309,15 @@
                 <target />
             </trans-unit>
 
+            <trans-unit id="vardumper.summary">
+                <source>validator.summary</source>
+                <target>Ponuja mehanizme za pregled skozi katerokoli arbitrarno PHP spremenljivko. </target>
+            </trans-unit>
+            <trans-unit id="vardumper.description">
+                <source>validator.description</source>
+                <target />
+            </trans-unit>
+
             <trans-unit id="yaml.summary">
                 <source>yaml.summary</source>
                 <target>Naloži in shrani datoteke YAML.</target>
