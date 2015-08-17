@@ -72,12 +72,8 @@
                 <target>SensioLabs Connect</target>
             </trans-unit>
             <trans-unit id="42">
-                <source>menu.community.irc_channel</source>
-                <target>IRC Channel</target>
-            </trans-unit>
-            <trans-unit id="43">
-                <source>menu.community.mailing_lists</source>
-                <target>Mailing Lists</target>
+                <source>menu.community.support</source>
+                <target>Support</target>
             </trans-unit>
             <trans-unit id="44">
                 <source>menu.community.forum</source>
