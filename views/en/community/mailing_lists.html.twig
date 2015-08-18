@@ -2,32 +2,32 @@
 {% block keywords '' %}
 {% block description '' %}
 
-{% block label 'Email:' %}
-{% block submit 'Subscribe' %}
-
-{% block symfony1 %}
-    <h3><a href="http://groups.google.com/group/symfony1">symfony1 Users Group</a></h3>
-    <p>If you need help on symfony1, consider subscribing to the symfony1 user mailing-list:</p>
+{% block discontinued_message %}
+    Symfony Project discontinued its user mailing lists on June 2015
+    (<a href="{{ path('blog_post', { slug: 'symfony-support-stack-overflow-as-the-main-medium' }) }}">Read the announcement</a>).
+    Community support is now provided on <a href="http://stackoverflow.com/questions/tagged/symfony">StackOverflow</a>.
 {% endblock %}
 
-{% block archive %}
-    <p>
-        You can also browse the archive of the old
-        <a href="http://groups.google.com/group/symfony-users">Users Group</a>.
-    </p>
+{% block read_only_message %}
+    The following mailing lists are no longer active, but they are maintained in
+    read-only mode for reference purposes.
 {% endblock %}
 
-{% block symfony2 %}
-    <h3><a href="http://groups.google.com/group/symfony2">Symfony2 Users Group</a></h3>
-    <p>If you need help on Symfony2, consider subscribing to the Symfony2 user mailing-list:</p>
+{% block symfony2_title %}Symfony2 Users Group{% endblock %}
+{% block symfony2_description %}
+    Community support for the Symfony 2 and 3 versions. Replaced by the
+    <a href="http://stackoverflow.com/questions/tagged/symfony">Symfony tag</a> on StackOverflow.
 {% endblock %}
 
-{% block developers %}
-    <h3><a href="http://groups.google.com/group/symfony-devs">Developers Group</a></h3>
-    <p>
-        The developer mailing list is closed as of December 2013. Nevertheless,
-        you can still browse its archive. If you want to contribute to the
-        project or want to discuss a new feature, please refer to the Symfony
-        <a href="https://github.com/symfony/symfony/">GitHub repository</a>.
-    </p>
+{% block symfony1_title %}symfony1 Users Group{% endblock %}
+{% block symfony1_description %}
+    Community support for the legacy symfony1 version. Replaced by the
+    <a href="http://stackoverflow.com/questions/tagged/symfony1">symfony1 tag</a> on StackOverflow.
+{% endblock %}
+
+{% block symfonydev_title %}Developers Group{% endblock %}
+{% block symfonydev_description %}
+    Discussions about the development of the Symfony framework itself. Replaced
+    by the <a href="https://github.com/symfony/symfony/issues">Symfony Issues</a>
+    section on GitHub.
 {% endblock %}
