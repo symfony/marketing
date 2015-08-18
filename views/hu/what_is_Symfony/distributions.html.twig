@@ -9,8 +9,8 @@
     </p>
 {% endblock %}
 
-{% block body %}
-    <h2 class="title_09"><a name="what">Mi az a disztribúció?</a></h2>
+{% block what_is_a_distribution_title %}Mi az a disztribúció?{% endblock %}
+{% block what_is_a_distribution_description %}
     <p>
         Csakúgy mint a Linux disztribúciók, amelyek könnyű telepíthetőségükről
         és a különböző célokra előre összeállított verzióikról
@@ -20,12 +20,10 @@
         egy könyvtárszerkezetből, egy kezdei konfigurációból,
         és egy opcionális Web konfigurációs rendszerből.
     </p>
-    <p>
-        Egyszerűen fogalmazva tehát ez egy egyszerű, könnyen telepíthető,
-        előre összeállított csomag a Symfonyval való első lépések megtételéhez.
-        Az első benyomás a számítástechnikai körökben is kulcsfontosságú...
-    </p>
-    <h2 class="title_09"><a name="why">Miért disztribúciók?</a></h2>
+{% endblock %}
+
+{% block why_distribution_title %}Miért disztribúciók?{% endblock %}
+{% block why_distribution_description %}
     <p>
         Egy-egy disztribúció a kiválasztott csomagjaival, szerkezetével és
         kezdeti konfigurációjával egy-egy adott felhasználói igénynek
@@ -33,15 +31,10 @@
         tartalomkezelő rendszerhez (CMS), vagy a teljes verzió
         a keretrendszer teszteléséhez.
     </p>
-    <p>
-        Mindazonáltal a versenytársaival összehasonlítva a Symfony erőssége
-        és innovációja abban rejlik, hogy minden módosítható: a disztribúció
-        egy csomag, de egy olyan, ami skálázhatóra lett tervezve, mintha csak
-        te készítetted volna. Adhatsz hozzá, vagy törölhetsz belőle csomagokat,
-        módosíthatod a kezdeti konfigurációt, a fájlstruktúrát stb.,
-        az igényeidnek és elképzeléseidnek megfelelően!
-    </p>
-    <h2 class="title_09"><a name="available">Elérhető disztibúciók</a></h2>
+{% endblock %}
+
+{% block available_distribution_title %}Elérhető disztibúciók{% endblock %}
+{% block available_distribution_description %}
     <p>
         A <a href="{{ marketing_path('download') }}">Standard Kiadás</a> messze
         a legjobb verzió az induláshoz. Tartalmazza a legtöbbször használt csomagokat
