@@ -9,8 +9,8 @@
     </p>
 {% endblock %}
 
-{% block body %}
-    <h2 class="title_09"><a name="what">Vad är en Distribution?</a></h2>
+{% block what_is_a_distribution_title %}Vad är en Distribution?{% endblock %}
+{% block what_is_a_distribution_description %}
     <p>
         Precis som Linux-distributioner,som är kända för dess enkla
         installationer och specifika funktioner (med olika versioner
@@ -19,13 +19,10 @@
         en standardkonfiguration och ett frivilligt webbaserat
         konfigurationssystem.
     </p>
-    <p>
-        Praktiskt sett så är det en enkel, lätt att installera och
-        paketerad lösning för att komma igång med Symfony. Även i
-        IT-branchen så har man bara en chans att göra ett gott första
-        intryck.
-    </p>
-    <h2 class="title_09"><a name="why">Varför distributioner?</a></h2>
+{% endblock %}
+
+{% block why_distribution_title %}Varför distributioner?{% endblock %}
+{% block why_distribution_description %}
     <p>
         En distribution, med sitt urval av bundles, struktur och
         standardkonfiguration, är gjord för att möta ett specifikt
@@ -33,15 +30,10 @@
         management-system för attskapa en dynamisk webbplats, eller
         en full version för att testa ramverket.
     </p>
-    <p>
-        Oavsett detta så ligger Symfonys styrka och innovation jämfört med
-        dess konkurrenter, i det faktum att allt kan ändras. Distributionen
-        är ett färdigt paket, men det är designat för att vara skalbart,
-        som om du själv hade satt ihop det. Du kan lägga till eller ta bort
-        bundles, ändra standardkonfigurationen, filstrukturen, etc., baserat
-        på dina behov och önskemål!
-    </p>
-    <h2 class="title_09"><a name="available">Tillgängliga Distributioner</a></h2>
+{% endblock %}
+
+{% block available_distribution_title %}Tillgängliga Distributioner{% endblock %}
+{% block available_distribution_description %}
     <p>
         <a href="{{ marketing_path('download') }}">Standardutgåvan</a> är den
         överlägset bästa versionen att börja med. Den innehåller de mest använda
@@ -54,3 +46,4 @@
         att testa ramverkets råa prestanda.
     </p>
 {% endblock %}
+

@@ -9,31 +9,27 @@
     </p>
 {% endblock %}
 
-{% block body %}
-    <h2 class="title_09"><a name="what">Was ist eine Distribution?</a></h2>
+{% block what_is_a_distribution_title %}Was ist eine Distribution?{% endblock %}
+{% block what_is_a_distribution_description %}
     <p>
         Wie Linux-Distributionen, die bekannt für ihre einfache Installation und
         besondere Features sind, enthalten Symfony-Distributionen mehrere Symfony2-Komponenten,
         eine Auswahl an Bundles, eine Verzeichnisstruktur, eine Standardkonfiguration
         und ein optionales Web-Konfigurationssytem.
     </p>
-    <p>
-        Kurz gesagt, ist eine Distribution ein einfach und leicht zu installierendes Paket,
-        um mit Symfony schnell loszulegen. Der erste Eindruck zählt auch bei Software.
-    </p>
-    <h2 class="title_09"><a name="why">Warum Distributionen?</a></h2>
+{% endblock %}
+
+{% block why_distribution_title %}Warum Distributionen?{% endblock %}
+{% block why_distribution_description %}
     <p>
         Eine Distribution mit ihren ausgewählten Bundles, Struktur und Standardkonfiguration
         soll jeweils typische Anforderungen erfüllen: ob einfachen Einstieg, Content Management System zur
         Entwicklung einer dynamischen Website oder eine vollständige Version, um das Framework zu testen.
     </p>
-    <p>
-        Die besondere Stärke von Symfony ist jedoch, dass alles angepasst werden kann:
-        eine Distribution ist ein Paket, das skalierbar bleibt, das erlaubt, Bundles hinzuzufügen oder wegzulassen
-        und dessen Konfiguration verändert werden kann. Selbst die Dateistruktur lässt sich anpassen.
-        Eine Distribution passt sich damit Ihren Anforderungen und Wünschen an, als hätten Sie sie selbst aufgebaut.
-    </p>
-    <h2 class="title_09"><a name="available">Verfügbare Distributionen</a></h2>
+{% endblock %}
+
+{% block available_distribution_title %}Verfügbare Distributionen{% endblock %}
+{% block available_distribution_description %}
     <p>
         Die <a href="{{ marketing_path('download') }}">Standard Edition</a> ist die optimale
         Version, um mit Symfony zu starten. Sie enthält die am häufigsten eingesetzen Bundles

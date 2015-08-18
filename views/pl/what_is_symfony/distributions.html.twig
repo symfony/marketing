@@ -4,49 +4,42 @@
 
 {% block intro %}
     <p>
-        Pobranie i konfiguracja dystrybucji Symfony jest bez wątpienia 
+        Pobranie i konfiguracja dystrybucji Symfony jest bez wątpienia
         najłatwiejszą i najszybszą drogą do rozpoczęcia pracy z Symfony.
     </p>
 {% endblock %}
 
-{% block body %}
-    <h2 class="title_09"><a name="what">Co to jest dystrybucja?</a></h2>
+{% block what_is_a_distribution_title %}Co to jest dystrybucja?{% endblock %}
+{% block what_is_a_distribution_description %}
     <p>
-        Tak jak dystrybucje Linuxa, znane z łatwej instalacji i specyficznych 
-        funkcjonalności (wersja serwerowa, wersja publiczna, itp.), dystrybucja 
-        Symfony jest zbudowana z komponentów Symfony2, wybranych pakietów, 
-        specyficznej struktury katalogów, domyślnej konfiguracji oraz 
+        Tak jak dystrybucje Linuxa, znane z łatwej instalacji i specyficznych
+        funkcjonalności (wersja serwerowa, wersja publiczna, itp.), dystrybucja
+        Symfony jest zbudowana z komponentów Symfony2, wybranych pakietów,
+        specyficznej struktury katalogów, domyślnej konfiguracji oraz
         opcjonalnej konfiguracji systemu.
     </p>
-    <p>
-        W praktyce jest to proste, łatwe do zainstalowania rozwiązanie pozwalające
-        na szybkie rozpoczęcie pracy z Symfony. Nawet w dziedzinie technologii
-        pierwsze wrażenie jest kluczem...
-    </p>
-    <h2 class="title_09"><a name="why">Dlaczego dystrybucje?</a></h2>
+{% endblock %}
+
+{% block why_distribution_title %}Dlaczego dystrybucje?{% endblock %}
+{% block why_distribution_description %}
     <p>
         Dystrybucja wraz z jej wyborem pakietów, strukturą i domyślną konfiguracją
         jest zaprojektowana aby spełnić konkretne potrzeby uzytkownika takie jak:
         zapoznanie się z sytemem, System Zarządzania Treścią do stworzenia dynamicznej
         strony internetowej czy pełną wersją do testowania frameworka.
     </p>
+{% endblock %}
+
+{% block available_distribution_title %}Dostępne dystrybucje{% endblock %}
+{% block available_distribution_description %}
     <p>
-       Niemniej jednak, w porównaniu do konkurencyjnych rozwiązań, siła Symfony leży
-        w jego innowacyjności, oraz tym iż wszystko może być zmodyfikowane: dystrybucja 
-        jest pakietem, ale takim, który jest zaprojektowany by być elastycznym
-        i skalowalnymm jakby stworzonym na własne potrzeby. Możesz dodawać i usuwać
-        pakiety, zmieniać domyślną konfigurację, czy modyfikować strukturę plików 
-        zależnie od Twoich potrzeb i wymagań!
-    </p>
-    <h2 class="title_09"><a name="available">Dostępne dystrybucje</a></h2>
-    <p>
-        <a href="{{ marketing_path('download') }}">Edycja standardowa</a> jest 
+        <a href="{{ marketing_path('download') }}">Edycja standardowa</a> jest
         najlepszą wersją do rozpoczęcia pracy. Zawiera ona najbardziej popularne
-        pakiety oraz posiada prostą konfigurację kompatybilną z większością 
+        pakiety oraz posiada prostą konfigurację kompatybilną z większością
         projektów.
     </p>
     <p>
-        Bazująca na Edycji standardowej, 
+        Bazująca na Edycji standardowej,
         <a href="https://github.com/symfony/symfony-hello-world">Edycja Hello World</a>
         jest najlepszą dystrybucją do analizowania i pomiaru wydajności frameworka.
     </p>
