@@ -1,0 +1,45 @@
+{% block title 'Over' %}
+{% block keywords '' %}
+{% block description 'Ontdek wie het framework maakt en wat hun waarden en doelen zijn' %}
+
+{% block intro %}
+    <p>
+        Symfony is een Open Source PHP Web applicatie ontwikkelings framework.
+        Het werd oorspronkelijk bedacht door het interactieve bedrijf SensioLabs voor de
+        ontwikkeling van web sites voor hun eigen klanten.  Symfony werd gepubliceerd
+        door het bedrijf in 2005 onder de MIT Open Source licentie en vandaag is het een van de
+        toonaangevende frameworks beschikbaar voor PHP ontwikkeling.
+        <br/>
+        Ondersteund door SensioLabs - maar ook door de <a href="{{ path('contributors') }}">
+        grote gemeenschap</a> - Symfony heeft veel bronnen: overvloedige documentatie,
+        steun van de gemeenschap (mailinglijsten, IRC, etc.), professionele
+        <a href="http://sensiolabs.com/en/support/sensiolabs_support.html">support</a>
+        (consulting, <a href="http://trainings.sensiolabs.com/">training</a>, etc.), en nog veel meer.
+        <br/>
+        Verkrijgbaar sinds versie 2.0, Symfony heeft al onder de honderden sites en
+        applicaties ontwikkeld op het platform, prestigieuze referenties, zoals
+        Yahoo!, Dailymotion, Opensky.com, Exercise.com, phpBB of Drupal.
+    </p>
+    <ul class="list_04">
+        <li><div class="link_01"><a href="{{ marketing_path('what_is_symfony') }}">Wat is Symfony?</a></div></li>
+    </ul>
+{% endblock %}
+
+{% block mission %}
+    <h2 class="title_05">MISSIE</h2>
+    <p>Symfony is volledig gratis en is gepubliceerd onder de <a href="{{ path('license') }}">MIT licentie.</a></p>
+{%  endblock %}
+
+{% block sensiolabs %}
+    <h2 class="title_05">SENSIO LABS</h2>
+    <p>
+        SensioLabs promoot sinds 1998 de open-source software beweging door
+        het leveren van kwaliteit web applicaties ontwikkeling, trainingen en consulting. SensioLabs
+        ondersteunt ook verschillende grote open-source projecten.
+    </p>
+    <ul class="list_04">
+        <li><div class="link_01"><a href="http://sensiolabs.com/a_propos/nous_sommes_open.html">SensioLabs feiten en cijfers</a></div></li>
+        <li><div class="link_01"><a href="http://sensiolabs.com/services/nos_partis_pris.html">Offertes</a></div></li>
+        <li><div class="link_01"><a href="http://www.extreme-sensio.com/showcase/">Cliënten</a></div></li>
+    </ul>
+{% endblock %}
