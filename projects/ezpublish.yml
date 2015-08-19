@@ -1,5 +1,5 @@
-name: eZ Publish
-url: http://ez.no
+name: eZ Publish Community
+url: http://ez.no/Community
 dependencies:
     - symfonyfs
 components: []
