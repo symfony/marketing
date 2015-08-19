@@ -1,0 +1,42 @@
+{% block title 'Ce este Symfony' %}
+{% block keywords '' %}
+{% block description 'Ce este Symfony - Începe de aici dacă vrei o scurtă explicație' %}
+
+{% block intro %}
+    <h2 class="title_05">SYMFONY PE SCURT</h2>
+    <p>
+        Symfony este un framework PHP pentru dezvoltare Web.
+        <br />
+        Aceasta nu iți răspunde la întrebare?
+        <br />
+        Bine, să încercăm din nou.
+        <br />
+        Symfony este un framework PHP, o Filosofie și o Comunitate - toate conlucrând în armonie.
+    </p>
+{% endblock %}
+
+{% block more 'Învață mai multe' %}
+
+{% block fiveminutes %}
+    <h2 class="title_05">SYMFONY ÎN 5 MINUTE</h2>
+    <p></p>
+    <ul class="list_04">
+        <li><a href="{{ marketing_path('why_use_a_framework') }}">De ce ar trebui să folosesc un framework?</a></li>
+        <li><a href="{{ marketing_path('when_use_a_framework') }}">Când ar trebui să folosesc un framework?</a></li>
+        <li><a href="{{ marketing_path('six_good_reasons') }}">6 motive bune pentru a folosi Symfony</a></li>
+        <li><a href="{{ marketing_path('six_good_technical_reasons') }}">Beneficiile tehnologice de a folosi Symfony în 6 lecții ușoare</a></li>
+        <li><a href="{{ marketing_path('ten_criteria') }}">10 criterii pentru a alege frameworkul corect</a></li>
+    </ul>
+{% endblock %}
+
+{% block elevatorpitches %}
+    <h2 class="title_05">PREZENTARE PE SCURT</h2>
+    <p>Symfony2 explicat...</p>
+    <ul class="list_04">
+        <li><a href="{{ marketing_path('explained_to_my_boss') }}">... pentru șeful meu</a></li>
+        <li><a href="{{ marketing_path('explained_to_a_developer') }}">... pentru un programator</a></li>
+        <li><a href="{{ marketing_path('explained_to_a_system_administrator') }}">... pentru un administrator de sistem</a></li>
+        <li><a href="{{ marketing_path('explained_to_a_project_manager') }}">... pentru un manager de proiect</a></li>
+        <li><a href="{{ marketing_path('explained_to_a_project_owner') }}">... pentru un deținător de proiect</a></li>
+    </ul>
+{% endblock %}
