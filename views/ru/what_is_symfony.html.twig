@@ -1,0 +1,42 @@
+{% block title 'Что такое Symfony' %}
+{% block keywords '' %}
+{% block description 'Что такое Symfony - Вступление' %}
+
+{% block intro %}
+    <h2 class="title_05">SYMFONY СРАЗУ</h2>
+    <p>
+        Symfony - это PHP веб-фреймворк.
+        <br />
+        Это не ответило на ваш вопрос?
+        <br />
+        Ок, давайте попробуем еще раз.
+        <br />
+        Symfony - это PHP Фреймворк, Философия и Сообщество - все это работает вместе в гармонии друг с другом.
+    </p>
+{% endblock %}
+
+{% block more 'Узнать больше' %}
+
+{% block fiveminutes %}
+    <h2 class="title_05">SYMFONY ЗА 5 МИНУТ</h2>
+    <p></p>
+    <ul class="list_04">
+        <li><a href="{{ marketing_path('why_use_a_framework') }}">Зачем мне использовать фреймворк?</a></li>
+        <li><a href="{{ marketing_path('when_use_a_framework') }}">Когда мне использовать фреймворк?</a></li>
+        <li><a href="{{ marketing_path('six_good_reasons') }}">6 отличных причин использовать Symfony</a></li>
+        <li><a href="{{ marketing_path('six_good_technical_reasons') }}">Технологические плюсы использования за 6 простых уроков</a></li>
+        <li><a href="{{ marketing_path('ten_criteria') }}">10 причин выбрать правильный фреймворк</a></li>
+    </ul>
+{% endblock %}
+
+{% block elevatorpitches %}
+    <h2 class="title_05">КАК ПРЕПОДНЕСТИ</h2>
+    <p>Объяснить Symfony2...</p>
+    <ul class="list_04">
+        <li><a href="{{ marketing_path('explained_to_my_boss') }}">... моему начальнику</a></li>
+        <li><a href="{{ marketing_path('explained_to_a_developer') }}">... разработчику</a></li>
+        <li><a href="{{ marketing_path('explained_to_a_system_administrator') }}">... системному администратору</a></li>
+        <li><a href="{{ marketing_path('explained_to_a_project_manager') }}">... менеджеру проекта</a></li>
+        <li><a href="{{ marketing_path('explained_to_a_project_owner') }}">... владельцу проекта</a></li>
+    </ul>
+{% endblock %}
