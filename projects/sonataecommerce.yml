@@ -1,0 +1,10 @@
+name: Sonata e-commerce
+url: https://sonata-project.org/bundles/ecommerce/develop/doc/index.html
+dependencies: []
+components:
+    - Config
+    - Form
+    - Validator
+    - Routing
+    - Console
+    - Process
