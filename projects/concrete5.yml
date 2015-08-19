@@ -1,0 +1,10 @@
+name: concrete5
+url: http://www.concrete5.org/
+dependencies: []
+components:
+    - ClassLoader
+    - EventDispatcher
+    - HttpFoundation
+    - HttpKernel
+    - Routing
+    - Serializer
