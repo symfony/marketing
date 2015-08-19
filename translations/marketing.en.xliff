@@ -67,23 +67,15 @@
                 <target>Community</target>
             </trans-unit>
 
-            <trans-unit id="41">
+            <trans-unit id="4-1">
                 <source>menu.community.sensiolabs_connect</source>
                 <target>SensioLabs Connect</target>
             </trans-unit>
-            <trans-unit id="42">
-                <source>menu.community.irc_channel</source>
-                <target>IRC Channel</target>
+            <trans-unit id="4-2">
+                <source>menu.community.support</source>
+                <target>Support</target>
             </trans-unit>
-            <trans-unit id="43">
-                <source>menu.community.mailing_lists</source>
-                <target>Mailing Lists</target>
-            </trans-unit>
-            <trans-unit id="44">
-                <source>menu.community.forum</source>
-                <target>Forum</target>
-            </trans-unit>
-            <trans-unit id="45">
+            <trans-unit id="4-3">
                 <source>menu.community.how_to_be_involved</source>
                 <target>How to be Involved</target>
             </trans-unit>
