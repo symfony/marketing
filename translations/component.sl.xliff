@@ -310,11 +310,11 @@
             </trans-unit>
 
             <trans-unit id="vardumper.summary">
-                <source>validator.summary</source>
+                <source>vardumper.summary</source>
                 <target>Ponuja mehanizme za pregled skozi katerokoli arbitrarno PHP spremenljivko. </target>
             </trans-unit>
             <trans-unit id="vardumper.description">
-                <source>validator.description</source>
+                <source>vardumper.description</source>
                 <target />
             </trans-unit>
 
