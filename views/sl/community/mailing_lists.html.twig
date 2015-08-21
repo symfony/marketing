@@ -2,30 +2,32 @@
 {% block keywords '' %}
 {% block description '' %}
 
-{% block label 'E-pošta:' %}
-{% block submit 'Prijavite se' %}
-
-{% block symfony1 %}
-    <h3><a href="http://groups.google.com/group/symfony1">symfony1 uporabniška skupina</a></h3>
-    <p>Če potrebujete podporo za symfony1, premislite o prijavi na symfony1 uporabniški dopisni seznam:</p>
+{% block discontinued_message %}
+    Symfony projekt je prekinil svoje e-poštne sezname od junija 2015
+    (<a href="{{ path('blog_post', { slug: 'symfony-support-stack-overflow-as-the-main-medium' }) }}">Preberite objavo</a>).
+    Podpora skupnosti je sedaj ponujena na <a href="http://stackoverflow.com/questions/tagged/symfony">StackOverflow-u</a>.
 {% endblock %}
 
-{% block archive %}
-    <p>
-        Lahko tudi prebrskate arhiv stare
-        <a href="http://groups.google.com/group/symfony-users">uporabniške skupine</a>.
-    </p>
+{% block read_only_message %}
+    Sledeči e-poštni seznami niso več aktivni, vendar so vzdrževani v
+    samo bralnem načinu zaradi referenčnih razlogov.
 {% endblock %}
 
-{% block symfony2 %}
-    <h3><a href="http://groups.google.com/group/symfony2">Symfony2 uporabniška skupina</a></h3>
-    <p>Če potrebujete podporo za Symfony2, premislite o prijavi na Symfony2 uporabniški dopisni seznam:</p>
+{% block symfony2_title %}Symfony2 uporabniška skupina{% endblock %}
+{% block symfony2_description %}
+    Podpora skupnosti za verziji Symfony 2 in 3. Zamenjana z
+    <a href="http://stackoverflow.com/questions/tagged/symfony">značko Symfony</a> na StackOverflow-u.
 {% endblock %}
 
-{% block developers %}
-    <h3><a href="http://groups.google.com/group/symfony-devs">Razvijalska skupina</a></h3>
-    <p>
-        Razvijalski e-poštni seznam je zaprt od decembra 2013. Vendar vseeno lahko še vedno brskate po njegovih arhivih. Če želite prispevati k projektu, se pogovoriti o novih lastnostih,
-        prosimo, glejte Symfony <a href="https://github.com/symfony/symfony/">GitHub repozitorij</a>.
-    </p>
+{% block symfony1_title %}symfony1 uporabniška skupina{% endblock %}
+{% block symfony1_description %}
+    Podpora skupnosti za verzijo symfony1. Zamenjana z
+    <a href="http://stackoverflow.com/questions/tagged/symfony1">značko symfony1</a> na StackOverflow-u.
+{% endblock %}
+
+{% block symfonydev_title %}Razvijalska skupina{% endblock %}
+{% block symfonydev_description %}
+    Razprave o razvoju samega ogrodja Symfony. Zamenjane s sekcijo
+    <a href="https://github.com/symfony/symfony/issues">Symfony Issues</a>
+    na GitHub-u.
 {% endblock %}
