@@ -4,39 +4,48 @@
 
 {% block intro %}
     <p>
-        Symfony är ett öppen källkodsprojekt i PHP för webbapplikationsutveckling.
-        Det skapades ursprungligen av interaktionsbyrån SensioLabs för utveckling
-        av deras kunders webbplatser. Symfony publicerades av byrån 2005 under 
-        open source-licensen MIT och är idag bland de ledande ramverken för PHP.
-        <br/>
-        Med stöd av SensioLabs - och av ett <a href="{{ path('contributors') }}">stort community</a> - har Symfony mycket
-        resurser: en mängd dokumentation, support från andra utvecklare (maillistor,
-        IRC, etc.), professionell <a href="http://sensiolabs.com/en/support/sensiolabs_support.html">support</a> (konsultation, etc) och mycket mer.
-        <br/>
-        I och med version 2.0 har Symfony redan, bland alla hundratals webbplatser och
-        applikationer som bygger på plattformen, prestigefyllda referenser som Yahoo!,
-        Dailymotion, Opensky.com, Exercise.com, phpBB och Drupal.
+
+        Symfony är ett öppen källkodsprojekt i PHP för
+        webbapplikationsutveckling. Det skapades ursprungligen av
+        interaktionsbyrån SensioLabs för utveckling av deras kunders
+        webbplatser. Symfony publicerades av byrån 2005 under  open source-
+        licensen MIT och är idag bland de ledande ramverken för PHP.
+
     </p>
-    <ul class="list_04">
-        <li><div class="link_01"><a href="{{ marketing_path('what_is_symfony') }}">Vad är Symfony?</a></div></li>
-    </ul>
+
+    <p>
+
+        Med stöd av SensioLabs - och av ett <a href="{{ path('contributors') }}">stort community</a> -
+        har Symfony mycket resurser: en mängd dokumentation, support från andra
+        utvecklare (maillistor, IRC, etc.), professionell
+        <a href="http://sensiolabs.com/en/support/sensiolabs_support.html">support</a>
+        (konsultation, etc) och mycket mer.
+
+    </p>
+
+    <p>
+
+        I och med version 2.0 har Symfony redan, bland alla hundratals
+        webbplatser och applikationer som bygger på plattformen, prestigefyllda
+        referenser som Yahoo!, Dailymotion, Opensky.com, Exercise.com, phpBB och
+        Drupal.
+
+    </p>
 {% endblock %}
 
-{% block mission %}
-    <h2 class="title_05">UPPDRAGSBESKRIVNING</h2>
-    <p>Symfony är helt gratis och fritt tillgängligt under <a href="{{ path('license') }}">MIT-licensen</a>.</p>
-{%  endblock %}
-
-{% block sensiolabs %}
-    <h2 class="title_05">SENSIO LABS</h2>
+{% block title_about_sensiolabs %}About SensioLabs{% endblock %}
+{% block about_sensiolabs %}
     <p>
-        Sedan 1998 har SensioLabs främjat öppen källkodsrörelsen genom att tillhandahålla
-        kvalitativ webbapplikationsutveckling, utbildning, konsultation. SensioLabs
-        stöder och flera stora öppen källkodsprojekt.
+
+        Sedan 1998 har SensioLabs främjat öppen källkodsrörelsen genom att
+        tillhandahålla kvalitativ webbapplikationsutveckling, utbildning,
+        konsultation. SensioLabs stöder och flera stora öppen källkodsprojekt.
+
     </p>
-    <ul class="list_04">
-        <li><div class="link_01"><a href="http://sensiolabs.com/a_propos/nous_sommes_open.html">SensioLabs fakta och siffror</a></div></li>
-        <li><div class="link_01"><a href="http://sensiolabs.com/services/nos_partis_pris.html">Erbjudanden</a></div></li>
-        <li><div class="link_01"><a href="http://www.extreme-sensio.com/showcase/">Kunder</a></div></li>
+
+    <ul>
+        <li><a href="http://sensiolabs.com/a_propos/nous_sommes_open.html">SensioLabs fakta och siffror</a></li>
+        <li><a href="http://sensiolabs.com/services/nos_partis_pris.html">Erbjudanden</a></li>
+        <li><a href="http://www.extreme-sensio.com/showcase/">Kunder</a></li>
     </ul>
 {% endblock %}
