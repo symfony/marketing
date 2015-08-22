@@ -15,3 +15,6 @@ components:
     - DomCrawler
     - Finder
     - Process
+    - Console
+    - HttpFoundation
+    - Request
