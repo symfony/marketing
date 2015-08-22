@@ -30,6 +30,7 @@ major:
     - propel
     - mautic
     - freepost
+    - codeception
 minor:
     - thelia
     - kunstmaanbundles

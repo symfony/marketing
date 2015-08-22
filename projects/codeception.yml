@@ -1,0 +1,11 @@
+name: Codeception
+url: http://codeception.com/
+dependencies: []
+components:
+    - BrowserKit
+    - Console
+    - CssSelector
+    - DomCrawler
+    - EventDispatcher
+    - Finder
+    - Yaml
