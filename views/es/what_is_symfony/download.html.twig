@@ -1,6 +1,6 @@
-{% block title 'Descargar' %}
+{% block title 'Descargar el framework Symfony y sus componentes' %}
 {% block keywords '' %}
-{% block description 'Descarga Symfony, contacta con la comunidad, lee artículos y encuentra cursos y formación sobre Symfony' %}
+{% block description 'Descarga el framework Symfony mediante el instalador de Symfony o Composer. Descarga los componentes de Symfony la aplicación Symfony Demo.' %}
 
 {% block symfony_framework_title %}Cómo utilizar el <br/> framework Symfony{% endblock %}
 
@@ -28,16 +28,8 @@
     </p>
 {% endblock %}
 
-{% block linux_mac_installation_title %}Instalación en Linux y Mac OS XX{% endblock %}
-{% block linux_mac_installation_commands %}
-    $ sudo curl -LsS https://symfony.com/installer -o /usr/local/bin/symfony<br/>
-    $ sudo chmod a+x /usr/local/bin/symfony
-{% endblock %}
-
+{% block linux_mac_installation_title %}Instalación en Linux y Mac OS X{% endblock %}
 {% block windows_installation_title %}Instalación en Windows{% endblock %}
-{% block windows_installation_commands %}
-    c:\> php -r "readfile('https://symfony.com/installer');" > symfony
-{% endblock %}
 {% block windows_installation_instructions %}
     <p>
         Después, copia el archivo descargago al directorio donde guardas tus
@@ -45,13 +37,42 @@
     </p>
 {% endblock %}
 
+{% block symfony_installer_alternative %}
+    <p>
+        <strong>Si no puedes usar el instalador</strong> prueba con la
+        <a href="{{ doc_path({ page: 'book/installation', version: 'master' }) }}#creating-symfony-applications-without-the-installer">instalación de Symfony mediante Composer</a>.
+    </p>
+{% endblock %}
+
 {% block label_copy %}Copiar{% endblock %}
+
+{% block symfony_demo_application_title %}Aplicación Symfony Demo{% endblock %}
+{% block symfony_demo_application %}
+    <p>
+        La mejor forma de aprender Symfony y la referencia para desarrollar
+        aplicaciones siguiendo las buenas prácticas oficiales.
+    </p>
+    <p>
+        <a href="https://github.com/symfony/symfony-demo">Descárgala gratis</a>
+    </p>
+{% endblock %}
 
 {% block updates_title %}No te pierdas los lanzamientos{% endblock %}
 {% block updates_description %}
-    <a href="{{ path('roadmap') }}">Subscríbete</a> gratis a nuestro servicio de
-    notificaciones para recibir un email cada vez que se publique una nueva
-    versión Symfony.
+    <p>
+        Recibe un email cada vez que se publica una versión de Symfony
+        o cuando una versión deja de estar soportada.
+    </p>
+    <p>
+        <a href="{{ path('roadmap') }}">Subscríbete gratis</a>
+    </p>
+{% endblock %}
+
+{% block source_code_title %}Código fuente de Symfony{% endblock %}
+{% block source_code_description %}
+    Symfony está <a href="https://github.com/symfony/symfony">
+    alojado en GitHub</a>. Únete a la comunidad enviando <em>pull requests</em>,
+    revisando código o informando sobre errores.
 {% endblock %}
 
 {% block open_source_title %}Libre y gratuito{% endblock %}
@@ -83,9 +104,9 @@
     </p>
 {% endblock %}
 
-{% block distributions_title %}Descargar distribuciones Symfony{% endblock %}
+{% block distributions_title %}Distribuciones Symfony{% endblock %}
 {% block distributions_description %}
-    <a href="{{ path('marketing_page_shortcut', { name: 'distributions' }) }}">Echa un vistazo a nuestras distribuciones</a> listas para usar en las aplicaciones REST y tipo CMS.
+    Echa un vistazo a <a href="{{ path('marketing_page_shortcut', { name: 'distributions' }) }}">nuestras distribuciones</a> listas para aplicaciones REST y CMS.
 {% endblock %}
 
 {% block legacy_title %}Descargar versiones anteriores{% endblock %}
