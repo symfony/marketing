@@ -4,10 +4,8 @@ dependencies: []
 components:
     - Console
     - Debug
-    - EventDispatcher
     - Finder
     - HttpFoundation
-    - HttpKernel
     - Routing
     - Stopwatch
     - Templating
