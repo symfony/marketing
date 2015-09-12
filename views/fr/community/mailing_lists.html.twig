@@ -2,33 +2,31 @@
 {% block keywords '' %}
 {% block description '' %}
 
-{% block label 'Email :' %}
-{% block submit 'Inscription' %}
-
-{% block symfony1 %}
-    <h3><a href="http://groups.google.com/group/symfony1">Users Group de symfony1</a></h3>
-    <p>Si vous avez besoin d'aide sur symfony1, pensez à vous inscrire à la mailing list des utilisateurs de symfony1 :</p>
+{% block discontinued_message %}
+    Symfony a abandonné ses mailing lists utilisateurs en Juin 2015
+    (<a href="{{ path('blog_post', { slug: 'symfony-support-stack-overflow-as-the-main-medium' }) }}">Lire l'annonce</a>).
+    Le support communautaire est maintenant fournit sur <a href="http://stackoverflow.com/questions/tagged/symfony">Stack Overflow</a>.
 {% endblock %}
 
-{% block archive %}
-    <p>
-        Vous pouvez aussi consulter les archives de l'ancien
-        <a href="http://groups.google.com/group/symfony-users">Users Group</a>.
-    </p>
+{% block read_only_message %}
+    Les mailing lists suivantes ne sont plus actives mais sont maintenues en
+    lecture seule pour des besoins de références.
 {% endblock %}
 
-{% block symfony2 %}
-    <h3><a href="http://groups.google.com/group/symfony2">Users Group de Symfony2</a></h3>
-    <p>Si vous avez besoin d'aide sur Symfony2, pensez à vous inscrire à la mailing list des utilisateurs de Symfony2 :</p>
+{% block symfony2_title %}Symfony2 Users Group{% endblock %}
+{% block symfony2_description %}
+    Le support communautaire pour Symfony 2 et 3 est remplacé par le
+    <a href="http://stackoverflow.com/questions/tagged/symfony">tag Symfony</a> sur Stack Overflow.
 {% endblock %}
 
-{% block developers %}
-    <h3><a href="http://groups.google.com/group/symfony-devs">Developers Group</a></h3>
-    <p>
-        La mailing list des développeurs est fermée depuis décembre 2013.
-        Cependant vous pouvez encore parcourir ses archives. Si vous
-        souhaitez contribuer au projet ou bien discuter d'une nouvelle
-        fonctionnalité, rendez-vous sur le
-        <a href="https://github.com/symfony/symfony/">dépôt GitHub</a> de Symfony.
-    </p>
+{% block symfony1_title %}symfony1 Users Group{% endblock %}
+{% block symfony1_description %}
+    Le support communautaire pour l'ancien Symfony 1 est remplacé par le
+    <a href="http://stackoverflow.com/questions/tagged/symfony">tag symfony1</a> sur Stack Overflow.
+{% endblock %}
+
+{% block symfonydev_title %}Developers Group{% endblock %}
+{% block symfonydev_description %}
+    Les discussions à propos du développement du framework Symfony sont remplacées par
+    la section <a href="https://github.com/symfony/symfony/issues">Symfony Issues</a> de GitHub.
 {% endblock %}
