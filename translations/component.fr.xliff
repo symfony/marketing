@@ -48,6 +48,15 @@
                 <target>Documentation</target>
             </trans-unit>
 
+            <trans-unit id="asset.summary">
+                <source>asset.summary</source>
+                <target>Prend en charge la génération d'URL et les versions des assets (ressources) telles que les feuilles de style CSS, les fichiers JavaScript et les images.</target>
+            </trans-unit>
+            <trans-unit id="asset.description">
+                <source>asset.description</source>
+                <target />
+            </trans-unit>
+
             <trans-unit id="browserkit.summary">
                 <source>browserkit.summary</source>
                 <target>Simule le comportement d'un navigateur web.</target>
@@ -297,6 +306,15 @@
             </trans-unit>
             <trans-unit id="validator.description">
                 <source>validator.description</source>
+                <target />
+            </trans-unit>
+
+            <trans-unit id="vardumper.summary">
+                <source>vardumper.summary</source>
+                <target>Fournit des mécanismes pour étudier n'importe quelle variable PHP.</target>
+            </trans-unit>
+            <trans-unit id="vardumper.description">
+                <source>vardumper.description</source>
                 <target />
             </trans-unit>
 
