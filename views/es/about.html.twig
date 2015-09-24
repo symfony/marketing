@@ -11,32 +11,32 @@
         publicado en el año 2005, bajo la licencia MIT de código abierto y hoy
         se encuentra entre los frameworks líderes de PHP.
 
-        <br/>
+    </p>
 
-        Apoyado por SensioLabs - pero también por una <a href="{{ path('contributors') }}">
-        gran comunidad</a> - Symfony proporciona muchos recursos para su aprendizaje:
-        detallada documentación, soporte de la comunidad (listas de e-mail, IRC, etc),
-        <a href="http://sensiolabs.com/en/support/sensiolabs_support.html">soporte profesional</a>
+    <p>
+
+        Apoyado por SensioLabs - pero también por una <a href="{{
+        path('contributors') }}"> gran comunidad</a> - Symfony proporciona
+        muchos recursos para su aprendizaje: documentación detallada, soporte de
+        la comunidad (listas de e-mail, IRC, etc), soporte profesional
         (consultoría, formación, etc), y mucho más.
 
-        <br/>
-
-        Disponible en su versión 2.0, Symfony tiene, entre los miles de sitios y
-        aplicaciones desarrolladas con su plataforma, prestigiosas referencias, tales
-        como Yahoo!, Dailymotion, Opensky.com, Exercise.com, phpBB, o Drupal.
     </p>
-    <ul class="list_04">
-        <li><div class="link_01"><a href="{{ marketing_path('what_is_symfony') }}">¿Qué es Symfony?</a></div></li>
-    </ul>
+
+    <p>
+
+        Miles de <a href="{{ path('showcase') }}">sitios web y aplicaciones</a>
+        confían en el framework Symfony y en los
+        <a href="{{ path('marketing_page_shortcut', { name: 'components' }) }}">
+        componentes de Symfony</a> para desarrollar sus servicios. Además, los
+        proyectos PHP más relevantes, como Drupal, phpBB, Laravel y eZ Publish
+        usan los componentes de Symfony para crear sus aplicaciones.
+
+    </p>
 {% endblock %}
 
-{% block mission %}
-    <h2 class="title_05">Nuestra misión</h2>
-    <p>El código fuente de Symfony está publicado en tu totalidad bajo la <a href="{{ path('license') }}">licencia MIT.</a></p>
-{%  endblock %}
-
-{% block sensiolabs %}
-    <h2 class="title_05">SensioLabs</h2>
+{% block title_about_sensiolabs %}Sobre SensioLabs{% endblock %}
+{% block about_sensiolabs %}
     <p>
 
         Desde 1998, SensioLabs ha fomentado el movimiento del software libre
@@ -45,9 +45,10 @@
         software libre.
 
     </p>
-    <ul class="list_04">
-        <li><div class="link_01"><a href="http://sensiolabs.com/a_propos/nous_sommes_open.html">Datos y cifras de SensioLabs</a></div></li>
-        <li><div class="link_01"><a href="http://sensiolabs.com/services/nos_partis_pris.html">Servicios</a></div></li>
-        <li><div class="link_01"><a href="http://www.extreme-sensio.com/showcase/">Clientes</a></div></li>
+
+    <ul>
+        <li><a href="{{ path('services') }}">Soluciones para empresas de SensioLabs</a></li>
+        <li><a href="http://sensiolabs.com/en/a_propos/nous_aimons_le_concret.html">Información y cifras de negocio</a></li>
+        <li><a href="http://sensiolabs.com/en/clients/clients.html">Nuestros clientes</a></li>
     </ul>
 {% endblock %}

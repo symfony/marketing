@@ -4,43 +4,53 @@
 
 {% block intro %}
     <p>
-        Symfony adalah sebuah framework dengan kode terbuka, yang digunakan untuk 
-        mengembangkan aplikasi web berbasis PHP. Framework ini pada awalnya dikembangkan 
-        oleh Sensio Labs, sebuah perusahaan pengembang aplikasi web, untuk melayani permintaan
-        pembuatan website dari pelanggan mereka. Symfony dirilis secara umum pada tahun 2005 
-        dengan lisensi kode terbuka MIT. Dan sekarang termasuk framework PHP terdepan dari 
+
+        Symfony adalah sebuah framework dengan kode terbuka, yang digunakan
+        untuk  mengembangkan aplikasi web berbasis PHP. Framework ini pada
+        awalnya dikembangkan  oleh Sensio Labs, sebuah perusahaan pengembang
+        aplikasi web, untuk melayani permintaan pembuatan website dari pelanggan
+        mereka. Symfony dirilis secara umum pada tahun 2005  dengan lisensi kode
+        terbuka MIT. Dan sekarang termasuk framework PHP terdepan dari
         framework lainnya.
-        <br/>
-        Didukung sepenuhnya oleh Sensio Labs, tapi juga oleh <a href="{{ path('contributors') }}">komunitasnya yang besar</a>, 
-        Symfony memiliki banyak referensi diantaranya : dokumentasi yang lengkap, 
-        dukungan komunitas (mailing list, IRC, dll), dukungan <a href="http://sensiolabs.com/en/support/sensiolabs_support.html">tenaga ahli</a> 
-        (konsultasi, <a href="http://trainings.sensiolabs.com/">pelatihan</a>, dll), dan lain sebagainya.
-        <br/>
-        Tersedia sejak versi 2.0, Symfony telah digunakan sebagai framework untuk website dan aplikasi.
-        Diantara web bergengsi yang menggunakan Symfony adalah Yahoo!, Dailymotion, Opensky.com, 
-        Exercise.com, phpBB, bahkan Drupal juga menggunakan komponen dari Symfony.
+
     </p>
-    <ul class="list_04">
-        <li><div class="link_01"><a href="{{ marketing_path('what_is_symfony') }}">Apa itu Symfony?</a></div></li>
-    </ul>
+
+    <p>
+
+        Didukung sepenuhnya oleh Sensio Labs, tapi juga oleh
+        <a href="{{ path('contributors') }}">komunitasnya yang besar</a>,
+        Symfony memiliki banyak referensi diantaranya : dokumentasi yang lengkap,
+        dukungan komunitas (mailing list, IRC, dll), dukungan
+        <a href="http://sensiolabs.com/en/support/sensiolabs_support.html">tenaga ahli</a>
+        (konsultasi, <a href="http://trainings.sensiolabs.com/">pelatihan</a>, dll),
+        dan lain sebagainya.
+
+    </p>
+
+    <p>
+
+        Tersedia sejak versi 2.0, Symfony telah digunakan sebagai framework
+        untuk website dan aplikasi. Diantara web bergengsi yang menggunakan
+        Symfony adalah Yahoo!, Dailymotion, Opensky.com, Exercise.com, phpBB,
+        bahkan Drupal juga menggunakan komponen dari Symfony.
+
+    </p>
 {% endblock %}
 
-{% block mission %}
-    <h2 class="title_05">VISI dan MISI</h2>
-    <p>Symfony tersedia penuh secara gratis dan dirilis dengan lisensi <a href="{{ path('license') }}">MIT.</a></p>
-{%  endblock %}
-
-{% block sensiolabs %}
-    <h2 class="title_05">SENSIO LABS</h2>
+{% block title_about_sensiolabs %}SensioLabs{% endblock %}
+{% block about_sensiolabs %}
     <p>
-        Sejak tahun 1998, Sensio Labs sudah memulai mempromosikan gerakan program dengan
-        kode terbuka dengan menyediakan pengembangan aplikasi web yang berkualitas, pelatihan,
-        dan konsultasi. Sensio Labs juga memberikan dukungan untuk beberapa program terkenal
-        yang bersifat kode terbuka.
+
+        Sejak tahun 1998, Sensio Labs sudah memulai mempromosikan gerakan
+        program dengan kode terbuka dengan menyediakan pengembangan aplikasi web
+        yang berkualitas, pelatihan, dan konsultasi. Sensio Labs juga memberikan
+        dukungan untuk beberapa program terkenal yang bersifat kode terbuka.
+
     </p>
-    <ul class="list_04">
-        <li><div class="link_01"><a href="http://sensiolabs.com/a_propos/nous_sommes_open.html">Fakta di Sensio Labs</a></div></li>
-        <li><div class="link_01"><a href="http://sensiolabs.com/services/nos_partis_pris.html">Layanan</a></div></li>
-        <li><div class="link_01"><a href="http://www.extreme-sensio.com/showcase/">Galeri Pelanggan</a></div></li>
+
+    <ul>
+        <li><a href="http://sensiolabs.com/a_propos/nous_sommes_open.html">Fakta di Sensio Labs</a></li>
+        <li><a href="http://sensiolabs.com/services/nos_partis_pris.html">Layanan</a></li>
+        <li><a href="http://www.extreme-sensio.com/showcase/">Galeri Pelanggan</a></li>
     </ul>
 {% endblock %}

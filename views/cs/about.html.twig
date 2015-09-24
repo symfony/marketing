@@ -4,41 +4,48 @@
 
 {% block intro %}
     <p>
-        Symfony je framework určený k vývoji webových aplikací.
-        Původně byl navržen agenturou SensioLabs pro tvorbu klientských webových stránek.
-        Symfony framework byl zveřejněn v roce 2005 pod MIT licencí a dnes patří mezi
-        přední PHP frameworky.
-        <br/>
-        Podporu zajišťuje nejenom SensioLabs, ale také <a href="{{ path('contributors') }}">
-        velká komunita</a>. Symfony se může pyšnit kvalitní dokumentací,
-        podporou ze strany komunity (mailové konference, IRC, apod.), profesionální
-        <a href="http://sensiolabs.com/en/support/sensiolabs_support.html">podporou</a>
-        (konzultace, <a href="http://trainings.sensiolabs.com/">školení</a> atd.)
-        a mnoha dalšími věcmi.
-        <br/>
-        Verze Symfony 2.0 byla nasazena na stovkách webových stránkách a na této
-        platformě jsou vyvíjeny mnohé prestižní projekty jako jsou Yahoo!, Dailymotion,
-        Opensky.com, Exercise.com, phpBB nebo Drupal.
+
+        Symfony je framework určený k vývoji webových aplikací. Původně byl
+        navržen agenturou SensioLabs pro tvorbu klientských webových stránek.
+        Symfony framework byl zveřejněn v roce 2005 pod MIT licencí a dnes patří
+        mezi přední PHP frameworky.
+
     </p>
-    <ul class="list_04">
-        <li><div class="link_01"><a href="{{ marketing_path('what_is_symfony') }}">Co je Symfony?</a></div></li>
-    </ul>
+
+    <p>
+
+        Podporu zajišťuje nejenom SensioLabs, ale také <a href="{{
+        path('contributors') }}"> velká komunita</a>. Symfony se může pyšnit
+        kvalitní dokumentací, podporou ze strany komunity (mailové konference,
+        IRC, apod.), profesionální
+        <a href="http://sensiolabs.com/en/support/sensiolabs_support.html">podporou</a>
+        (konzultace, <ahref="http://trainings.sensiolabs.com/">školení</a> atd.)
+        a mnoha dalšími věcmi.
+
+    </p>
+
+    <p>
+
+        Verze Symfony 2.0 byla nasazena na stovkách webových stránkách a na této
+        platformě jsou vyvíjeny mnohé prestižní projekty jako jsou Yahoo!,
+        Dailymotion, Opensky.com, Exercise.com, phpBB nebo Drupal.
+
+    </p>
 {% endblock %}
 
-{% block mission %}
-    <h2 class="title_05">POSLÁNÍ</h2>
-    <p>Framework Symfony je zcela zdarma dostupný pod <a href="{{ path('license') }}">MIT licencí.</a></p>
-{%  endblock %}
-
-{% block sensiolabs %}
-    <h2 class="title_05">SENSIO LABS</h2>
+{% block title_about_sensiolabs %}SensioLabs{% endblock %}
+{% block about_sensiolabs %}
     <p>
-        Od roku 1998 SensioLabs prosazuje open-source hnutí, poskytuje kvalitní internetové
-        aplikace, školení a konzultace. SensioLabs rovněž podporuje několik OpenSource projektů.
+
+        Od roku 1998 SensioLabs prosazuje open-source hnutí, poskytuje kvalitní
+        internetové aplikace, školení a konzultace. SensioLabs rovněž podporuje
+        několik OpenSource projektů.
+
     </p>
-    <ul class="list_04">
-        <li><div class="link_01"><a href="http://sensiolabs.com/a_propos/nous_sommes_open.html">Údaje o SensioLabs</a></div></li>
-        <li><div class="link_01"><a href="http://sensiolabs.com/services/nos_partis_pris.html">Nabízené služby</a></div></li>
-        <li><div class="link_01"><a href="http://www.extreme-sensio.com/showcase/">Reference</a></div></li>
+
+    <ul>
+        <li><a href="http://sensiolabs.com/a_propos/nous_sommes_open.html">Údaje o SensioLabs</a></li>
+        <li><a href="http://sensiolabs.com/services/nos_partis_pris.html">Nabízené služby</a></li>
+        <li><a href="http://www.extreme-sensio.com/showcase/">Reference</a></li>
     </ul>
 {% endblock %}
