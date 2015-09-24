@@ -12,6 +12,7 @@ ExpressionLanguage:  { docUrl: expression_language/index.html  }
 Filesystem:          { docUrl: filesystem.html                 }
 Finder:              { docUrl: finder.html                     }
 Form:                { docUrl: form/index.html                 }
+Guard:               { docUrl: ~                               }
 HttpFoundation:      { docUrl: http_foundation/index.html      }
 HttpKernel:          { docUrl: http_kernel/index.html          }
 Icu:                 { docUrl: ~                               }
