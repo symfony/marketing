@@ -1,6 +1,6 @@
-{% block title 'Prenosi' %}
+{% block title 'Prenesite ogrodje Symfony in komponentne' %}
 {% block keywords '' %}
-{% block description 'Prenosi, stopite v stik s skupnostjo, preberite članke, najdite usposabljanja' %}
+{% block description 'Prenesite ogrodje Symfony z uporabo namestitvenega programa Symfony ali s Composer-jem. Prenesite komponente Symfony in demo aplikacijo Symfony.' %}
 
 {% block symfony_framework_title %}Uporaba celotnega<br/>ogrodja Symfony{% endblock %}
 
@@ -28,15 +28,7 @@
 {% endblock %}
 
 {% block linux_mac_installation_title %}Namestitev na Linux in Mac OS X{% endblock %}
-{% block linux_mac_installation_commands %}
-    $ sudo curl -LsS http://symfony.com/installer -o /usr/local/bin/symfony<br/>
-    $ sudo chmod a+x /usr/local/bin/symfony
-{% endblock %}
-
 {% block windows_installation_title %}Namestiev na Windows{% endblock %}
-{% block windows_installation_commands %}
-    c:\> php -r "readfile('http://symfony.com/installer');" > symfony
-{% endblock %}
 {% block windows_installation_instructions %}
     <p>
         Premaknite preneseno datoteko v vaš projektni direktorij in
@@ -44,13 +36,42 @@
     </p>
 {% endblock %}
 
+{% block symfony_installer_alternative %}
+    <p>
+        <strong>Če ne morete uporabiti namestitvenega programa</strong>, namesto njega poskusite
+        <a href="{{ doc_path({ page: 'book/installation', version: 'master' }) }}#creating-symfony-applications-without-the-installer">namestitev Symfony na osnovi Composer-ja</a>.
+    </p>
+{% endblock %}
+
 {% block label_copy %}Kopirajte{% endblock %}
+
+{% block symfony_demo_application_title %}Demo aplikacija Symfony{% endblock %}
+{% block symfony_demo_application %}
+    <p>
+        Najboljši vir učenja Symfony in referenca za razvijanje
+        aplikacij, ki sledijo uradnim najboljšim praksam.
+    </p>
+    <p>
+        <a href="https://github.com/symfony/symfony-demo">Prenesite jo brezplačno</a>
+    </p>
+{% endblock %}
 
 {% block updates_title %}Ne zamudite nobenih posodobitev!{% endblock %}
 {% block updates_description %}
-    <a href="{{ path('roadmap') }}">Prijavite</a> se
-    na našo storitev obveščanja in prejeli boste e-pošto kakor hitro bo
-    objavljena nova verzija Symfony.
+    <p>
+        Prejmite e-pošto, ko bo nova verzija Symfony objavljena
+        ali ko bo verzija Symfony dosegla konec življenske dobe.
+    </p>
+    <p>
+        <a href="{{ path('roadmap') }}">Naročite se brezplačno</a>
+    </p>
+{% endblock %}
+
+{% block source_code_title %}Izvorna koda Symfony{% endblock %}
+{% block source_code_description %}
+    Symfony je javno <a href="https://github.com/symfony/symfony">
+    gostovan na GitHub-u</a>. Pridružite se nam s pošiljanjem zahtevkov potegov, pregledom
+    kode ali poročanjem težav.
 {% endblock %}
 
 {% block open_source_title %}Brezplačno in odprtokoden{% endblock %}
