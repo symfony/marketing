@@ -1,6 +1,6 @@
-{% block title 'Download' %}
+{% block title 'Download Symfony Framework and Components' %}
 {% block keywords '' %}
-{% block description 'Downloads, get in touch with the community, read articles, find training sessions' %}
+{% block description 'Download the Symfony framework using the Symfony installer or Composer. Download Symfony Components and the Symfony Demo application.' %}
 
 {% block symfony_framework_title %}Using the Symfony <br/> full-stack framework{% endblock %}
 
@@ -28,15 +28,7 @@
 {% endblock %}
 
 {% block linux_mac_installation_title %}Installation on Linux and Mac OS X{% endblock %}
-{% block linux_mac_installation_commands %}
-    $ sudo curl -LsS http://symfony.com/installer -o /usr/local/bin/symfony<br/>
-    $ sudo chmod a+x /usr/local/bin/symfony
-{% endblock %}
-
 {% block windows_installation_title %}Installation on Windows{% endblock %}
-{% block windows_installation_commands %}
-    c:\> php -r "readfile('http://symfony.com/installer');" > symfony
-{% endblock %}
 {% block windows_installation_instructions %}
     <p>
         Move the downloaded file to your projects directory and
@@ -44,13 +36,42 @@
     </p>
 {% endblock %}
 
+{% block symfony_installer_alternative %}
+    <p>
+        <strong>If you can't use the installer</strong> try instead the
+        <a href="{{ doc_path({ page: 'book/installation', version: 'master' }) }}#creating-symfony-applications-without-the-installer">Symfony installation based on Composer</a>.
+    </p>
+{% endblock %}
+
 {% block label_copy %}Copy{% endblock %}
+
+{% block symfony_demo_application_title %}Symfony Demo application{% endblock %}
+{% block symfony_demo_application %}
+    <p>
+        The best Symfony learning resource and the reference to develop
+        applications following the official best practices.
+    </p>
+    <p>
+        <a href="https://github.com/symfony/symfony-demo">Download it for free</a>
+    </p>
+{% endblock %}
 
 {% block updates_title %}Don't miss any updates!{% endblock %}
 {% block updates_description %}
-    <a href="{{ path('roadmap') }}">Subscribe</a>
-    to our notification service and receive an email as soon as a
-    new Symfony version is published.
+    <p>
+        Receive an email when a new Symfony version is published
+        or when a Symfony version reaches its end of life.
+    </p>
+    <p>
+        <a href="{{ path('roadmap') }}">Subscribe it for free</a>
+    </p>
+{% endblock %}
+
+{% block source_code_title %}Symfony Source Code{% endblock %}
+{% block source_code_description %}
+    Symfony is publicly <a href="https://github.com/symfony/symfony">
+    hosted on GitHub</a>. Join us sending pull requests, reviewing
+    code, or reporting issues.
 {% endblock %}
 
 {% block open_source_title %}Free and Open Source{% endblock %}
