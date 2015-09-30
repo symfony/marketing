@@ -1,0 +1,28 @@
+---------------------------------------------------------------------------
+
+by javiereguiluz at 2015-09-24T15:43:09Z
+
+@weaverryan sorry for being so pushy, but I'd like to add the information of your great component as soon as possible. Which one of the following should be the component name?
+
+  * `Guard`
+  * `SecurityGuard`
+
+Thanks!
+
+---------------------------------------------------------------------------
+
+by weaverryan at 2015-09-24T21:25:52Z
+
+`Guard` or `Guard Auth` (still short, a little more descriptive). You're fast for getting this updated.
+
+---------------------------------------------------------------------------
+
+by javiereguiluz at 2015-09-30T09:32:56Z
+
+I don't know what to do here. Let's ask @fabpot: do you prefer `Guard` or `GuardAuth` as the component name? Thanks.
+
+---------------------------------------------------------------------------
+
+by fabpot at 2015-09-30T09:49:15Z
+
+I would use `Guard`
