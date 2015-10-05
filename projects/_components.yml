@@ -21,6 +21,7 @@ Locale:              { docUrl: locale.html                     } # deprecated by
 OptionsResolver:     { docUrl: options_resolver.html           }
 Process:             { docUrl: process.html                    }
 PropertyAccess:      { docUrl: property_access/index.html      }
+PropertyInfo:        { docUrl: ~                               }
 Routing:             { docUrl: routing/index.html              }
 Security:            { docUrl: security/index.html             }
 Serializer:          { docUrl: serializer.html                 }
