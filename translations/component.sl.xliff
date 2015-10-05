@@ -255,6 +255,15 @@
                 <target />
             </trans-unit>
 
+            <trans-unit id="propertyinfo.summary">
+                <source>propertyinfo.summary</source>
+                <target>Izvleče informacije o lastnostih PHP razredov z uporabo meta podatkov popularnih virov (Doctrine, PHP Reflection, PHPdoc itd.)</target>
+            </trans-unit>
+            <trans-unit id="propertyinfo.description">
+                <source>propertyinfo.description</source>
+                <target />
+            </trans-unit>
+
             <trans-unit id="routing.summary">
                 <source>routing.summary</source>
                 <target>Poveže zahtevek HTTP z nizom nastavitvenih spremenljivk.</target>
