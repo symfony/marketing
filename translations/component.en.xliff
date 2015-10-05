@@ -201,6 +201,15 @@
                 <target />
             </trans-unit>
 
+            <trans-unit id="ldap.summary">
+                <source>ldap.summary</source>
+                <target>Provides a LDAP client for PHP on top of PHP's ldap extension.</target>
+            </trans-unit>
+            <trans-unit id="ldap.description">
+                <source>ldap.description</source>
+                <target />
+            </trans-unit>
+
             <trans-unit id="locale.summary">
                 <source>locale.summary</source>
                 <target>Provides fallback code to handle cases when the intl extension is missing. This component is deprecated since 2.3, use the Intl component instead.</target>

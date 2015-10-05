@@ -17,6 +17,7 @@ HttpFoundation:      { docUrl: http_foundation/index.html      }
 HttpKernel:          { docUrl: http_kernel/index.html          }
 Icu:                 { docUrl: ~                               }
 Intl:                { docUrl: intl.html                       }
+Ldap:                { docUrl: ~                               }
 Locale:              { docUrl: locale.html                     } # deprecated by Intl since 2.3
 OptionsResolver:     { docUrl: options_resolver.html           }
 Process:             { docUrl: process.html                    }
