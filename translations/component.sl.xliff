@@ -201,6 +201,15 @@
                 <target />
             </trans-unit>
 
+            <trans-unit id="ldap.summary">
+                <source>ldap.summary</source>
+                <target>Ponuja klienta LDAP za PHP na vrhu PHP razširitve ldap.</target>
+            </trans-unit>
+            <trans-unit id="ldap.description">
+                <source>ldap.description</source>
+                <target />
+            </trans-unit>
+
             <trans-unit id="locale.summary">
                 <source>locale.summary</source>
                 <target>Zagotavlja nadomestno kodo za upravljanje primerov, kjer manjka razširitev intl. Ta komponenta je opuščena od 2.3 in namesto nje je v uporabi Intl komponenta.</target>
