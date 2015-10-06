@@ -1,0 +1,37 @@
+---------------------------------------------------------------------------
+
+by xabbuh at 2015-10-05T11:14:59Z
+
+@OskarStark By the way, there's a lot of other stuff not completely translated into German.
+
+---------------------------------------------------------------------------
+
+by OskarStark at 2015-10-05T11:20:39Z
+
+Will have a look
+
+btw. what is recommended?
+```xml
+<trans-unit id="browserkit.description">
+    <source>browserkit.description</source>
+    <target></target>
+</trans-unit>
+```
+
+```xml
+<trans-unit id="config.description">
+    <source>config.description</source>
+    <target />
+</trans-unit>
+```
+
+or
+
+```xml
+<trans-unit id="config.description">
+    <source>config.description</source>
+    <target>config.description</target>
+</trans-unit>
+```
+
+the files are mixed...
