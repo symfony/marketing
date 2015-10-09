@@ -1,0 +1,16 @@
+name: Drupal Console
+url: http://drupalconsole.com/
+dependencies: []
+components:
+    - Config
+    - Console
+    - CssSelector
+    - Debug
+    - DependencyInjection
+    - DomCrawler
+    - EventDispatcher
+    - Filesystem
+    - Finder
+    - HttpFoundation
+    - Translation
+    - Yaml
