@@ -1,0 +1,8 @@
+name: Grav
+url: http://getgrav.org
+dependencies: []
+components:
+    - Console
+    - EventDispatcher
+    - VarDumper
+    - YAML
