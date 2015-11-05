@@ -3,7 +3,7 @@
     <file source-language="ru" datatype="plaintext" original="file.ext">
         <body>
             <trans-unit id="1">
-                <source>browserkit.summary</source>
+                <source>browser-kit.summary</source>
                 <target>
                     BrowserKit имитирует работу веб-браузера.
                 </target>
@@ -27,7 +27,7 @@
                </target>
             </trans-unit>
             <trans-unit id="5">
-               <source>classloader.summary</source>
+               <source>class-loader.summary</source>
                <target>
                     Автоматически загружает классы вашего проекта, если они следуют некоторым стандартным соглашениям PHP.
                </target>
@@ -51,7 +51,7 @@
                </target>
             </trans-unit>
             <trans-unit id="9">
-               <source>cssselector.summary</source>
+               <source>css-selector.summary</source>
                <target>
                    Превращает CSS селекторы в выражения XPath.
                </target>
@@ -75,7 +75,7 @@
                </target>
             </trans-unit>
             <trans-unit id="13">
-               <source>dependencyinjection.summary</source>
+               <source>dependency-injection.summary</source>
                <target>
                    Позволяет стандартизировать и централизовать способы создания объектов в вашем приложении.
                </target>
@@ -87,7 +87,7 @@
                </target>
             </trans-unit>
             <trans-unit id="15">
-               <source>domcrawler.summary</source>
+               <source>dom-crawler.summary</source>
                <target>
                    Облегчает навигацию по DOM для HTML и XML документов.
                </target>
@@ -99,7 +99,7 @@
                </target>
             </trans-unit>
             <trans-unit id="17">
-               <source>eventdispatcher.summary</source>
+               <source>event-dispatcher.summary</source>
                <target>
                    Реализует облегченную версию шаблона проектирования Observer.
                </target>
@@ -135,7 +135,7 @@
                </target>
             </trans-unit>
             <trans-unit id="23">
-               <source>httpfoundation.summary</source>
+               <source>http-foundation.summary</source>
                <target>
                    Определяет объектно-ориентированный слой для спецификации HTTP.
                </target>
@@ -147,7 +147,7 @@
                </target>
             </trans-unit>
             <trans-unit id="25">
-               <source>httpkernel.summary</source>
+               <source>http-kernel.summary</source>
                <target>
                    Предоставляет строительные блоки для создания быстрых и гибких фреймворков, работающих на базе стандарта HTTP.
                </target>
@@ -183,7 +183,7 @@
                </target>
             </trans-unit>
             <trans-unit id="31">
-               <source>optionsresolver.summary</source>
+               <source>options-resolver.summary</source>
                <target>
                   Помогает с конфигурированием объектов с option arrays.
                </target>
@@ -207,7 +207,7 @@
                </target>
             </trans-unit>
             <trans-unit id="35">
-               <source>propertyaccess.summary</source>
+               <source>property-access.summary</source>
                <target>
                   Предоставляет функции для чтения из / записи в объект или массив с использованием строковой нотации.
                </target>
