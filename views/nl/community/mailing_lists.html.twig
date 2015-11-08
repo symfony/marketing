@@ -1,0 +1,32 @@
+{% block title 'Mailing Lijsten' %}
+{% block keywords '' %}
+{% block description '' %}
+
+{% block discontinued_message %}
+    Symfony Project beëindigde zijn gebruiker mailinglijsten omstreeks juni 2015
+    (<a href="{{ path('blog_post', { slug: 'symfony-support-stack-overflow-as-the-main-medium' }) }}">Lees de aankondiging</a>).
+    Community support is nu voorzien via <a href="http://stackoverflow.com/questions/tagged/symfony">Stack Overflow</a>.
+{% endblock %}
+
+{% block read_only_message %}
+    De volgende mailinglijsten zijn niet meer actief, maar ze worden
+    bewaard als alleen-lezen-modus voor referentie doeleinden.
+{% endblock %}
+
+{% block symfony2_title %}Symfony2 Gebruikers Groep{% endblock %}
+{% block symfony2_description %}
+    Community support voor de Symfony 2 en 3 versies. Vervangen door de
+    <a href="http://stackoverflow.com/questions/tagged/symfony">Symfony tag</a> op Stack Overflow.
+{% endblock %}
+
+{% block symfony1_title %}symfony1 Gebruikers Groep{% endblock %}
+{% block symfony1_description %}
+    Community support voor de legacy symfony1 versies. Vervangen door de
+    <a href="http://stackoverflow.com/questions/tagged/symfony1">symfony1 tag</a> op Stack Overflow.
+{% endblock %}
+
+{% block symfonydev_title %}Ontwikkelaars Groep{% endblock %}
+{% block symfonydev_description %}
+    Discussies over de ontwikkeling van het Symfony Framework zelf. Vervangen door de
+    <a href="https://github.com/symfony/symfony/issues">Symfony Issues</a> sectie op GitHub.
+{% endblock %}
