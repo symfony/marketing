@@ -33,20 +33,20 @@
                 <target>Case Studies</target>
             </trans-unit>
             <trans-unit id="1-6">
-                <source>menu.what_is_symfony.versioning_policy</source>
-                <target>Versioning Policy</target>
+                <source>menu.what_is_symfony.symfony_roadmap</source>
+                <target>Symfony Roadmap</target>
             </trans-unit>
             <trans-unit id="1-7">
                 <source>menu.what_is_symfony.security_policy</source>
                 <target>Security Policy</target>
             </trans-unit>
             <trans-unit id="1-8">
-                <source>menu.what_is_symfony.license</source>
-                <target>License</target>
+                <source>menu.about.logo</source>
+                <target>Logo &amp; Screenshots</target>
             </trans-unit>
             <trans-unit id="1-9">
-                <source>menu.what_is_symfony.symfony_roadmap</source>
-                <target>Roadmap</target>
+                <source>menu.what_is_symfony.license</source>
+                <target>Trademark &amp; Licenses</target>
             </trans-unit>
             <trans-unit id="1-10">
                 <source>menu.what_is_symfony.symfony_legacy</source>
@@ -66,7 +66,6 @@
                 <source>menu.community</source>
                 <target>Community</target>
             </trans-unit>
-
             <trans-unit id="4-1">
                 <source>menu.community.sensiolabs_connect</source>
                 <target>SensioLabs Connect</target>
@@ -107,7 +106,6 @@
                 <source>menu.about</source>
                 <target>About</target>
             </trans-unit>
-
             <trans-unit id="71">
                 <source>menu.about.sensiolabs</source>
                 <target>SensioLabs</target>
@@ -115,14 +113,6 @@
             <trans-unit id="72">
                 <source>menu.about.contributors</source>
                 <target>Contributors</target>
-            </trans-unit>
-            <trans-unit id="73">
-                <source>menu.about.tradmeark_logo_policy</source>
-                <target>Trademark &amp; Logo Policy</target>
-            </trans-unit>
-            <trans-unit id="74">
-                <source>menu.about.logo</source>
-                <target>Logo</target>
             </trans-unit>
             <trans-unit id="75">
                 <source>menu.about.jobs</source>
