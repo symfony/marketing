@@ -1,0 +1,5 @@
+name: Contao
+url: https://contao.org
+dependencies:
+    - symfonyfs
+components: []
