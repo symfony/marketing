@@ -1,0 +1,37 @@
+---------------------------------------------------------------------------
+
+by RicardoJ at 2015-11-08T17:09:03Z
+
+This pull request needs spelling and grammar checking before it can be merged. Maybe @WouterJ is available to verify and comment individual on the commits? Or is there somebody else to check this pull request?
+
+There are a few untranslated pages and components to be done before this pull request can be merged. I'll translate them and commit them to this pull request.
+
+---------------------------------------------------------------------------
+
+by RicardoJ at 2015-11-17T23:50:49Z
+
+I am currently not available to translate this content and I do not know when I will be available. Hopefully someone can translate the rest from the English content to let this pull request be merged.
+
+**What currently is missing:**
+- [ ] translations/component.nl.xliff ([source here](https://raw.githubusercontent.com/symfony/symfony-marketing/master/translations/component.en.xliff))
+- [ ] translations/marketing.nl.xliff ([source here](https://raw.githubusercontent.com/symfony/symfony-marketing/master/translations/marketing.en.xliff))
+- [ ] translations/project.nl.xliff ([source here](https://raw.githubusercontent.com/symfony/symfony-marketing/master/translations/project.en.xliff))
+- [ ] views/nl/what_is_symfony/elevator_pitches/* ([directory here](https://github.com/symfony/symfony-marketing/tree/master/views/en/what_is_symfony/elevator_pitches))
+- [ ] views/nl/what_is_symfony/in_five_minutes/* ([directory here](https://github.com/symfony/symfony-marketing/tree/master/views/en/what_is_symfony/in_five_minutes))
+- [ ] views/nl/what_is_symfony/at_a_glance.html.twig ([source here](https://raw.githubusercontent.com/symfony/symfony-marketing/master/views/en/what_is_symfony/at_a_glance.html.twig))
+
+Everything else has been translated into Dutch. Thank you so far for letting me contribute to this project.
+
+---------------------------------------------------------------------------
+
+by javiereguiluz at 2015-11-18T07:19:38Z
+
+@RicardoJ thanks for translating these contents and thanks to @WouterJ for the detailed review.
+
+I propose you the following: let's merge these changes right away and we'll finish the translation in the future. Trying to translate everything at once is poised to fail because it's a lot of work. Let's do it in several steps. Thanks!
+
+---------------------------------------------------------------------------
+
+by RicardoJ at 2015-11-19T06:35:14Z
+
+Thanks for now Javier.
