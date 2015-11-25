@@ -1,0 +1,22 @@
+---------------------------------------------------------------------------
+
+by javiereguiluz at 2015-11-22T21:15:26Z
+
+@aschempp thanks for proposing to add a new project and sorry for the delay answering you.
+
+Before adding this project, two more changes are needed:
+
+  * Add the project at the end of this file: https://github.com/symfony/symfony-marketing/blob/master/projects/_projects.yml#L66  We'll review the highlighted/major/minor list soon, so for now we'll put it in the "minor" list and review it later. Thanks!
+  * Create a `projects/en/contao.html.twig` file with a paragraph describing the project. If needed, check out the [Grav project description](https://github.com/symfony/symfony-marketing/blob/master/projects/en/grav.html.twig) which is similar to Contao and it was recently added.
+
+---------------------------------------------------------------------------
+
+by aschempp at 2015-11-25T14:14:25Z
+
+I have updated/created the respective files. Shall we also add a german description?
+
+---------------------------------------------------------------------------
+
+by javiereguiluz at 2015-11-25T14:39:38Z
+
+@aschempp there is no need to translate the description because we always merge it in English first and then, i fthere is interest, others translate the projects. Thanks.
