@@ -1,0 +1,5 @@
+name: Aimeos e-commerce components
+url: https://aimeos.org/Symfony
+dependencies:
+    - symfonyfs
+components: []
