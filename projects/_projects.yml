@@ -31,7 +31,6 @@ major:
     - mautic
     - freepost
     - codeception
-    - aimeos
 minor:
     - thelia
     - kunstmaanbundles
@@ -66,3 +65,5 @@ minor:
     - grav
     - wellcommerce
     - contao
+    - aimeos
+    - pdepend
