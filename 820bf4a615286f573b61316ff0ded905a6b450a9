@@ -1,0 +1,24 @@
+---------------------------------------------------------------------------
+
+by javiereguiluz at 2015-12-07T08:15:57Z
+
+@aimeos thanks for adding this project to the list. Before merging the changes, I'd like to ask you to make two changes:
+
+1) The icon must be in a square format, because otherwise it will look ugly when resizing it (this is an example of the page where it will be displayed: http://symfony.com/components/HttpFoundation)
+2) The description must be just one paragraph(you currently propose three paragraphs).
+
+If you need more help, you can check out how does a project called Elcodi do it, because it's similar to your project: logo (https://github.com/symfony/symfony-marketing/blob/master/projects/elcodi.png), description (https://github.com/symfony/symfony-marketing/blob/master/projects/en/elcodi.html.twig). Thanks.
+
+---------------------------------------------------------------------------
+
+by aimeos at 2015-12-07T11:43:10Z
+
+@javiereguiluz We've changed the paragraphs and use a square image now. The long text is hard to read if it's not split in paragraphs, so maybe it would be a good idea to allow more than one in the future.
+
+BTW: Aimeos is very similar to Sylius too but not only available for Symfony :-)
+
+---------------------------------------------------------------------------
+
+by javiereguiluz at 2015-12-07T12:22:06Z
+
+@aimeos thanks for making the changes. I'm afraid I have to make another request: the *"one paragraph-only rule"* is precisely set to prevent long descriptions. It's not a matter of putting the three paragraphs of text in a single `<p>` but a matter of writing only one paragraph. So, could you please remove some text to make the description shorter (similar to the rest of the projects). Thanks!
