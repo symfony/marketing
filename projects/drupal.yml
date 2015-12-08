@@ -3,11 +3,15 @@ url: http://drupal.org
 dependencies: []
 components:
     - ClassLoader
+    - Console
+    - CssSelector
     - DependencyInjection
     - EventDispatcher
     - HttpFoundation
     - HttpKernel
+    - Process
     - Routing
     - Serializer
+    - Translation
     - Validator
     - Yaml
