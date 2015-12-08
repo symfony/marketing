@@ -31,6 +31,7 @@ major:
     - mautic
     - freepost
     - codeception
+    - aimeos
 minor:
     - thelia
     - kunstmaanbundles
