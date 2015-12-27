@@ -3,3 +3,4 @@ url: http://magento.com
 dependencies: []
 components:
     - Console
+    - EventDispatcher
