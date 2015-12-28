@@ -21,10 +21,10 @@ components. Follow these instructions to propose a new project for that list:
     where `xxx` is the slug of your project (e.g. `projects/acme.yml`). Use any
     of the existing YAML files as the reference of your own file and take into
     account that:
-      * If your project depends on Smyfony components, list them under the
+      * If your project depends on Symfony components, list them under the
         `components` option.
       * If your project depends on the entire Symfony full-stack framework, leave
-        empty the `components` option and add `symfonyfs`in the `dependencies`
+        the `components` option empty and add `symfonyfs`in the `dependencies`
         option.
  2. Add a square PNG image with the logo of your project in `projects/xxx.png`
     where `xxx` is the slug of your project (e.g. `projects/acme.png`). It's
