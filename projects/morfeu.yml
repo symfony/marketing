@@ -4,21 +4,4 @@ dependencies:
     - gregwar
     - phpimap
 components:
-    - ClassLoader
-    - Config
-    - Console
-    - Debug
-    - DependencyInjection
-    - EventDispatcher
-    - Form
-    - HttpFoundation
-    - HttpKernel
-    - OptionsResolver
-    - Process
-    - Routing
-    - Security
-    - Templating
-    - Translation
-    - Validator
-    - Yaml
-    - Swiftmailer
+    - symfonyfs
