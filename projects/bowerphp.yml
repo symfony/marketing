@@ -1,0 +1,8 @@
+name: bowerphp
+url: http://bowerphp.org
+dependencies: []
+components:
+    - Console
+    - Filesystem
+    - Finder
+    - Process
