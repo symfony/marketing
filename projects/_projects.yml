@@ -67,3 +67,4 @@ minor:
     - contao
     - aimeos
     - pdepend
+    - bowerphp
