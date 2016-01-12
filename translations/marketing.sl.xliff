@@ -13,43 +13,39 @@
             <!-- What is Symfony -->
 
             <trans-unit id="1-1">
-                <source>menu.what_is_symfony</source>
+                <source>menu.what-is-symfony</source>
                 <target>Kaj je Symfony?</target>
             </trans-unit>
             <trans-unit id="1-2">
-                <source>menu.what_is_symfony.at_a_glance</source>
+                <source>menu.what-is-symfony.at-a-glance</source>
                 <target>Symfony na prvi pogled</target>
             </trans-unit>
             <trans-unit id="1-3">
-                <source>menu.what_is_symfony.symfony_components</source>
+                <source>menu.what-is-symfony.symfony-components</source>
                 <target>Komponente Symfony</target>
             </trans-unit>
             <trans-unit id="1-4">
-                <source>menu.what_is_symfony.symfony_projects</source>
+                <source>menu.what-is-symfony.symfony-projects</source>
                 <target>Projekti s Symfony</target>
             </trans-unit>
             <trans-unit id="1-5">
-                <source>menu.what_is_symfony.case_studies</source>
+                <source>menu.what-is-symfony.case-studies</source>
                 <target>Primeri dobre prakse</target>
             </trans-unit>
-            <trans-unit id="1-6">
-                <source>menu.what_is_symfony.versioning_policy</source>
-                <target>Politika različic</target>
-            </trans-unit>
             <trans-unit id="1-7">
-                <source>menu.what_is_symfony.security_policy</source>
+                <source>menu.what-is-symfony.security-policy</source>
                 <target>Varnostna politika</target>
             </trans-unit>
             <trans-unit id="1-8">
-                <source>menu.what_is_symfony.license</source>
+                <source>menu.what-is-symfony.license</source>
                 <target>Licenca</target>
             </trans-unit>
             <trans-unit id="1-9">
-                <source>menu.what_is_symfony.symfony_roadmap</source>
+                <source>menu.what-is-symfony.symfony-roadmap</source>
                 <target>Načrt</target>
             </trans-unit>
             <trans-unit id="1-10">
-                <source>menu.what_is_symfony.symfony_legacy</source>
+                <source>menu.what-is-symfony.symfony-legacy</source>
                 <target>Zapuščina symfony1</target>
             </trans-unit>
 
@@ -68,7 +64,7 @@
             </trans-unit>
 
             <trans-unit id="4-1">
-                <source>menu.community.sensiolabs_connect</source>
+                <source>menu.community.sensiolabs-connect</source>
                 <target>SensioLabs Connect</target>
             </trans-unit>
             <trans-unit id="4-2">
@@ -76,7 +72,7 @@
                 <target>Podpora</target>
             </trans-unit>
             <trans-unit id="4-3">
-                <source>menu.community.how_to_be_involved</source>
+                <source>menu.community.how-to-be-involved</source>
                 <target>Kako biti vključeni</target>
             </trans-unit>
 
@@ -117,12 +113,8 @@
                 <target>Ljudje, ki so prispevali</target>
             </trans-unit>
             <trans-unit id="73">
-                <source>menu.about.tradmeark_logo_policy</source>
-                <target>Blagovna znamka &amp; Politika logotipa</target>
-            </trans-unit>
-            <trans-unit id="74">
                 <source>menu.about.logo</source>
-                <target>Logo</target>
+                <target>Blagovna znamka &amp; Politika logotipa</target>
             </trans-unit>
             <trans-unit id="75">
                 <source>menu.about.jobs</source>
