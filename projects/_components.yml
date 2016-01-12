@@ -9,7 +9,7 @@ DependencyInjection: { docUrl: dependency_injection/index.html }
 DomCrawler:          { docUrl: dom_crawler.html                }
 EventDispatcher:     { docUrl: event_dispatcher/index.html     }
 ExpressionLanguage:  { docUrl: expression_language/index.html  }
-Filesystem:          { docUrl: filesystem.html                 }
+Filesystem:          { docUrl: filesystem/index.html           }
 Finder:              { docUrl: finder.html                     }
 Form:                { docUrl: form/index.html                 }
 Guard:               { docUrl: ~                               }
