@@ -1,4 +1,4 @@
-name: Oro Platform
+name: OroPlatform
 url: http://www.orocrm.com/oro-platform
 dependencies:
     - symfonyfs
