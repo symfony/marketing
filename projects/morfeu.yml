@@ -1,0 +1,5 @@
+name: Morfeu
+url: https://github.com/leonardorifeli/morfeu
+dependencies:
+    - symfonyfs
+components: []
