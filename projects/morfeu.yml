@@ -1,7 +1,5 @@
 name: Morfeu
-url: http://morfeu.xyz
+url: https://github.com/leonardorifeli/morfeu
 dependencies:
-    - gregwar
-    - phpimap
-components:
     - symfonyfs
+components: []
