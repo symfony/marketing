@@ -29,7 +29,6 @@ major:
     - shopware
     - propel
     - mautic
-    - freepost
     - codeception
 minor:
     - thelia
@@ -68,3 +67,4 @@ minor:
     - aimeos
     - pdepend
     - bowerphp
+    - freepost

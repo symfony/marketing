@@ -1,5 +1,5 @@
 name: freepost
 url: http://freepo.st
-dependencies:
-    - symfonyfs
-components: []
+dependencies: []
+components:
+    - Templating
