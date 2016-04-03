@@ -1,0 +1,7 @@
+name: Morfeu
+url: http://morfeu.xyz
+dependencies:
+    - gregwar
+    - phpimap
+components:
+    - symfonyfs
