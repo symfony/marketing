@@ -1,0 +1,71 @@
+---------------------------------------------------------------------------
+
+by weaverryan at 2016-02-29T00:44:03Z
+
+I like the re-wording, it's not a big difference, but it makes sense. I was also surprised during the SoS that there was confusion about support channels.
+
+I didn't know about `webchat` - though I see it's listed in the IRC page. Changing the link on that page to `webchat` (e.g. `https://webchat.freenode.net/?channels=#symfony`) would be friendlier - I'd be +1 on it, though we don't really know if this is a real problem.
+
+---------------------------------------------------------------------------
+
+by RicardoJ at 2016-03-07T23:19:40Z
+
+Good that you did the Dutch translation also. I like the difference and I agree with Ryan.
+
+---------------------------------------------------------------------------
+
+by WouterJ at 2016-04-02T22:51:40Z
+
+Very friendly ping here. I know it's a big stress to the feature freeze, but I would like to improve the experience of help-seeking community members.
+
+---------------------------------------------------------------------------
+
+by javiereguiluz at 2016-04-03T09:16:58Z
+
+@WouterJ thanks for the ping. I totally forgot about this. I'm sorry.
+
+I like your proposal ... but it has a flaw. It doesn't fit the design:
+
+![proposal_1](https://cloud.githubusercontent.com/assets/73419/14231710/79d4945e-f98d-11e5-9063-f8a92e29718c.png)
+
+What about tweaking the message a bit?
+
+![proposal_2](https://cloud.githubusercontent.com/assets/73419/14231711/86660766-f98d-11e5-97b4-a496a25ccbc8.png)
+
+---------------------------------------------------------------------------
+
+by RicardoJ at 2016-04-03T11:32:06Z
+
+What happend to the old forums, what decision was made to deprecate these? I can imagine that not all users who seek help are able and willing to join an irc server.
+
+---------------------------------------------------------------------------
+
+by javiereguiluz at 2016-04-03T11:33:10Z
+
+@RicardoJ the old forums were replaced by StackOverflow.
+
+---------------------------------------------------------------------------
+
+by WouterJ at 2016-04-03T11:34:22Z
+
+@javiereguiluz what about "to ask/answer specific Symfony problems." I think the fact that you need a very specific problem in order to have a correct question on SO is really important.
+
+---------------------------------------------------------------------------
+
+by RicardoJ at 2016-04-03T11:37:14Z
+
+@javiereguiluz That makes sense. To go back on topic; The new string makes sense, but in Dutch, the whole string doesn't make sense to me unless @WouterJ agrees on the translation:
+
+![capture](https://cloud.githubusercontent.com/assets/15246351/14232183/2137512e-f9a1-11e5-8b6e-1238959f3e2b.PNG)
+
+---------------------------------------------------------------------------
+
+by javiereguiluz at 2016-04-03T11:37:34Z
+
+@WouterJ :+1: it fits well! Can you please update this PR? Thanks!
+
+---------------------------------------------------------------------------
+
+by WouterJ at 2016-04-04T20:04:41Z
+
+Updated the PR
