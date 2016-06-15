@@ -1,0 +1,6 @@
+name: TYPO3
+url: https://typo3.org/
+dependencies: []
+components:
+    - Console
+    - Finder
