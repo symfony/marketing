@@ -1,0 +1,10 @@
+name: Pimcore
+url: https://www.pimcore.org/
+dependencies: []
+components:
+    - Console
+    - EventDispatcher
+    - Finder
+    - Process
+    - VarDumper
+    - CssSelector
