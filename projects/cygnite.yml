@@ -1,0 +1,5 @@
+name: Cygnite
+url: http://cygniteframework.com
+dependencies: []
+components:
+    - Console
