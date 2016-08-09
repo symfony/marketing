@@ -32,6 +32,7 @@ major:
     - codeception
 minor:
     - typo3
+	- cygnite
     - thelia
     - kunstmaanbundles
     - sculpin
