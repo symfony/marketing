@@ -17,18 +17,18 @@ HttpFoundation:      { docUrl: http_foundation.html }
 HttpKernel:          { docUrl: http_kernel.html }
 Icu:                 { docUrl: ~ }
 Intl:                { docUrl: intl.html }
-Ldap:                { docUrl: ~ }
+Ldap:                { docUrl: ldap.html }
 Locale:              { docUrl: locale.html } # deprecated by Intl since 2.3
 OptionsResolver:     { docUrl: options_resolver.html }
 Process:             { docUrl: process.html }
 PropertyAccess:      { docUrl: property_access.html }
-PropertyInfo:        { docUrl: ~ }
+PropertyInfo:        { docUrl: property_info.html }
 Routing:             { docUrl: routing.html }
 Security:            { docUrl: security.html }
 Serializer:          { docUrl: serializer.html }
 Stopwatch:           { docUrl: stopwatch.html }
 Templating:          { docUrl: templating.html }
 Translation:         { docUrl: translation.html }
-Validator:           { docUrl: ~ }
+Validator:           { docUrl: validator.html }
 VarDumper:           { docUrl: var_dumper.html }
 Yaml:                { docUrl: yaml.html }
