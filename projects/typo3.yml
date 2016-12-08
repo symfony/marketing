@@ -4,3 +4,4 @@ dependencies: []
 components:
     - Console
     - Finder
+    - Yaml
