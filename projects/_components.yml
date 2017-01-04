@@ -34,3 +34,16 @@ Validator:           { docUrl: validator.html }
 VarDumper:           { docUrl: var_dumper.html }
 Workflow:            { docUrl: workflow.html }
 Yaml:                { docUrl: yaml.html }
+'Polyfill APCu':     { docUrl: ~ }
+'Polyfill PHP 5.4':  { docUrl: ~ }
+'Polyfill PHP 5.5':  { docUrl: ~ }
+'Polyfill PHP 5.6':  { docUrl: ~ }
+'Polyfill PHP 7.0':  { docUrl: ~ }
+'Polyfill PHP 7.1':  { docUrl: ~ }
+'Polyfill Iconv':    { docUrl: ~ }
+'Polyfill Intl':     { docUrl: ~ }
+'Polyfill Intl':     { docUrl: ~ }
+'Polyfill Intl':     { docUrl: ~ }
+'Polyfill Mbstring': { docUrl: ~ }
+'Polyfill Util':     { docUrl: ~ }
+'Polyfill Xml':      { docUrl: ~ }
