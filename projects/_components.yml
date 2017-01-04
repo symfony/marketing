@@ -1,5 +1,6 @@
 Asset:               { docUrl: asset.html }
 BrowserKit:          { docUrl: browser_kit.html }
+Cache:               { docUrl: components/cache.html }
 ClassLoader:         { docUrl: class_loader.html }
 Config:              { docUrl: config.html }
 Console:             { docUrl: console.html }
@@ -31,4 +32,5 @@ Templating:          { docUrl: templating.html }
 Translation:         { docUrl: translation.html }
 Validator:           { docUrl: validator.html }
 VarDumper:           { docUrl: var_dumper.html }
+Workflow:            { docUrl: workflow.html }
 Yaml:                { docUrl: yaml.html }
