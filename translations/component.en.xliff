@@ -88,6 +88,11 @@
                 <target>Allows you to standardize and centralize the way objects are constructed in your application.</target>
             </trans-unit>
 
+            <trans-unit id="dotenv.summary">
+                <source>dotenv.summary</source>
+                <target>Parses .env files to make environment variables stored in them accessible via getenv(), $_ENV or $_SERVER.</target>
+            </trans-unit>
+
             <trans-unit id="dom-crawler.summary">
                 <source>dom-crawler.summary</source>
                 <target>Eases DOM navigation for HTML and XML documents.</target>
