@@ -1,5 +1,0 @@
-name: PHPUnit
-url: https://phpunit.de/
-dependencies: []
-components:
-    - Yaml
