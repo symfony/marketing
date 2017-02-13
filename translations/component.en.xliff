@@ -233,16 +233,6 @@
                 <target>Loads and dumps YAML files.</target>
             </trans-unit>
 
-            <trans-unit id="yaml.summary">
-                <source>yaml.summary</source>
-                <target>Loads and dumps YAML files.</target>
-            </trans-unit>
-
-            <trans-unit id="yaml.summary">
-                <source>yaml.summary</source>
-                <target>Loads and dumps YAML files.</target>
-            </trans-unit>
-
             <trans-unit id="polyfill-apcu.summary">
                 <source>polyfill-apcu.summary</source>
                 <target>Provides apcu_* functions and the APCUIterator class to users of the legacy APC extension.</target>
