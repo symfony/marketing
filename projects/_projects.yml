@@ -6,9 +6,9 @@ highlighted:
     - joomla
     - composer
     - magento
+    - prestashop
     - piwik
     - symfonyfs
-    - prestashop
 major:
     - silex
     - assetic
