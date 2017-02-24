@@ -1,11 +1,13 @@
 Asset:               { docUrl: asset.html }
 BrowserKit:          { docUrl: browser_kit.html }
+Cache:               { docUrl: components/cache.html }
 ClassLoader:         { docUrl: class_loader.html }
 Config:              { docUrl: config.html }
 Console:             { docUrl: console.html }
 CssSelector:         { docUrl: css_selector.html }
 Debug:               { docUrl: debug.html }
 DependencyInjection: { docUrl: dependency_injection.html }
+Dotenv:              { docUrl: dotenv.html }
 DomCrawler:          { docUrl: dom_crawler.html }
 EventDispatcher:     { docUrl: event_dispatcher.html }
 ExpressionLanguage:  { docUrl: expression_language.html }
@@ -31,4 +33,18 @@ Templating:          { docUrl: templating.html }
 Translation:         { docUrl: translation.html }
 Validator:           { docUrl: validator.html }
 VarDumper:           { docUrl: var_dumper.html }
+Workflow:            { docUrl: workflow.html }
 Yaml:                { docUrl: yaml.html }
+'Polyfill APCu':     { docUrl: ~ }
+'Polyfill PHP 5.4':  { docUrl: ~ }
+'Polyfill PHP 5.5':  { docUrl: ~ }
+'Polyfill PHP 5.6':  { docUrl: ~ }
+'Polyfill PHP 7.0':  { docUrl: ~ }
+'Polyfill PHP 7.1':  { docUrl: ~ }
+'Polyfill Iconv':    { docUrl: ~ }
+'Polyfill Intl':     { docUrl: ~ }
+'Polyfill Intl':     { docUrl: ~ }
+'Polyfill Intl':     { docUrl: ~ }
+'Polyfill Mbstring': { docUrl: ~ }
+'Polyfill Util':     { docUrl: ~ }
+'Polyfill Xml':      { docUrl: ~ }

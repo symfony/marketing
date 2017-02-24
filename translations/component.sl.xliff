@@ -88,6 +88,11 @@
                 <target>Omogoča standardizacijo in centralizacijo načina konstrukcije objektov v vaši aplikaciji.</target>
             </trans-unit>
 
+            <trans-unit id="dotenv.summary">
+                <source>dotenv.summary</source>
+                <target>Razčleni datoteke .env in ustvari okoljske spremenljivke shranjene v njih ter dostopne preko getenv(), $_ENV ali $_SERVER.</target>
+            </trans-unit>
+
             <trans-unit id="dom-crawler.summary">
                 <source>dom-crawler.summary</source>
                 <target>Poenostavi navigacijo DOM za HTML in XML dokumente.</target>
