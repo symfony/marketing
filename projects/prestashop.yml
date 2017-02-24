@@ -1,0 +1,5 @@
+name: PrestaShop
+url: https://www.prestashop.com/
+dependencies:
+    - symfonyfs
+components: []
