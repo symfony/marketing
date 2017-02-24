@@ -1,0 +1,5 @@
+name: Cocorico Market Place
+url: http://www.cocolabs.io
+dependencies:
+    - symfonyfs
+components: []
