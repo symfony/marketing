@@ -8,6 +8,7 @@ highlighted:
     - magento
     - piwik
     - symfonyfs
+    - prestashop
 major:
     - silex
     - assetic
