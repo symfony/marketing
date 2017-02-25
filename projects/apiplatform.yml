@@ -1,0 +1,5 @@
+name: API Platform
+url: https://api-platform.com
+dependencies:
+    - symfonyfs
+components: []

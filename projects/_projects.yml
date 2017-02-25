@@ -30,6 +30,7 @@ major:
     - propel
     - mautic
     - codeception
+    - apiplatform
 minor:
     - typo3
     - thelia
