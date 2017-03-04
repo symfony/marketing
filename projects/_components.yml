@@ -7,7 +7,7 @@ Console:             { docUrl: console.html }
 CssSelector:         { docUrl: css_selector.html }
 Debug:               { docUrl: debug.html }
 DependencyInjection: { docUrl: dependency_injection.html }
-Dotenv:              { docUrl: dotenv.html }
+Dotenv:              { docUrl: ~ }
 DomCrawler:          { docUrl: dom_crawler.html }
 EventDispatcher:     { docUrl: event_dispatcher.html }
 ExpressionLanguage:  { docUrl: expression_language.html }
