@@ -1,0 +1,5 @@
+name: Victoire CMS
+url: https://victoire.io/
+dependencies:
+    - symfonyfs
+components: []
