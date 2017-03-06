@@ -2,7 +2,7 @@ name: SilverStripe
 url: https://www.silverstripe.org
 dependencies: [ swiftmailer ]
 components:
-    - Config
     - Cache
+    - Config
     - Translation
     - Yaml
