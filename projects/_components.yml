@@ -35,6 +35,7 @@ Validator:           { docUrl: validator.html }
 VarDumper:           { docUrl: var_dumper.html }
 Workflow:            { docUrl: workflow.html }
 Yaml:                { docUrl: yaml.html }
+'PHPUnit Bridge':    { docUrl: phpunit_bridge.html }
 'Polyfill APCu':     { docUrl: ~ }
 'Polyfill PHP 5.4':  { docUrl: ~ }
 'Polyfill PHP 5.5':  { docUrl: ~ }
