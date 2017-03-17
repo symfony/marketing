@@ -33,6 +33,7 @@ major:
     - apiplatform
 minor:
     - typo3
+	- cygnite
     - thelia
     - kunstmaanbundles
     - sculpin
