@@ -58,6 +58,11 @@
                 <target>Simulira delovanje spletnega brskalnika.</target>
             </trans-unit>
 
+            <trans-unit id="cache.summary">
+                <source>cache.summary</source>
+                <target>Izvaja mehanizma predpomnenja PSR-6 in PSR-16 in ponuja adapterje za priljubljena ozadja predpomnilnikov (Redis, Memcache, APCu itd.)</target>
+            </trans-unit>
+
             <trans-unit id="class-loader.summary">
                 <source>class-loader.summary</source>
                 <target>Avtomatsko naloži projektne razrede, če sledijo standardnim PHP konvencijam.</target>
@@ -123,8 +128,8 @@
                 <target>Ponuja orodja za enostavno izdelavo, procesiranje in ponovno uporabo HTML obrazcev.</target>
             </trans-unit>
 
-            <trans-unit id="guard.summary">
-                <source>guard.summary</source>
+            <trans-unit id="security-guard.summary">
+                <source>security-guard.summary</source>
                 <target>Združi mnoge nivoje preverjanja pristnosti in zelo poenostavi izdelavo kompleksnih sistemov preverjanja pristnosti, kjer imate polno kontrolo.</target>
             </trans-unit>
 
@@ -218,9 +223,79 @@
                 <target>Ponuja mehanizme za pregled skozi katerokoli arbitrarno PHP spremenljivko. </target>
             </trans-unit>
 
+            <trans-unit id="workflow.summary">
+                <source>workflow.summary</source>
+                <target>Ponuja orodja za upravljanje poteka dela ali končnega stanja naprave.</target>
+            </trans-unit>
+
             <trans-unit id="yaml.summary">
                 <source>yaml.summary</source>
                 <target>Naloži in shrani datoteke YAML.</target>
+            </trans-unit>
+
+            <trans-unit id="polyfill-apcu.summary">
+                <source>polyfill-apcu.summary</source>
+                <target>Ponuja funkcije apcu_* in razred APCUIterator uporabnikom s starejšo razširitvijo APC.</target>
+            </trans-unit>
+
+            <trans-unit id="polyfill-php54.summary">
+                <source>polyfill-php54.summary</source>
+                <target>Ponuja funkcije, ki niso na voljo v izdajah pred PHP 5.4.</target>
+            </trans-unit>
+
+            <trans-unit id="polyfill-php55.summary">
+                <source>polyfill-php55.summary</source>
+                <target>Ponuja funkcije, ki niso na voljo v izdajah pred PHP 5.5.</target>
+            </trans-unit>
+
+            <trans-unit id="polyfill-php56.summary">
+                <source>polyfill-php56.summary</source>
+                <target>Ponuja funkcije, ki niso na voljo v izdajah pred PHP 5.6.</target>
+            </trans-unit>
+
+            <trans-unit id="polyfill-php70.summary">
+                <source>polyfill-php70.summary</source>
+                <target>Ponuja funkcije, ki niso na voljo v izdajah pred PHP 7.0.</target>
+            </trans-unit>
+
+            <trans-unit id="polyfill-php71.summary">
+                <source>polyfill-php71.summary</source>
+                <target>Ponuja funkcije, ki niso na voljo v izdajah pred PHP 7.1.</target>
+            </trans-unit>
+
+            <trans-unit id="polyfill-iconv.summary">
+                <source>polyfill-iconv.summary</source>
+                <target>Ponuja izvirno implementacijo PHP funkcij php.net/iconv.</target>
+            </trans-unit>
+
+            <trans-unit id="polyfill-intl-grapheme.summary">
+                <source>polyfill-intl-grapheme.summary</source>
+                <target>Ponuja delno, izvirno implementacijo PHP funkcij Grapheme iz razširitve Intl.</target>
+            </trans-unit>
+
+            <trans-unit id="polyfill-intl-icu.summary">
+                <source>polyfill-intl-icu.summary</source>
+                <target>Ponuja zbirko funkcij/razredov z uporabo paketa symfony/intl, ko razširitev Intl ni nameščena.</target>
+            </trans-unit>
+
+            <trans-unit id="polyfill-intl-normalizer.summary">
+                <source>polyfill-intl-normalizer.summary</source>
+                <target>Ponuja ponovno vzpostavljeno implementacijo za razred Normalizer razširitve Intl.</target>
+            </trans-unit>
+
+            <trans-unit id="polyfill-mbstring.summary">
+                <source>polyfill-mbstring.summary</source>
+                <target>Ponuja delno, izvirno implementacijo PHP za razširitev Mbstring.</target>
+            </trans-unit>
+
+            <trans-unit id="polyfill-util.summary">
+                <source>polyfill-util.summary</source>
+                <target>Ponuja funkcije binarno varnih nizov z uporabo razširitve mbstring, ko je na voljo.</target>
+            </trans-unit>
+
+            <trans-unit id="polyfill-xml.summary">
+                <source>polyfill-xml.summary</source>
+                <target>Ponuja ponovno vzpostavljeno implementacijo za sledeče funkcije, ko razširitev XML ni na voljo.</target>
             </trans-unit>
         </body>
     </file>
