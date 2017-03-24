@@ -1,51 +1,325 @@
-Asset:               { docUrl: asset.html }
-BrowserKit:          { docUrl: browser_kit.html }
-Cache:               { docUrl: components/cache.html }
-ClassLoader:         { docUrl: class_loader.html }
-Config:              { docUrl: config.html }
-Console:             { docUrl: console.html }
-CssSelector:         { docUrl: css_selector.html }
-Debug:               { docUrl: debug.html }
-DependencyInjection: { docUrl: dependency_injection.html }
-Dotenv:              { docUrl: dotenv.html }
-DomCrawler:          { docUrl: dom_crawler.html }
-EventDispatcher:     { docUrl: event_dispatcher.html }
-ExpressionLanguage:  { docUrl: expression_language.html }
-Filesystem:          { docUrl: filesystem.html }
-Finder:              { docUrl: finder.html }
-Form:                { docUrl: form.html }
-Guard:               { docUrl: ~ }
-HttpFoundation:      { docUrl: http_foundation.html }
-HttpKernel:          { docUrl: http_kernel.html }
-Icu:                 { docUrl: ~ }
-Intl:                { docUrl: intl.html }
-Ldap:                { docUrl: ldap.html }
-Locale:              { docUrl: locale.html } # deprecated by Intl since 2.3
-OptionsResolver:     { docUrl: options_resolver.html }
-Process:             { docUrl: process.html }
-PropertyAccess:      { docUrl: property_access.html }
-PropertyInfo:        { docUrl: property_info.html }
-Routing:             { docUrl: routing.html }
-Security:            { docUrl: security.html }
-Serializer:          { docUrl: serializer.html }
-Stopwatch:           { docUrl: stopwatch.html }
-Templating:          { docUrl: templating.html }
-Translation:         { docUrl: translation.html }
-Validator:           { docUrl: validator.html }
-VarDumper:           { docUrl: var_dumper.html }
-Workflow:            { docUrl: workflow.html }
-Yaml:                { docUrl: yaml.html }
-'PHPUnit Bridge':    { docUrl: phpunit_bridge.html }
-'Polyfill APCu':     { docUrl: ~ }
-'Polyfill PHP 5.4':  { docUrl: ~ }
-'Polyfill PHP 5.5':  { docUrl: ~ }
-'Polyfill PHP 5.6':  { docUrl: ~ }
-'Polyfill PHP 7.0':  { docUrl: ~ }
-'Polyfill PHP 7.1':  { docUrl: ~ }
-'Polyfill Iconv':    { docUrl: ~ }
-'Polyfill Intl':     { docUrl: ~ }
-'Polyfill Intl':     { docUrl: ~ }
-'Polyfill Intl':     { docUrl: ~ }
-'Polyfill Mbstring': { docUrl: ~ }
-'Polyfill Util':     { docUrl: ~ }
-'Polyfill Xml':      { docUrl: ~ }
+Asset:
+    docUrl: asset.html
+    deprecated: false
+    description: |
+        Manages URL generation and versioning of web assets such as CSS
+        stylesheets, JavaScript files and image files.
+
+BrowserKit:
+    docUrl: browser_kit.html
+    deprecated: false
+    description: |
+        Simulates the behavior of a web browser.
+
+Cache:
+    docUrl: components/cache.html
+    deprecated: false
+    description: |
+        Implements PSR-6 and PSR-16 caching mechanisms and provides adapters for
+        popular caching backends (Redis, Memcache, APCu, etc.)
+
+ClassLoader:
+    docUrl: class_loader.html
+    deprecated: false
+    description: |
+        Loads your project classes automatically if they follow some standard
+        PHP conventions.
+
+Config:
+    docUrl: config.html
+    deprecated: false
+    description: |
+        Helps you find, load, combine, autofill and validate configuration values.
+
+Console:
+    docUrl: console.html
+    deprecated: false
+    description: |
+        Eases the creation of beautiful and testable command line interfaces.
+
+CssSelector:
+    docUrl: css_selector.html
+    deprecated: false
+    description: |
+        Converts CSS selectors to XPath expressions.
+
+Debug:
+    docUrl: debug.html
+    deprecated: false
+    description: |
+        Provides tools to ease debugging PHP code.
+
+DependencyInjection:
+    docUrl: dependency_injection.html
+    deprecated: false
+    description: |
+        Allows you to standardize and centralize the way objects are constructed
+        in your application.
+
+Dotenv:
+    docUrl: dotenv.html
+    deprecated: false
+    description: |
+        Parses .env files to make environment variables stored in them accessible
+        via getenv(), $_ENV or $_SERVER.
+
+DomCrawler:
+    docUrl: dom_crawler.html
+    deprecated: false
+    description: |
+        Eases DOM navigation for HTML and XML documents.
+
+EventDispatcher:
+    docUrl: event_dispatcher.html
+    deprecated: false
+    description: |
+        Implements the Mediator pattern in a simple and effective way to make
+        projects truly extensible.
+
+ExpressionLanguage:
+    docUrl: expression_language.html
+    deprecated: false
+    description: |
+        Provides an engine that can compile and evaluate expressions.
+
+Filesystem:
+    docUrl: filesystem.html
+    deprecated: false
+    description: |
+        Provides basic utilities for the filesystem.
+
+Finder:
+    docUrl: finder.html
+    deprecated: false
+    description: |
+        Finds files and directories via an intuitive fluent interface.
+
+Form:
+    docUrl: form.html
+    deprecated: false
+    description: |
+        Provides tools to easy creating, processing and reusing HTML forms.
+
+Guard:
+    docUrl: ~
+    deprecated: false
+    description: |
+        Brings many layers of authentication together, making it much easier to
+        create complex authentication systems where you have total control.
+
+HttpFoundation:
+    docUrl: http_foundation.html
+    deprecated: false
+    description: |
+        Defines an object-oriented layer for the HTTP specification.
+
+HttpKernel:
+    docUrl: http_kernel.html
+    deprecated: false
+    description: |
+        Provides the building blocks to create flexible and fast HTTP-based
+        frameworks.
+
+Icu:
+    docUrl: ~
+    deprecated: true
+    description: |
+        Contains the data of the ICU library in a specific version. This component
+        is deprecated since October 2014, use the Intl component instead.
+
+Intl:
+    docUrl: intl.html
+    deprecated: false
+    description: |
+        Provides fallback code to handle cases when the intl extension is missing.
+
+Ldap:
+    docUrl: ldap.html
+    deprecated: false
+    description: |
+        Provides an LDAP client for PHP on top of PHP's ldap extension.
+
+Locale:
+    docUrl: locale.html
+    deprecated: true
+    description: |
+        Provides fallback code to handle cases when the intl extension is missing.
+        This component is deprecated since 2.3, use the Intl component instead.
+
+OptionsResolver:
+    docUrl: options_resolver.html
+    deprecated: false
+    description: |
+        Helps you configuring objects with option arrays.
+
+Process:
+    docUrl: process.html
+    deprecated: false
+    description: |
+        Executes commands in sub-processes.
+
+PropertyAccess:
+    docUrl: property_access.html
+    deprecated: false
+    description: |
+        Provides function to read and write from/to an object or array using a
+        simple string notation.
+
+PropertyInfo:
+    docUrl: property_info.html
+    deprecated: false
+    description: |
+        Extracts information about the properties of PHP classes using metadata
+        of popular sources (Doctrine, PHP Reflection, PHPdoc, etc.)
+
+Routing:
+    docUrl: routing.html
+    deprecated: false
+    description: |
+        Maps an HTTP request to a set of configuration variables.
+
+Security:
+    docUrl: security.html
+    deprecated: false
+    description: |
+        Provides an infrastructure for sophisticated authorization systems.
+
+Serializer:
+    docUrl: serializer.html
+    deprecated: false
+    description: |
+        Turns objects into a specific format (XML, JSON, Yaml, ...) and the
+        other way around.
+
+Stopwatch:
+    docUrl: stopwatch.html
+    deprecated: false
+    description: |
+        Provides a way to profile code.
+
+Templating:
+    docUrl: templating.html
+    deprecated: false
+    description: |
+        Provides all the tools needed to build any kind of template system.
+
+Translation:
+    docUrl: translation.html
+    deprecated: false
+    description: |
+        Provides tools to internationalize your application.
+
+Validator:
+    docUrl: validator.html
+    deprecated: false
+    description: |
+        Provides tools to validate classes.
+
+VarDumper:
+    docUrl: var_dumper.html
+    deprecated: false
+    description: |
+        Provides mechanisms for walking through any arbitrary PHP variable.
+
+Workflow:
+    docUrl: workflow.html
+    deprecated: false
+    description: |
+        Provides tools for managing a workflow or finite state machine.
+
+Yaml:
+    docUrl: yaml.html
+    deprecated: false
+    description: |
+        Loads and dumps YAML files.
+
+'PHPUnit Bridge':
+    docUrl: phpunit_bridge.html
+    deprecated: false
+    description: |
+        The PHPUnit Bridge provides utilities to report legacy tests and usage
+        of deprecated code and a helper for time-sensitive tests.
+
+'Polyfill APCu':
+    docUrl: ~
+    deprecated: false
+    description: |
+        Provides apcu_* functions and the APCUIterator class to users of the
+        legacy APC extension.
+
+'Polyfill PHP 5.4':
+    docUrl: ~
+    deprecated: false
+    description: |
+        Provides functions unavailable in releases prior to PHP 5.4.
+
+'Polyfill PHP 5.5':
+    docUrl: ~
+    deprecated: false
+    description: |
+        Provides functions unavailable in releases prior to PHP 5.5.
+
+'Polyfill PHP 5.6':
+    docUrl: ~
+    deprecated: false
+    description: |
+        Provides functions unavailable in releases prior to PHP 5.6.
+
+'Polyfill PHP 7.0':
+    docUrl: ~
+    deprecated: false
+    description: |
+        Provides functions unavailable in releases prior to PHP 7.0.
+
+'Polyfill PHP 7.1':
+    docUrl: ~
+    deprecated: false
+    description: |
+        Provides functions unavailable in releases prior to PHP 7.1.
+
+'Polyfill Iconv':
+    docUrl: ~
+    deprecated: false
+    description: |
+        Provides a native PHP implementation of the php.net/iconv functions.
+
+'Polyfill Intl Grapheme':
+    docUrl: ~
+    deprecated: false
+    description: |
+        Provides a partial, native PHP implementation of the Grapheme functions
+        from the Intl extension.
+
+'Polyfill Intl ICU':
+    docUrl: ~
+    deprecated: false
+    description: |
+        Provides a collection of functions/classes using the symfony/intl
+        package when the Intl extension is not installed.
+
+'Polyfill Intl Normalizer':
+    docUrl: ~
+    deprecated: false
+    description: |
+        Provides a fallback implementation for the Normalizer class provided by
+        the Intl extension.
+
+'Polyfill Mbstring':
+    docUrl: ~
+    deprecated: false
+    description: |
+        Provides a partial, native PHP implementation for the Mbstring extension.
+
+'Polyfill Util':
+    docUrl: ~
+    deprecated: false
+    description: |
+        Provides binary-safe string functions, using the mbstring extension
+        when available.
+
+'Polyfill Xml':
+    docUrl: ~
+    deprecated: false
+    description: |
+        Provides a fallback implementation for the following functions in the
+        abscense of the XML extension.
