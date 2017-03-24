@@ -3,3 +3,6 @@ url: https://github.com/leonardorifeli/morfeu
 dependencies:
     - symfonyfs
 components: []
+description: |
+    Morfeu is a personal finance management system. Its robust code base enables
+    easy and fast change.

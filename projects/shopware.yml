@@ -12,3 +12,7 @@ components:
     - Routing
     - Validator
     - Yaml
+description: |
+    Shopware is a complete eCommerce solution, combining a full range of
+    functionality with a masterfully crafted simplistic design suitable
+    for novice and expert alike.

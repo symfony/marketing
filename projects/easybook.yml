@@ -14,3 +14,8 @@ components:
     - Translation
     - Validator
     - Yaml
+description: |
+    Easybook is an application that lets you easily publish books in
+    various electronic formats. Although it was originally designed to
+    publish programming books, you can use easyboook to publish any kind
+    of book, manual or documentation website.

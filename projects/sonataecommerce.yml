@@ -8,3 +8,8 @@ components:
     - Routing
     - Console
     - Process
+description: |
+    Sonata e-commerce is a group of Symfony bundles &amp; PHP components
+    allowing you to add e-commerce capabilities to your Symfony
+    applications. It's also fully compatible with several other Sonata
+    bundles, such as AdminBundle and NotificationBundle.

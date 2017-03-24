@@ -14,3 +14,7 @@ components:
     - HttpFoundation
     - Translation
     - Yaml
+description: |
+    The Drupal Console is a suite of tools that provide a command line
+    interface (CLI) to generate boilerplate code and interact with a
+    Drupal 8 installation.
