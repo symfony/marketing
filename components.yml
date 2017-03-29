@@ -1,3 +1,7 @@
+# NOTE:
+# 'slug' must match the name of the component package on Packagist.org without the 'symfony/' vendor
+# 'docUrl' is the main component doc page relative to 'https://symfony.com/doc/{version}/components/'
+
 Asset:
     slug: asset
     docUrl: asset.html
@@ -15,7 +19,7 @@ BrowserKit:
 
 Cache:
     slug: cache
-    docUrl: components/cache.html
+    docUrl: cache.html
     deprecated: false
     description: |
         Implements PSR-6 and PSR-16 caching mechanisms and provides adapters for
