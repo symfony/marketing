@@ -3,3 +3,9 @@ url: http://ez.no/Community
 dependencies:
     - symfonyfs
 components: []
+description: |
+    The eZ Publish Community project serves as the foundation for the eZ Publish
+    Enterprise Edition, which is built for business-critical digital
+    applications that need to be extensively quality-assured, stable and
+    fully-featured with additional value-added functionalities, support and
+    maintenance services.

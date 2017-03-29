@@ -3,3 +3,15 @@ url: http://sonata-project.org
 dependencies:
     - symfonyfs
 components: []
+description: |
+    The goal of the Sonata Project is to provide a set of high-level
+    features built on top of the Symfony framework, with a strong focus on
+    administration backends.
+    Think of it as a toolkit based on Symfony components to make building
+    sites easy and fun!
+    Famous bundles are already available: Admin Bundle, Block Bundle, Media
+    Bundle, ... and used by other projects like the Symfony CMF.
+    Most bundles are focused on providing CMS and e-commerce solutions, but
+    there are also fairly independent bundles like the Notification Bundle
+    or the Seo Bundle or even libraries like the cache library or the
+    exporter library.

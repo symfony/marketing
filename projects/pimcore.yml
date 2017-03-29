@@ -8,3 +8,8 @@ components:
     - Process
     - VarDumper
     - CssSelector
+description: |
+    Pimcore is a platform for managing digital experiences. It is a
+    consolidated platform for content, community and commerce across all
+    customer touchpoints and integrates CMS, PIM, DAM and Commerce
+    functionalities in one open source suite.

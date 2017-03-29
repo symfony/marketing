@@ -3,3 +3,7 @@ url: http://akeneo.com
 dependencies:
     - symfonyfs
 components: []
+description: |
+    Akeneo is an open source Product Information Management (PIM) system
+    designed for retailers looking for efficient answers to their
+    multichannel needs.

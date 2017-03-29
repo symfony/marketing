@@ -1,12 +1,8 @@
 The Symfony Website Content
 ===========================
 
-This repository hosts the content of all the symfony.com website pages (except
-for the documentation).
-
-This is where you can submit pull requests if you find a typo somewhere on
-the Symfony website or if you want to translate its contents to another
-language.
+This repository stores the information about the [Symfony Components][1] and
+the [Symfony Projects][2] displayed on symfony.com.
 
 The contents of this repository and all the contributed contents are licensed
 under a [Creative Commons Attribution-Share Alike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/).
@@ -14,8 +10,7 @@ under a [Creative Commons Attribution-Share Alike 3.0 Unported License](http://c
 How to Add a Project to the List of Projects Made with Symfony
 --------------------------------------------------------------
 
-In http://symfony.com/projects we list Open-Source projects that use Symfony
-components. Follow these instructions to propose a new project for that list:
+Follow these instructions to show your Symfony-based project on [symfony.com/projects][2]:
 
  1. Add a YAML file with the basic project information in `projects/xxx.yml`
     where `xxx` is the slug of your project (e.g. `projects/acme.yml`). Use any
@@ -29,6 +24,9 @@ components. Follow these instructions to propose a new project for that list:
  2. Add a square PNG image with the logo of your project in `projects/xxx.png`
     where `xxx` is the slug of your project (e.g. `projects/acme.png`). It's
     recommended to create a 256px x 256px image.
- 3. Add your project to the `projects/_projects.yml` file which stores the full
-    list of projects. Add your project at the end of the list and we'll change
-    its position if needed.
+ 3. Add your project to the `projects.yml` file at the root of this repository.
+    Append your project at the end of the list and we'll change its position if
+    needed.
+
+[1]: https://symfony.com/components
+[2]: https://symfony.com/projects

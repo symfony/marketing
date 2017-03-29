@@ -3,3 +3,8 @@ url: https://www.prestashop.com/
 dependencies:
     - symfonyfs
 components: []
+description: |
+    PrestaShop is an Open Source e-commerce solution used by more than
+    250,000 online stores. PrestaShop is simple, efficient and intuitive,
+    enabling users to thrive in a competitive market regardless of size,
+    industry or revenue.

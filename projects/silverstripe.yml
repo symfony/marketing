@@ -6,3 +6,7 @@ components:
     - Config
     - Translation
     - Yaml
+description: |
+    SilverStripe is the intuitive content management system and flexible
+    framework loved by editors and developers alike. Equip your web teams to
+    achieve outstanding results.

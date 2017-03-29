@@ -10,3 +10,9 @@ components:
     - Filesystem
     - Finder
     - Yaml
+description: |
+    Carew is another static site / blog generator. Write some blog posts or
+    pages in Markdown, Carew will render them in HTML. It provides auto
+    syntax highlighting, auto generated navigation and pagination, and one
+    theme based on Bootstrap. Carew doesn't require to user PHP, Ruby or
+    Python on the production server and it's Git friendly.

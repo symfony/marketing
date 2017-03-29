@@ -4,3 +4,9 @@ dependencies: [doctrine]
 components:
     - DomCrawler
     - Yaml
+description: |
+    TYPO3 Flow is not a pick'n'mix store of motley components. It's a
+    framework which helps you with the infrastructure of your application.
+    Object Lifecycle Management, Package Management, Resource Management
+    and Security are on it's home field. Real business logic is left to
+    custom packages.
