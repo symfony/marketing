@@ -32,6 +32,7 @@ major:
     - mautic
     - codeception
     - apiplatform
+    - deployer
 minor:
     - typo3
     - thelia
