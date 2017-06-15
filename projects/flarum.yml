@@ -1,0 +1,11 @@
+name: Flarum
+url: http://flarum.org/
+dependencies: [doctrine]
+components:
+    - Console
+    - HttpFoundation
+    - Translation
+    - Yaml
+description: |
+    Flarum is the next-generation forum software that makes online discussion
+    fun. It's simple, fast, and free.

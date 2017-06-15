@@ -1,0 +1,15 @@
+name: Rocketeer
+url: http://rocketeer.autopergamene.eu/
+dependencies: []
+components:
+    - ClassLoader
+    - Config
+    - Console
+    - Finder
+    - Process
+    - VarDumper
+    - Yaml
+description: |
+    Rocketeer is a modern PHP task runner and deployment package. Emphasis is put
+    on smart defaults and modern development. While it is coded in PHP, it can
+    deploy any project from small HTML/CSS websites to large Rails applications.

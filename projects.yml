@@ -9,7 +9,9 @@ highlighted:
     - prestashop
     - piwik
     - symfonyfs
+    - flarum
 major:
+    - lumen
     - silex
     - assetic
     - goutte
@@ -31,6 +33,9 @@ major:
     - mautic
     - codeception
     - apiplatform
+    - phpmyadmin
+    - ratchet
+    - deployer
 minor:
     - typo3
     - thelia
@@ -39,7 +44,6 @@ minor:
     - flow
     - phpspec
     - phpdocumentor
-    - guzzle
     - bolt
     - pagekit
     - vespolina
@@ -63,6 +67,7 @@ minor:
     - concrete5
     - sonataecommerce
     - drupalconsole
+    - drush
     - grav
     - wellcommerce
     - contao
@@ -78,3 +83,4 @@ minor:
     - silverstripe
     - victoire
     - wpcli
+    - rocketeer
