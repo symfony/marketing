@@ -9,6 +9,7 @@ highlighted:
     - prestashop
     - piwik
     - symfonyfs
+    - flarum
 major:
     - lumen
     - silex
