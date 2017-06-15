@@ -33,6 +33,7 @@ major:
     - mautic
     - codeception
     - apiplatform
+    - phpmyadmin
     - ratchet
     - deployer
 minor:
