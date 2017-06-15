@@ -1,0 +1,15 @@
+name: Drush
+url: http://www.drush.org/
+dependencies: []
+components:
+    - Config
+    - Console
+    - EventDispatcher
+    - Finder
+    - Process
+    - VarDumper
+    - Yaml
+description: |
+    Drush is a command line shell and scripting interface for Drupal, a veritable
+    Swiss Army knife designed to make life easier for those of us who spend some
+    of our working hours hacking away at the command prompt.
