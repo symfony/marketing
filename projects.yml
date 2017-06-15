@@ -10,6 +10,7 @@ highlighted:
     - piwik
     - symfonyfs
 major:
+    - lumen
     - silex
     - assetic
     - goutte

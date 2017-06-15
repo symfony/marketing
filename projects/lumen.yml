@@ -1,0 +1,10 @@
+name: Lumen
+category: framework
+url: https://lumen.laravel.com/
+dependencies: []
+components:
+    - HttpFoundation
+    - HttpKernel
+description: |
+    Lumen is a micro-framework based on the same foundation as Laravel and built
+    for developing microservices.
