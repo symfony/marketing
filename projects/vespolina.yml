@@ -1,4 +1,5 @@
 name: Vespolina
+category: e-commerce
 url: http://vespolina.org
 dependencies:
     - symfonyfs

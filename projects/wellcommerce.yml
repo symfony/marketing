@@ -1,4 +1,5 @@
 name: WellCommerce
+category: e-commerce
 url: http://wellcommerce.org
 dependencies:
     - symfonyfs

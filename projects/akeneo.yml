@@ -1,4 +1,5 @@
 name: Akeneo PIM
+category: pim-crm
 url: http://akeneo.com
 dependencies:
     - symfonyfs

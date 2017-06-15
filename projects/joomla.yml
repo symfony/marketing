@@ -1,4 +1,5 @@
 name: Joomla!
+category: cms
 url: http://www.joomla.org/
 dependencies: []
 components:

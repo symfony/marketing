@@ -1,4 +1,5 @@
 name: RedKite CMS
+category: cms
 url: http://redkite-labs.com
 dependencies:
     - symfonyfs

@@ -1,4 +1,5 @@
 name: Flow
+category: framework
 url: http://flow.typo3.org
 dependencies: [doctrine]
 components:

@@ -1,4 +1,5 @@
 name: Silex
+category: framework
 url: http://silex.sensiolabs.org
 dependencies: []
 components:

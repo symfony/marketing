@@ -1,4 +1,5 @@
 name: BackBee
+category: cms
 url: http://www.backbee.com/
 dependencies: [ Twig, doctrine ]
 components:

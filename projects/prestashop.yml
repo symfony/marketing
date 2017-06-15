@@ -1,4 +1,5 @@
 name: PrestaShop
+category: e-commerce
 url: https://www.prestashop.com/
 dependencies:
     - symfonyfs

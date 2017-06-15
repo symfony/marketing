@@ -1,4 +1,5 @@
 name: Victoire CMS
+category: cms
 url: https://victoire.io/
 dependencies:
     - symfonyfs

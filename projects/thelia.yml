@@ -1,4 +1,5 @@
 name: Thelia
+category: e-commerce
 url: http://thelia.net
 dependencies: []
 components:

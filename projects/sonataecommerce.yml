@@ -1,4 +1,5 @@
 name: Sonata e-commerce
+category: e-commerce
 url: https://sonata-project.org/bundles/ecommerce/develop/doc/index.html
 dependencies: []
 components:
