@@ -1,5 +1,6 @@
 name: Symfony Full Stack
-url: http://symfony.com
+category: framework
+url: https://symfony.com
 dependencies: []
 components:
     - BrowserKit

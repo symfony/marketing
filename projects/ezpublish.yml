@@ -1,4 +1,5 @@
 name: eZ Publish Community
+category: cms
 url: http://ez.no/Community
 dependencies:
     - symfonyfs

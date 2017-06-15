@@ -1,4 +1,5 @@
 name: eccube
+category: e-commerce
 url: http://www.ec-cube.net/
 dependencies: []
 components:

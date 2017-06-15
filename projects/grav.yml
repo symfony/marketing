@@ -1,4 +1,5 @@
 name: Grav
+category: cms
 url: http://getgrav.org
 dependencies: []
 components:

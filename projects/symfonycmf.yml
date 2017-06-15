@@ -1,4 +1,5 @@
 name: Symfony CMF
+category: cms
 url: http://cmf.symfony.com
 dependencies:
     - symfonyfs

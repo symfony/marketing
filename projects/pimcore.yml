@@ -1,4 +1,5 @@
 name: Pimcore
+category: pim-crm
 url: https://www.pimcore.org/
 dependencies: []
 components:

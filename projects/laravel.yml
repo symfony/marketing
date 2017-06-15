@@ -1,4 +1,5 @@
 name: Laravel
+category: framework
 url: http://laravel.com
 dependencies: []
 components:

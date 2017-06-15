@@ -1,4 +1,5 @@
 name: Drupal
+category: cms
 url: http://drupal.org
 dependencies: []
 components:

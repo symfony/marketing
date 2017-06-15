@@ -1,4 +1,5 @@
 name: Roadiz
+category: cms
 url: http://www.roadiz.io
 dependencies:
     - slir

@@ -1,4 +1,5 @@
 name: Aimeos e-commerce components
+category: e-commerce
 url: https://aimeos.org/Symfony
 dependencies:
     - symfonyfs

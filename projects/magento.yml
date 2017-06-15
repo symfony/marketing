@@ -1,4 +1,5 @@
 name: Magento
+category: e-commerce
 url: http://magento.com
 dependencies: []
 components:

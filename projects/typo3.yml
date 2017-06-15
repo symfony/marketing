@@ -1,4 +1,5 @@
 name: TYPO3
+category: cms
 url: https://typo3.org/
 dependencies: []
 components:

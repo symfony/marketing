@@ -1,4 +1,5 @@
 name: Sylius
+category: e-commerce
 url: http://sylius.org
 dependencies:
     - symfonyfs

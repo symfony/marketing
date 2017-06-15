@@ -1,4 +1,5 @@
 name: Sulu
+category: cms
 url: http://sulu.io
 dependencies:
     - symfonyfs

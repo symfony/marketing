@@ -1,4 +1,5 @@
 name: Bolt
+category: cms
 url: http://bolt.cm
 dependencies: []
 components:

@@ -1,4 +1,5 @@
 name: OroCRM
+category: pim-crm
 url: http://orocrm.com
 dependencies:
     - symfonyfs

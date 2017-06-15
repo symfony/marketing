@@ -1,4 +1,5 @@
 name: Pagekit
+category: cms
 url: http://pagekit.com
 dependencies: []
 components:
