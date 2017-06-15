@@ -1,0 +1,18 @@
+name: WP-CLI
+url: https://wp-cli.org/
+dependencies: []
+components:
+    - Config
+    - Console
+    - Debug
+    - DependencyInjection
+    - EventDispatcher
+    - Filesystem
+    - Finder
+    - Process
+    - Translation
+    - Yaml
+description: |
+    WP-CLI is a set of command-line tools for managing WordPress installations.
+    You can update plugins, configure multisite installs and much more, without
+    using a web browser.
