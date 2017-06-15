@@ -1,0 +1,12 @@
+name: Deployer
+url: https://deployer.org/
+dependencies: []
+components:
+    - Console
+    - Finder
+    - Process
+    - Yaml
+description: |
+    A deployment tool written in PHP with support for popular frameworks
+    out of the box. Simple setup process and a minimal learning curve.
+    Parallel execution without extensions and zero downtime deployments.
