@@ -63,6 +63,7 @@ minor:
     - concrete5
     - sonataecommerce
     - drupalconsole
+    - drush
     - grav
     - wellcommerce
     - contao
