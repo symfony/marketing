@@ -2,8 +2,8 @@ highlighted:
     - drupal
     - phpbb
     - laravel
-    - ezpublish
     - joomla
+    - ezpublish
     - composer
     - magento
     - prestashop
@@ -25,6 +25,7 @@ major:
     - sylius
     - sonataproject
     - zikula
+    - grav
     - symfonycmf
     #- jackalope
     - akeneo
@@ -68,7 +69,6 @@ minor:
     - sonataecommerce
     - drupalconsole
     - drush
-    - grav
     - wellcommerce
     - contao
     - aimeos
