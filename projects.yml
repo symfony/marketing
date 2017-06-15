@@ -33,6 +33,7 @@ major:
     - mautic
     - codeception
     - apiplatform
+    - ratchet
     - deployer
 minor:
     - typo3
