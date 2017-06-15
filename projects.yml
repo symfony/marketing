@@ -40,7 +40,6 @@ minor:
     - flow
     - phpspec
     - phpdocumentor
-    - guzzle
     - bolt
     - pagekit
     - vespolina
