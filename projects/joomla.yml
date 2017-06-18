@@ -3,6 +3,12 @@ category: cms
 url: http://www.joomla.org/
 dependencies: []
 components:
+    # https://github.com/joomla/framework.joomla.org/blob/master/composer.json
+    - Asset
+    - WebLink
+    # https://github.com/joomla/joomla-cms/blob/staging/composer.json
+    - "Polyfill PHP 5.5"
+    - "Polyfill PHP 5.6"
     - Yaml
 description: |
     Joomla is an award-winning content management system (CMS), which

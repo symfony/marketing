@@ -1,14 +1,9 @@
 name: Pimcore
 category: pim-crm
 url: https://www.pimcore.org/
-dependencies: []
-components:
-    - Console
-    - EventDispatcher
-    - Finder
-    - Process
-    - VarDumper
-    - CssSelector
+dependencies:
+    - symfonyfs
+components: []
 description: |
     Pimcore is a platform for managing digital experiences. It is a
     consolidated platform for content, community and commerce across all

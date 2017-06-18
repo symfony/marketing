@@ -5,6 +5,7 @@ dependencies: []
 components:
     - Console
     - EventDispatcher
+    - "Polyfill Iconv"
     - VarDumper
     - YAML
 description: |
