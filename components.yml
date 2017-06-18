@@ -173,6 +173,14 @@ Locale:
         Provides fallback code to handle cases when the intl extension is missing.
         This component is deprecated since 2.3, use the Intl component instead.
 
+Lock:
+    slug: lock
+    docUrl: ~
+    deprecated: false
+    description: |
+        Creates and manages locks, a mechanism to provide exclusive access to a
+        shared resource.
+
 OptionsResolver:
     slug: options-resolver
     docUrl: options_resolver.html
@@ -260,6 +268,15 @@ VarDumper:
     description: |
         Provides mechanisms for walking through any arbitrary PHP variable.
 
+WebLink:
+    slug: web-link
+    docUrl: ~
+    deprecated: false
+    description: |
+        Implements HTML5 Links, Preload and Resource Hints specifications to
+        advise clients (browsers) to preload and prefetch documents through HTTP
+        and HTTP/2 pushes.
+
 Workflow:
     slug: workflow
     docUrl: workflow.html
@@ -324,6 +341,13 @@ Yaml:
     deprecated: false
     description: |
         Provides functions unavailable in releases prior to PHP 7.1.
+
+'Polyfill PHP 7.2':
+    slug: polyfill-php72
+    docUrl: ~
+    deprecated: false
+    description: |
+        Provides functions unavailable in releases prior to PHP 7.2.
 
 'Polyfill Iconv':
     slug: polyfill-iconv
