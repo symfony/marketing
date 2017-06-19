@@ -5,6 +5,7 @@ dependencies: []
 components:
     - Console
     - EventDispatcher
+    - Process
 description: |
     Magento offers flexible, scalable eCommerce solutions designed to help
     you grow and succeed online. Our cost-effective technology platform

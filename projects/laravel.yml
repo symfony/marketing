@@ -3,20 +3,16 @@ category: framework
 url: http://laravel.com
 dependencies: []
 components:
-    - BrowserKit
     - Console
     - CssSelector
     - Debug
     - DomCrawler
-    - EventDispatcher
-    - Filesystem
     - Finder
     - HttpFoundation
     - HttpKernel
     - Process
-    - PropertyAccess
     - Routing
-    - Translation
+    - VarDumper
 description: |
     Laravel is a web application framework with expressive, elegant
     syntax. We believe development must be an enjoyable, creative
