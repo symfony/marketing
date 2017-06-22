@@ -1,6 +1,6 @@
 name: Zikula
 category: cms
-url: http://zikula.org
+url: http://zikula.de
 dependencies:
     - symfonyfs
 components: []
