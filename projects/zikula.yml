@@ -1,4 +1,5 @@
 name: Zikula
+category: cms
 url: http://zikula.org
 dependencies:
     - symfonyfs
