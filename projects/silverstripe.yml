@@ -1,6 +1,5 @@
 name: SilverStripe
 url: https://www.silverstripe.org
-dependencies: [ swiftmailer ]
 components:
     - Cache
     - Config

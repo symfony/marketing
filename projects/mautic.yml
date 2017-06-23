@@ -1,6 +1,5 @@
 name: Mautic
 url: https://www.mautic.org
-dependencies: []
 components:
     - ClassLoader
     - Config

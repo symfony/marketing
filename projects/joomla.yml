@@ -1,7 +1,5 @@
 name: Joomla!
-category: cms
 url: http://www.joomla.org/
-dependencies: []
 components:
     # https://github.com/joomla/framework.joomla.org/blob/master/composer.json
     - Asset

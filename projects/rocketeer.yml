@@ -1,6 +1,5 @@
 name: Rocketeer
 url: http://rocketeer.autopergamene.eu/
-dependencies: []
 components:
     - ClassLoader
     - Config

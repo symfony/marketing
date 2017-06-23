@@ -1,7 +1,5 @@
 name: phpMyAdmin
 url: https://www.phpmyadmin.net
-dependencies:
-    - Twig
 components:
     - ExpressionLanguage
     - 'Polyfill Mbstring'

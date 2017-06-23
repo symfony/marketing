@@ -1,6 +1,5 @@
 name: Sami
 url: http://github.com/fabpot/sami
-dependencies: []
 components:
     - Console
     - Filesystem

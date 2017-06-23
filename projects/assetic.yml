@@ -1,6 +1,5 @@
 name: Assetic
 url: http://github.com/kriswallsmith/assetic
-dependencies: []
 components:
     - Process
 description: |

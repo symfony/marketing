@@ -1,6 +1,5 @@
 name: freepost
 url: http://freepo.st
-dependencies: []
 components:
     - Templating
 description: |

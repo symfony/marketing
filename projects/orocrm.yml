@@ -1,9 +1,42 @@
 name: OroCRM
-category: pim-crm
 url: http://orocrm.com
-dependencies:
-    - symfonyfs
-components: []
+components:
+    - Asset
+    - BrowserKit
+    - Cache
+    - Config
+    - Console
+    - CssSelector
+    - Debug
+    - DependencyInjection
+    - DomCrawler
+    - Dotenv
+    - EventDispatcher
+    - ExpressionLanguage
+    - Filesystem
+    - Finder
+    - Form
+    - HttpFoundation
+    - HttpKernel
+    - Locale
+    - Intl
+    - Ldap
+    - Lock
+    - OptionsResolver
+    - "PHPUnit Bridge"
+    - "Polyfill APCu"
+    - Process
+    - PropertyAccess
+    - Routing
+    - Security
+    - Serializer
+    - Stopwatch
+    - Templating
+    - Translation
+    - Validator
+    - WebLink
+    - Workflow
+    - Yaml
 description: |
     OroCRM is an easy-to-use, open source CRM with built-in marketing
     tools for your ecommerce business. It's the CRM both marketing and

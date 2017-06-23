@@ -1,6 +1,5 @@
 name: Carew
 url: http://carew.github.io
-dependencies: []
 components:
     - Console
     - CssSelector

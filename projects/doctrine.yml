@@ -1,6 +1,5 @@
 name: Doctrine
 url: http://doctrine-project.org
-dependencies: []
 components:
     - Console
     - Yaml

@@ -1,6 +1,5 @@
 name: Easybook
 url: http://easybook-project.org
-dependencies: []
 components:
     - BrowserKit
     - ClassLoader

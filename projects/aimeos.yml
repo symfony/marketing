@@ -1,9 +1,42 @@
 name: Aimeos e-commerce components
-category: e-commerce
 url: https://aimeos.org/Symfony
-dependencies:
-    - symfonyfs
-components: []
+components:
+    - Asset
+    - BrowserKit
+    - Cache
+    - Config
+    - Console
+    - CssSelector
+    - Debug
+    - DependencyInjection
+    - DomCrawler
+    - Dotenv
+    - EventDispatcher
+    - ExpressionLanguage
+    - Filesystem
+    - Finder
+    - Form
+    - HttpFoundation
+    - HttpKernel
+    - Locale
+    - Intl
+    - Ldap
+    - Lock
+    - OptionsResolver
+    - "PHPUnit Bridge"
+    - "Polyfill APCu"
+    - Process
+    - PropertyAccess
+    - Routing
+    - Security
+    - Serializer
+    - Stopwatch
+    - Templating
+    - Translation
+    - Validator
+    - WebLink
+    - Workflow
+    - Yaml
 description: |
     Aimeos is a full-featured online shop and market place bundle which
     integrates the Aimeos e-commerce library into Symfony. It offers a

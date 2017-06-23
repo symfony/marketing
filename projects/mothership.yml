@@ -1,7 +1,5 @@
 name: Mothership
-category: e-commerce
 url: http://mothership.ec
-dependencies: []
 components:
   - Console
   - EventDispatcher

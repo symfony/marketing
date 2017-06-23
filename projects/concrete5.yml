@@ -1,7 +1,5 @@
 name: concrete5
-category: cms
 url: http://www.concrete5.org/
-dependencies: []
 components:
     - ClassLoader
     - EventDispatcher

@@ -1,6 +1,5 @@
 name: Ratchet
 url: http://socketo.me/
-dependencies: []
 components:
     - HttpFoundation
     - Routing

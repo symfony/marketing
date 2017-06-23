@@ -1,7 +1,5 @@
 name: Symfony
-category: framework
 url: https://symfony.com
-dependencies: []
 components:
     - Asset
     - BrowserKit
