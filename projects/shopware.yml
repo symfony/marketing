@@ -1,7 +1,5 @@
 name: Shopware
-category: e-commerce
 url: http://shopware.de
-dependencies: []
 components:
     - ClassLoader
     - Config

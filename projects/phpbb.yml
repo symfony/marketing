@@ -1,6 +1,5 @@
 name: phpBB
 url: http://phpbb.com
-dependencies: []
 components:
     - BrowserKit
     - Config

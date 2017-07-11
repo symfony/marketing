@@ -1,6 +1,5 @@
 name: Behat
 url: http://behat.org
-dependencies: []
 components:
     - ClassLoader
     - Config

@@ -1,6 +1,5 @@
 name: Drush
 url: http://www.drush.org/
-dependencies: []
 components:
     - Config
     - Console

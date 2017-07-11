@@ -1,86 +1,92 @@
-highlighted:
+# the order of projects in each category is important because the first ones
+# are highlighted on symfony.com
+cms:
     - drupal
-    - phpbb
-    - laravel
     - joomla
     - ezpublish
-    - composer
-    - magento
-    - prestashop
-    - piwik
-    - symfonyfs
-    - flarum
-major:
-    - lumen
-    - silex
-    - assetic
-    - goutte
-    - sami
-    - sismo
-    - orocrm
-    - oroplatform
-    - doctrine
-    #- midgard
-    - behat
-    - sylius
-    - sonataproject
-    - zikula
     - grav
     - symfonycmf
-    #- jackalope
-    - akeneo
-    - shopware
-    - propel
-    - mautic
-    - codeception
-    - apiplatform
-    - phpmyadmin
-    - ratchet
-    - deployer
-minor:
     - typo3
-    - thelia
-    - kunstmaanbundles
-    - sculpin
-    - flow
-    - phpspec
-    - phpdocumentor
+    - sulu
     - bolt
     - pagekit
-    - vespolina
-    - easybook
     - forkcms
-    - phpmyfaq
-    - ppi
-    - proem
-    - sulu
-    - initcms
-    - carew
-    - redkitecms
-    - ladybug
-    - phinx
-    - elcodi
-    - spress
-    - phpredexpert
-    - roadiz
-    - mothership
+    - victoire
+    - zikula
     - backbee
     - concrete5
+    - roadiz
+    - redkitecms
+    - contao
+    - initcms
+e-commerce:
+    - magento
+    - prestashop
+    - sylius
+    - shopware
     - sonataecommerce
+    - eccube
+    - wellcommerce
+    - aimeos
+    - thelia
+    - mothership
+    - vespolina
+framework:
+    - laravel
+    - symfonyfs
+    - lumen
+    - silex
+    - flow
+    - ppi
+    - proem
+pim-crm:
+    - orocrm
+    - akeneo
+    - pimcore
+# the order in the default category is irrelevant because these projects are
+# displayed in alphabetical order
+default:
+    - apiplatform
+    - assetic
+    - behat
+    - bowerphp
+    - carew
+    - codeception
+    - composer
+    - csbill
+    - deployer
+    - doctrine
     - drupalconsole
     - drush
-    - wellcommerce
-    - contao
-    - aimeos
-    - pdepend
-    - bowerphp
+    - easybook
+    - elcodi
+    - flarum
     - freepost
+    - goutte
+    #- jackalope
+    - kunstmaanbundles
+    - ladybug
+    - mautic
+    #- midgard
     - morfeu
-    - pimcore
-    - csbill
-    - eccube
-    - wallabag
-    - silverstripe
-    - victoire
-    - wpcli
+    - oroplatform
+    - pdepend
+    - phinx
+    - phpbb
+    - phpdocumentor
+    - phpmyadmin
+    - phpmyfaq
+    - phpredexpert
+    - phpspec
+    - piwik
+    - propel
+    - ratchet
     - rocketeer
+    - sami
+    - sculpin
+    - silverstripe
+    - sismo
+    - sonataproject
+    - spress
+    - wallabag
+    - wpcli

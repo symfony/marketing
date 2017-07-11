@@ -1,6 +1,5 @@
 name: Phinx
 url: http://phinx.org
-dependencies: []
 components:
     - ClassLoader
     - Config

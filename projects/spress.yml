@@ -1,6 +1,5 @@
 name: Spress
 url: http://spress.yosymfony.com/
-dependencies: []
 components:
     - Console
     - EventDispatcher

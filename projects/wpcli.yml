@@ -1,6 +1,5 @@
 name: WP-CLI
 url: https://wp-cli.org/
-dependencies: []
 components:
     - Config
     - Console

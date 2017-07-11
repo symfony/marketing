@@ -1,7 +1,5 @@
 name: Fork CMS
-category: cms
 url: http://fork-cms.com
-dependencies: []
 components:
     - DependencyInjection
     - EventDispatcher

@@ -1,7 +1,5 @@
 name: Lumen
-category: framework
 url: https://lumen.laravel.com/
-dependencies: []
 components:
     - HttpFoundation
     - HttpKernel

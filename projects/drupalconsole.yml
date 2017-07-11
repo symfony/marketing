@@ -1,6 +1,5 @@
 name: Drupal Console
 url: http://drupalconsole.com/
-dependencies: []
 components:
     - Config
     - Console

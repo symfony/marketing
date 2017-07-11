@@ -1,6 +1,5 @@
 name: Sismo
 url: http://sismo.sensiolabs.org
-dependencies: []
 components:
     - BrowserKit
     - ClassLoader

@@ -1,6 +1,5 @@
 name: Elcodi
 url: http://elcodi.io
-dependencies: []
 components:
     - BrowserKit
     - ClassLoader

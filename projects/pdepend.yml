@@ -1,6 +1,5 @@
 name: PHP Depend
 url: http://pdepend.org/
-dependencies: []
 components:
     - Config
     - DependencyInjection

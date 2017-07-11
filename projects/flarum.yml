@@ -1,6 +1,5 @@
 name: Flarum
 url: http://flarum.org/
-dependencies: [doctrine]
 components:
     - Console
     - HttpFoundation

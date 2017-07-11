@@ -1,6 +1,5 @@
 name: Ladybug
 url: https://github.com/raulfraile/ladybug
-dependencies: [ Twig ]
 components:
     - Console
     - Finder

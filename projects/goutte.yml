@@ -1,6 +1,5 @@
 name: Goutte
 url: http://github.com/fabpot/Goutte
-dependencies: []
 components:
     - BrowserKit
     - CssSelector

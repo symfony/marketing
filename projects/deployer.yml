@@ -1,6 +1,5 @@
 name: Deployer
 url: https://deployer.org/
-dependencies: []
 components:
     - Console
     - Finder

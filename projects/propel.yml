@@ -1,6 +1,5 @@
 name: Propel
 url: http://propelorm.org
-dependencies: []
 components:
     - Console
     - Filesystem

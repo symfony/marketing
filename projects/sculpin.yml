@@ -1,6 +1,5 @@
 name: Sculpin
 url: https://sculpin.io
-dependencies: []
 components:
     - ClassLoader
     - Config
