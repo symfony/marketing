@@ -1,10 +1,7 @@
 name: bowerphp
-url: http://bowerphp.org
-components:
-    - Console
-    - Filesystem
-    - Finder
-    - Process
+url: https://bowerphp.github.io/
+dependencies:
+    - https://github.com/Bee-Lab/bowerphp/blob/master/composer.json
 description: |
     Bowerphp is a PHP port of the Bower package manager. It uses the same
     protocol and it provides almost the same set of features for systems
