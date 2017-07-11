@@ -1,13 +1,7 @@
 name: PPI Framework
 url: http://ppi.io
-components:
-    - ClassLoader
-    - Config
-    - Console
-    - HttpFoundation
-    - Routing
-    - Templating
-    - Yaml
+dependencies:
+    - https://github.com/ppi/framework/blob/master/composer.json
 description: |
     PPI is an open source php meta-framework. We have taken the good bits
     from Symfony, ZendFramework2 &amp; Doctrine2 and combined them together

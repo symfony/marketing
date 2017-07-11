@@ -1,13 +1,7 @@
 name: Rocketeer
 url: http://rocketeer.autopergamene.eu/
-components:
-    - ClassLoader
-    - Config
-    - Console
-    - Finder
-    - Process
-    - VarDumper
-    - Yaml
+dependencies:
+    - https://github.com/rocketeers/rocketeer/blob/develop/composer.json
 description: |
     Rocketeer is a modern PHP task runner and deployment package. Emphasis is put
     on smart defaults and modern development. While it is coded in PHP, it can

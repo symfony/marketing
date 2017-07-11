@@ -1,14 +1,7 @@
 name: Bolt
 url: http://bolt.cm
-components:
-    - Config
-    - Console
-    - Filesystem
-    - Finder
-    - Form
-    - Translation
-    - Validator
-    - Yaml
+dependencies:
+    - https://github.com/bolt/bolt/blob/master/composer.json
 description: |
     Bolt is a tool for Content Management, which strives to be as simple
     and straightforward as possible. It is quick to set up, easy to

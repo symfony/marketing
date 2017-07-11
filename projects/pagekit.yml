@@ -1,14 +1,7 @@
 name: Pagekit
 url: http://pagekit.com
-components:
-    - Console
-    - Debug
-    - Finder
-    - HttpFoundation
-    - Routing
-    - Stopwatch
-    - Templating
-    - Translation
+dependencies:
+    - https://github.com/pagekit/pagekit/blob/develop/composer.json
 description: |
     Pagekit is a modular and lightweight CMS built from the ground up with a
     modern architecture in mind. It serves as a web application framework

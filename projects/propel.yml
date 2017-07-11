@@ -1,11 +1,7 @@
 name: Propel
 url: http://propelorm.org
-components:
-    - Console
-    - Filesystem
-    - Finder
-    - Validator
-    - Yaml
+dependencies:
+    - https://github.com/propelorm/Propel2/blob/master/composer.json
 description: |
     Propel is an open-source Object-Relational Mapping (ORM) for SQL-
     Databases in PHP 5.4. It allows you to access your database using a

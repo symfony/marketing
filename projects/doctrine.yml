@@ -1,8 +1,9 @@
 name: Doctrine
 url: http://doctrine-project.org
-components:
-    - Console
-    - Yaml
+dependencies:
+    - https://github.com/doctrine/doctrine2/blob/master/composer.json
+    - https://github.com/doctrine/dbal/blob/master/composer.json
+    - https://github.com/doctrine/common/blob/master/composer.json
 description: |
     Object relational mapper (ORM) for PHP that sits on top of a powerful
     database abstraction layer (DBAL). One of its key features is the

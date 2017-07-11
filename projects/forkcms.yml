@@ -1,15 +1,7 @@
 name: Fork CMS
 url: http://fork-cms.com
-components:
-    - DependencyInjection
-    - EventDispatcher
-    - HttpFoundation
-    - HttpKernel
-    - Filesystem
-    - Finder
-    - Filesystem
-    - Console
-    - Config
+dependencies:
+    - https://github.com/forkcms/forkcms/blob/master/composer.json
 description: |
     Fork CMS is dedicated to creating a user friendly environment to build,
     monitor and update your website. We take great pride in being the

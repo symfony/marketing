@@ -1,21 +1,8 @@
 name: BackBee
 url: http://www.backbee.com/
-components:
-    - Config
-    - Console
-    - Debug
-    - DependencyInjection
-    - EventDispatcher
-    - Expression Language
-    - Filesystem
-    - HttpFoundation
-    - HttpKernel
-    - Routing
-    - Security
-    - Serializer
-    - Translation
-    - Validator
-    - Yaml
+dependencies:
+    - https://github.com/backbee/backbee-cms/blob/master/composer.json
+    - https://github.com/backbee/backbee-php/blob/master/composer.json
 description: |
     BackBee is an open source CMS designed to revolutionize user experience.
     It uses "On Page Editing" architecture making content contribution

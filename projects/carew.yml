@@ -1,14 +1,7 @@
 name: Carew
 url: http://carew.github.io
-components:
-    - Console
-    - CssSelector
-    - Debug
-    - DomCrawler
-    - EventDispatcher
-    - Filesystem
-    - Finder
-    - Yaml
+dependencies:
+    - https://github.com/carew/carew/blob/master/composer.json
 description: |
     Carew is another static site / blog generator. Write some blog posts or
     pages in Markdown, Carew will render them in HTML. It provides auto

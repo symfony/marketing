@@ -1,10 +1,7 @@
 name: Piwik
 url: http://piwik.org/
-components:
-    - Console
-    - EventDispatcher
-    - VarDumper
-    - Yaml
+dependencies:
+    - https://github.com/piwik/piwik/blob/3.x-dev/composer.json
 description: |
     Piwik is the leading open source web analytics platform that gives you
     valuable insights on your website's visitors, your marketing campaigns

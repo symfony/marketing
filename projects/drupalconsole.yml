@@ -1,18 +1,8 @@
 name: Drupal Console
 url: http://drupalconsole.com/
-components:
-    - Config
-    - Console
-    - CssSelector
-    - Debug
-    - DependencyInjection
-    - DomCrawler
-    - EventDispatcher
-    - Filesystem
-    - Finder
-    - HttpFoundation
-    - Translation
-    - Yaml
+dependencies:
+    - https://github.com/hechoendrupal/drupal-console-core/blob/master/composer.json
+    - https://github.com/hechoendrupal/drupal-console/blob/master/composer.json
 description: |
     The Drupal Console is a suite of tools that provide a command line
     interface (CLI) to generate boilerplate code and interact with a

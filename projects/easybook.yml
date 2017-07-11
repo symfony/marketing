@@ -1,18 +1,7 @@
 name: Easybook
 url: http://easybook-project.org
-components:
-    - BrowserKit
-    - ClassLoader
-    - Config
-    - Console
-    - CssSelector
-    - Finder
-    - Form
-    - Process
-    - Security
-    - Translation
-    - Validator
-    - Yaml
+dependencies:
+    - https://github.com/javiereguiluz/easybook/blob/master/composer.json
 description: |
     Easybook is an application that lets you easily publish books in
     various electronic formats. Although it was originally designed to

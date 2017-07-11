@@ -1,42 +1,8 @@
 name: eZ Publish
 url: http://ez.no/Community
-components:
-    - Asset
-    - BrowserKit
-    - Cache
-    - Config
-    - Console
-    - CssSelector
-    - Debug
-    - DependencyInjection
-    - DomCrawler
-    - Dotenv
-    - EventDispatcher
-    - ExpressionLanguage
-    - Filesystem
-    - Finder
-    - Form
-    - HttpFoundation
-    - HttpKernel
-    - Locale
-    - Intl
-    - Ldap
-    - Lock
-    - OptionsResolver
-    - "PHPUnit Bridge"
-    - "Polyfill APCu"
-    - Process
-    - PropertyAccess
-    - Routing
-    - Security
-    - Serializer
-    - Stopwatch
-    - Templating
-    - Translation
-    - Validator
-    - WebLink
-    - Workflow
-    - Yaml
+dependencies:
+    - https://github.com/ezsystems/ezplatform/blob/master/composer.json
+    - https://github.com/ezsystems/ezplatform-ee/blob/master/composer.json
 description: |
     The eZ Publish Community project serves as the foundation for the eZ Publish
     Enterprise Edition, which is built for business-critical digital

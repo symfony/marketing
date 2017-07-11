@@ -1,29 +1,7 @@
 name: Silex
 url: http://silex.sensiolabs.org
-components:
-    - Asset
-    - BrowserKit
-    - Config
-    - CssSelector
-    - Debug
-    - DomCrawler
-    - EventDispatcher
-    - ExpressionLanguage
-    - Finder
-    - Form
-    - HttpFoundation
-    - HttpKernel
-    - Intl
-    - OptionsResolver
-    - "PHPUnit Bridge"
-    - Process
-    - Routing
-    - Security
-    - Serializer
-    - Translation
-    - Validator
-    - VarDumper
-    - WebLink
+dependencies:
+    - https://github.com/silexphp/Silex/blob/master/composer.json
 description: |
     Silex is a PHP microframework built on the shoulders of Symfony and Pimple
     and also inspired by Sinatra. A microframework provides the guts for

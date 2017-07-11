@@ -1,18 +1,7 @@
 name: Shopware
 url: http://shopware.de
-components:
-    - ClassLoader
-    - Config
-    - Console
-    - DependencyInjection
-    - DomCrawler
-    - Finder
-    - Filesystem
-    - Form
-    - HttpKernel
-    - Process
-    - Routing
-    - Validator
+dependencies:
+    - https://github.com/shopware/shopware/blob/5.2/composer.json
 description: |
     Shopware is a complete eCommerce solution, combining a full range of
     functionality with a masterfully crafted simplistic design suitable

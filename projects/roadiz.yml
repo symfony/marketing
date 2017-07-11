@@ -1,23 +1,7 @@
 name: Roadiz
 url: http://www.roadiz.io
-components:
-    - Yaml
-    - Console
-    - HttpFoundation
-    - Routing
-    - Config
-    - HttpKernel
-    - Stopwatch
-    - Form
-    - Validator
-    - SecurityCsrf
-    - TwigBridge
-    - Finder
-    - Serializer
-    - FileSystem
-    - Security
-    - EventDispatcher
-    - Translation
+dependencies:
+    - https://github.com/roadiz/roadiz/blob/master/composer.json
 description: |
     Roadiz is a modern CMS based on a polymorphic node system which can
     handle many types of services and contents. Its back-office has been

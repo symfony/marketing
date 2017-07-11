@@ -1,9 +1,7 @@
 name: TYPO3
 url: https://typo3.org/
-components:
-    - Console
-    - Finder
-    - Yaml
+dependencies:
+    - https://github.com/TYPO3/TYPO3.CMS/blob/master/composer.json
 description: |
     TYPO3 is an open source PHP based web content management system released
     under the GNU GPL.
