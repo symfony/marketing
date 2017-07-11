@@ -1,10 +1,7 @@
 name: Phinx
 url: http://phinx.org
-components:
-    - ClassLoader
-    - Config
-    - Console
-    - Yaml
+dependencies:
+    - https://github.com/cakephp/phinx/blob/master/composer.json
 description: |
     Phinx makes it ridiculously easy to manage the database migrations for
     your PHP app. In less than 5 minutes you can install Phinx and create

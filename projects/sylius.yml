@@ -1,42 +1,7 @@
 name: Sylius
 url: http://sylius.org
-components:
-    - Asset
-    - BrowserKit
-    - Cache
-    - Config
-    - Console
-    - CssSelector
-    - Debug
-    - DependencyInjection
-    - DomCrawler
-    - Dotenv
-    - EventDispatcher
-    - ExpressionLanguage
-    - Filesystem
-    - Finder
-    - Form
-    - HttpFoundation
-    - HttpKernel
-    - Locale
-    - Intl
-    - Ldap
-    - Lock
-    - OptionsResolver
-    - "PHPUnit Bridge"
-    - "Polyfill APCu"
-    - Process
-    - PropertyAccess
-    - Routing
-    - Security
-    - Serializer
-    - Stopwatch
-    - Templating
-    - Translation
-    - Validator
-    - WebLink
-    - Workflow
-    - Yaml
+dependencies:
+    - https://github.com/Sylius/Sylius/blob/master/composer.json
 description: |
     Sylius is an open source e-commerce solution for PHP, based on the
     Symfony framework. Ultimate goal of the project is to create a webshop

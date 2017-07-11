@@ -1,10 +1,7 @@
 name: Flarum
 url: http://flarum.org/
-components:
-    - Console
-    - HttpFoundation
-    - Translation
-    - Yaml
+dependencies:
+    - https://github.com/flarum/core/blob/master/composer.json
 description: |
     Flarum is the next-generation forum software that makes online discussion
     fun. It's simple, fast, and free.

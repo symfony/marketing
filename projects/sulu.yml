@@ -1,42 +1,7 @@
 name: Sulu
 url: http://sulu.io
-components:
-    - Asset
-    - BrowserKit
-    - Cache
-    - Config
-    - Console
-    - CssSelector
-    - Debug
-    - DependencyInjection
-    - DomCrawler
-    - Dotenv
-    - EventDispatcher
-    - ExpressionLanguage
-    - Filesystem
-    - Finder
-    - Form
-    - HttpFoundation
-    - HttpKernel
-    - Locale
-    - Intl
-    - Ldap
-    - Lock
-    - OptionsResolver
-    - "PHPUnit Bridge"
-    - "Polyfill APCu"
-    - Process
-    - PropertyAccess
-    - Routing
-    - Security
-    - Serializer
-    - Stopwatch
-    - Templating
-    - Translation
-    - Validator
-    - WebLink
-    - Workflow
-    - Yaml
+dependencies:
+    - https://github.com/sulu/sulu/blob/develop/composer.json
 description: |
     Sulu is a content management platform based on Symfony made for
     businesses. It's a flexible CMS to create and manage enterprise

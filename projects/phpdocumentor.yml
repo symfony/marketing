@@ -1,9 +1,7 @@
 name: phpDocumentor
 url: http://phpdoc.org
-components:
-    - Config
-    - EventDispatcher
-    - Stopwatch
+dependencies:
+    - https://github.com/phpDocumentor/phpDocumentor2/blob/develop/composer.json
 description: |
     phpDocumentor 2 is a tool with which it is possible to generate
     documentation from your PHP source code. With this documentation you

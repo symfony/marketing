@@ -1,42 +1,7 @@
 name: init CMS
 url: http://initcms.com/
-components:
-    - Asset
-    - BrowserKit
-    - Cache
-    - Config
-    - Console
-    - CssSelector
-    - Debug
-    - DependencyInjection
-    - DomCrawler
-    - Dotenv
-    - EventDispatcher
-    - ExpressionLanguage
-    - Filesystem
-    - Finder
-    - Form
-    - HttpFoundation
-    - HttpKernel
-    - Locale
-    - Intl
-    - Ldap
-    - Lock
-    - OptionsResolver
-    - "PHPUnit Bridge"
-    - "Polyfill APCu"
-    - Process
-    - PropertyAccess
-    - Routing
-    - Security
-    - Serializer
-    - Stopwatch
-    - Templating
-    - Translation
-    - Validator
-    - WebLink
-    - Workflow
-    - Yaml
+dependencies:
+    - https://github.com/networking/init-cms-bundle/blob/master/composer.json
 description: |
     The InitCmsBundle is a small flexible cms core based on Symfony
     which can be used as a standalone CMS or integrated into any existing

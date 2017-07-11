@@ -1,20 +1,7 @@
 name: Mothership
 url: http://mothership.ec
-components:
-  - Console
-  - EventDispatcher
-  - Filesystem
-  - Finder
-  - Form
-  - HttpKernel
-  - Process
-  - Routing
-  - Templating
-  - Translation
-  - TwigBridge
-  - TwigBundle
-  - Validator
-  - Yaml
+dependencies:
+  - https://github.com/mothership-ec/cog/blob/develop/composer.json
 description: |
     Mothership is open source web retail software, combining e-commerce with
     Electronic Point of Sale (EPOS) into a single, unified platform with a

@@ -1,9 +1,7 @@
 name: Composer
 url: http://getcomposer.org
-components:
-    - Console
-    - Finder
-    - Process
+dependencies:
+    - https://github.com/composer/composer/blob/master/composer.json
 description: |
     Composer is a tool for dependency management in PHP. It allows you to
     declare the dependent libraries your project needs and it will install

@@ -1,9 +1,7 @@
 name: PHP Depend
 url: http://pdepend.org/
-components:
-    - Config
-    - DependencyInjection
-    - Filesystem
+dependencies:
+    - https://github.com/pdepend/pdepend/blob/master/composer.json
 description: |
     PHP_Depend is a small program that performs static code analysis on a
     given source base. It first takes the source code and parses it into an

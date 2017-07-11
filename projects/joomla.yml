@@ -1,13 +1,8 @@
 name: Joomla!
 url: http://www.joomla.org/
-components:
-    # https://github.com/joomla/framework.joomla.org/blob/master/composer.json
-    - Asset
-    - WebLink
-    # https://github.com/joomla/joomla-cms/blob/staging/composer.json
-    - "Polyfill PHP 5.5"
-    - "Polyfill PHP 5.6"
-    - Yaml
+dependencies:
+    - https://github.com/joomla/joomla-cms/blob/staging/composer.json
+    - https://github.com/joomla/framework.joomla.org/blob/master/composer.json
 description: |
     Joomla is an award-winning content management system (CMS), which
     enables you to build Web sites and powerful online applications. Many

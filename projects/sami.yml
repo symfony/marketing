@@ -1,11 +1,7 @@
 name: Sami
 url: http://github.com/fabpot/sami
-components:
-    - Console
-    - Filesystem
-    - Finder
-    - Process
-    - Yaml
+dependencies:
+    - https://github.com/FriendsOfPHP/Sami/blob/master/composer.json
 description: |
     Sami is an API documentation generator. It uses a PHP file for
     configuration to give a very flexible way of tweaking the API

@@ -1,16 +1,7 @@
 name: Sculpin
 url: https://sculpin.io
-components:
-    - ClassLoader
-    - Config
-    - Console
-    - DependencyInjection
-    - EventDispatcher
-    - Filesystem
-    - Finder
-    - HttpKernel
-    - Process
-    - Yaml
+dependencies:
+    - https://github.com/sculpin/sculpin/blob/master/composer.json
 description: |
     Sculpin is a static site generator written in PHP. It converts Markdown
     files and formats Twig templates into a set of static HTML files that

@@ -1,21 +1,7 @@
 name: Drupal
 url: http://drupal.org
-components:
-    - ClassLoader
-    - Console
-    - CssSelector
-    - DependencyInjection
-    - EventDispatcher
-    - HttpFoundation
-    - HttpKernel
-    - "PHPUnit Bridge"
-    - "Polyfill Iconv"
-    - Process
-    - Routing
-    - Serializer
-    - Translation
-    - Validator
-    - Yaml
+dependencies:
+    - https://github.com/drupal/core/blob/8.4.x/composer.json
 description: |
     Drupal is an open source content management platform powering millions
     of websites and applications. It's built, used, and supported by an

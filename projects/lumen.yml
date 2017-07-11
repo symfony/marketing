@@ -1,8 +1,8 @@
 name: Lumen
 url: https://lumen.laravel.com/
-components:
-    - HttpFoundation
-    - HttpKernel
+dependencies:
+    - https://github.com/laravel/lumen-framework/blob/master/composer.json
+    - https://github.com/laravel/lumen-installer/blob/master/composer.json
 description: |
     Lumen is a micro-framework based on the same foundation as Laravel and built
     for developing microservices.

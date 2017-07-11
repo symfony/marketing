@@ -1,11 +1,7 @@
 name: Goutte
 url: http://github.com/fabpot/Goutte
-components:
-    - BrowserKit
-    - CssSelector
-    - DomCrawler
-    - Finder
-    - Process
+dependencies:
+    - https://github.com/FriendsOfPHP/Goutte/blob/master/composer.json
 description: |
     Goutte is a screen scraping and web crawling library for PHP. Goutte
     provides a nice API to crawl websites and extract data from the HTML/XML

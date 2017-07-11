@@ -1,21 +1,7 @@
 name: phpBB
 url: http://phpbb.com
-components:
-    - BrowserKit
-    - Config
-    - Console
-    - CssSelector
-    - Debug
-    - DependencyInjection
-    - DomCrawler
-    - EventDispatcher
-    - Filesystem
-    - Finder
-    - HttpFoundation
-    - HttpKernel
-    - Process
-    - Routing
-    - Yaml
+dependencies:
+    - https://github.com/phpbb/phpbb/blob/master/phpBB/composer.json
 description: |
     phpBB is a free flat-forum bulletin board software solution that can be
     used to stay in touch with a group of people or can power your entire

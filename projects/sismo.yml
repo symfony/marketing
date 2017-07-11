@@ -1,14 +1,7 @@
 name: Sismo
 url: http://sismo.sensiolabs.org
-components:
-    - BrowserKit
-    - ClassLoader
-    - Console
-    - CssSelector
-    - DomCrawler
-    - Filesystem
-    - Finder
-    - Process
+dependencies:
+    - https://github.com/FriendsOfPHP/Sismo/blob/master/composer.json
 description: |
     Sismo is a Continuous Testing Server written in PHP. Sismo does not try
     to do more than getting your code, running your tests, and send you
