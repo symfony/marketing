@@ -1,7 +1,0 @@
-name: freepost
-url: http://freepo.st
-components:
-    - Templating
-description: |
-    freepost is a free message board mainly used to discuss free-software
-    and free-culture related topics.

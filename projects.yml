@@ -30,7 +30,6 @@ e-commerce:
     - aimeos
     - thelia
     - mothership
-    - vespolina
 framework:
     - laravel
     - symfonyfs
@@ -38,7 +37,6 @@ framework:
     - silex
     - flow
     - ppi
-    - proem
 pim-crm:
     - orocrm
     - akeneo
@@ -61,13 +59,10 @@ default:
     - easybook
     - elcodi
     - flarum
-    - freepost
     - goutte
-    #- jackalope
     - kunstmaanbundles
     - ladybug
     - mautic
-    #- midgard
     - morfeu
     - oroplatform
     - pdepend
