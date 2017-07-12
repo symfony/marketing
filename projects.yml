@@ -35,6 +35,7 @@ framework:
     - symfonyfs
     - lumen
     - silex
+    - flow
     - ppi
 pim-crm:
     - orocrm
