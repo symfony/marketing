@@ -14,16 +14,10 @@ Follow these instructions to show your Symfony-based project on [symfony.com/pro
 
  1. Add a YAML file with the basic project information in `projects/xxx.yml`
     where `xxx` is the slug of your project (e.g. `projects/acme.yml`). Use any
-    of the existing YAML files as the reference of your own file and take into
-    account that:
-      * If your project depends on Symfony components, list them under the
-        `components` option.
-      * If your project depends on the entire Symfony full-stack framework, leave
-        the `components` option empty and add `symfonyfs` in the `dependencies`
-        option.
+    of the existing YAML files as the reference of your own file.
  2. Add a square PNG image with the logo of your project in `projects/xxx.png`
     where `xxx` is the slug of your project (e.g. `projects/acme.png`). It's
-    recommended to create a 256px x 256px image.
+    recommended to create a 160px x 160px image.
  3. Add your project to the `projects.yml` file at the root of this repository.
     Append your project at the end of the list and we'll change its position if
     needed.
