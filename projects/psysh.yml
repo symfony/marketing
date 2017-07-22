@@ -1,0 +1,6 @@
+name: PsySH
+url: http://psysh.org/
+dependencies:
+    - https://github.com/bobthecow/psysh/blob/master/composer.json
+description: |
+    PsySH is a runtime developer console, interactive debugger and REPL for PHP.

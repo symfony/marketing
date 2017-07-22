@@ -85,3 +85,4 @@ default:
     - spress
     - wallabag
     - wpcli
+    - psysh
