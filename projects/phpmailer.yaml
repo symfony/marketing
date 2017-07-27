@@ -1,0 +1,10 @@
+name: PHPMailer
+url: https://github.com/PHPMailer/PHPMailer
+dependencies:
+    - https://github.com/PHPMailer/PHPMailer/blob/master/composer.json
+description: |
+    PHPMailer is a full-featured email creation and transfer class for PHP. Used
+    by many popular open-source projects, it can send emails without a local
+    mail server. It supports DKIM and S/MIME signing and SMTP authentication
+    with LOGIN, PLAIN, NTLM, CRAM-MD5 and Google's XOAUTH2 mechanisms over SSL
+    and TLS transports.

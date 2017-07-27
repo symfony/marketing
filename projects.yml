@@ -69,6 +69,7 @@ default:
     - phinx
     - phpbb
     - phpdocumentor
+    - phpmailer
     - phpmyadmin
     - phpmyfaq
     - phpredexpert
