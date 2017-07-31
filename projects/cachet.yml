@@ -1,0 +1,8 @@
+name: Cachet
+url: https://cachethq.io/
+dependencies:
+    - https://github.com/CachetHQ/Cachet/blob/master/composer.json
+description: |
+    Cachet is the open source status page system. Great companies all over the
+    world are using Cachet to better communicate downtime and system outages to
+    their customers, teams and shareholders.
