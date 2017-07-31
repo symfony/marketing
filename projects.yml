@@ -13,6 +13,7 @@ cms:
     - forkcms
     - victoire
     - zikula
+    - octobercms
     - backbee
     - concrete5
     - roadiz
