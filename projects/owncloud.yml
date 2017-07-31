@@ -1,0 +1,10 @@
+name: ownCloud
+url: https://owncloud.org/
+dependencies:
+    - https://github.com/owncloud/core/blob/master/composer.json
+    - https://github.com/owncloud/updater/blob/master/composer.json
+description: |
+    ownCloud is open source file sync and share software for everyone from
+    individuals to large enterprises and service providers. ownCloud provides a
+    safe, secure, and compliant file synchronization and sharing solution on
+    servers that you control.
