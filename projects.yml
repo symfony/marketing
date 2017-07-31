@@ -65,6 +65,7 @@ default:
     - mautic
     - morfeu
     - oroplatform
+    - owncloud
     - pdepend
     - phinx
     - phpbb
