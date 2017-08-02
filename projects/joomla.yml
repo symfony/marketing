@@ -1,8 +1,14 @@
 name: Joomla!
-url: http://www.joomla.org/
+url: https://www.joomla.org/
 dependencies:
+    # Joomla! CMS
     - https://github.com/joomla/joomla-cms/blob/staging/composer.json
+    # joomla.org websites
     - https://github.com/joomla/framework.joomla.org/blob/master/composer.json
+    - https://github.com/joomla/jissues/blob/master/composer.json
+    # Joomla! Framework components
+    - https://github.com/joomla-framework/crypt/blob/master/composer.json
+    - https://github.com/joomla-framework/registry/blob/master/composer.json
 description: |
     Joomla is an award-winning content management system (CMS), which
     enables you to build Web sites and powerful online applications. Many
