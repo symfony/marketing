@@ -1,9 +1,9 @@
-name: CSBill
-url: http://csbill.org
+name: SolidInvoice
+url: https://solidinvoice.co
 dependencies:
-    - https://github.com/CSBill/CSBill/blob/master/composer.json
+    - https://github.com/SolidInvoice/SolidInvoice/blob/master/composer.json
 description: |
-    CSBill is an open-source billing application designed for ease of use and to
+    SolidInvoice is an open-source invoicing application designed for ease of use and to
     simplify accounting for freelancers or big companies. The main features
     include creating and managing clients with multiple contacts, creating and
     sending quotes and invoices and online payments.
