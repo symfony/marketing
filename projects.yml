@@ -53,7 +53,6 @@ default:
     - carew
     - codeception
     - composer
-    - csbill
     - deployer
     - doctrine
     - drupalconsole
@@ -85,6 +84,7 @@ default:
     - sculpin
     - silverstripe
     - sismo
+    - solidinvoice
     - sonataproject
     - spress
     - wallabag
