@@ -1,0 +1,10 @@
+name: Spryker
+url: http://spryker.com
+dependencies:
+    - https://github.com/spryker/Symfony/blob/master/composer.json
+    - https://github.com/spryker/demoshop/blob/master/composer.json
+description: |
+    Spryker is the commerce operating system for customer focused companies.
+    Spryker gives you the freedom to implement, test, and reinvent new customer
+    interfaces in no time, ensuring you the best possible access to your market
+    at all times.
