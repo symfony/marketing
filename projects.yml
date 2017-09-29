@@ -35,8 +35,9 @@ e-commerce:
 framework:
     - laravel
     - symfonyfs
-    - lumen
+    - yii
     - silex
+    - lumen
     - flow
     - ppi
 pim-crm:
