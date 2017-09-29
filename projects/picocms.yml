@@ -1,0 +1,9 @@
+name: Pico CMS
+url: http://picocms.org/
+dependencies:
+    - https://github.com/picocms/Pico/blob/master/composer.json
+description: |
+    Pico is a stupidly simple, blazing fast, flat file CMS. You simply create
+    markdown files in the content folder and those files become your pages.
+    Pico trades one-click setups and complex management interfaces for blazing
+    speed, flexibility, and a lightweight footprint.
