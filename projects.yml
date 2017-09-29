@@ -20,6 +20,8 @@ cms:
     - redkitecms
     - contao
     - initcms
+    - pico
+    - pyro
 e-commerce:
     - magento
     - prestashop
