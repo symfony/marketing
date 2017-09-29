@@ -1,9 +1,0 @@
-name: Elcodi
-url: http://elcodi.io
-dependencies:
-    - https://github.com/elcodi/elcodi/blob/master/composer.json
-description: |
-    Elcodi is an e-commerce platform on top of Symfony, specifically created
-    to build and quickly scale your project. Based on loosely coupled
-    components, Elcodi always takes in account the most advanced patterns in
-    software design and the most pragmatical philosophy.

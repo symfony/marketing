@@ -59,7 +59,6 @@ default:
     - drupalconsole
     - drush
     - easybook
-    - elcodi
     - flarum
     - goutte
     - kunstmaanbundles
