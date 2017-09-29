@@ -21,6 +21,7 @@ cms:
     - contao
     - initcms
     - picocms
+    - pyrocms
 e-commerce:
     - magento
     - prestashop
