@@ -1,0 +1,10 @@
+name: Deptrac
+url: https://github.com/sensiolabs-de/deptrac
+dependencies:
+    - https://github.com/sensiolabs-de/deptrac/blob/master/composer.json
+description: |
+    Deptrac is a static code analysis tool that helps to enforce rules for
+    dependencies between software layers. For example, you can define a rule like
+    "controllers may not depend on models". To ensure this, deptrac analyzes
+    your code to find any usages of models in your controllers and will show you
+    where this rule was violated.

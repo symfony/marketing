@@ -1,0 +1,7 @@
+name: Phan
+url: https://github.com/phan/phan
+dependencies:
+    - https://github.com/phan/phan/blob/master/composer.json
+description: |
+    Phan is a static analyzer for PHP. Phan prefers to avoid false-positives and
+    attempts to prove incorrectness rather than correctness.

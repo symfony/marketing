@@ -45,6 +45,13 @@ pim-crm:
     - orocrm
     - akeneo
     - pimcore
+code-quality:
+    - php-cs-fixer
+    - phan
+    - phpstan
+    - deptrac
+    - quality-analyzer
+    - pdepend
 # the order in the default category is irrelevant because these projects are
 # displayed in alphabetical order
 default:
@@ -70,7 +77,6 @@ default:
     - morfeu
     - oroplatform
     - owncloud
-    - pdepend
     - phinx
     - phpbb
     - phpdocumentor
