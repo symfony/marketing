@@ -1,0 +1,7 @@
+name: Facebook Ads API SDK
+url: https://developers.facebook.com/docs/marketing-apis
+dependencies:
+    - https://github.com/facebook/facebook-php-ads-sdk/blob/master/composer.json
+description: |
+    This Ads API SDK is built to facilitate application development for Facebook
+    Ads API. It provides ads insights, audience management, and ads management.

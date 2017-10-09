@@ -1,0 +1,9 @@
+name: Google Cloud Platform SDK
+url: https://googlecloudplatform.github.io/google-cloud-php/#/
+dependencies:
+    - https://github.com/GoogleCloudPlatform/php-tools/blob/master/composer.json
+    - https://github.com/GoogleCloudPlatform/google-cloud-php/blob/master/composer.json
+description: |
+    Google Cloud Client Library for PHP - an idiomatic, intuitive, and natural
+    way for PHP developers to integrate with Google Cloud Platform services,
+    like Cloud Datastore and Cloud Storage.
