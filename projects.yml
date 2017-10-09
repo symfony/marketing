@@ -55,7 +55,7 @@ code-quality:
 sdk:
     - google-api
     - facebook-ads
-    - amazon-instant-access
+    - google-cloud-platform
     - facebook-instant-articles
 # the order in the default category is irrelevant because these projects are
 # displayed in alphabetical order
