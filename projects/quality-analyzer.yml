@@ -1,0 +1,7 @@
+name: QualityAnalyzer
+url: https://github.com/Qafoo/QualityAnalyzer
+dependencies:
+    - https://github.com/Qafoo/QualityAnalyzer/blob/master/composer.json
+description: |
+    Quality Analyzer is a tool to visualize metrics and source code, which will
+    help you when doing code reviews for your projects.
