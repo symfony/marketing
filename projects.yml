@@ -52,6 +52,11 @@ code-quality:
     - deptrac
     - quality-analyzer
     - pdepend
+sdk:
+    - google-api
+    - facebook-ads
+    - amazon-instant-access
+    - facebook-instant-articles
 # the order in the default category is irrelevant because these projects are
 # displayed in alphabetical order
 default:

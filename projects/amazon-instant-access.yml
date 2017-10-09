@@ -1,0 +1,9 @@
+name: Amazon Instant Access SDK
+url: https://github.com/amzn/amazon-instant-access-sdk-php
+dependencies:
+    - https://github.com/amzn/amazon-instant-access-sdk-php/blob/master/composer.json
+description: |
+    Amazon Instant Access (AIA), is a fulfillment technology for virtual content
+    that is purchased on the Amazon web site and needs to be delivered to a third
+    party server. The Amazon Instant Access SDK enables PHP developers to easily
+    integrate their systems and onboard with the AIA system.
