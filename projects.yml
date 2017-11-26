@@ -34,6 +34,7 @@ e-commerce:
     - thelia
     - mothership
     - spryker
+    - orocommerce
 framework:
     - laravel
     - symfonyfs
