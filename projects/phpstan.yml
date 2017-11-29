@@ -1,5 +1,5 @@
 name: PHPStan
-url: https://github.com/phan/phan
+url: https://github.com/phpstan/phpstan
 dependencies:
     - https://github.com/phpstan/phpstan/blob/master/composer.json
 description: |
