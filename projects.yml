@@ -47,6 +47,7 @@ pim-crm:
     - orocrm
     - akeneo
     - pimcore
+    - civicrm
 code-quality:
     - php-cs-fixer
     - phan

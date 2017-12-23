@@ -1,0 +1,9 @@
+name: CiviCRM
+url: https://civicrm.org/
+dependencies:
+    - https://github.com/civicrm/civicrm-core/blob/master/composer.json
+description: |
+    CiviCRM is a constituent relationship management system designed to meet
+    the needs of advocacy, non-profit and non-governmental groups. Build,
+    engage, and organize your constituents with the CRM used by more than
+    10,000 non-profits.
