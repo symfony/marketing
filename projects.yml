@@ -3,7 +3,7 @@
 cms:
     - drupal
     - joomla
-    - ezpublish
+    - ezplatform
     - grav
     - symfonycmf
     - typo3
