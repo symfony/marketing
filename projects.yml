@@ -65,6 +65,7 @@ default:
     - apiplatform
     - assetic
     - behat
+    - botman
     - bowerphp
     - cachet
     - carew
