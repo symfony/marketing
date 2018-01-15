@@ -296,8 +296,8 @@ Yaml:
     docUrl: phpunit_bridge.html
     deprecated: false
     description: |
-        The PHPUnit Bridge provides utilities to report legacy tests and usage
-        of deprecated code and a helper for time-sensitive tests.
+        Provides utilities to report legacy tests and usage of deprecated code
+        and a helper for time-sensitive tests.
 
 'Polyfill APCu':
     slug: polyfill-apcu
