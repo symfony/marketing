@@ -4,8 +4,8 @@ dependencies:
     - https://github.com/ezsystems/ezplatform/blob/master/composer.json
     - https://github.com/ezsystems/ezplatform-ee/blob/master/composer.json
 description: |
-    The eZ Platform, as of v2 a pure full stack Symfony CMS, is the foundation
-    for eZ Platform Enterprise, which is built for business-critical digital
-    applications that need to be extensively quality-assured, stable and
-    fully-featured with additional value-added functionalities, support and
-    maintenance services.
+    eZ Platform, a pure full stack Symfony CMS as of version 2, is the foundation
+    for eZ Platform Enterprise. It is a Content Management System built for
+    business-critical digital applications that need to be extensively
+    quality-assured, stable, and fully-featured with additional value-added
+    functionalities, support, and maintenance services.
