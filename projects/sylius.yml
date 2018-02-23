@@ -1,12 +1,13 @@
 name: Sylius
-url: http://sylius.org
+url: http://sylius.com
 dependencies:
     - https://github.com/Sylius/Sylius/blob/master/composer.json
 description: |
-    Sylius is an open source e-commerce solution for PHP, based on the
-    Symfony framework. Ultimate goal of the project is to create a webshop
-    engine, which is user-friendly, loved by developers and has a helpful
-    community. Sylius is constructed from fully decoupled components
-    (bundles in Symfony glossary), which means that every feature
-    (products catalog, shipping engine, promotions system...) can be used
-    in any other application.
+    Sylius is an Open Source eCommerce Framework based on Symfony full stack.
+    The technology is constructed from fully decoupled components (bundles in Symfony glossary), 
+    which means that every feature (products catalog, shipping engine, promotions system...) 
+    can be used in any other application.
+    It integrates easily with existing systems and guarantees fast time to market. 
+    Built with testing in mind and a great care of code quality, 
+    Sylius is exceptionally flexible and easy to use. Its wide and friendly community 
+    is always ready to help with any issue. Finally, it is fully documented.
