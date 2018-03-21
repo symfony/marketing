@@ -1,0 +1,9 @@
+name: CakePHP
+url: https://cakephp.org
+dependencies:
+    - https://github.com/cakephp/phinx/blob/master/composer.json
+description: |
+    CakePHP makes building web applications simpler, faster, while requiring
+    less code. A modern PHP 7 framework offering a flexible database access
+    layer and a powerful scaffolding system that makes building both small and
+    complex systems simpler, easier and, of course, tastier.
