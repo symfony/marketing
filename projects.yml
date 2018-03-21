@@ -57,6 +57,7 @@ code-quality:
     - deptrac
     - quality-analyzer
     - pdepend
+    - php-censor
 sdk:
     - google-api
     - facebook-ads

@@ -1,0 +1,7 @@
+name: PHP Censor
+url: http://php-censor.info
+dependencies:
+    - https://github.com/php-censor/php-censor/blob/master/composer.json
+description: |
+    PHP Censor is an open source self-hosted continuous integration server for
+    PHP projects.
