@@ -39,6 +39,7 @@ framework:
     - laravel
     - symfonyfs
     - yii
+    - zendexpressive
     - silex
     - lumen
     - flow
