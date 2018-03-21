@@ -39,6 +39,7 @@ framework:
     - laravel
     - symfonyfs
     - yii
+    - cakephp
     - zendexpressive
     - silex
     - lumen
@@ -86,7 +87,6 @@ default:
     - morfeu
     - oroplatform
     - owncloud
-    - phinx
     - phpbb
     - phpdocumentor
     - phpmailer
