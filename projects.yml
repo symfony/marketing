@@ -40,6 +40,7 @@ framework:
     - symfonyfs
     - yii
     - cakephp
+    - zendexpressive
     - silex
     - lumen
     - flow
