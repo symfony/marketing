@@ -187,7 +187,7 @@ Messenger:
     deprecated: false
     description: |
         Helps applications send and receive messages to/from other applications
-        using a message bus.
+        or via message queues.
 
 OptionsResolver:
     slug: options-resolver
