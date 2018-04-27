@@ -1,5 +1,5 @@
-name: Kunstmaan Bundles
-url: http://bundles.kunstmaan.be
+name: Kunstmaan Bundles CMS
+url: https://bundles.kunstmaan.be
 dependencies:
     - https://github.com/Kunstmaan/KunstmaanBundlesCMS/blob/master/composer.json
 description: |
