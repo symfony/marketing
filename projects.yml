@@ -11,6 +11,7 @@ cms:
     - bolt
     - pagekit
     - forkcms
+    - kunstmaanbundles
     - victoire
     - zikula
     - octobercms
