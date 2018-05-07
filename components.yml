@@ -315,6 +315,13 @@ Yaml:
         Provides apcu_* functions and the APCUIterator class to users of the
         legacy APC extension.
 
+'Polyfill Ctype':
+    slug: polyfill-ctype
+    docUrl: ~
+    deprecated: false
+    description: |
+        Provides a partial, native PHP implementation for the ctype extension.
+
 'Polyfill PHP 5.4':
     slug: polyfill-php54
     docUrl: ~
@@ -356,6 +363,13 @@ Yaml:
     deprecated: false
     description: |
         Provides functions unavailable in releases prior to PHP 7.2.
+
+'Polyfill PHP 7.3':
+    slug: polyfill-php73
+    docUrl: ~
+    deprecated: false
+    description: |
+        Provides functions unavailable in releases prior to PHP 7.3.
 
 'Polyfill Iconv':
     slug: polyfill-iconv
