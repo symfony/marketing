@@ -1,5 +1,5 @@
 name: RedKite CMS
-url: http://redkite-labs.com
+url: https://github.com/redkite-labs/RedKiteCms
 dependencies:
     - https://github.com/redkite-labs/RedKiteCms/blob/master/composer.json
 description: |
