@@ -309,7 +309,7 @@ Yaml:
 
 'Polyfill APCu':
     slug: polyfill-apcu
-    docUrl: ~
+    docUrl: polyfill_apcu.html
     deprecated: false
     description: |
         Provides apcu_* functions and the APCUIterator class to users of the
@@ -317,70 +317,70 @@ Yaml:
 
 'Polyfill Ctype':
     slug: polyfill-ctype
-    docUrl: ~
+    docUrl: polyfill_ctype.html
     deprecated: false
     description: |
         Provides a partial, native PHP implementation for the ctype extension.
 
 'Polyfill PHP 5.4':
     slug: polyfill-php54
-    docUrl: ~
+    docUrl: polyfill_php54.html
     deprecated: false
     description: |
         Provides functions unavailable in releases prior to PHP 5.4.
 
 'Polyfill PHP 5.5':
     slug: polyfill-php55
-    docUrl: ~
+    docUrl: polyfill_php55.html
     deprecated: false
     description: |
         Provides functions unavailable in releases prior to PHP 5.5.
 
 'Polyfill PHP 5.6':
     slug: polyfill-php56
-    docUrl: ~
+    docUrl: polyfill_php56.html
     deprecated: false
     description: |
         Provides functions unavailable in releases prior to PHP 5.6.
 
 'Polyfill PHP 7.0':
     slug: polyfill-php70
-    docUrl: ~
+    docUrl: polyfill_php70.html
     deprecated: false
     description: |
         Provides functions unavailable in releases prior to PHP 7.0.
 
 'Polyfill PHP 7.1':
     slug: polyfill-php71
-    docUrl: ~
+    docUrl: polyfill_php71.html
     deprecated: false
     description: |
         Provides functions unavailable in releases prior to PHP 7.1.
 
 'Polyfill PHP 7.2':
     slug: polyfill-php72
-    docUrl: ~
+    docUrl: polyfill_php72.html
     deprecated: false
     description: |
         Provides functions unavailable in releases prior to PHP 7.2.
 
 'Polyfill PHP 7.3':
     slug: polyfill-php73
-    docUrl: ~
+    docUrl: polyfill_php73.html
     deprecated: false
     description: |
         Provides functions unavailable in releases prior to PHP 7.3.
 
 'Polyfill Iconv':
     slug: polyfill-iconv
-    docUrl: ~
+    docUrl: polyfill_iconv.html
     deprecated: false
     description: |
         Provides a native PHP implementation of the php.net/iconv functions.
 
 'Polyfill Intl Grapheme':
     slug: polyfill-intl-grapheme
-    docUrl: ~
+    docUrl: polyfill_intl_grapheme.html
     deprecated: false
     description: |
         Provides a partial, native PHP implementation of the Grapheme functions
@@ -388,7 +388,7 @@ Yaml:
 
 'Polyfill Intl ICU':
     slug: polyfill-intl-icu
-    docUrl: ~
+    docUrl: polyfill_intl_icu.html
     deprecated: false
     description: |
         Provides a collection of functions/classes using the symfony/intl
@@ -396,7 +396,7 @@ Yaml:
 
 'Polyfill Intl Normalizer':
     slug: polyfill-intl-normalizer
-    docUrl: ~
+    docUrl: polyfill_intl_normalizer.html
     deprecated: false
     description: |
         Provides a fallback implementation for the Normalizer class provided by
@@ -404,7 +404,7 @@ Yaml:
 
 'Polyfill Mbstring':
     slug: polyfill-mbstring
-    docUrl: ~
+    docUrl: polyfill_mbstring.html
     deprecated: false
     description: |
         Provides a partial, native PHP implementation for the Mbstring extension.
