@@ -1,0 +1,7 @@
+name: Automate
+url: https://automatephp.github.io/
+dependencies:
+    - https://github.com/automatephp/automate/blob/master/composer.json
+description: |
+    Automate allows you to automate your deployments to remote Linux servers simply.
+    You can use Automate from your workstation or through an integration server like Travis or Gitlab-ci.
