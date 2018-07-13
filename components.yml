@@ -47,6 +47,13 @@ Console:
     description: |
         Eases the creation of beautiful and testable command line interfaces.
 
+Contract:
+    slug: contract
+    docUrl: index.html
+    deprecated: false
+    description: |
+         A set of abstractions extracted out of the Symfony components.
+
 CssSelector:
     slug: css-selector
     docUrl: css_selector.html
