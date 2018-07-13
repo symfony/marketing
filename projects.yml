@@ -109,3 +109,4 @@ default:
     - wallabag
     - wpcli
     - psysh
+    - automate
