@@ -85,6 +85,7 @@ default:
     - goutte
     - kunstmaanbundles
     - ladybug
+    - matomo
     - mautic
     - morfeu
     - oroplatform
@@ -96,7 +97,6 @@ default:
     - phpmyfaq
     - phpredexpert
     - phpspec
-    - piwik
     - propel
     - ratchet
     - rocketeer
