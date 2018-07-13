@@ -47,8 +47,8 @@ Console:
     description: |
         Eases the creation of beautiful and testable command line interfaces.
 
-Contract:
-    slug: contract
+Contracts:
+    slug: contracts
     docUrl: index.html
     deprecated: false
     description: |
