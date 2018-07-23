@@ -110,3 +110,4 @@ default:
     - wpcli
     - psysh
     - automate
+    - shopsysframework
