@@ -1,46 +1,12 @@
 name: OroPlatform
 url: http://www.orocrm.com/oro-platform
-components:
-    - Asset
-    - BrowserKit
-    - Cache
-    - Config
-    - Console
-    - CssSelector
-    - Debug
-    - DependencyInjection
-    - DomCrawler
-    - Dotenv
-    - EventDispatcher
-    - ExpressionLanguage
-    - Filesystem
-    - Finder
-    - Form
-    - HttpFoundation
-    - HttpKernel
-    - Locale
-    - Intl
-    - Ldap
-    - Lock
-    - OptionsResolver
-    - "PHPUnit Bridge"
-    - "Polyfill APCu"
-    - Process
-    - PropertyAccess
-    - Routing
-    - Security
-    - Serializer
-    - Stopwatch
-    - Templating
-    - Translation
-    - Validator
-    - WebLink
-    - Workflow
-    - Yaml
+dependencies:
+    - https://github.com/oroinc/platform/blob/master/composer.json
+    - https://github.com/oroinc/platform-application/blob/master/composer.json
 description: |
     The OroPlatform is an Open source Business Application Platform (BAP).
     It offers developers the exact business application platform they've
     been looking for, by combining the tools they need. Built in PHP and
-    the Symfony framework, it seamlessly integrates into OroCRM and OroCommerce 
-    or works entirely standalone. Developing custom business applications has 
+    the Symfony framework, it seamlessly integrates into OroCRM and OroCommerce
+    or works entirely standalone. Developing custom business applications has
     never been so easy.
