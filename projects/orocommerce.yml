@@ -2,9 +2,9 @@ name: OroCommerce
 url: https://www.orocommerce.com
 dependencies:
     - https://github.com/oroinc/orocommerce/blob/master/composer.json
-    - https://github.com/oroinc/crm/blob/master/composer.json
+    - https://github.com/oroinc/orocommerce-application/blob/master/composer.json
     - https://github.com/oroinc/platform/blob/master/composer.json
 description: |
-    OroCommerce is an open-source Business to Business Commerce application 
-    built with flexibility in mind. OroCommerce can be customized and 
+    OroCommerce is an open-source Business to Business Commerce application
+    built with flexibility in mind. OroCommerce can be customized and
     extended to fit any B2B commerce needs.

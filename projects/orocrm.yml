@@ -2,6 +2,7 @@ name: OroCRM
 url: https://www.orocrm.com
 dependencies:
     - https://github.com/oroinc/crm/blob/master/composer.json
+    - https://github.com/oroinc/crm-application/blob/master/composer.json
     - https://github.com/oroinc/platform/blob/master/composer.json
 description: |
     OroCRM is an easy-to-use, open source CRM with built-in marketing
