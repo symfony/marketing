@@ -35,6 +35,7 @@ e-commerce:
     - mothership
     - spryker
     - orocommerce
+    - shopsysframework
 framework:
     - laravel
     - symfonyfs
@@ -110,4 +111,3 @@ default:
     - wpcli
     - psysh
     - automate
-    - shopsysframework
