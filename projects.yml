@@ -35,6 +35,7 @@ e-commerce:
     - mothership
     - spryker
     - orocommerce
+    - shopsysframework
 framework:
     - laravel
     - symfonyfs

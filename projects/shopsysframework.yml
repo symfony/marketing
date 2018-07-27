@@ -1,0 +1,9 @@
+name: Shopsys Framework
+url: https://shopsys.com
+dependencies:
+    - https://github.com/shopsys/shopsys/blob/master/composer.json
+description: |
+    Shopsys Framework is a scalable PHP framework for fast-growing e-commerce
+    sites created and maintained by in-house developers or outsourcing companies.
+    Our product provides the tools and know-how to help save thousands of
+    dev-hours in the short and long term growth of e-merchants and their websites.
