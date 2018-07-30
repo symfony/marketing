@@ -1,5 +1,5 @@
 name: Zikula
-url: http://zikula.de
+url: https://ziku.la
 dependencies:
     # don't use https://github.com/zikula/core/blob/1.5/composer.json because
     # those dependencies are merged during runtime using a Composer plugin
