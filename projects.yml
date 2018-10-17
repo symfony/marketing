@@ -59,6 +59,7 @@ code-quality:
     - quality-analyzer
     - pdepend
     - php-censor
+    - infection
 sdk:
     - google-api
     - facebook-ads
