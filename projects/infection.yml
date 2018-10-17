@@ -1,7 +1,7 @@
 name: Infection
 url: https://infection.github.io
 dependencies:
-- https://github.com/infection/infection/blob/master/composer.json
+    - https://github.com/infection/infection/blob/master/composer.json
 description: |
     Infection is a PHP mutation testing framework based on AST (Abstract Syntax 
     Tree) mutations. It works as a CLI tool and can be executed from your 
