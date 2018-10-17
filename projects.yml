@@ -55,6 +55,9 @@ code-quality:
     - php-cs-fixer
     - phan
     - phpstan
+    - behat
+    - phpspec
+    - codeception
     - deptrac
     - quality-analyzer
     - pdepend
@@ -70,12 +73,10 @@ sdk:
 default:
     - apiplatform
     - assetic
-    - behat
     - botman
     - bowerphp
     - cachet
     - carew
-    - codeception
     - composer
     - deployer
     - doctrine
@@ -97,7 +98,6 @@ default:
     - phpmyadmin
     - phpmyfaq
     - phpredexpert
-    - phpspec
     - propel
     - ratchet
     - rocketeer
