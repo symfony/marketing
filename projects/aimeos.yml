@@ -5,7 +5,7 @@ dependencies:
     - https://github.com/aimeos/ai-fosuser/blob/master/composer.json
     - https://github.com/aimeos/ai-monolog/blob/master/composer.json
     - https://github.com/aimeos/ai-swiftmailer/blob/master/composer.json
-    - https://github.com/aimeos/ai-syfmony/blob/master/composer.json
+    - https://github.com/aimeos/ai-symfony/blob/master/composer.json
     - https://github.com/aimeos/ai-twig/blob/master/composer.json
 description: |
     We enable you to do #gigacommerce! From one to 1 billion articles
