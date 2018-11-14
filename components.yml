@@ -285,7 +285,7 @@ VarDumper:
 
 WebLink:
     slug: web-link
-    docUrl: ~
+    docUrl: web_link.html
     deprecated: false
     description: |
         Implements HTML5 Links, Preload and Resource Hints specifications to
