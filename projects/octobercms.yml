@@ -2,9 +2,6 @@ name: October CMS
 url: https://octobercms.com/
 dependencies:
     - https://github.com/octobercms/library/blob/master/composer.json
-    - https://github.com/octoberrain/parse/blob/develop/composer.json
-    - https://github.com/octoberrain/translation/blob/master/composer.json
-    - https://github.com/octoberrain/config/blob/master/composer.json
 description: |
     October is a free, open-source, self-hosted CMS platform. A simple and
     modular CMS that grows with you, with a precise and beautiful interface that
