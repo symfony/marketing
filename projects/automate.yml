@@ -1,5 +1,5 @@
 name: Automate
-url: https://automatephp.github.io/
+url: https://automate-deployer.com/
 dependencies:
     - https://github.com/automatephp/automate/blob/master/composer.json
 description: |
