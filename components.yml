@@ -217,7 +217,7 @@ Mime:
     docUrl: ~
     deprecated: false
     description: |
-        Allows manipulating MIME messages, used to create adavenced email
+        Allows manipulating MIME messages, used to create advanced email
         messages.
 
 OptionsResolver:
