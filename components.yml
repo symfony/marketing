@@ -135,6 +135,14 @@ Guard:
         Brings many layers of authentication together, making it much easier to
         create complex authentication systems where you have total control.
 
+HttpClient:
+    slug: http-client
+    docUrl: ~
+    deprecated: false
+    description: |
+        A low-level HTTP client with support for both PHP stream wrappers and
+        cURL. It also provides utilities to consume APIs.
+
 HttpFoundation:
     slug: http-foundation
     docUrl: http_foundation.html
@@ -188,6 +196,14 @@ Lock:
         Creates and manages locks, a mechanism to provide exclusive access to a
         shared resource.
 
+Mailer:
+    slug: mailer
+    docUrl: ~
+    deprecated: false
+    description: |
+        Helps sending emails and provides integration with the most popular
+        mailing services.
+
 Messenger:
     slug: messenger
     docUrl: messenger.html
@@ -195,6 +211,14 @@ Messenger:
     description: |
         Helps applications send and receive messages to/from other applications
         or via message queues.
+
+Mime:
+    slug: mime
+    docUrl: ~
+    deprecated: false
+    description: |
+        Allows manipulating MIME messages, used to create advanced email
+        messages.
 
 OptionsResolver:
     slug: options-resolver
@@ -282,6 +306,14 @@ VarDumper:
     deprecated: false
     description: |
         Provides mechanisms for walking through any arbitrary PHP variable.
+
+VarExporter:
+    slug: var-exporter
+    docUrl: ~
+    deprecated: false
+    description: |
+        Exports any serializable PHP data structure to plain PHP code and allows
+        to instantiate and populate objects without calling their constructors.
 
 WebLink:
     slug: web-link
@@ -401,6 +433,22 @@ Yaml:
         Provides a collection of functions/classes using the symfony/intl
         package when the Intl extension is not installed.
 
+'Polyfill Intl IDN':
+    slug: polyfill-intl-idn
+    docUrl: ~
+    deprecated: false
+    description: |
+        Provides a collection of functions related to IDN when the Intl
+        extension is not installed.
+
+'Polyfill Intl MessageFormatter':
+    slug: polyfill-intl-messageformatter
+    docUrl: ~
+    deprecated: false
+    description: |
+        Provides a fallback implementation for the MessageFormatter class
+        provided by the Intl extension.
+
 'Polyfill Intl Normalizer':
     slug: polyfill-intl-normalizer
     docUrl: polyfill_intl_normalizer.html
@@ -427,7 +475,7 @@ Yaml:
 'Polyfill Xml':
     slug: polyfill-xml
     docUrl: ~
-    deprecated: false
+    deprecated: true
     description: |
         Provides a fallback implementation for the following functions in the
         abscense of the XML extension.
