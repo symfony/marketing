@@ -324,7 +324,7 @@ WebLink:
         advise clients (browsers) to preload and prefetch documents through HTTP
         and HTTP/2 pushes.
 
-'WebPack Encore':
+'Webpack Encore':
     slug: webpack-encore
     docUrl: frontend.html
     deprecated: false
