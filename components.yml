@@ -324,6 +324,15 @@ WebLink:
         advise clients (browsers) to preload and prefetch documents through HTTP
         and HTTP/2 pushes.
 
+'Webpack Encore':
+    slug: webpack-encore
+    docUrl: frontend.html
+    deprecated: false
+    description: |
+        A simpler way to integrate Webpack into your application, giving you a
+        powerful API for bundling JavaScript modules, pre-processing CSS & JS
+        and compiling and minifying assets.
+
 Workflow:
     slug: workflow
     docUrl: workflow.html
