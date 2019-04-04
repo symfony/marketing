@@ -309,7 +309,7 @@ VarDumper:
 
 VarExporter:
     slug: var-exporter
-    docUrl: ~
+    docUrl: var_exporter.html
     deprecated: false
     description: |
         Exports any serializable PHP data structure to plain PHP code and allows
@@ -444,7 +444,7 @@ Yaml:
 
 'Polyfill Intl IDN':
     slug: polyfill-intl-idn
-    docUrl: ~
+    docUrl: polyfill_intl_idn.html
     deprecated: false
     description: |
         Provides a collection of functions related to IDN when the Intl
@@ -452,7 +452,7 @@ Yaml:
 
 'Polyfill Intl MessageFormatter':
     slug: polyfill-intl-messageformatter
-    docUrl: ~
+    docUrl: polyfill_intl_messageformatter.html
     deprecated: false
     description: |
         Provides a fallback implementation for the MessageFormatter class
