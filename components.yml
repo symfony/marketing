@@ -198,7 +198,7 @@ Lock:
 
 Mailer:
     slug: mailer
-    docUrl: ~
+    docUrl: mailer.html
     deprecated: false
     description: |
         Helps sending emails and provides integration with the most popular
@@ -214,7 +214,7 @@ Messenger:
 
 Mime:
     slug: mime
-    docUrl: ~
+    docUrl: mime.html
     deprecated: false
     description: |
         Allows manipulating MIME messages, used to create advanced email
