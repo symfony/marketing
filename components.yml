@@ -166,6 +166,13 @@ Icu:
         Contains the data of the ICU library in a specific version. This component
         is deprecated since October 2014, use the Intl component instead.
 
+Inflector:
+    slug: inflector
+    docUrl: inflector.html
+    deprecated: false
+    description: |
+        Converts English words between their singular and plural forms.
+
 Intl:
     slug: intl
     docUrl: intl.html
