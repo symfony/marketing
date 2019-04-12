@@ -29,7 +29,6 @@ e-commerce:
     - shopware
     - sonataecommerce
     - eccube
-    - wellcommerce
     - aimeos
     - thelia
     - mothership
