@@ -49,10 +49,10 @@ Console:
 
 Contracts:
     slug: contracts
-    docUrl: index.html
+    docUrl: contracts.html
     deprecated: false
     description: |
-         A set of abstractions extracted out of the Symfony components.
+        A set of abstractions extracted out of the Symfony components.
 
 CssSelector:
     slug: css-selector
