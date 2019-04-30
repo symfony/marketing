@@ -84,7 +84,6 @@ default:
     - easybook
     - flarum
     - goutte
-    - kunstmaanbundles
     - ladybug
     - matomo
     - mautic
