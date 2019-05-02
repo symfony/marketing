@@ -1,0 +1,15 @@
+{
+  "name": "symfony/marketing",
+  "description": "Contains information about the components and projects displayed on symfony.com",
+  "require-dev": {
+    "symfony/console": "^4.2",
+    "symfony/yaml": "^4.2"
+  },
+  "license": "Unlicense",
+  "authors": [
+    {
+      "name": "Fabien Potencier",
+      "email": "fabien.potencier@gmail.com"
+    }
+  ]
+}
