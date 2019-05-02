@@ -1,0 +1,14 @@
+language: php
+
+php: ["7.2"]
+
+sudo: false
+
+cache:
+    - $HOME/.composer/cache/files
+
+install:
+    - travis_retry composer install
+
+script:
+    - php validator.php
