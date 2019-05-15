@@ -137,7 +137,7 @@ Guard:
 
 HttpClient:
     slug: http-client
-    docUrl: ~
+    docUrl: http_client.html
     deprecated: false
     description: |
         A low-level HTTP client with support for both PHP stream wrappers and
