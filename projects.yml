@@ -35,6 +35,7 @@ e-commerce:
     - spryker
     - orocommerce
     - shopsysframework
+    - chameleon
 framework:
     - laravel
     - symfonyfs
