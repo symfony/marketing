@@ -3,6 +3,9 @@ url: https://www.chameleon-system.com/en/
 dependencies:
     - https://github.com/chameleon-system/chameleon-base/blob/master/composer.json
     - https://github.com/chameleon-system/chameleon-base/blob/7.0.x/composer.json
-description: 
-The Chameleon E-Business Framework is a feature-rich framework that offers an extensive range of out-of-the-box e-commerce and content management features. The power of Chamaleon is the ready-to-use B2C and B2B features and the ease of individualisation for complex projects.
-Originally a content management system for the German media industry, Chameleon started offering e-commerce features in 2005. The focus shifted to complex e-commerce features in the following years. Chamaleon has been Symfony-based since 2013 and was opensourced (MIT License) by Freiburg-based ESONO AG in 2017. 
+description: |
+    The Chameleon E-Business Framework is a feature-rich framework that offers an extensive range of out-of-the-box e-commerce 
+    and content management features. The power of Chamaleon is the ready-to-use B2C and B2B features and the ease of individualisation 
+    for complex projects. Originally a content management system for the German media industry, Chameleon started offering e-commerce 
+    features in 2005. The focus shifted to complex e-commerce features in the following years. Chamaleon has been Symfony-based 
+    since 2013 and was opensourced (MIT License) by Freiburg-based ESONO AG in 2017. 
