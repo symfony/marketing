@@ -1,0 +1,8 @@
+name: Wikimedia
+url: https://www.wikimedia.org/
+dependencies:
+    - https://github.com/wikimedia/mediawiki-vendor/blob/master/composer.json
+description: |
+    Wikimedia is a global movement whose mission is to bring free educational
+    content to the world. Its projects include Wikipedia, Wiktionary, Wikiquote
+    and Wikibooks.
