@@ -109,3 +109,4 @@ default:
     - psysh
     - automate
     - wikimedia
+    - carbon

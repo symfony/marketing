@@ -1,0 +1,7 @@
+name: Carbon
+url: https://carbon.nesbot.com/
+dependencies:
+    - https://github.com/briannesbitt/Carbon/blob/master/composer.json
+description: |
+    Carbon is a simple and fully internationalized PHP API extension for
+    DateTime and DateTimeImmutable.
