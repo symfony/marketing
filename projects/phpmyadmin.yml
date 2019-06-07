@@ -3,6 +3,7 @@ url: https://www.phpmyadmin.net
 dependencies:
     - https://github.com/phpmyadmin/phpmyadmin/blob/master/composer.json
     - https://github.com/phpmyadmin/motranslator/blob/master/composer.json
+    - https://github.com/phpmyadmin/sql-parser/blob/master/composer.json
 description: |
     phpMyAdmin is a web interface for MySQL and MariaDB. It allows to create,
     copy, drop, rename and alter databases, tables, views, fields and indexes.
