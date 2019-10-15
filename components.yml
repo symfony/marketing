@@ -227,6 +227,13 @@ Mime:
         Allows manipulating MIME messages, used to create advanced email
         messages.
 
+Notifier:
+    slug: notifier
+    docUrl: ~
+    deprecated: false
+    description: |
+        Sends notifications via one or more channels (email, SMS, Slack, Telegram, ...)
+
 OptionsResolver:
     slug: options-resolver
     docUrl: options_resolver.html
@@ -285,6 +292,14 @@ Stopwatch:
     deprecated: false
     description: |
         Provides a way to profile code.
+
+String:
+    slug: string
+    docUrl: string.html
+    deprecated: false
+    description: |
+        Provides an object-oriented API to strings and deals with bytes, UTF-8
+        code points and grapheme clusters in a unified way.
 
 Templating:
     slug: templating
