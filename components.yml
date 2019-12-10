@@ -64,7 +64,7 @@ CssSelector:
 Debug:
     slug: debug
     docUrl: debug.html
-    deprecated: false
+    deprecated: true
     description: |
         Provides tools to ease debugging PHP code.
 
@@ -90,6 +90,13 @@ DomCrawler:
     deprecated: false
     description: |
         Eases DOM navigation for HTML and XML documents.
+
+ErrorHandler:
+    slug: error-handler
+    docUrl: error_handler.html
+    deprecated: false
+    description: |
+        Provides tools to manage errors and ease debugging PHP code.
 
 EventDispatcher:
     slug: event-dispatcher
