@@ -117,7 +117,7 @@ final class Validate extends Command
         }
 
         // check that components define some mandatory properties
-        $mandatoryProperties = ['slug', 'docUrl', 'deprecated', 'description'];
+        $mandatoryProperties = ['slug', 'docUrl', 'docPage', 'deprecated', 'description'];
         foreach ($components as $componentName => $componentData) {
             if (array_keys($componentData) !== $mandatoryProperties) {
                 $io->error(sprintf('The "%s" component must only define the following mandatory properties: "%s".', $componentName, implode(', ', $mandatoryProperties)));
