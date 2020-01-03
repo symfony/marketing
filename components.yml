@@ -510,6 +510,13 @@ Yaml:
         Provides binary-safe string functions, using the mbstring extension
         when available.
 
+'Polyfill UUID':
+    slug: polyfill-uuid
+    docUrl: polyfill_uuid.html
+    deprecated: false
+    description: |
+        Provides a native PHP implementation for the UUID extension.
+
 'Polyfill Xml':
     slug: polyfill-xml
     docUrl: ~
