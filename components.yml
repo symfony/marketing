@@ -268,7 +268,7 @@ Mime:
 Notifier:
     slug: notifier
     docUrl: ~
-    docPage: ~
+    docPage: notifier
     deprecated: false
     description: |
         Sends notifications via one or more channels (email, SMS, Slack, Telegram, ...)
