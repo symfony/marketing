@@ -1,0 +1,11 @@
+name: Kunstmaan CMS
+url: https://kunstmaancms.be
+dependencies:
+    - github@Kunstmaan/KunstmaanBundlesCMS
+description: |
+    The Kunstmaan CMS is an advanced yet user-friendly content
+    management system, based on the Symfony framework combined
+    with a whole host of community bundles. It provides a full featured,
+    multi-language CMS system with an innovative page and form assembling
+    interface, versioning, workflow, translation and media management and
+    much more.
