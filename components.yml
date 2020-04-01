@@ -365,6 +365,14 @@ Translation:
     description: |
         Provides tools to internationalize your application.
 
+Uid:
+    slug: uid
+    docUrl: uid.html
+    docPage: components/uid
+    deprecated: false
+    description: |
+        Provides tools to work with unique identifiers such as UUIDs and ULIDs.
+
 Validator:
     slug: validator
     docUrl: validator.html
