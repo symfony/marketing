@@ -200,7 +200,7 @@ Inflector:
     slug: inflector
     docUrl: inflector.html
     docPage: components/inflector
-    deprecated: false
+    deprecated: true
     description: |
         Converts English words between their singular and plural forms.
 
@@ -347,7 +347,8 @@ String:
     deprecated: false
     description: |
         Provides an object-oriented API to strings and deals with bytes, UTF-8
-        code points and grapheme clusters in a unified way.
+        code points and grapheme clusters in a unified way. It also provides a
+        slugger and an inflector.
 
 Templating:
     slug: templating
