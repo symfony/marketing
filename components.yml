@@ -78,7 +78,7 @@ DependencyInjection:
 
 Dotenv:
     slug: dotenv
-    docPage: components/dotenv
+    docPage: configuration
     deprecated: false
     description: |
         Parses .env files to make environment variables stored in them accessible
@@ -144,7 +144,7 @@ Guard:
 
 HttpClient:
     slug: http-client
-    docPage: components/http_client
+    docPage: http_client
     deprecated: false
     description: |
         A low-level HTTP client with support for both PHP stream wrappers and
@@ -212,7 +212,7 @@ Lock:
 
 Mailer:
     slug: mailer
-    docPage: components/mailer
+    docPage: mailer
     deprecated: false
     description: |
         Helps sending emails and provides integration with the most popular
@@ -273,14 +273,14 @@ PropertyInfo:
 
 Routing:
     slug: routing
-    docPage: components/routing
+    docPage: routing
     deprecated: false
     description: |
         Maps an HTTP request to a set of configuration variables.
 
 Security:
     slug: security
-    docPage: components/security
+    docPage: security
     deprecated: false
     description: |
         Provides an infrastructure for sophisticated authorization systems.
@@ -311,14 +311,14 @@ String:
 
 Templating:
     slug: templating
-    docPage: components/templating
+    docPage: templates
     deprecated: false
     description: |
         Provides all the tools needed to build any kind of template system.
 
 Translation:
     slug: translation
-    docPage: components/translation
+    docPage: translation
     deprecated: false
     description: |
         Provides tools to internationalize your application.
@@ -332,7 +332,7 @@ Uid:
 
 Validator:
     slug: validator
-    docPage: components/validator
+    docPage: validation
     deprecated: false
     description: |
         Provides tools to validate classes.
@@ -354,7 +354,7 @@ VarExporter:
 
 WebLink:
     slug: web-link
-    docPage: components/web_link
+    docPage: web_link
     deprecated: false
     description: |
         Implements HTML5 Links, Preload and Resource Hints specifications to
