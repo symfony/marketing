@@ -4,7 +4,6 @@
 
 Asset:
     slug: asset
-    docUrl: asset.html
     docPage: components/asset
     deprecated: false
     description: |
@@ -13,7 +12,6 @@ Asset:
 
 BrowserKit:
     slug: browser-kit
-    docUrl: browser_kit.html
     docPage: components/browser_kit
     deprecated: false
     description: |
@@ -21,7 +19,6 @@ BrowserKit:
 
 Cache:
     slug: cache
-    docUrl: cache.html
     docPage: components/cache
     deprecated: false
     description: |
@@ -30,7 +27,6 @@ Cache:
 
 ClassLoader:
     slug: class-loader
-    docUrl: class_loader.html
     docPage: components/class_loader
     deprecated: false
     description: |
@@ -39,7 +35,6 @@ ClassLoader:
 
 Config:
     slug: config
-    docUrl: config.html
     docPage: components/config
     deprecated: false
     description: |
@@ -47,7 +42,6 @@ Config:
 
 Console:
     slug: console
-    docUrl: console.html
     docPage: components/console
     deprecated: false
     description: |
@@ -55,7 +49,6 @@ Console:
 
 Contracts:
     slug: contracts
-    docUrl: contracts.html
     docPage: components/contracts
     deprecated: false
     description: |
@@ -63,7 +56,6 @@ Contracts:
 
 CssSelector:
     slug: css-selector
-    docUrl: css_selector.html
     docPage: components/css_selector
     deprecated: false
     description: |
@@ -71,7 +63,6 @@ CssSelector:
 
 Debug:
     slug: debug
-    docUrl: debug.html
     docPage: components/debug
     deprecated: true
     description: |
@@ -79,7 +70,6 @@ Debug:
 
 DependencyInjection:
     slug: dependency-injection
-    docUrl: dependency_injection.html
     docPage: components/dependency_injection
     deprecated: false
     description: |
@@ -88,7 +78,6 @@ DependencyInjection:
 
 Dotenv:
     slug: dotenv
-    docUrl: dotenv.html
     docPage: components/dotenv
     deprecated: false
     description: |
@@ -97,7 +86,6 @@ Dotenv:
 
 DomCrawler:
     slug: dom-crawler
-    docUrl: dom_crawler.html
     docPage: components/dom_crawler
     deprecated: false
     description: |
@@ -105,7 +93,6 @@ DomCrawler:
 
 ErrorHandler:
     slug: error-handler
-    docUrl: error_handler.html
     docPage: components/error_handler
     deprecated: false
     description: |
@@ -113,7 +100,6 @@ ErrorHandler:
 
 EventDispatcher:
     slug: event-dispatcher
-    docUrl: event_dispatcher.html
     docPage: components/event_dispatcher
     deprecated: false
     description: |
@@ -122,7 +108,6 @@ EventDispatcher:
 
 ExpressionLanguage:
     slug: expression-language
-    docUrl: expression_language.html
     docPage: components/expression_language
     deprecated: false
     description: |
@@ -130,7 +115,6 @@ ExpressionLanguage:
 
 Filesystem:
     slug: filesystem
-    docUrl: filesystem.html
     docPage: components/filesystem
     deprecated: false
     description: |
@@ -138,7 +122,6 @@ Filesystem:
 
 Finder:
     slug: finder
-    docUrl: finder.html
     docPage: components/finder
     deprecated: false
     description: |
@@ -146,7 +129,6 @@ Finder:
 
 Form:
     slug: form
-    docUrl: form.html
     docPage: components/form
     deprecated: false
     description: |
@@ -154,7 +136,6 @@ Form:
 
 Guard:
     slug: security-guard
-    docUrl: ~
     docPage: ~
     deprecated: false
     description: |
@@ -163,7 +144,6 @@ Guard:
 
 HttpClient:
     slug: http-client
-    docUrl: http_client.html
     docPage: components/http_client
     deprecated: false
     description: |
@@ -172,7 +152,6 @@ HttpClient:
 
 HttpFoundation:
     slug: http-foundation
-    docUrl: http_foundation.html
     docPage: components/http_foundation
     deprecated: false
     description: |
@@ -180,7 +159,6 @@ HttpFoundation:
 
 HttpKernel:
     slug: http-kernel
-    docUrl: http_kernel.html
     docPage: components/http_kernel
     deprecated: false
     description: |
@@ -189,7 +167,6 @@ HttpKernel:
 
 Icu:
     slug: icu
-    docUrl: ~
     docPage: ~
     deprecated: true
     description: |
@@ -198,7 +175,6 @@ Icu:
 
 Inflector:
     slug: inflector
-    docUrl: inflector.html
     docPage: components/inflector
     deprecated: true
     description: |
@@ -206,7 +182,6 @@ Inflector:
 
 Intl:
     slug: intl
-    docUrl: intl.html
     docPage: components/intl
     deprecated: false
     description: |
@@ -214,7 +189,6 @@ Intl:
 
 Ldap:
     slug: ldap
-    docUrl: ldap.html
     docPage: components/ldap
     deprecated: false
     description: |
@@ -222,7 +196,6 @@ Ldap:
 
 Locale:
     slug: locale
-    docUrl: locale.html
     docPage: components/locale
     deprecated: true
     description: |
@@ -231,7 +204,6 @@ Locale:
 
 Lock:
     slug: lock
-    docUrl: lock.html
     docPage: components/lock
     deprecated: false
     description: |
@@ -240,7 +212,6 @@ Lock:
 
 Mailer:
     slug: mailer
-    docUrl: mailer.html
     docPage: components/mailer
     deprecated: false
     description: |
@@ -249,7 +220,6 @@ Mailer:
 
 Messenger:
     slug: messenger
-    docUrl: messenger.html
     docPage: components/messenger
     deprecated: false
     description: |
@@ -258,7 +228,6 @@ Messenger:
 
 Mime:
     slug: mime
-    docUrl: mime.html
     docPage: components/mime
     deprecated: false
     description: |
@@ -267,7 +236,6 @@ Mime:
 
 Notifier:
     slug: notifier
-    docUrl: ~
     docPage: notifier
     deprecated: false
     description: |
@@ -275,7 +243,6 @@ Notifier:
 
 OptionsResolver:
     slug: options-resolver
-    docUrl: options_resolver.html
     docPage: components/options_resolver
     deprecated: false
     description: |
@@ -283,7 +250,6 @@ OptionsResolver:
 
 Process:
     slug: process
-    docUrl: process.html
     docPage: components/process
     deprecated: false
     description: |
@@ -291,7 +257,6 @@ Process:
 
 PropertyAccess:
     slug: property-access
-    docUrl: property_access.html
     docPage: components/property_access
     deprecated: false
     description: |
@@ -300,7 +265,6 @@ PropertyAccess:
 
 PropertyInfo:
     slug: property-info
-    docUrl: property_info.html
     docPage: components/property_info
     deprecated: false
     description: |
@@ -309,7 +273,6 @@ PropertyInfo:
 
 Routing:
     slug: routing
-    docUrl: routing.html
     docPage: components/routing
     deprecated: false
     description: |
@@ -317,7 +280,6 @@ Routing:
 
 Security:
     slug: security
-    docUrl: security.html
     docPage: components/security
     deprecated: false
     description: |
@@ -325,7 +287,6 @@ Security:
 
 Serializer:
     slug: serializer
-    docUrl: serializer.html
     docPage: components/serializer
     deprecated: false
     description: |
@@ -334,7 +295,6 @@ Serializer:
 
 Stopwatch:
     slug: stopwatch
-    docUrl: stopwatch.html
     docPage: components/stopwatch
     deprecated: false
     description: |
@@ -342,7 +302,6 @@ Stopwatch:
 
 String:
     slug: string
-    docUrl: string.html
     docPage: components/string
     deprecated: false
     description: |
@@ -352,7 +311,6 @@ String:
 
 Templating:
     slug: templating
-    docUrl: templating.html
     docPage: components/templating
     deprecated: false
     description: |
@@ -360,7 +318,6 @@ Templating:
 
 Translation:
     slug: translation
-    docUrl: translation.html
     docPage: components/translation
     deprecated: false
     description: |
@@ -368,7 +325,6 @@ Translation:
 
 Uid:
     slug: uid
-    docUrl: uid.html
     docPage: components/uid
     deprecated: false
     description: |
@@ -376,7 +332,6 @@ Uid:
 
 Validator:
     slug: validator
-    docUrl: validator.html
     docPage: components/validator
     deprecated: false
     description: |
@@ -384,7 +339,6 @@ Validator:
 
 VarDumper:
     slug: var-dumper
-    docUrl: var_dumper.html
     docPage: components/var_dumper
     deprecated: false
     description: |
@@ -392,7 +346,6 @@ VarDumper:
 
 VarExporter:
     slug: var-exporter
-    docUrl: var_exporter.html
     docPage: components/var_exporter
     deprecated: false
     description: |
@@ -401,7 +354,6 @@ VarExporter:
 
 WebLink:
     slug: web-link
-    docUrl: web_link.html
     docPage: components/web_link
     deprecated: false
     description: |
@@ -411,7 +363,6 @@ WebLink:
 
 'Webpack Encore':
     slug: webpack-encore
-    docUrl: frontend.html
     docPage: frontend
     deprecated: false
     description: |
@@ -421,7 +372,6 @@ WebLink:
 
 Workflow:
     slug: workflow
-    docUrl: workflow.html
     docPage: components/workflow
     deprecated: false
     description: |
@@ -429,7 +379,6 @@ Workflow:
 
 Yaml:
     slug: yaml
-    docUrl: yaml.html
     docPage: components/yaml
     deprecated: false
     description: |
@@ -437,7 +386,6 @@ Yaml:
 
 'PHPUnit Bridge':
     slug: phpunit-bridge
-    docUrl: phpunit_bridge.html
     docPage: components/phpunit_bridge
     deprecated: false
     description: |
@@ -446,7 +394,6 @@ Yaml:
 
 'Polyfill APCu':
     slug: polyfill-apcu
-    docUrl: polyfill_apcu.html
     docPage: components/polyfill_apcu
     deprecated: false
     description: |
@@ -455,7 +402,6 @@ Yaml:
 
 'Polyfill Ctype':
     slug: polyfill-ctype
-    docUrl: polyfill_ctype.html
     docPage: components/polyfill_ctype
     deprecated: false
     description: |
@@ -463,7 +409,6 @@ Yaml:
 
 'Polyfill PHP 5.4':
     slug: polyfill-php54
-    docUrl: polyfill_php54.html
     docPage: components/polyfill_php54
     deprecated: false
     description: |
@@ -471,7 +416,6 @@ Yaml:
 
 'Polyfill PHP 5.5':
     slug: polyfill-php55
-    docUrl: polyfill_php55.html
     docPage: components/polyfill_php55
     deprecated: false
     description: |
@@ -479,7 +423,6 @@ Yaml:
 
 'Polyfill PHP 5.6':
     slug: polyfill-php56
-    docUrl: polyfill_php56.html
     docPage: components/polyfill_php56
     deprecated: false
     description: |
@@ -487,7 +430,6 @@ Yaml:
 
 'Polyfill PHP 7.0':
     slug: polyfill-php70
-    docUrl: polyfill_php70.html
     docPage: components/polyfill_php70
     deprecated: false
     description: |
@@ -495,7 +437,6 @@ Yaml:
 
 'Polyfill PHP 7.1':
     slug: polyfill-php71
-    docUrl: polyfill_php71.html
     docPage: components/polyfill_php71
     deprecated: false
     description: |
@@ -503,7 +444,6 @@ Yaml:
 
 'Polyfill PHP 7.2':
     slug: polyfill-php72
-    docUrl: polyfill_php72.html
     docPage: components/polyfill_php72
     deprecated: false
     description: |
@@ -511,7 +451,6 @@ Yaml:
 
 'Polyfill PHP 7.3':
     slug: polyfill-php73
-    docUrl: polyfill_php73.html
     docPage: components/polyfill_php73
     deprecated: false
     description: |
@@ -519,7 +458,6 @@ Yaml:
 
 'Polyfill Iconv':
     slug: polyfill-iconv
-    docUrl: polyfill_iconv.html
     docPage: components/polyfill_iconv
     deprecated: false
     description: |
@@ -527,7 +465,6 @@ Yaml:
 
 'Polyfill Intl Grapheme':
     slug: polyfill-intl-grapheme
-    docUrl: polyfill_intl_grapheme.html
     docPage: components/polyfill_intl_grapheme
     deprecated: false
     description: |
@@ -536,7 +473,6 @@ Yaml:
 
 'Polyfill Intl ICU':
     slug: polyfill-intl-icu
-    docUrl: polyfill_intl_icu.html
     docPage: components/polyfill_intl_icu
     deprecated: false
     description: |
@@ -545,7 +481,6 @@ Yaml:
 
 'Polyfill Intl IDN':
     slug: polyfill-intl-idn
-    docUrl: polyfill_intl_idn.html
     docPage: components/polyfill_intl_idn
     deprecated: false
     description: |
@@ -554,7 +489,6 @@ Yaml:
 
 'Polyfill Intl MessageFormatter':
     slug: polyfill-intl-messageformatter
-    docUrl: polyfill_intl_messageformatter.html
     docPage: components/polyfill_intl_messageformatter
     deprecated: false
     description: |
@@ -563,7 +497,6 @@ Yaml:
 
 'Polyfill Intl Normalizer':
     slug: polyfill-intl-normalizer
-    docUrl: polyfill_intl_normalizer.html
     docPage: components/polyfill_intl_normalizer
     deprecated: false
     description: |
@@ -572,7 +505,6 @@ Yaml:
 
 'Polyfill Mbstring':
     slug: polyfill-mbstring
-    docUrl: polyfill_mbstring.html
     docPage: components/polyfill_mbstring
     deprecated: false
     description: |
@@ -580,7 +512,6 @@ Yaml:
 
 'Polyfill Util':
     slug: polyfill-util
-    docUrl: ~
     docPage: ~
     deprecated: false
     description: |
@@ -589,7 +520,6 @@ Yaml:
 
 'Polyfill UUID':
     slug: polyfill-uuid
-    docUrl: polyfill_uuid.html
     docPage: components/polyfill_uuid
     deprecated: false
     description: |
@@ -597,7 +527,6 @@ Yaml:
 
 'Polyfill Xml':
     slug: polyfill-xml
-    docUrl: ~
     docPage: components/polyfill_xml
     deprecated: true
     description: |
