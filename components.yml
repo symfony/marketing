@@ -136,7 +136,7 @@ Form:
 
 Guard:
     slug: security-guard
-    docPage: ~
+    docPage: null
     deprecated: false
     description: |
         Brings many layers of authentication together, making it much easier to
@@ -167,7 +167,7 @@ HttpKernel:
 
 Icu:
     slug: icu
-    docPage: ~
+    docPage: null
     deprecated: true
     description: |
         Contains the data of the ICU library in a specific version. This component
@@ -271,6 +271,14 @@ PropertyInfo:
         Extracts information about the properties of PHP classes using metadata
         of popular sources (Doctrine, PHP Reflection, PHPdoc, etc.)
 
+RateLimiter:
+    slug: rate-limiter
+    docPage: null
+    deprecated: false
+    description: |
+        Provides a Token Bucket implementation to rate limit input and output in
+        your application (e.g. to implement login throttling).
+
 Routing:
     slug: routing
     docPage: components/routing
@@ -284,6 +292,14 @@ Security:
     deprecated: false
     description: |
         Provides an infrastructure for sophisticated authorization systems.
+
+Semaphore:
+    slug: semaphore
+    docPage: null
+    deprecated: false
+    description: |
+        Creates and manages semaphores, a mechanism to control access to a common
+        resource by multiple processes in a concurrent system .
 
 Serializer:
     slug: serializer
@@ -512,7 +528,7 @@ Yaml:
 
 'Polyfill Util':
     slug: polyfill-util
-    docPage: ~
+    docPage: null
     deprecated: false
     description: |
         Provides binary-safe string functions, using the mbstring extension
