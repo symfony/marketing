@@ -27,8 +27,8 @@ Cache:
 
 ClassLoader:
     slug: class-loader
-    docPage: components/class_loader
-    deprecated: false
+    docPage: null
+    deprecated: true
     description: |
         Loads your project classes automatically if they follow some standard
         PHP conventions.
@@ -63,7 +63,7 @@ CssSelector:
 
 Debug:
     slug: debug
-    docPage: components/debug
+    docPage: null
     deprecated: true
     description: |
         Provides tools to ease debugging PHP code.
@@ -93,7 +93,7 @@ DomCrawler:
 
 ErrorHandler:
     slug: error-handler
-    docPage: components/error_handler
+    docPage: null
     deprecated: false
     description: |
         Provides tools to manage errors and ease debugging PHP code.
@@ -196,7 +196,7 @@ Ldap:
 
 Locale:
     slug: locale
-    docPage: components/locale
+    docPage: null
     deprecated: true
     description: |
         Provides fallback code to handle cases when the intl extension is missing.
@@ -410,7 +410,7 @@ Yaml:
 
 'Polyfill APCu':
     slug: polyfill-apcu
-    docPage: components/polyfill_apcu
+    docPage: null
     deprecated: false
     description: |
         Provides apcu_* functions and the APCUIterator class to users of the
@@ -418,70 +418,70 @@ Yaml:
 
 'Polyfill Ctype':
     slug: polyfill-ctype
-    docPage: components/polyfill_ctype
+    docPage: null
     deprecated: false
     description: |
         Provides a partial, native PHP implementation for the ctype extension.
 
 'Polyfill PHP 5.4':
     slug: polyfill-php54
-    docPage: components/polyfill_php54
+    docPage: null
     deprecated: false
     description: |
         Provides functions unavailable in releases prior to PHP 5.4.
 
 'Polyfill PHP 5.5':
     slug: polyfill-php55
-    docPage: components/polyfill_php55
+    docPage: null
     deprecated: false
     description: |
         Provides functions unavailable in releases prior to PHP 5.5.
 
 'Polyfill PHP 5.6':
     slug: polyfill-php56
-    docPage: components/polyfill_php56
+    docPage: null
     deprecated: false
     description: |
         Provides functions unavailable in releases prior to PHP 5.6.
 
 'Polyfill PHP 7.0':
     slug: polyfill-php70
-    docPage: components/polyfill_php70
+    docPage: null
     deprecated: false
     description: |
         Provides functions unavailable in releases prior to PHP 7.0.
 
 'Polyfill PHP 7.1':
     slug: polyfill-php71
-    docPage: components/polyfill_php71
+    docPage: null
     deprecated: false
     description: |
         Provides functions unavailable in releases prior to PHP 7.1.
 
 'Polyfill PHP 7.2':
     slug: polyfill-php72
-    docPage: components/polyfill_php72
+    docPage: null
     deprecated: false
     description: |
         Provides functions unavailable in releases prior to PHP 7.2.
 
 'Polyfill PHP 7.3':
     slug: polyfill-php73
-    docPage: components/polyfill_php73
+    docPage: null
     deprecated: false
     description: |
         Provides functions unavailable in releases prior to PHP 7.3.
 
 'Polyfill Iconv':
     slug: polyfill-iconv
-    docPage: components/polyfill_iconv
+    docPage: null
     deprecated: false
     description: |
         Provides a native PHP implementation of the php.net/iconv functions.
 
 'Polyfill Intl Grapheme':
     slug: polyfill-intl-grapheme
-    docPage: components/polyfill_intl_grapheme
+    docPage: null
     deprecated: false
     description: |
         Provides a partial, native PHP implementation of the Grapheme functions
@@ -489,7 +489,7 @@ Yaml:
 
 'Polyfill Intl ICU':
     slug: polyfill-intl-icu
-    docPage: components/polyfill_intl_icu
+    docPage: null
     deprecated: false
     description: |
         Provides a collection of functions/classes using the symfony/intl
@@ -497,7 +497,7 @@ Yaml:
 
 'Polyfill Intl IDN':
     slug: polyfill-intl-idn
-    docPage: components/polyfill_intl_idn
+    docPage: null
     deprecated: false
     description: |
         Provides a collection of functions related to IDN when the Intl
@@ -505,7 +505,7 @@ Yaml:
 
 'Polyfill Intl MessageFormatter':
     slug: polyfill-intl-messageformatter
-    docPage: components/polyfill_intl_messageformatter
+    docPage: null
     deprecated: false
     description: |
         Provides a fallback implementation for the MessageFormatter class
@@ -513,7 +513,7 @@ Yaml:
 
 'Polyfill Intl Normalizer':
     slug: polyfill-intl-normalizer
-    docPage: components/polyfill_intl_normalizer
+    docPage: null
     deprecated: false
     description: |
         Provides a fallback implementation for the Normalizer class provided by
@@ -521,7 +521,7 @@ Yaml:
 
 'Polyfill Mbstring':
     slug: polyfill-mbstring
-    docPage: components/polyfill_mbstring
+    docPage: null
     deprecated: false
     description: |
         Provides a partial, native PHP implementation for the Mbstring extension.
@@ -536,14 +536,14 @@ Yaml:
 
 'Polyfill UUID':
     slug: polyfill-uuid
-    docPage: components/polyfill_uuid
+    docPage: null
     deprecated: false
     description: |
         Provides a native PHP implementation for the UUID extension.
 
 'Polyfill Xml':
     slug: polyfill-xml
-    docPage: components/polyfill_xml
+    docPage: null
     deprecated: true
     description: |
         Provides a fallback implementation for the following functions in the
