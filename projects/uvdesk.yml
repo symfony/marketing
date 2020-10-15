@@ -1,0 +1,9 @@
+name: Uvdesk
+url: https://www.uvdesk.com/
+dependencies:
+    - https://github.com/uvdesk/community-skeleton/blob/master/composer.json
+    - https://github.com/uvdesk/core-framework/blob/master/composer.json
+description: |
+    UVdesk offers SaaS-based and Open Source helpdesk solution to easier the
+    overall support process to deliver best customer service. Ready for
+    Ecommerce, Marketplace & Multichannel.
