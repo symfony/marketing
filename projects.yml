@@ -36,6 +36,7 @@ e-commerce:
     - orocommerce
     - shopsysframework
     - chameleon
+    - uvdesk
 framework:
     - laravel
     - symfonyfs
@@ -109,3 +110,7 @@ default:
     - wpcli
     - psysh
     - automate
+    - wikimedia
+    - carbon
+    - openloyalty
+    - crunz
