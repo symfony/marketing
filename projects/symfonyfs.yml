@@ -1,7 +1,7 @@
 name: Symfony
 url: https://symfony.com
 dependencies:
-    - https://github.com/symfony/symfony/blob/master/composer.json
+    - https://github.com/symfony/symfony/blob/5.x/composer.json
 description: |
     Symfony is an Open Source PHP Web applications development framework.
     It was originally conceived by the interactive agency SensioLabs for
