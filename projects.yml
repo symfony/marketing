@@ -31,7 +31,6 @@ e-commerce:
     - eccube
     - aimeos
     - thelia
-    - mothership
     - spryker
     - orocommerce
     - shopsysframework
