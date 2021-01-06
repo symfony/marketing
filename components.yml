@@ -288,7 +288,7 @@ Routing:
 
 Security:
     slug: security
-    docPage: security
+    docPage: components/security
     deprecated: false
     description: |
         Provides an infrastructure for sophisticated authorization systems.
