@@ -12,7 +12,6 @@ cms:
     - pagekit
     - forkcms
     - kunstmaanbundles
-    - victoire
     - zikula
     - octobercms
     - backbee
