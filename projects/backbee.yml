@@ -1,7 +1,7 @@
 name: BackBee
 url: https://www.backbee.com/
 dependencies:
-    - https://github.com/backbee/backbee-php/blob/master/composer.json
+    - github@backbee/backbee-php
 description: |
     BackBee is an open source CMS designed to revolutionize user experience.
     It uses "On Page Editing" architecture making content contribution

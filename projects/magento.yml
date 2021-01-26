@@ -1,8 +1,8 @@
 name: Magento
 url: https://magento.com
 dependencies:
-    - https://github.com/magento/magento2/blob/2.3/composer.json
-    - https://github.com/magento/magento-composer-installer/blob/master/composer.json
+    - github@magento/magento2
+    - github@magento/magento-composer-installer
 description: |
     Magento offers flexible, scalable eCommerce solutions designed to help
     you grow and succeed online. Our cost-effective technology platform

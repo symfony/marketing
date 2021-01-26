@@ -1,7 +1,7 @@
 name: PHP Coding Standards Fixer
 url: https://cs.sensiolabs.org
 dependencies:
-    - https://github.com/FriendsOfPHP/PHP-CS-Fixer/blob/master/composer.json
+    - github@FriendsOfPHP/PHP-CS-Fixer
 description: |
     The PHP Coding Standards Fixer tool fixes most issues in your code when you
     want to follow the PHP coding standards as defined in the PSR-1 and PSR-2

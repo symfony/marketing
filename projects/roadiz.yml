@@ -1,7 +1,7 @@
 name: Roadiz
 url: https://www.roadiz.io
 dependencies:
-    - https://github.com/roadiz/roadiz/blob/master/composer.json
+    - github@roadiz/roadiz
 description: |
     Roadiz is a modern CMS based on a polymorphic node system which can
     handle many types of services and contents. Its back-office has been

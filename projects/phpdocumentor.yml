@@ -1,7 +1,7 @@
 name: phpDocumentor
 url: https://phpdoc.org
 dependencies:
-    - https://github.com/phpDocumentor/phpDocumentor/blob/master/composer.json
+    - github@phpDocumentor/phpDocumentor
 description: |
     phpDocumentor 2 is a tool with which it is possible to generate
     documentation from your PHP source code. With this documentation you

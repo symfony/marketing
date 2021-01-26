@@ -1,7 +1,7 @@
 name: Sismo
 url: https://sismo.symfony.com
 dependencies:
-    - https://github.com/FriendsOfPHP/Sismo/blob/master/composer.json
+    - github@FriendsOfPHP/Sismo
 description: |
     Sismo is a Continuous Testing Server written in PHP. Sismo does not try
     to do more than getting your code, running your tests, and send you

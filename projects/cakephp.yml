@@ -1,7 +1,7 @@
 name: CakePHP
 url: https://cakephp.org
 dependencies:
-    - https://github.com/cakephp/phinx/blob/master/composer.json
+    - github@cakephp/phinx
 description: |
     CakePHP makes building web applications simpler, faster, while requiring
     less code. A modern PHP 7 framework offering a flexible database access

@@ -1,7 +1,7 @@
 name: Morfeu
 url: https://github.com/leonardorifeli/morfeu
 dependencies:
-    - https://github.com/leonardorifeli/morfeu/blob/master/composer.json
+    - github@leonardorifeli/morfeu
 description: |
     Morfeu is a personal finance management system. Its robust code base enables
     easy and fast change.

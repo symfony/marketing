@@ -1,9 +1,9 @@
 name: Symfony CMF
 url: https://symfony.com/doc/current/cmf/index.html
 dependencies:
-    - https://github.com/symfony-cmf/core-bundle/blob/master/composer.json
-    - https://github.com/symfony-cmf/routing/blob/master/composer.json
-    - https://github.com/symfony-cmf/standard-edition/blob/master/composer.json
+    - github@symfony-cmf/core-bundle
+    - github@symfony-cmf/routing
+    - github@symfony-cmf/standard-edition
 description: |
     The Symfony CMF project makes it easier for developers to add CMS
     functionality to applications built with the Symfony PHP framework.

@@ -1,7 +1,7 @@
 name: Sami
 url: https://github.com/fabpot/sami
 dependencies:
-    - https://github.com/FriendsOfPHP/Sami/blob/master/composer.json
+    - github@FriendsOfPHP/Sami
 description: |
     Sami is an API documentation generator. It uses a PHP file for
     configuration to give a very flexible way of tweaking the API

@@ -1,7 +1,7 @@
 name: Pyro CMS
 url: https://pyrocms.com/
 dependencies:
-    - https://github.com/pyrocms/pyrocms/blob/3.4/composer.json
+    - github@pyrocms/pyrocms
 description: |
     Build better websites and applications faster with Pyro. Simple, clean, and
     consistent control panel. Responsive control panel. Built-in localization.

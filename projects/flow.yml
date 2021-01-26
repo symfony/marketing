@@ -1,7 +1,7 @@
 name: Neos Flow
 url: https://flow.neos.io/
 dependencies:
-    - https://github.com/neos/flow/blob/master/composer.json
+    - github@neos/flow
 description: |
     Flow is a PHP web application framework focussed on Domain-Driven Design and
     clean code. Based on strong conventions and best practices, it allows you to

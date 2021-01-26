@@ -1,7 +1,7 @@
 name: Codeception
 url: https://codeception.com/
 dependencies:
-    - https://github.com/Codeception/Codeception/blob/4.0/composer.json
+    - github@Codeception/Codeception
 description: |
     Codeception is a full-stack testing framework which incorporates
     acceptance, functional, and unit testing. It uses a simple PHP DSL to

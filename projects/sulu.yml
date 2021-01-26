@@ -1,7 +1,7 @@
 name: Sulu
 url: https://sulu.io
 dependencies:
-    - https://github.com/sulu/sulu/blob/2.x/composer.json
+    - github@sulu/sulu
 description: |
     Sulu is a content management platform based on Symfony made for
     businesses. It's a flexible CMS to create and manage enterprise

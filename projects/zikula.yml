@@ -3,7 +3,7 @@ url: https://ziku.la
 dependencies:
     # don't use https://github.com/zikula/core/blob/1.5/composer.json because
     # those dependencies are merged during runtime using a Composer plugin
-    - https://github.com/zikula/Wizard/blob/master/composer.json
+    - github@zikula/Wizard
 description: |
     Zikula is a Web Application Toolkit, which allows you to run
     impressive websites and build powerful online applications. Zikula has

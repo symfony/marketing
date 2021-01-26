@@ -1,8 +1,8 @@
 name: API Platform
 url: https://api-platform.com
 dependencies:
-    - https://github.com/api-platform/api-platform/blob/main/api/composer.json
-    - https://github.com/api-platform/core/blob/master/composer.json
+    - github@api-platform/api-platform/api
+    - github@api-platform/core
 description: |
     API Platform is an Open Source web framework for API-first projects.
     Describe the API's data model or import an existing one from Schema.org

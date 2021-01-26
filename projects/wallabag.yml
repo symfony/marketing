@@ -1,7 +1,7 @@
 name: Wallabag
 url: https://wallabag.org/
 dependencies:
-    - https://github.com/wallabag/wallabag/blob/master/composer.json
+    - github@wallabag/wallabag
 description: |
     Wallabag is an Open Source read-it-later application. It saves the content
     of web pages to read them later anywhere: your browser, your RSS reader,

@@ -1,7 +1,7 @@
 name: Assetic
 url: https://github.com/assetic-php/assetic
 dependencies:
-    - https://github.com/assetic-php/assetic/blob/master/composer.json
+    - github@assetic-php/assetic
 description: |
     Assetic is an asset management framework for PHP. It combines two
     major ideas: assets and filters. The assets are files such as CSS,

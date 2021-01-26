@@ -1,7 +1,7 @@
 name: Pagekit
 url: https://pagekit.com/
 dependencies:
-    - https://github.com/pagekit/pagekit/blob/develop/composer.json
+    - github@pagekit/pagekit
 description: |
     Pagekit is a modular and lightweight CMS built from the ground up with a
     modern architecture in mind. It serves as a web application framework

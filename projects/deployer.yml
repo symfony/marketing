@@ -1,7 +1,7 @@
 name: Deployer
 url: https://deployer.org/
 dependencies:
-    - https://github.com/deployphp/deployer/blob/master/composer.json
+    - github@deployphp/deployer
 description: |
     A deployment tool written in PHP with support for popular frameworks
     out of the box. Simple setup process and a minimal learning curve.

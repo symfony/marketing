@@ -1,7 +1,7 @@
 name: Flarum
 url: https://flarum.org/
 dependencies:
-    - https://github.com/flarum/core/blob/master/composer.json
+    - github@flarum/core
 description: |
     Flarum is the next-generation forum software that makes online discussion
     fun. It's simple, fast, and free.

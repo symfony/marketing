@@ -1,7 +1,7 @@
 name: Silex
 url: https://silex.symfony.com
 dependencies:
-    - https://github.com/silexphp/Silex/blob/master/composer.json
+    - github@silexphp/Silex
 description: |
     Silex is a PHP microframework built on the shoulders of Symfony and Pimple
     and also inspired by Sinatra. A microframework provides the guts for

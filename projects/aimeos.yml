@@ -1,12 +1,12 @@
 name: Aimeos e-commerce components
 url: https://aimeos.org/Symfony
 dependencies:
-    - https://github.com/aimeos/aimeos-symfony/blob/master/composer.json
-    - https://github.com/aimeos/ai-fosuser/blob/master/composer.json
-    - https://github.com/aimeos/ai-monolog/blob/master/composer.json
-    - https://github.com/aimeos/ai-swiftmailer/blob/master/composer.json
-    - https://github.com/aimeos/ai-symfony/blob/master/composer.json
-    - https://github.com/aimeos/ai-twig/blob/master/composer.json
+    - github@aimeos/aimeos-symfony
+    - github@aimeos/ai-fosuser
+    - github@aimeos/ai-monolog
+    - github@aimeos/ai-swiftmailer
+    - github@aimeos/ai-symfony
+    - github@aimeos/ai-twig
 description: |
     We enable you to do #gigacommerce! From one to 1 billion articles
     and from simple to complex products in your online shop, Aimeos is

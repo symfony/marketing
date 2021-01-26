@@ -1,7 +1,7 @@
 name: Sonata e-commerce
 url: https://sonata-project.org/bundles/ecommerce/develop/doc/index.html
 dependencies:
-    - https://github.com/sonata-project/ecommerce/blob/master/composer.json
+    - github@sonata-project/ecommerce
 description: |
     Sonata e-commerce is a group of Symfony bundles & PHP components
     allowing you to add e-commerce capabilities to your Symfony

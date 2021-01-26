@@ -1,9 +1,9 @@
 name: Yii
 url: https://www.yiiframework.com/
 dependencies:
-    - https://github.com/yiisoft/yii2-queue/blob/master/composer.json
-    - https://github.com/yiisoft/yii2-shell/blob/master/composer.json
-    - https://github.com/yiisoft/yii-dev-tool/blob/master/composer.json
+    - github@yiisoft/yii2-queue
+    - github@yiisoft/yii2-shell
+    - github@yiisoft/yii-dev-tool
 description: |
     Yii is a high-performance PHP framework best for developing Web 2.0
     applications. Yii comes with rich features: MVC, DAO/ActiveRecord, I18N/L10N,
