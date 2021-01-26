@@ -1,5 +1,5 @@
 name: init CMS
-url: http://initcms.com/
+url: https://initcms.com/
 dependencies:
     - https://github.com/networking/init-cms-bundle/blob/master/composer.json
 description: |

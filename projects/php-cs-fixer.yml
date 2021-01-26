@@ -1,5 +1,5 @@
 name: PHP Coding Standards Fixer
-url: http://cs.sensiolabs.org
+url: https://cs.sensiolabs.org
 dependencies:
     - https://github.com/FriendsOfPHP/PHP-CS-Fixer/blob/master/composer.json
 description: |

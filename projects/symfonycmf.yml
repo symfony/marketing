@@ -1,5 +1,5 @@
 name: Symfony CMF
-url: http://cmf.symfony.com
+url: https://symfony.com/doc/current/cmf/index.html
 dependencies:
     - https://github.com/symfony-cmf/core-bundle/blob/master/composer.json
     - https://github.com/symfony-cmf/routing/blob/master/composer.json

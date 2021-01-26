@@ -1,5 +1,5 @@
 name: Goutte
-url: http://github.com/fabpot/Goutte
+url: https://github.com/fabpot/Goutte
 dependencies:
     - https://github.com/FriendsOfPHP/Goutte/blob/master/composer.json
 description: |

@@ -1,5 +1,5 @@
 name: Sismo
-url: http://sismo.sensiolabs.org
+url: https://sismo.symfony.com
 dependencies:
     - https://github.com/FriendsOfPHP/Sismo/blob/master/composer.json
 description: |

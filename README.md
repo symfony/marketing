@@ -5,7 +5,7 @@ This repository stores the information about the [Symfony Components][1] and
 the [Symfony Projects][2] displayed on symfony.com.
 
 The contents of this repository and all the contributed contents are licensed
-under a [Creative Commons Attribution-Share Alike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/).
+under a [Creative Commons Attribution-Share Alike 3.0 Unported License](https://creativecommons.org/licenses/by-sa/3.0/).
 
 How to Add a Project to the List of Projects Made with Symfony
 --------------------------------------------------------------

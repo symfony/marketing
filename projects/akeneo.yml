@@ -1,5 +1,5 @@
 name: Akeneo PIM
-url: http://akeneo.com
+url: https://akeneo.com
 dependencies:
     - https://github.com/akeneo/pim-community-dev/blob/master/composer.json
     - https://github.com/akeneo/pim-community-standard/blob/master/composer.json

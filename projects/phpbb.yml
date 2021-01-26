@@ -1,5 +1,5 @@
 name: phpBB
-url: http://phpbb.com
+url: https://phpbb.com
 dependencies:
     - https://github.com/phpbb/phpbb/blob/master/phpBB/composer.json
 description: |

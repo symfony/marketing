@@ -1,5 +1,5 @@
 name: Drush
-url: http://www.drush.org/
+url: https://www.drush.org/
 dependencies:
     - https://github.com/drush-ops/drush/blob/master/composer.json
 description: |

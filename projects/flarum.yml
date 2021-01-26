@@ -1,5 +1,5 @@
 name: Flarum
-url: http://flarum.org/
+url: https://flarum.org/
 dependencies:
     - https://github.com/flarum/core/blob/master/composer.json
 description: |

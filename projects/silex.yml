@@ -1,5 +1,5 @@
 name: Silex
-url: http://silex.sensiolabs.org
+url: https://silex.symfony.com
 dependencies:
     - https://github.com/silexphp/Silex/blob/master/composer.json
 description: |

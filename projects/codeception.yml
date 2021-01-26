@@ -1,5 +1,5 @@
 name: Codeception
-url: http://codeception.com/
+url: https://codeception.com/
 dependencies:
     - https://github.com/Codeception/Codeception/blob/4.0/composer.json
 description: |

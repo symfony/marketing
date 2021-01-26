@@ -1,5 +1,5 @@
 name: phpDocumentor
-url: http://phpdoc.org
+url: https://phpdoc.org
 dependencies:
     - https://github.com/phpDocumentor/phpDocumentor/blob/master/composer.json
 description: |

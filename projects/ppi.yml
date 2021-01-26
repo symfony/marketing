@@ -1,9 +1,0 @@
-name: PPI Framework
-url: http://ppi.io
-dependencies:
-    - https://github.com/ppi/framework/blob/master/composer.json
-description: |
-    PPI is an open source php meta-framework. We have taken the good bits
-    from Symfony, ZendFramework2 & Doctrine2 and combined them together
-    to create a solid and very easy web application framework. PPI can be
-    considered the boilerplate of PHP frameworks.

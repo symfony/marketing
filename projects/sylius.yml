@@ -1,5 +1,5 @@
 name: Sylius
-url: http://sylius.com
+url: https://sylius.com
 dependencies:
     - https://github.com/Sylius/Sylius/blob/master/composer.json
 description: |

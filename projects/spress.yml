@@ -1,5 +1,5 @@
 name: Spress
-url: http://spress.yosymfony.com/
+url: https://spress.yosymfony.com/
 dependencies:
     - https://github.com/spress/Spress/blob/master/composer.json
 description: |

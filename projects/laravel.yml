@@ -1,5 +1,5 @@
 name: Laravel
-url: http://laravel.com
+url: https://laravel.com
 dependencies:
     - https://github.com/laravel/framework/blob/master/composer.json
     - https://github.com/laravel/installer/blob/master/composer.json

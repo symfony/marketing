@@ -1,5 +1,5 @@
 name: Shopware
-url: http://shopware.de
+url: https://shopware.de
 dependencies:
     - https://github.com/shopware/shopware/blob/5.2/composer.json
 description: |

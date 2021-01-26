@@ -1,5 +1,5 @@
 name: Thelia
-url: http://thelia.net
+url: https://thelia.net
 dependencies:
     - https://github.com/thelia/thelia/blob/master/composer.json
 description: |

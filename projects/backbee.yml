@@ -1,5 +1,5 @@
 name: BackBee
-url: http://www.backbee.com/
+url: https://www.backbee.com/
 dependencies:
     - https://github.com/backbee/backbee-php/blob/master/composer.json
 description: |
