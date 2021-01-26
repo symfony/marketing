@@ -1,5 +1,5 @@
 name: Bolt
-url: http://bolt.cm
+url: https://boltcms.io/
 dependencies:
     - https://github.com/bolt/bolt/blob/master/composer.json
 description: |

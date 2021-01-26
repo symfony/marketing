@@ -1,5 +1,5 @@
 name: Drupal
-url: http://drupal.org
+url: https://drupal.org
 dependencies:
     - https://github.com/drupal/core/blob/8.4.x/composer.json
 description: |

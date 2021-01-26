@@ -1,5 +1,5 @@
 name: Sulu
-url: http://sulu.io
+url: https://sulu.io
 dependencies:
     - https://github.com/sulu/sulu/blob/2.x/composer.json
 description: |

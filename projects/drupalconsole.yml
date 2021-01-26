@@ -1,5 +1,5 @@
 name: Drupal Console
-url: http://drupalconsole.com/
+url: https://drupalconsole.com/
 dependencies:
     - https://github.com/hechoendrupal/drupal-console-core/blob/master/composer.json
     - https://github.com/hechoendrupal/drupal-console/blob/master/composer.json

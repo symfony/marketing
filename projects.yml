@@ -43,7 +43,6 @@ framework:
     - silex
     - lumen
     - flow
-    - ppi
 pim-crm:
     - orocrm
     - akeneo

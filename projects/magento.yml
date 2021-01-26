@@ -1,5 +1,5 @@
 name: Magento
-url: http://magento.com
+url: https://magento.com
 dependencies:
     - https://github.com/magento/magento2/blob/2.3/composer.json
     - https://github.com/magento/magento-composer-installer/blob/master/composer.json

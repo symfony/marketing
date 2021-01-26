@@ -1,5 +1,5 @@
 name: Yii
-url: http://www.yiiframework.com/
+url: https://www.yiiframework.com/
 dependencies:
     - https://github.com/yiisoft/yii2-queue/blob/master/composer.json
     - https://github.com/yiisoft/yii2-shell/blob/master/composer.json

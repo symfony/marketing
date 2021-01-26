@@ -1,5 +1,5 @@
 name: phpMyFAQ
-url: http://phpmyfaq.de
+url: https://phpmyfaq.de
 dependencies:
     - https://github.com/thorsten/phpMyFAQ/blob/main/composer.json
 description: |

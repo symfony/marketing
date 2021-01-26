@@ -1,5 +1,5 @@
 name: Doctrine
-url: http://doctrine-project.org
+url: https://doctrine-project.org
 dependencies:
     - https://github.com/doctrine/orm/blob/2.9.x/composer.json
     - https://github.com/doctrine/dbal/blob/4.0.x/composer.json

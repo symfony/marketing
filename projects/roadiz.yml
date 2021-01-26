@@ -1,5 +1,5 @@
 name: Roadiz
-url: http://www.roadiz.io
+url: https://www.roadiz.io
 dependencies:
     - https://github.com/roadiz/roadiz/blob/master/composer.json
 description: |

@@ -1,5 +1,5 @@
 name: Composer
-url: http://getcomposer.org
+url: https://getcomposer.org
 dependencies:
     - https://github.com/composer/composer/blob/master/composer.json
 description: |

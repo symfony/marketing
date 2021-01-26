@@ -1,5 +1,5 @@
 name: Behat
-url: http://behat.org
+url: https://behat.org
 dependencies:
     - https://github.com/Behat/Behat/blob/master/composer.json
     - https://github.com/Behat/Gherkin/blob/master/composer.json

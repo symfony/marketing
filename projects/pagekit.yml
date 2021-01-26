@@ -1,5 +1,5 @@
 name: Pagekit
-url: http://pagekit.com
+url: https://pagekit.com/
 dependencies:
     - https://github.com/pagekit/pagekit/blob/develop/composer.json
 description: |

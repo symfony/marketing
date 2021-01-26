@@ -1,5 +1,5 @@
 name: Sonata Project
-url: http://sonata-project.org
+url: https://sonata-project.org
 dependencies:
     - https://github.com/sonata-project/SonataCoreBundle/blob/master/composer.json
     - https://github.com/sonata-project/SonataAdminBundle/blob/master/composer.json

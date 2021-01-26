@@ -1,5 +1,5 @@
 name: Grav
-url: http://getgrav.org
+url: https://getgrav.org
 dependencies:
     - https://github.com/getgrav/grav/blob/develop/composer.json
     - https://github.com/getgrav/grav-plugin-admin/blob/develop/composer.json

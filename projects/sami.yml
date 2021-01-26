@@ -1,5 +1,5 @@
 name: Sami
-url: http://github.com/fabpot/sami
+url: https://github.com/fabpot/sami
 dependencies:
     - https://github.com/FriendsOfPHP/Sami/blob/master/composer.json
 description: |

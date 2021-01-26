@@ -1,5 +1,5 @@
 name: Carew
-url: http://carew.github.io
+url: https://carew.github.io
 dependencies:
     - https://github.com/carew/carew/blob/master/composer.json
 description: |

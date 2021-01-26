@@ -1,5 +1,5 @@
 name: PsySH
-url: http://psysh.org/
+url: https://psysh.org/
 dependencies:
     - https://github.com/bobthecow/psysh/blob/main/composer.json
 description: |

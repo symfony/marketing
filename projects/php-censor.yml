@@ -1,5 +1,5 @@
 name: PHP Censor
-url: http://php-censor.info
+url: https://github.com/php-censor/php-censor
 dependencies:
     - https://github.com/php-censor/php-censor/blob/master/composer.json
 description: |
