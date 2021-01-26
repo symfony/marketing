@@ -1,7 +1,7 @@
 name: Shopware
 url: https://shopware.de
 dependencies:
-    - https://github.com/shopware/shopware/blob/5.2/composer.json
+    - github@shopware/shopware
 description: |
     Shopware is a complete eCommerce solution, combining a full range of
     functionality with a masterfully crafted simplistic design suitable

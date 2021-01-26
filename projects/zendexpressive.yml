@@ -1,9 +1,9 @@
 name: Zend Expressive
 url: https://github.com/zendframework/zend-expressive
 dependencies:
-    - https://github.com/zendframework/zend-expressive/blob/master/composer.json
-    - https://github.com/zendframework/zend-expressive-tooling/blob/master/composer.json
-    - https://github.com/zendframework/zend-expressive-migration/blob/master/composer.json
+    - github@zendframework/zend-expressive
+    - github@zendframework/zend-expressive-tooling
+    - github@zendframework/zend-expressive-migration
 description: |
     Zend Expressive builds on zend-stratigility to provide a minimalist PSR-7
     middleware framework for PHP. With Expressive, you can build middleware

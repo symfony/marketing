@@ -1,7 +1,7 @@
 name: Sylius
 url: https://sylius.com
 dependencies:
-    - https://github.com/Sylius/Sylius/blob/master/composer.json
+    - github@Sylius/Sylius
 description: |
     Sylius is an Open Source eCommerce Framework based on Symfony full stack.
     The technology is constructed from fully decoupled components (bundles in Symfony glossary), 

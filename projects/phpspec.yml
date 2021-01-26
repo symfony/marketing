@@ -1,7 +1,7 @@
 name: phpspec
 url: http://www.phpspec.net/
 dependencies:
-    - https://github.com/phpspec/phpspec/blob/main/composer.json
+    - github@phpspec/phpspec
 description: |
     phpspec is a tool which can help you write clean and working PHP code
     using behaviour driven development or BDD. It's also a PHP toolset to

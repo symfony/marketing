@@ -1,7 +1,7 @@
 name: PrestaShop
 url: https://www.prestashop.com/
 dependencies:
-    - https://github.com/PrestaShop/PrestaShop/blob/develop/composer.json
+    - github@PrestaShop/PrestaShop
 description: |
     PrestaShop is an Open Source e-commerce solution used by more than
     250,000 online stores. PrestaShop is simple, efficient and intuitive,

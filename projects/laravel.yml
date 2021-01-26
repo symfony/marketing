@@ -1,14 +1,14 @@
 name: Laravel
 url: https://laravel.com
 dependencies:
-    - https://github.com/laravel/framework/blob/master/composer.json
-    - https://github.com/laravel/installer/blob/master/composer.json
-    - https://github.com/laravel/cashier/blob/master/composer.json
-    - https://github.com/laravel/valet/blob/master/composer.json
-    - https://github.com/laravel/tinker/blob/master/composer.json
-    - https://github.com/laravel/passport/blob/master/composer.json
-    - https://github.com/laravel/dusk/blob/master/composer.json
-    - https://github.com/laravel/envoy/blob/master/composer.json
+    - github@laravel/framework
+    - github@laravel/installer
+    - github@laravel/cashier
+    - github@laravel/valet
+    - github@laravel/tinker
+    - github@laravel/passport
+    - github@laravel/dusk
+    - github@laravel/envoy
 description: |
     Laravel is a web application framework with expressive, elegant
     syntax. We believe development must be an enjoyable, creative

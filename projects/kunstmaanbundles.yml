@@ -1,7 +1,7 @@
 name: Kunstmaan Bundles CMS
 url: https://bundles.kunstmaan.be
 dependencies:
-    - https://github.com/Kunstmaan/KunstmaanBundlesCMS/blob/master/composer.json
+    - github@Kunstmaan/KunstmaanBundlesCMS
 description: |
     The Kunstmaan Bundles CMS is an advanced yet user-friendly content
     management system, based on the full stack Symfony framework combined

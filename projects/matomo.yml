@@ -1,7 +1,7 @@
 name: Matomo
 url: https://matomo.org/
 dependencies:
-    - https://github.com/matomo-org/matomo/blob/3.x-dev/composer.json
+    - github@matomo-org/matomo
 description: |
     Matomo is the leading open source web analytics platform that gives you
     valuable insights on your website's visitors, your marketing campaigns

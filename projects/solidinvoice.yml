@@ -1,7 +1,7 @@
 name: SolidInvoice
 url: https://solidinvoice.co
 dependencies:
-    - https://github.com/SolidInvoice/SolidInvoice/blob/master/composer.json
+    - github@SolidInvoice/SolidInvoice
 description: |
     SolidInvoice is an open-source invoicing application designed for ease of use and to
     simplify accounting for freelancers or big companies. The main features

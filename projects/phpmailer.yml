@@ -1,7 +1,7 @@
 name: PHPMailer
 url: https://github.com/PHPMailer/PHPMailer
 dependencies:
-    - https://github.com/PHPMailer/PHPMailer/blob/master/composer.json
+    - github@PHPMailer/PHPMailer
 description: |
     PHPMailer is a full-featured email creation and transfer class for PHP. Used
     by many popular open-source projects, it can send emails without a local

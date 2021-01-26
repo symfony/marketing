@@ -1,8 +1,8 @@
 name: Sonata Project
 url: https://sonata-project.org
 dependencies:
-    - https://github.com/sonata-project/SonataCoreBundle/blob/master/composer.json
-    - https://github.com/sonata-project/SonataAdminBundle/blob/master/composer.json
+    - github@sonata-project/SonataCoreBundle
+    - github@sonata-project/SonataAdminBundle
 description: |
     The goal of the Sonata Project is to provide a set of high-level
     features built on top of the Symfony framework, with a strong focus on

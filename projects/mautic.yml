@@ -1,7 +1,7 @@
 name: Mautic
 url: https://www.mautic.org
 dependencies:
-    - https://github.com/mautic/mautic/blob/features/composer.json
+    - github@mautic/mautic
 description: |
     Mautic revolutionizes marketing automation. Mautic is an open source
     software tool available to every business regardless of their size

@@ -1,7 +1,7 @@
 name: init CMS
 url: https://initcms.com/
 dependencies:
-    - https://github.com/networking/init-cms-bundle/blob/master/composer.json
+    - github@networking/init-cms-bundle
 description: |
     The InitCmsBundle is a small flexible cms core based on Symfony
     which can be used as a standalone CMS or integrated into any existing

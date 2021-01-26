@@ -1,7 +1,7 @@
 name: Deptrac
 url: https://github.com/sensiolabs-de/deptrac
 dependencies:
-    - https://github.com/sensiolabs-de/deptrac/blob/master/composer.json
+    - github@sensiolabs-de/deptrac
 description: |
     Deptrac is a static code analysis tool that helps to enforce rules for
     dependencies between software layers. For example, you can define a rule like

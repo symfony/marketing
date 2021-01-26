@@ -1,8 +1,8 @@
 name: Drupal Console
 url: https://drupalconsole.com/
 dependencies:
-    - https://github.com/hechoendrupal/drupal-console-core/blob/master/composer.json
-    - https://github.com/hechoendrupal/drupal-console/blob/master/composer.json
+    - github@hechoendrupal/drupal-console-core
+    - github@hechoendrupal/drupal-console
 description: |
     The Drupal Console is a suite of tools that provide a command line
     interface (CLI) to generate boilerplate code and interact with a

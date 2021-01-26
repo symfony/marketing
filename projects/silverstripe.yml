@@ -1,7 +1,7 @@
 name: SilverStripe
 url: https://www.silverstripe.org
 dependencies:
-    - https://github.com/silverstripe/silverstripe-framework/blob/master/composer.json
+    - github@silverstripe/silverstripe-framework
 description: |
     SilverStripe is the intuitive content management system and flexible
     framework loved by editors and developers alike. Equip your web teams to

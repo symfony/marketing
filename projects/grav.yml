@@ -1,8 +1,8 @@
 name: Grav
 url: https://getgrav.org
 dependencies:
-    - https://github.com/getgrav/grav/blob/develop/composer.json
-    - https://github.com/getgrav/grav-plugin-admin/blob/develop/composer.json
+    - github@getgrav/grav
+    - github@getgrav/grav-plugin-admin
 description: |
     Grav is a Modern, Fast, Simple and Flexible flat-file CMS. While Grav is
     intentionally minimal, the extensive plugin architecture allows it to be

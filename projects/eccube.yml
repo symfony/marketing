@@ -1,7 +1,7 @@
 name: EC-CUBE
 url: https://www.ec-cube.net/
 dependencies:
-    - https://github.com/EC-CUBE/ec-cube/blob/4.0/composer.json
+    - github@EC-CUBE/ec-cube
 description: |
     EC-CUBE is an open source package used to build e-commerce sites.  It is the
     most popular shopping cart system in Japan. Since the release of the

@@ -1,7 +1,7 @@
 name: Drush
 url: https://www.drush.org/
 dependencies:
-    - https://github.com/drush-ops/drush/blob/master/composer.json
+    - github@drush-ops/drush
 description: |
     Drush is a command line shell and scripting interface for Drupal, a veritable
     Swiss Army knife designed to make life easier for those of us who spend some

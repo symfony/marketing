@@ -1,11 +1,11 @@
 name: Doctrine
 url: https://doctrine-project.org
 dependencies:
-    - https://github.com/doctrine/orm/blob/2.9.x/composer.json
-    - https://github.com/doctrine/dbal/blob/4.0.x/composer.json
-    - https://github.com/doctrine/common/blob/3.0.x/composer.json
-    - https://github.com/doctrine/migrations/blob/3.0.x/composer.json
-    - https://github.com/doctrine/mongodb-odm/blob/master/composer.json
+    - github@doctrine/orm
+    - github@doctrine/dbal
+    - github@doctrine/common
+    - github@doctrine/migrations
+    - github@doctrine/mongodb-odm
 description: |
     Object relational mapper (ORM) for PHP that sits on top of a powerful
     database abstraction layer (DBAL). One of its key features is the

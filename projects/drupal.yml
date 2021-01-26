@@ -1,7 +1,7 @@
 name: Drupal
 url: https://drupal.org
 dependencies:
-    - https://github.com/drupal/core/blob/8.4.x/composer.json
+    - github@drupal/core
 description: |
     Drupal is an open source content management platform powering millions
     of websites and applications. It's built, used, and supported by an

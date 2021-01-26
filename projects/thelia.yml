@@ -1,7 +1,7 @@
 name: Thelia
 url: https://thelia.net
 dependencies:
-    - https://github.com/thelia/thelia/blob/master/composer.json
+    - github@thelia/thelia
 description: |
     Thelia is a tool for creating e-commerce websites and for online
     content management, published under General Public License. Thelia

@@ -1,7 +1,7 @@
 name: Facebook Instant Articles SDK
 url: https://instantarticles.fb.com/
 dependencies:
-    - https://github.com/facebook/facebook-instant-articles-sdk-php/blob/master/composer.json
+    - github@facebook/facebook-instant-articles-sdk-php
 description: |
     The Facebook Instant Articles SDK provides a native interface for creating
     and publishing Instant Articles. The SDK enables developers to more easily

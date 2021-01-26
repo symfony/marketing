@@ -1,8 +1,8 @@
 name: Akeneo PIM
 url: https://akeneo.com
 dependencies:
-    - https://github.com/akeneo/pim-community-dev/blob/master/composer.json
-    - https://github.com/akeneo/pim-community-standard/blob/master/composer.json
+    - github@akeneo/pim-community-dev
+    - github@akeneo/pim-community-standard
 description: |
     Akeneo is an open source Product Information Management (PIM) system
     designed for retailers looking for efficient answers to their

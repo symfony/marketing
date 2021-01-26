@@ -1,10 +1,10 @@
 name: Behat
 url: https://behat.org
 dependencies:
-    - https://github.com/Behat/Behat/blob/master/composer.json
-    - https://github.com/Behat/Gherkin/blob/master/composer.json
-    - https://github.com/Behat/WebApiExtension/blob/master/composer.json
-    - https://github.com/Behat/MinkExtension/blob/master/composer.json
+    - github@Behat/Behat
+    - github@Behat/Gherkin
+    - github@Behat/WebApiExtension
+    - github@Behat/MinkExtension
 description: |
     Behat is an open source behavior-driven development framework for PHP
     5.3 and 5.4. What is behavior-driven development, you ask? It's the

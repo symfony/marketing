@@ -1,8 +1,8 @@
 name: Contao
 url: https://contao.org
 dependencies:
-    - https://github.com/contao/standard-edition/blob/master/composer.json
-    - https://github.com/contao/core-bundle/blob/4.x/composer.json
+    - github@contao/standard-edition
+    - github@contao/core-bundle
 description: |
     Contao is an accessible open source content management system,
     first published in 2006. Starting with version 4 (released in spring 2015),

@@ -1,8 +1,8 @@
 name: eZ Platform
 url: https://ezplatform.com/
 dependencies:
-    - https://github.com/ezsystems/ezplatform/blob/master/composer.json
-    - https://github.com/ezsystems/ezplatform-ee/blob/master/composer.json
+    - github@ezsystems/ezplatform
+    - github@ezsystems/ezplatform-ee
 description: |
     eZ Platform, a pure full stack Symfony CMS as of version 2, is the foundation
     for eZ Platform Enterprise. It is a Content Management System built for

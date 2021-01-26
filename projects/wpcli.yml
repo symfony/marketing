@@ -1,7 +1,7 @@
 name: WP-CLI
 url: https://wp-cli.org/
 dependencies:
-    - https://github.com/wp-cli/wp-cli/blob/master/composer.json
+    - github@wp-cli/wp-cli
 description: |
     WP-CLI is a set of command-line tools for managing WordPress installations.
     You can update plugins, configure multisite installs and much more, without
