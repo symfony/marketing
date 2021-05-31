@@ -248,6 +248,13 @@ OptionsResolver:
     description: |
         Helps you configuring objects with option arrays.
 
+PasswordHasher:
+    slug: password-hasher
+    docPage: security
+    deprecated: false
+    description: |
+        Provides secure password hashing utilities.
+
 Process:
     slug: process
     docPage: components/process
