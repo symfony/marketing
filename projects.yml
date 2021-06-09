@@ -13,7 +13,6 @@ cms:
     - forkcms
     - kunstmaanbundles
     - zikula
-    - backbee
     - concrete5
     - roadiz
     - contao
