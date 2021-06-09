@@ -293,6 +293,15 @@ Routing:
     description: |
         Maps an HTTP request to a set of configuration variables.
 
+Runtime:
+    slug: runtime
+    docPage: components/runtime
+    deprecated: false
+    description: |
+        Decouples the bootstrapping logic from any global state to make sure the
+        application can run with runtimes like PHP-FPM, ReactPHP, Swoole, etc.
+        without any changes.
+
 Security:
     slug: security
     docPage: components/security
