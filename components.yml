@@ -343,7 +343,7 @@ String:
 
 Templating:
     slug: templating
-    docPage: templates
+    docPage: null
     deprecated: false
     description: |
         Provides all the tools needed to build any kind of template system.
