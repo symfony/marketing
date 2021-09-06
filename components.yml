@@ -31,7 +31,8 @@ ClassLoader:
     deprecated: true
     description: |
         Loads your project classes automatically if they follow some standard
-        PHP conventions.
+        PHP conventions. This component is deprecated since Symfony 3.3, use
+        Composer class loading instead.
 
 Config:
     slug: config
@@ -66,7 +67,8 @@ Debug:
     docPage: null
     deprecated: true
     description: |
-        Provides tools to ease debugging PHP code.
+        Provides tools to ease debugging PHP code. This component
+        is deprecated since Symfony 4.4, use the ErrorHandler component instead.
 
 DependencyInjection:
     slug: dependency-injection
@@ -171,14 +173,15 @@ Icu:
     deprecated: true
     description: |
         Contains the data of the ICU library in a specific version. This component
-        is deprecated since October 2014, use the Intl component instead.
+        is deprecated since Symfony 2.6, use the Intl component instead.
 
 Inflector:
     slug: inflector
     docPage: components/inflector
     deprecated: true
     description: |
-        Converts English words between their singular and plural forms.
+        Converts English words between their singular and plural forms. This component
+        is deprecated since Symfony 5.1, use the String component instead.
 
 Intl:
     slug: intl
@@ -200,7 +203,7 @@ Locale:
     deprecated: true
     description: |
         Provides fallback code to handle cases when the intl extension is missing.
-        This component is deprecated since 2.3, use the Intl component instead.
+        This component is deprecated since Symfony 2.3, use the Intl component instead.
 
 Lock:
     slug: lock
@@ -563,4 +566,5 @@ Yaml:
     deprecated: true
     description: |
         Provides a fallback implementation for the following functions in the
-        abscense of the XML extension.
+        abscense of the XML extension. This component is deprecated, use the
+        Polyfill PHP 7.2 component instead.
