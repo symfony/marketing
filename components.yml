@@ -444,49 +444,80 @@ Yaml:
     docPage: null
     deprecated: false
     description: |
-        Provides functions unavailable in releases prior to PHP 5.4.
+        Implements certain PHP 5.4 features in pure PHP code so you can use them
+        when using an earlier PHP version in your project.
 
 'Polyfill PHP 5.5':
     slug: polyfill-php55
     docPage: null
     deprecated: false
     description: |
-        Provides functions unavailable in releases prior to PHP 5.5.
+        Implements certain PHP 5.5 features in pure PHP code so you can use them
+        when using an earlier PHP version in your project.
 
 'Polyfill PHP 5.6':
     slug: polyfill-php56
     docPage: null
     deprecated: false
     description: |
-        Provides functions unavailable in releases prior to PHP 5.6.
+        Implements certain PHP 5.6 features in pure PHP code so you can use them
+        when using an earlier PHP version in your project.
 
 'Polyfill PHP 7.0':
     slug: polyfill-php70
     docPage: null
     deprecated: false
     description: |
-        Provides functions unavailable in releases prior to PHP 7.0.
+        Implements certain PHP 7.0 features in pure PHP code so you can use them
+        when using an earlier PHP version in your project.
 
 'Polyfill PHP 7.1':
     slug: polyfill-php71
     docPage: null
     deprecated: false
     description: |
-        Provides functions unavailable in releases prior to PHP 7.1.
+        Implements certain PHP 7.1 features in pure PHP code so you can use them
+        when using an earlier PHP version in your project.
 
 'Polyfill PHP 7.2':
     slug: polyfill-php72
     docPage: null
     deprecated: false
     description: |
-        Provides functions unavailable in releases prior to PHP 7.2.
+        Implements certain PHP 7.2 features in pure PHP code so you can use them
+        when using an earlier PHP version in your project.
 
 'Polyfill PHP 7.3':
     slug: polyfill-php73
     docPage: null
     deprecated: false
     description: |
-        Provides functions unavailable in releases prior to PHP 7.3.
+        Implements certain PHP 7.3 features in pure PHP code so you can use them
+        when using an earlier PHP version in your project.
+
+'Polyfill PHP 7.4':
+    slug: polyfill-php74
+    docPage: null
+    deprecated: false
+    description: |
+        Implements certain PHP 7.4 features in pure PHP code so you can use them
+        when using an earlier PHP version in your project.
+
+'Polyfill PHP 8.0':
+    slug: polyfill-php80
+    docPage: null
+    deprecated: false
+    description: |
+        Implements certain PHP 8.0 features in pure PHP code so you can use them
+        when using an earlier PHP version in your project.
+
+'Polyfill PHP 8.1':
+    slug: polyfill-php81
+    docPage: null
+    deprecated: false
+    description: |
+        Implements certain PHP 8.1 features in pure PHP code so you can use them
+        when using an earlier PHP version in your project.
 
 'Polyfill Iconv':
     slug: polyfill-iconv
