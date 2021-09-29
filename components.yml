@@ -88,7 +88,7 @@ Dotenv:
 
 DomCrawler:
     slug: dom-crawler
-    docPage: performance#profiling-symfony-applications
+    docPage: components/dom_crawler
     deprecated: false
     description: |
         Eases DOM navigation for HTML and XML documents.
@@ -330,7 +330,7 @@ Serializer:
 
 Stopwatch:
     slug: stopwatch
-    docPage: components/stopwatch
+    docPage: performance#profiling-symfony-applications
     deprecated: false
     description: |
         Provides a way to profile code.
