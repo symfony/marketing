@@ -88,7 +88,7 @@ Dotenv:
 
 DomCrawler:
     slug: dom-crawler
-    docPage: components/dom_crawler
+    docPage: performance#profiling-symfony-applications
     deprecated: false
     description: |
         Eases DOM navigation for HTML and XML documents.
