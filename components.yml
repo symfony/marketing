@@ -330,7 +330,7 @@ Serializer:
 
 Stopwatch:
     slug: stopwatch
-    docPage: components/stopwatch
+    docPage: performance#profiling-symfony-applications
     deprecated: false
     description: |
         Provides a way to profile code.
