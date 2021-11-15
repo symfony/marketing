@@ -1,6 +1,7 @@
 # NOTE:
 # 'slug' must match the name of the component package on Packagist.org without the 'symfony/' vendor
 # 'docUrl' is the main component doc page relative to 'https://symfony.com/doc/{version}/components/'
+# This file includes the regular components first, then polyfills and then SaaS bridges
 
 Asset:
     slug: asset
@@ -258,6 +259,14 @@ PasswordHasher:
     description: |
         Provides secure password hashing utilities.
 
+'PHPUnit Bridge':
+    slug: phpunit-bridge
+    docPage: components/phpunit_bridge
+    deprecated: false
+    description: |
+        Provides utilities to report legacy tests and usage of deprecated code
+        and a helper for time-sensitive tests.
+
 Process:
     slug: process
     docPage: components/process
@@ -419,14 +428,8 @@ Yaml:
     description: |
         Loads and dumps YAML files.
 
-'PHPUnit Bridge':
-    slug: phpunit-bridge
-    docPage: components/phpunit_bridge
-    deprecated: false
-    description: |
-        Provides utilities to report legacy tests and usage of deprecated code
-        and a helper for time-sensitive tests.
-
+# Polyfills
+# -----------------------------------------------------------------------------
 'Polyfill APCu':
     slug: polyfill-apcu
     docPage: null
@@ -599,3 +602,369 @@ Yaml:
         Provides a fallback implementation for the following functions in the
         abscense of the XML extension. This component is deprecated, use the
         Polyfill PHP 7.2 component instead.
+
+# SaaS Bridges
+# -----------------------------------------------------------------------------
+'Amazon SES Bridge':
+    slug: amazon-mailer
+    docPage: mailer
+    deprecated: false
+    description: |
+        Provides Amazon SES integration for Symfony Mailer.
+
+'Google Gmail Bridge':
+    slug: google-mailer
+    docPage: mailer
+    deprecated: false
+    description: |
+        Provides Google Gmail integration for Symfony Mailer.
+
+'Mailchimp Bridge':
+    slug: mailchimp-mailer
+    docPage: mailer
+    deprecated: false
+    description: |
+        Provides Mandrill integration for Symfony Mailer.
+
+'Mailgun Bridge':
+    slug: mailgun-mailer
+    docPage: mailer
+    deprecated: false
+    description: |
+        Provides Mailgun integration for Symfony Mailer.
+
+'Mailjet Bridge':
+    slug: mailjet-mailer
+    docPage: mailer
+    deprecated: false
+    description: |
+        Provides Mailjet integration for Symfony Mailer.
+
+'OhMySMTP Bridge':
+    slug: oh-my-smtp-mailer
+    docPage: mailer
+    deprecated: false
+    description: |
+        Provides OhMySMTP integration for Symfony Mailer.
+
+'Postmark Bridge':
+    slug: postmark-mailer
+    docPage: mailer
+    deprecated: false
+    description: |
+        Provides Postmark integration for Symfony Mailer.
+
+'Sendgrid Bridge':
+    slug: sendgrid-mailer
+    docPage: mailer
+    deprecated: false
+    description: |
+        Provides Sendgrid integration for Symfony Mailer.
+
+'Sendinblue Bridge':
+    slug: sendinblue-mailer
+    docPage: mailer
+    deprecated: false
+    description: |
+        Provides Sendinblue integration for Symfony Mailer.
+
+'Crowdin Translation Provider':
+    slug: crowdin-translation-provider
+    docPage: translation
+    deprecated: false
+    description: |
+        Provides Crowdin integration for Symfony Translation.
+
+'Loco Translation Provider':
+    slug: loco-translation-provider
+    docPage: translation
+    deprecated: false
+    description: |
+        Provides Loco integration for Symfony Translation.
+
+'Lokalise Translation Provider':
+    slug: lokalise-translation-provider
+    docPage: translation
+    deprecated: false
+    description: |
+        Provides Lokalise integration for Symfony Translation.
+
+'AllMySms Notifier':
+    slug: all-my-sms-notifier
+    docPage: notifier
+    deprecated: false
+    description: |
+        Provides AllMySms integration for Symfony Notifier.
+
+'Amazon Notifier':
+    slug: amazon-sns-notifier
+    docPage: notifier
+    deprecated: false
+    description: |
+        Provides Amazon SNS integration for Symfony Notifier.
+
+'Clickatell Notifier':
+    slug: clickatell-notifier
+    docPage: notifier
+    deprecated: false
+    description: |
+        Provides Clickatell integration for Symfony Notifier.
+
+'Discord Notifier':
+    slug: discord-notifier
+    docPage: notifier
+    deprecated: false
+    description: |
+        Provides Discord integration for Symfony Notifier.
+
+'Esendex Notifier':
+    slug: esendex-notifier
+    docPage: notifier
+    deprecated: false
+    description: |
+        Provides Esendex integration for Symfony Notifier.
+
+'Fake Chat Notifier':
+    slug: fake-chat-notifier
+    docPage: notifier
+    deprecated: false
+    description: |
+        Provides Fake Chat integration for Symfony Notifier.
+
+'Fake SMS Notifier':
+    slug: fake-sms-notifier
+    docPage: notifier
+    deprecated: false
+    description: |
+        Provides Fake SMS integration for Symfony Notifier.
+
+'Firebase Notifier':
+    slug: firebase-notifier
+    docPage: notifier
+    deprecated: false
+    description: |
+        Provides Firebase integration for Symfony Notifier.
+
+'Free Mobile Notifier':
+    slug: free-mobile-notifier
+    docPage: notifier
+    deprecated: false
+    description: |
+        Provides Free Mobile integration for Symfony Notifier.
+
+'GatewayApi Notifier':
+    slug: gateway-api-notifier
+    docPage: notifier
+    deprecated: false
+    description: |
+        Provides GatewayApi integration for Symfony Notifier.
+
+'Gitter Notifier':
+    slug: gitter-notifier
+    docPage: notifier
+    deprecated: false
+    description: |
+        Provides Gitter integration for Symfony Notifier.
+
+'Google Chat Notifier':
+    slug: google-chat-notifier
+    docPage: notifier
+    deprecated: false
+    description: |
+        Provides Google Chat integration for Symfony Notifier.
+
+'Infobip Notifier':
+    slug: infobip-notifier
+    docPage: notifier
+    deprecated: false
+    description: |
+        Provides Infobip integration for Symfony Notifier.
+
+'Iqsms Notifier':
+    slug: iqsms-notifier
+    docPage: notifier
+    deprecated: false
+    description: |
+        Provides Iqsms integration for Symfony Notifier.
+
+'LightSms Notifier':
+    slug: light-sms-notifier
+    docPage: notifier
+    deprecated: false
+    description: |
+        Provides LightSms integration for Symfony Notifier.
+
+'LinkedIn Notifier':
+    slug: linked-in-notifier
+    docPage: notifier
+    deprecated: false
+    description: |
+        Provides LinkedIn integration for Symfony Notifier.
+
+'Mailjet Notifier':
+    slug: mailjet-notifier
+    docPage: notifier
+    deprecated: false
+    description: |
+        Provides Mailjet SMS integration for Symfony Notifier.
+
+'Mattermost Notifier':
+    slug: mattermost-notifier
+    docPage: notifier
+    deprecated: false
+    description: |
+        Provides Mattermost integration for Symfony Notifier.
+
+'Mercure Notifier':
+    slug: mercure-notifier
+    docPage: notifier
+    deprecated: false
+    description: |
+        Provides Mercure integration for Symfony Notifier.
+
+'MessageBird Notifier':
+    slug: message-bird-notifier
+    docPage: notifier
+    deprecated: false
+    description: |
+        Provides MessageBird integration for Symfony Notifier.
+
+'MessageMedia Notifier':
+    slug: message-media-notifier
+    docPage: notifier
+    deprecated: false
+    description: |
+        Provides MessageMedia integration for Symfony Notifier.
+
+'Microsoft Teams Notifier':
+    slug: microsoft-teams-notifier
+    docPage: notifier
+    deprecated: false
+    description: |
+        Provides Microsoft Teams integration for Symfony Notifier.
+
+'Mobyt Notifier':
+    slug: mobyt-notifier
+    docPage: notifier
+    deprecated: false
+    description: |
+        Provides Mobyt integration for Symfony Notifier.
+
+'Nexmo Notifier':
+    slug: nexmo-notifier
+    docPage: notifier
+    deprecated: false
+    description: |
+        Provides Nexmo integration for Symfony Notifier.
+
+'Octopush Notifier':
+    slug: octopush-notifier
+    docPage: notifier
+    deprecated: false
+    description: |
+        Provides Octopush integration for Symfony Notifier.
+
+'OvhCloud Notifier':
+    slug: ovh-cloud-notifier
+    docPage: notifier
+    deprecated: false
+    description: |
+        Provides OvhCloud integration for Symfony Notifier.
+
+'RocketChat Notifier':
+    slug: rocket-chat-notifier
+    docPage: notifier
+    deprecated: false
+    description: |
+        Provides RocketChat integration for Symfony Notifier.
+
+'Sendinblue Notifier':
+    slug: sendinblue-notifier
+    docPage: notifier
+    deprecated: false
+    description: |
+        Provides Sendinblue integration for Symfony Notifier.
+
+'Sinch Notifier':
+    slug: sinch-notifier
+    docPage: notifier
+    deprecated: false
+    description: |
+        Provides Sinch integration for Symfony Notifier.
+
+'Slack Notifier':
+    slug: slack-notifier
+    docPage: notifier
+    deprecated: false
+    description: |
+        Provides Slack integration for Symfony Notifier.
+
+'SMSAPI Notifier':
+    slug: smsapi-notifier
+    docPage: notifier
+    deprecated: false
+    description: |
+        Provides Smsapi integration for Symfony Notifier.
+
+'SmsBiuras Notifier':
+    slug: sms-biuras-notifier
+    docPage: notifier
+    deprecated: false
+    description: |
+        Provides SmsBiuras integration for Symfony Notifier.
+
+'SMSC Notifier':
+    slug: smsc-notifier
+    docPage: notifier
+    deprecated: false
+    description: |
+        Provides SMSC integration for Symfony Notifier.
+
+'Spot-Hit Notifier':
+    slug: spot-hit-notifier
+    docPage: notifier
+    deprecated: false
+    description: |
+        Provides Spot-Hit integration for Symfony Notifier.
+
+'Telegram Notifier':
+    slug: telegram-notifier
+    docPage: notifier
+    deprecated: false
+    description: |
+        Provides Telegram integration for Symfony Notifier.
+
+'Telnyx Notifier':
+    slug: telnyx-notifier
+    docPage: notifier
+    deprecated: false
+    description: |
+        Provides Telnyx integration for Symfony Notifier.
+
+'TurboSms Notifier':
+    slug: turbo-sms-notifier
+    docPage: notifier
+    deprecated: false
+    description: |
+        Provides TurboSms integration for Symfony Notifier.
+
+'Twilio Notifier':
+    slug: twilio-notifier
+    docPage: notifier
+    deprecated: false
+    description: |
+        Provides Twilio integration for Symfony Notifier.
+
+'Yunpian Notifier':
+    slug: yunpian-notifier
+    docPage: notifier
+    deprecated: false
+    description: |
+        Provides Yunpian integration for Symfony Notifier.
+
+'Zulip Notifier':
+    slug: zulip-notifier
+    docPage: notifier
+    deprecated: false
+    description: |
+        Provides Zulip integration for Symfony Notifier.
