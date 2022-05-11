@@ -1,6 +1,0 @@
-name: Open Loyalty
-url: https://www.openloyalty.io/
-dependencies:
-  - github@DivanteLtd/open-loyalty/backend
-description: |
-  Open Loyalty is loyalty technology for developing dedicated loyalty applications, prepared for large-scale projects, proven by partners.
