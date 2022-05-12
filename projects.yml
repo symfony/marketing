@@ -3,11 +3,10 @@
 cms:
     - drupal
     - joomla
-    - ezplatform
-    - grav
-    - symfonycmf
-    - typo3
     - sulu
+    - grav
+    - ibexadxp
+    - typo3
     - bolt
     - pagekit
     - forkcms
@@ -18,6 +17,7 @@ cms:
     - contao
     - initcms
     - pico
+    - symfonycmf
 e-commerce:
     - magento
     - prestashop
