@@ -17,7 +17,6 @@ cms:
     - contao
     - initcms
     - pico
-    - symfonycmf
 e-commerce:
     - magento
     - prestashop
