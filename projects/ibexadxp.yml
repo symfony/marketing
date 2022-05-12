@@ -1,0 +1,11 @@
+name: Ibexa DXP
+url: https://www.ibexa.co/
+dependencies:
+    - github@ibexa/core
+    - github@ibexa/oss
+description: |
+    Ibexa Digital Experience Platform (DXP) helps B2B companies to transform
+    traditional sales strategies into frictionless buying experiences.
+    We provide a single, unified platform to create and optimize your digital
+    channels. Our platforms help you support and enhance existing sales and
+    business models.
