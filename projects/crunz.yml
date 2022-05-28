@@ -1,5 +1,5 @@
 name: Crunz
-url: https://github.com/lavary/crunz
+url: https://github.com/crunzphp/crunz
 dependencies:
-    - github@lavary/crunz
+    - github@crunzphp/crunz
 description: Crunz is a framework-agnostic package to schedule periodic tasks (cron jobs) in PHP using a fluent API.
