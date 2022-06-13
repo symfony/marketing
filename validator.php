@@ -14,6 +14,7 @@ use Composer\Repository\ComposerRepository;
 use Composer\Repository\RepositoryInterface;
 use Symfony\Component\Console\Application;
 use Symfony\Component\Console\Command\Command;
+use Symfony\Component\Console\Input\InputDefinition;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Style\SymfonyStyle;
@@ -38,7 +39,7 @@ final class Validate extends Command
         $io = new SymfonyStyle($input, $output);
 
         // check that the YAML code is valid for all files
-        $yamlFiles = array_merge([__DIR__.'/components.yml', __DIR__.'/projects.yml'], glob(__DIR__.'/projects/*.yml', GLOB_NOSORT));
+        $yamlFiles = array_merge([__DIR__.'/projects.yml'], glob(__DIR__.'/projects/*.yml', GLOB_NOSORT));
         foreach ($yamlFiles as $filePath) {
             try {
                 $this->yamlParser->parseFile($filePath);
@@ -50,7 +51,6 @@ final class Validate extends Command
         }
 
         $projects = $this->yamlParser->parseFile(__DIR__.'/projects.yml');
-        $components = $this->yamlParser->parseFile(__DIR__.'/components.yml');
 
         // check that project detail files use '.yml' extension instead of '.yaml'
         $filesWithYamlExtension = glob(__DIR__.'/projects/*.yaml', GLOB_NOSORT);
@@ -104,46 +104,6 @@ final class Validate extends Command
             }
         }
 
-        // check that components are not repeated
-        $allComponentNames = [];
-        foreach ($components as $componentName => $componentData) {
-            if (\in_array($componentName, $allComponentNames, true)) {
-                $io->error(sprintf('The "%s" component is included more than once in the components.yml file.', $componentName));
-
-                return self::EXIT_ERROR;
-            }
-
-            $allComponentNames[] = $componentName;
-        }
-
-        // check that components define some mandatory properties
-        $mandatoryProperties = ['slug', 'docPage', 'deprecated', 'description'];
-        foreach ($components as $componentName => $componentData) {
-            if (array_keys($componentData) !== $mandatoryProperties) {
-                $io->error(sprintf('The "%s" component must only define the following mandatory properties: "%s".', $componentName, implode(', ', $mandatoryProperties)));
-
-                return self::EXIT_ERROR;
-            }
-        }
-
-        // check that component 'slug' does not include 'symfony/'
-        foreach ($components as $componentName => $componentData) {
-            if ('symfony/' === substr($componentData['slug'], 0, 8)) {
-                $io->error(sprintf('The "slug" value of the "%s" component must not contain the "symfony/" prefix.', $componentName));
-
-                return self::EXIT_ERROR;
-            }
-        }
-
-        // check that component 'docUrl' is not an absolute URL
-        foreach ($components as $componentName => $componentData) {
-            if (0 === strpos($componentData['docUrl'], 'http://') || 0 === strpos($componentData['docUrl'], 'https://')) {
-                $io->error(sprintf('The "docUrl" value of the "%s" component must be a relative URL ("%s" given).', $componentName, $componentData['docUrl']));
-
-                return self::EXIT_ERROR;
-            }
-        }
-
         $io->success('All data is valid.');
 
         return self::EXIT_SUCCESSFUL;
@@ -152,12 +112,12 @@ final class Validate extends Command
 
 final class Validator extends Application
 {
-    protected function getCommandName(InputInterface $input)
+    protected function getCommandName(InputInterface $input): ?string
     {
         return 'validate';
     }
 
-    protected function getDefaultCommands()
+    protected function getDefaultCommands(): array
     {
         $defaultCommands = parent::getDefaultCommands();
         $defaultCommands[] = new Validate();
@@ -165,7 +125,7 @@ final class Validator extends Application
         return $defaultCommands;
     }
 
-    public function getDefinition()
+    public function getDefinition(): InputDefinition
     {
         $inputDefinition = parent::getDefinition();
         $inputDefinition->setArguments();
