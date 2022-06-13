@@ -2,8 +2,8 @@
   "name": "symfony/marketing",
   "description": "Contains information about the components and projects displayed on symfony.com",
   "require-dev": {
-    "symfony/console": "^4.2",
-    "symfony/yaml": "^4.2"
+    "symfony/console": "^6.0",
+    "symfony/yaml": "^6.0"
   },
   "license": "Unlicense",
   "authors": [
