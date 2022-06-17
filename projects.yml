@@ -22,7 +22,6 @@ e-commerce:
     - prestashop
     - sylius
     - shopware
-    - sonataecommerce
     - eccube
     - aimeos
     - thelia
