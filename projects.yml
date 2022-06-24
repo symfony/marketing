@@ -77,7 +77,6 @@ default:
     - goutte
     - matomo
     - mautic
-    - morfeu
     - oroplatform
     - owncloud
     - phpbb
