@@ -34,6 +34,7 @@ framework:
     - symfonyfs
     - yii
     - cakephp
+    - bref
     - zendexpressive
     - lumen
     - flow
