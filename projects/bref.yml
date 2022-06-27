@@ -1,0 +1,9 @@
+name: Bref
+url: https://bref.sh/
+dependencies:
+    - github@brefphp/bref
+description: |
+    Bref is an open source project that brings full support for PHP and its
+    frameworks to AWS Lambda. Getting started with serverless can be overwhelming.
+    Bref integrates with the open-source Serverless Framework for configuration
+    and deployment. We get the best of both world: powerful, yet simple.
