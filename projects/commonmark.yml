@@ -1,0 +1,9 @@
+name: CommonMark
+url: https://commonmark.thephpleague.com/
+dependencies:
+    - github@thephpleague/commonmark
+description: |
+    The PHP CommonMark parser is a robust, highly-extensible Markdown parser for
+    PHP based on the CommonMark and GitHub-Flavored Markdown specifications.
+    Its highly extensible architecture supports custom syntax and other customizations.
+    Many popular frameworks and CMSes provide extensions and integrations.

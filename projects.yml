@@ -70,6 +70,7 @@ default:
     - cachet
     - carew
     - composer
+    - commonmark
     - deployer
     - doctrine
     - drupalconsole
