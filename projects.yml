@@ -10,6 +10,7 @@ cms:
     - bolt
     - pagekit
     - forkcms
+    - craftcms
     - kunstmaanbundles
     - zikula
     - concrete5

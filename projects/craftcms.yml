@@ -1,0 +1,9 @@
+name: Craft CMS
+url: https://craftcms.com/
+dependencies:
+    - github@craftcms/cms
+description: |
+    Craft CMS is a flexible, extensible content management system for building
+    bespoke digital experiences. It features an intuitive, accessible control
+    panel; powerful content modeling that doesn’t make assumptions about how
+    your project should be structured and an auto-generated GraphQL API.
