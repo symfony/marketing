@@ -48,6 +48,7 @@ code-quality:
     - php-cs-fixer
     - phan
     - phpstan
+    - phpinsights
     - behat
     - phpspec
     - codeception

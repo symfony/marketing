@@ -1,0 +1,10 @@
+name: PHP Insights
+url: https://phpinsights.com/
+dependencies:
+    - github@nunomaduro/phpinsights
+description: |
+    PHP Insights was carefully crafted to simplify the analysis of your code
+    directly from your terminal, and is the perfect starting point to analyze
+    the code quality of your PHP projects. It contains built-in checks for
+    making code reliable, loosely coupled, simple, and clean. It works
+    out-of-the-box with Laravel, Symfony, Yii, Magento, and more.
