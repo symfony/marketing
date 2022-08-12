@@ -1,0 +1,8 @@
+name: Zippy
+url: https://github.com/alchemy-fr/Zippy
+dependencies:
+    - github@alchemy-fr/Zippy
+description: |
+    Zippy is a PHP library to read, create, and extract archives in various
+    formats via command line utilities or PHP extensions. Zippy supports file
+    formats such as .zip, .tar, .tar.gz and .tar.bz2.

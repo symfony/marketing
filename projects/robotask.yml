@@ -1,0 +1,8 @@
+name: RoboTask
+url: https://robo.li/
+dependencies:
+    - github@consolidation/robo
+description: |
+    RoboTask is a modern and simple PHP task runner inspired by Gulp and Rake
+    aimed to automate common tasks such as writing cross-platform scripts,
+    executing workers and watching filesystem changes.

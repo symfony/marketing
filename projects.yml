@@ -91,6 +91,7 @@ default:
     - phpredexpert
     - propel
     - ratchet
+    - robotask
     - rocketeer
     - sculpin
     - silverstripe
@@ -104,3 +105,4 @@ default:
     - wikimedia
     - carbon
     - crunz
+    - zippy
