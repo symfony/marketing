@@ -11,7 +11,7 @@ cms:
     - pagekit
     - forkcms
     - craftcms
-    - kunstmaanbundles
+    - kunstmaancms
     - zikula
     - concrete5
     - roadiz
