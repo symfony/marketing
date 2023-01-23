@@ -1,5 +1,5 @@
 name: Shopware
-url: https://shopware.de
+url: https://shopware.com/
 dependencies:
     - github@shopware/shopware
 description: |
