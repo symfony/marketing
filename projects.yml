@@ -32,7 +32,7 @@ e-commerce:
     - uvdesk
 framework:
     - laravel
-    - symfonyfs
+    - symfony
     - yii
     - cakephp
     - bref
