@@ -18,6 +18,7 @@ cms:
     - contao
     - initcms
     - pico
+    - qloapps
 e-commerce:
     - magento
     - prestashop

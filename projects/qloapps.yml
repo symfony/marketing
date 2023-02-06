@@ -1,0 +1,7 @@
+name: QloApps
+url: https://qloapps.com/
+dependencies:
+    - github@webkul/hotelcommerce
+description: |
+    QloApps is a free & open-source software that launches a multilingual and multicurrency hotel reservation and
+    booking Website within a few minutes. QloApps allows you to take and manage both on-desk and online hotel bookings.
