@@ -1,0 +1,10 @@
+name: OpenMarketplace - the first open-source Multi-Vendor Marketplace platform
+url: https://open-marketplace.io/
+dependencies:
+    - github@BitBagCommerce/OpenMarketplace
+description: |
+    OpenMarketplace is the first open-source MVM engine built on top of Sylius and Symfony components. 
+    It provides a set of useful marketplace features such as vendor registration, listings, orders and 
+    conversation management in a headless environment. It is fully compatible with all Sylius plugins and
+    Symfony bundles. The project follows the common Symfony/Sylius coding practices making it highly flexible
+    and easy to start with for any PHP developer.
