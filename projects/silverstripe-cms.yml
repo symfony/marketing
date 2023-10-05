@@ -1,0 +1,7 @@
+name: Silverstripe CMS
+url: https://www.silverstripe.org
+dependencies:
+    - github@silverstripe/silverstripe-framework
+description: |
+    Silverstripe CMS is a customisable and developer friendly content
+    management system for creating and managing dynamic websites.

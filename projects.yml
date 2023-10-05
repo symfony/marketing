@@ -18,6 +18,7 @@ cms:
     - contao
     - initcms
     - pico
+    - silverstripe-cms
 e-commerce:
     - magento
     - prestashop
@@ -95,7 +96,6 @@ default:
     - robotask
     - rocketeer
     - sculpin
-    - silverstripe
     - solidinvoice
     - sonataproject
     - spress
