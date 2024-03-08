@@ -31,7 +31,6 @@ e-commerce:
     - orocommerce
     - shopsysframework
     - uvdesk
-    - openmarketplace
 framework:
     - laravel
     - symfonyfs
