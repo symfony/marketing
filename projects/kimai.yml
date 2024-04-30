@@ -1,0 +1,13 @@
+name: Kimai
+url: https://www.kimai.org
+dependencies:
+    - github@kimai/kimai
+description: |
+    Kimai is an open-source time-tracking application designed for
+    project-driven teams to efficiently monitor working hours and
+    billable time.
+    Trusted by thousands of companies, it facilitates time analysis,
+    budget adherence, and streamlined reporting.
+    Kimai is open source software and distributed under the terms of the
+    GNU Affero General Public License (or "AGPL"), which means anyone is free to
+    download it and share it with others.
