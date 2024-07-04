@@ -1,0 +1,8 @@
+name: Gally
+url: https://meetgally.com
+dependencies:
+    - github@elastic-suite/gally
+description: |
+    Gally is a next generation Searchandising Engine designed to easily create an API-first and User Friendly Search Engine based on Elasticsearch.
+    Gally is MACH ready and perfectly designed to use in a Composable Commerce approach.
+
