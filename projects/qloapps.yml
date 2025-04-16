@@ -1,0 +1,6 @@
+name: QloApps
+url: https://qloapps.com/
+dependencies:
+  - github.com/Qloapps/QloApps
+description: |
+  QloApps is a free and open-source hotel booking and property management system that provides a complete ecosystem—including a Property Website, Booking Engine, and PMS to streamline operations and enhance the guest experience.
