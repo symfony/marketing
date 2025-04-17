@@ -1,0 +1,18 @@
+name: MicroSymfony
+url: https://microsymfony.ovh/
+dependencies:
+    - github@strangebuzz/MicroSymfony
+description: |
+    MicroSymfony is a minimal Symfony application template on steroids, ready to use.
+    It includes the following features:    
+    * Two task runners: Make and Castor
+    * PHP for all configuration files
+    * Static analysis with PHPStan 2
+    * Coding standards with PHP-CS-Fixer
+    * Tests examples: Unit, Integration, Functional, API and E2E
+    * Code coverage at 100% with a configurable threshold (with XDebugà
+    * GitHub CI with lint, test and security jobs.  
+    * Asset mapper and Stimulus 
+    * A custom error template featuring the FrankenPHP elePHPhant
+    * A classless CSS framework
+    It embraces all the Symfony best practices with some sensible defaults.
