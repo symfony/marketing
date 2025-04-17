@@ -31,7 +31,7 @@ e-commerce:
     - orocommerce
     - shopsysframework
     - uvdesk
-    - qloapps
+    - QloApps
 framework:
     - laravel
     - symfonyfs
