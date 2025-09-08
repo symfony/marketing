@@ -61,6 +61,7 @@ code-quality:
     - infection
 sdk:
     - google-api
+    - mcp-sdk
     - facebook-ads
     - google-cloud-platform
     - facebook-instant-articles
