@@ -1,7 +1,7 @@
 name: Google APIs Client Library
 url: https://developers.google.com/api-client-library/php/
 dependencies:
-    - github@google/google-api-php-client
+    - github@googleapis/google-api-php-client
 description: |
     The Google API Client Library for PHP is designed for PHP client-application
     developers. It offers simple, flexible, powerful access to many Google APIs.
