@@ -7,6 +7,18 @@ on symfony.com.
 The contents of this repository and all the contributed contents are licensed
 under a [Creative Commons Attribution-Share Alike 3.0 Unported License](https://creativecommons.org/licenses/by-sa/3.0/).
 
+Eligibility Criteria
+--------------------
+
+To keep the list focused on widely used projects, new submissions must meet the
+following criteria:
+
+* The project must be open source, actively maintained, and released under the MIT license.
+* The project must have at least 1,000 stars on GitHub.
+* The project must have at least 1 million downloads on Packagist.
+
+Projects that do not meet these requirements may not be included in the list.
+
 How to Add a Project to the List of Projects Made with Symfony
 --------------------------------------------------------------
 
