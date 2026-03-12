@@ -13,7 +13,7 @@ Eligibility Criteria
 To keep the list focused on widely used projects, new submissions must meet the
 following criteria:
 
-* The project must be open source, actively maintained, and released under the MIT license.
+* The project must be open source, and actively maintained.
 * The project must have at least 1,000 stars on GitHub.
 * The project must have at least 1 million downloads on Packagist.
 
