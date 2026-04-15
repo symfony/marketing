@@ -1,0 +1,8 @@
+name: AWS SDK for PHP
+url: https://aws.amazon.com/sdk-for-php/
+dependencies:
+    - github@aws/aws-sdk-php
+description: |
+    The AWS SDK for PHP provides PHP bindings for interacting with Amazon Web
+    Services such as Amazon S3, Amazon DynamoDB, and Amazon Glacier. It allows
+    applications to call AWS APIs directly from PHP code.
