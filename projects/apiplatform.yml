@@ -1,7 +1,7 @@
 name: API Platform
 url: https://api-platform.com
 dependencies:
-    - github@api-platform/api-platform/api
+    - github@api-platform/api-platform
     - github@api-platform/core
 description: |
     API Platform is an Open Source web framework for API-first projects.
