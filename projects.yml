@@ -60,8 +60,9 @@ code-quality:
     - php-censor
     - infection
 sdk:
-    - google-api
+    - aws-sdk
     - mcp-sdk
+    - google-api
     - facebook-ads
     - google-cloud-platform
     - facebook-instant-articles
