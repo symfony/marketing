@@ -1,5 +1,5 @@
 name: Pico CMS
-url: http://picocms.org/
+url: https://picocms.org/
 dependencies:
     - github@picocms/Pico
 description: |
