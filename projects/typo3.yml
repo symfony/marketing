@@ -1,7 +1,7 @@
 name: TYPO3
 url: https://typo3.org/
 dependencies:
-    - github@TYPO3/TYPO3.CMS
+    - github@TYPO3/typo3
 description: |
     TYPO3 is an open source PHP based web content management system released
     under the GNU GPL.
