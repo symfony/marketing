@@ -1,7 +1,8 @@
 name: Concrete CMS
 url: https://www.concretecms.org/
 dependencies:
-    - github@concretecms/concretecms-core
+    - github@concretecms/concretecms
+    - github@concretecms/composer
 description: |
     Concrete CMS is an open source CMS designed to revolutionize user experience.
     Go to any page in your site, and an editing toolbar gives you all the
